@@ -1,0 +1,96 @@
+html,body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+
+
+
+h1,h2, h3 {
+ text-align: center
+}
+
+.column1 {
+ float: left;
+ width: 50%;
+}
+
+.column2 {
+ float: right;
+
+flex-shrink: 0;
+    border-radius: 0;
+    width: 50%;
+}
+.column2 img {
+
+    
+    width: 99%;
+    height: 100%;
+    border-radius: 40px;
+}
+
+
+.row:after {
+ content: "";
+ display: table;
+ clear: both;
+}
+#map {
+  height: 100%;
+}
+
+
+@media screen and (max-width: 900px) {
+ .column {
+ width: 50%;
+ }
+}
+
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+ .column {
+ width: 100%;
+ }
+}
+
+
