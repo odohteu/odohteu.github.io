@@ -1,0 +1,169 @@
+Country Name,Country Code,Series Name,Series Code,Scale (Precision),YR2000,YR2010,YR2018
+Austria,AUT,"Population, total",SP.POP.TOTL,Millions (0.00),8.01,8.36,8.84
+Austria,AUT,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,Unit (0.0),13.0,14.5,13.3
+Austria,AUT,"Life expectancy at birth, total (years)",SP.DYN.LE00.IN,Unit (0),78,81,82
+Austria,AUT,"School enrollment, primary and secondary (gross), gender parity index (GPI)",SE.ENR.PRSC.FM.ZS,Unit (0),1,1,1
+Austria,AUT,GDP (current US$),NY.GDP.MKTP.CD,Billions (0.00),196.80,391.89,455.09
+Austria,AUT,Net migration,SM.POP.NETM,Thousands (0),178,267,325
+Belgium,BEL,"Population, total",SP.POP.TOTL,Millions (0.00),10.25,10.90,11.43
+Belgium,BEL,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,Unit (0.0),14.3,15.3,16.4
+Belgium,BEL,"Life expectancy at birth, total (years)",SP.DYN.LE00.IN,Unit (0),78,80,82
+Belgium,BEL,"School enrollment, primary and secondary (gross), gender parity index (GPI)",SE.ENR.PRSC.FM.ZS,Unit (0),1,1,1
+Belgium,BEL,GDP (current US$),NY.GDP.MKTP.CD,Billions (0.00),236.20,480.95,543.73
+Belgium,BEL,Net migration,SM.POP.NETM,Thousands (0),220,259,240
+Bulgaria,BGR,"Population, total",SP.POP.TOTL,Millions (0.00),8.17,7.40,7.03
+Bulgaria,BGR,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,Unit (0.0),,,22.6 
+Bulgaria,BGR,"Life expectancy at birth, total (years)",SP.DYN.LE00.IN,Unit (0),72,74,75
+Bulgaria,BGR,"School enrollment, primary and secondary (gross), gender parity index (GPI)",SE.ENR.PRSC.FM.ZS,Unit (0),1,1,1
+Bulgaria,BGR,GDP (current US$),NY.GDP.MKTP.CD,Billions (0.00),13.25,50.38,66.23
+Bulgaria,BGR,Net migration,SM.POP.NETM,Thousands (0),-86,-24,-24
+Croatia,HRV,"Population, total",SP.POP.TOTL,Millions (0.00),4.47,4.30,4.09
+Croatia,HRV,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,Unit (0.0),,20.9,18.3
+Croatia,HRV,"Life expectancy at birth, total (years)",SP.DYN.LE00.IN,Unit (0),73,76,78
+Croatia,HRV,"School enrollment, primary and secondary (gross), gender parity index (GPI)",SE.ENR.PRSC.FM.ZS,Unit (0),1,1,1
+Croatia,HRV,GDP (current US$),NY.GDP.MKTP.CD,Billions (0.00),21.63,59.92,61.38
+Croatia,HRV,Net migration,SM.POP.NETM,Thousands (0),-3,-38,-40
+Cyprus,CYP,"Population, total",SP.POP.TOTL,Millions (0.00),0.94,1.11,1.19
+Cyprus,CYP,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,Unit (0.0),,14.8,14.7
+Cyprus,CYP,"Life expectancy at birth, total (years)",SP.DYN.LE00.IN,Unit (0),78,79,81
+Cyprus,CYP,"School enrollment, primary and secondary (gross), gender parity index (GPI)",SE.ENR.PRSC.FM.ZS,Unit (0),1,1,1
+Cyprus,CYP,GDP (current US$),NY.GDP.MKTP.CD,Billions (0.00),9.99,25.73,25.31
+Cyprus,CYP,Net migration,SM.POP.NETM,Thousands (0),58,23,25
+Czech Republic,CZE,"Population, total",SP.POP.TOTL,Millions (0.00),10.26,10.47,10.63
+Czech Republic,CZE,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,Unit (0.0),,9.8,10.1
+Czech Republic,CZE,"Life expectancy at birth, total (years)",SP.DYN.LE00.IN,Unit (0),75,77,79
+Czech Republic,CZE,"School enrollment, primary and secondary (gross), gender parity index (GPI)",SE.ENR.PRSC.FM.ZS,Unit (0),1,1,1
+Czech Republic,CZE,GDP (current US$),NY.GDP.MKTP.CD,Billions (0.00),61.83,209.07,248.91
+Czech Republic,CZE,Net migration,SM.POP.NETM,Thousands (0),47,60,110
+Denmark,DNK,"Population, total",SP.POP.TOTL,Millions (0.00),5.34,5.55,5.79
+Denmark,DNK,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,Unit (0.0),10.9,12.1,12.5
+Denmark,DNK,"Life expectancy at birth, total (years)",SP.DYN.LE00.IN,Unit (0),77,79,81
+Denmark,DNK,"School enrollment, primary and secondary (gross), gender parity index (GPI)",SE.ENR.PRSC.FM.ZS,Unit (0),1,1,1
+Denmark,DNK,GDP (current US$),NY.GDP.MKTP.CD,Billions (0.00),164.16,322.00,356.88
+Denmark,DNK,Net migration,SM.POP.NETM,Thousands (0),46,107,76
+Estonia,EST,"Population, total",SP.POP.TOTL,Millions (0.00),1.40,1.33,1.32
+Estonia,EST,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,Unit (0.0),,17.5,21.7
+Estonia,EST,"Life expectancy at birth, total (years)",SP.DYN.LE00.IN,Unit (0),70,75,78
+Estonia,EST,"School enrollment, primary and secondary (gross), gender parity index (GPI)",SE.ENR.PRSC.FM.ZS,Unit (0),1,1,1
+Estonia,EST,GDP (current US$),NY.GDP.MKTP.CD,Billions (0.00),5.69,19.69,30.63
+Estonia,EST,Net migration,SM.POP.NETM,Thousands (0),-18,-11,20
+Finland,FIN,"Population, total",SP.POP.TOTL,Millions (0.00),5.18,5.36,5.52
+Finland,FIN,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,Unit (0.0),,13.7,11.6
+Finland,FIN,"Life expectancy at birth, total (years)",SP.DYN.LE00.IN,Unit (0),77,80,82
+Finland,FIN,"School enrollment, primary and secondary (gross), gender parity index (GPI)",SE.ENR.PRSC.FM.ZS,Unit (0),1,1,1
+Finland,FIN,GDP (current US$),NY.GDP.MKTP.CD,Billions (0.00),125.71,249.18,275.95
+Finland,FIN,Net migration,SM.POP.NETM,Thousands (0),32,81,70
+France,FRA,"Population, total",SP.POP.TOTL,Millions (0.00),60.91,65.03,66.97
+France,FRA,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,Unit (0.0),,14.0,13.4
+France,FRA,"Life expectancy at birth, total (years)",SP.DYN.LE00.IN,Unit (0),79,82,83
+France,FRA,"School enrollment, primary and secondary (gross), gender parity index (GPI)",SE.ENR.PRSC.FM.ZS,Unit (0),1,1,1
+France,FRA,GDP (current US$),NY.GDP.MKTP.CD,Billions (0.00),1362.25,2642.61,2787.86
+France,FRA,Net migration,SM.POP.NETM,Thousands (0),926,424,183
+Germany,DEU,"Population, total",SP.POP.TOTL,Millions (0.00),82.21,81.78,82.91
+Germany,DEU,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,Unit (0.0),,15.8,16.0
+Germany,DEU,"Life expectancy at birth, total (years)",SP.DYN.LE00.IN,Unit (0),78,80,81
+Germany,DEU,"School enrollment, primary and secondary (gross), gender parity index (GPI)",SE.ENR.PRSC.FM.ZS,Unit (0),1,1,1
+Germany,DEU,GDP (current US$),NY.GDP.MKTP.CD,Billions (0.00),1943.15,3396.35,3963.77
+Germany,DEU,Net migration,SM.POP.NETM,Thousands (0),824,1939,2719
+Greece,GRC,"Population, total",SP.POP.TOTL,Millions (0.00),10.81,11.12,10.73
+Greece,GRC,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,Unit (0.0),19.9,21.4,17.9
+Greece,GRC,"Life expectancy at birth, total (years)",SP.DYN.LE00.IN,Unit (0),78,80,82
+Greece,GRC,"School enrollment, primary and secondary (gross), gender parity index (GPI)",SE.ENR.PRSC.FM.ZS,Unit (0),1,1,1
+Greece,GRC,GDP (current US$),NY.GDP.MKTP.CD,Billions (0.00),130.13,299.36,218.14
+Greece,GRC,Net migration,SM.POP.NETM,Thousands (0),114,-162,-80
+Hungary,HUN,"Population, total",SP.POP.TOTL,Millions (0.00),10.21,10.00,9.78
+Hungary,HUN,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,Unit (0.0),,14.1,12.3
+Hungary,HUN,"Life expectancy at birth, total (years)",SP.DYN.LE00.IN,Unit (0),71,74,76
+Hungary,HUN,"School enrollment, primary and secondary (gross), gender parity index (GPI)",SE.ENR.PRSC.FM.ZS,Unit (0),1,1,1
+Hungary,HUN,GDP (current US$),NY.GDP.MKTP.CD,Billions (0.00),47.22,131.92,160.42
+Hungary,HUN,Net migration,SM.POP.NETM,Thousands (0),62,30,30
+Ireland,IRL,"Population, total",SP.POP.TOTL,Millions (0.00),3.81,4.56,4.87
+Ireland,IRL,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,Unit (0.0),20.9,15.2,14.9
+Ireland,IRL,"Life expectancy at birth, total (years)",SP.DYN.LE00.IN,Unit (0),77,81,82
+Ireland,IRL,"School enrollment, primary and secondary (gross), gender parity index (GPI)",SE.ENR.PRSC.FM.ZS,Unit (0),1,1,1
+Ireland,IRL,GDP (current US$),NY.GDP.MKTP.CD,Billions (0.00),99.85,222.15,382.67
+Ireland,IRL,Net migration,SM.POP.NETM,Thousands (0),201,-112,118
+Italy,ITA,"Population, total",SP.POP.TOTL,Millions (0.00),56.94,59.28,60.42
+Italy,ITA,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,Unit (0.0),,19.8,20.3
+Italy,ITA,"Life expectancy at birth, total (years)",SP.DYN.LE00.IN,Unit (0),80,82,83
+Italy,ITA,"School enrollment, primary and secondary (gross), gender parity index (GPI)",SE.ENR.PRSC.FM.ZS,Unit (0),1,1,1
+Italy,ITA,GDP (current US$),NY.GDP.MKTP.CD,Billions (0.00),1143.83,2134.02,2091.54
+Italy,ITA,Net migration,SM.POP.NETM,Thousands (0),1664,1637,745
+Latvia,LVA,"Population, total",SP.POP.TOTL,Millions (0.00),2.37,2.10,1.93
+Latvia,LVA,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,Unit (0.0),,19.0,22.9
+Latvia,LVA,"Life expectancy at birth, total (years)",SP.DYN.LE00.IN,Unit (0),70,73,75
+Latvia,LVA,"School enrollment, primary and secondary (gross), gender parity index (GPI)",SE.ENR.PRSC.FM.ZS,Unit (0),1,1,1
+Latvia,LVA,GDP (current US$),NY.GDP.MKTP.CD,Billions (0.00),7.95,23.88,34.42
+Latvia,LVA,Net migration,SM.POP.NETM,Thousands (0),-72,-83,-74
+Lithuania,LTU,"Population, total",SP.POP.TOTL,Millions (0.00),3.50,3.10,2.80
+Lithuania,LTU,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,Unit (0.0),,19.2,20.6
+Lithuania,LTU,"Life expectancy at birth, total (years)",SP.DYN.LE00.IN,Unit (0),72,73,76
+Lithuania,LTU,"School enrollment, primary and secondary (gross), gender parity index (GPI)",SE.ENR.PRSC.FM.ZS,Unit (0),1,1,1
+Lithuania,LTU,GDP (current US$),NY.GDP.MKTP.CD,Billions (0.00),11.52,37.14,53.72
+Lithuania,LTU,Net migration,SM.POP.NETM,Thousands (0),-99,-146,-164
+Luxembourg,LUX,"Population, total",SP.POP.TOTL,Millions (0.00),0.44,0.51,0.61
+Luxembourg,LUX,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,Unit (0.0),,,18.3
+Luxembourg,LUX,"Life expectancy at birth, total (years)",SP.DYN.LE00.IN,Unit (0),78,81,82
+Luxembourg,LUX,"School enrollment, primary and secondary (gross), gender parity index (GPI)",SE.ENR.PRSC.FM.ZS,Unit (0),1,1,1
+Luxembourg,LUX,GDP (current US$),NY.GDP.MKTP.CD,Billions (0.00),21.26,53.21,70.92
+Luxembourg,LUX,Net migration,SM.POP.NETM,Thousands (0),14,49,49
+Malta,MLT,"Population, total",SP.POP.TOTL,Millions (0.00),0.39,0.41,0.48
+Malta,MLT,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,Unit (0.0),,15.6,17.1
+Malta,MLT,"Life expectancy at birth, total (years)",SP.DYN.LE00.IN,Unit (0),78,81,82
+Malta,MLT,"School enrollment, primary and secondary (gross), gender parity index (GPI)",SE.ENR.PRSC.FM.ZS,Unit (0),1,1,1
+Malta,MLT,GDP (current US$),NY.GDP.MKTP.CD,Billions (0.00),4.07,9.04,14.75
+Malta,MLT,Net migration,SM.POP.NETM,Thousands (0),6,16,5
+Netherlands,NLD,"Population, total",SP.POP.TOTL,Millions (0.00),15.93,16.62,17.23
+Netherlands,NLD,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,Unit (0.0),,,13.2
+Netherlands,NLD,"Life expectancy at birth, total (years)",SP.DYN.LE00.IN,Unit (0),78,81,82
+Netherlands,NLD,"School enrollment, primary and secondary (gross), gender parity index (GPI)",SE.ENR.PRSC.FM.ZS,Unit (0),1,1,1
+Netherlands,NLD,GDP (current US$),NY.GDP.MKTP.CD,Billions (0.00),416.44,846.55,914.04
+Netherlands,NLD,Net migration,SM.POP.NETM,Thousands (0),146,63,80
+Poland,POL,"Population, total",SP.POP.TOTL,Millions (0.00),38.26,38.04,37.97
+Poland,POL,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,Unit (0.0),,17.7,15.4
+Poland,POL,"Life expectancy at birth, total (years)",SP.DYN.LE00.IN,Unit (0),74,76,78
+Poland,POL,"School enrollment, primary and secondary (gross), gender parity index (GPI)",SE.ENR.PRSC.FM.ZS,Unit (0),1,1,1
+Poland,POL,GDP (current US$),NY.GDP.MKTP.CD,Billions (0.00),172.22,479.83,587.41
+Poland,POL,Net migration,SM.POP.NETM,Thousands (0),-183,-321,-147
+Portugal,PRT,"Population, total",SP.POP.TOTL,Millions (0.00),10.29,10.57,10.28
+Portugal,PRT,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,Unit (0.0),,18.0,17.2
+Portugal,PRT,"Life expectancy at birth, total (years)",SP.DYN.LE00.IN,Unit (0),76,79,81
+Portugal,PRT,"School enrollment, primary and secondary (gross), gender parity index (GPI)",SE.ENR.PRSC.FM.ZS,Unit (0),1,1,1
+Portugal,PRT,GDP (current US$),NY.GDP.MKTP.CD,Billions (0.00),118.31,237.88,242.31
+Portugal,PRT,Net migration,SM.POP.NETM,Thousands (0),178,-140,-30
+Romania,ROU,"Population, total",SP.POP.TOTL,Millions (0.00),22.44,20.25,19.47
+Romania,ROU,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,Unit (0.0),,22.3,23.8
+Romania,ROU,"Life expectancy at birth, total (years)",SP.DYN.LE00.IN,Unit (0),71,73,75
+Romania,ROU,"School enrollment, primary and secondary (gross), gender parity index (GPI)",SE.ENR.PRSC.FM.ZS,Unit (0),1,1,1
+Romania,ROU,GDP (current US$),NY.GDP.MKTP.CD,Billions (0.00),37.25,166.31,241.46
+Romania,ROU,Net migration,SM.POP.NETM,Thousands (0),-468,-300,-370
+Slovak Republic,SVK,"Population, total",SP.POP.TOTL,Millions (0.00),5.39,5.39,5.45
+Slovak Republic,SVK,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,Unit (0.0),,13.0,12.2
+Slovak Republic,SVK,"Life expectancy at birth, total (years)",SP.DYN.LE00.IN,Unit (0),73,75,77
+Slovak Republic,SVK,"School enrollment, primary and secondary (gross), gender parity index (GPI)",SE.ENR.PRSC.FM.ZS,Unit (0),1,1,1
+Slovak Republic,SVK,GDP (current US$),NY.GDP.MKTP.CD,Billions (0.00),29.17,90.31,105.70
+Slovak Republic,SVK,Net migration,SM.POP.NETM,Thousands (0),1,11,7
+Slovenia,SVN,"Population, total",SP.POP.TOTL,Millions (0.00),1.99,2.05,2.07
+Slovenia,SVN,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,Unit (0.0),,13.6,12.0
+Slovenia,SVN,"Life expectancy at birth, total (years)",SP.DYN.LE00.IN,Unit (0),75,79,81
+Slovenia,SVN,"School enrollment, primary and secondary (gross), gender parity index (GPI)",SE.ENR.PRSC.FM.ZS,Unit (0),1,1,1
+Slovenia,SVN,GDP (current US$),NY.GDP.MKTP.CD,Billions (0.00),20.29,48.16,54.16
+Slovenia,SVN,Net migration,SM.POP.NETM,Thousands (0),15,17,10
+Spain,ESP,"Population, total",SP.POP.TOTL,Millions (0.00),40.57,46.58,46.80
+Spain,ESP,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,Unit (0.0),,20.6,20.7
+Spain,ESP,"Life expectancy at birth, total (years)",SP.DYN.LE00.IN,Unit (0),79,82,83
+Spain,ESP,"School enrollment, primary and secondary (gross), gender parity index (GPI)",SE.ENR.PRSC.FM.ZS,Unit (0),1,1,1
+Spain,ESP,GDP (current US$),NY.GDP.MKTP.CD,Billions (0.00),596.88,1420.72,1422.15
+Spain,ESP,Net migration,SM.POP.NETM,Thousands (0),2908,-520,200
+Sweden,SWE,"Population, total",SP.POP.TOTL,Millions (0.00),8.87,9.38,10.18
+Sweden,SWE,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,Unit (0.0),,15.4,17.1
+Sweden,SWE,"Life expectancy at birth, total (years)",SP.DYN.LE00.IN,Unit (0),80,81,83
+Sweden,SWE,"School enrollment, primary and secondary (gross), gender parity index (GPI)",SE.ENR.PRSC.FM.ZS,Unit (0),1,1,1
+Sweden,SWE,GDP (current US$),NY.GDP.MKTP.CD,Billions (0.00),262.84,495.81,555.46
+Sweden,SWE,Net migration,SM.POP.NETM,Thousands (0),142,254,200
+United Kingdom,GBR,"Population, total",SP.POP.TOTL,Millions (0.00),58.89,62.77,66.46
+United Kingdom,GBR,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,Unit (0.0),,,18.6
+United Kingdom,GBR,"Life expectancy at birth, total (years)",SP.DYN.LE00.IN,Unit (0),78,80,81
+United Kingdom,GBR,"School enrollment, primary and secondary (gross), gender parity index (GPI)",SE.ENR.PRSC.FM.ZS,Unit (0),1,1,1
+United Kingdom,GBR,GDP (current US$),NY.GDP.MKTP.CD,Billions (0.00),1657.82,2475.24,2860.67
+United Kingdom,GBR,Net migration,SM.POP.NETM,Thousands (0),992,1300,1303

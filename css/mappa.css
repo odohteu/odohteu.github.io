@@ -1,0 +1,119 @@
+.viz {
+	border-radius: .8rem;
+
+}
+.vizSliderInput{
+
+
+}
+div.tooltip {
+	color: black;
+	position: absolute;
+	text-align: center;
+	padding: 10px;
+	font: 12px sans-serif;
+	background: whitesmoke;
+	border: 1px solid black;
+	border-radius: 8px;
+	pointer-events: none;
+	z-index: 1000;
+}
+
+.leaflet-overlay-pane svg path{
+    pointer-events: auto;
+}
+
+.legendContainer{
+    position: absolute;
+    bottom: 7px;
+    left: 7px;
+    height: 100px;
+    width: 100px;
+    z-Index: 998;
+}
+
+.sliderPopulation, .vizSlider {
+width: 100px;
+}
+
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+
+
+
+h1,h2{
+ text-align: center
+}
+#descrizione {
+padding:10px;
+text-align: center;
+
+}
+#bottoni {
+text-align: center;
+
+padding-top:30px;
+
+} 
+.btn {
+
+  border: none;
+  background-color: inherit;
+  padding: 24px 28px;
+  font-size: 20px;
+  cursor: pointer;
+  display: inline-block;
+    border-radius: 10%;
+}
+
+/* On mouse-over */
+.btn:hover {background: rgba(238, 238, 238, 0.719);}
+
+.success {color: #FF4500
+}
+.info {color: #CD853F;
+}
+.warning {color:#191970;
+}
+.danger {color: #87CEFA;
+}
+.default {color: #32CD32;
+}
+.maps {color:#C71585;
+}
+button{
+
+font-weight: bold;
+
+}  

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    
+  
+    <link rel="stylesheet" href="../css/mappa.css">
+   <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="/css/mappa.css">
+    <!-- <script src="js/età2017-18.js"></script> -->
+    
+    
+
+	<!-- Custom JS -->
+ 
+
+    </head>
+    
+    <body>
+
+
+<ul>
+  <li><a class="active" a href="../index.html">Home</a></li>
+  <li><a href="#news">Workflow</a></li>
+  <li><a href="#contact">Documentation</a></li>
+<li><a href="../visualization.html">Visualization</a></li>
+<li><a href="#contact">Metadata</a></li>
+  <li style="float:right"><a href="#about">About</a></li>
+</ul>
+
+
+<h1>Visualization</h1>
+<div id="descrizione">
+<p>By the end of this session we will able to use competitive five force. You will be able to compare indexes structure.</p><p> We will consider the squat analysis : we will use all these knowledge and tecniques in order to recognize  SWOT analysis.</p><p> There are 2 tools: the SWOT analysis and Porter’s 5 forces.</p><p> The best way to discuss is show you a scheme. </p>
+</div>
+<div id="bottoni">
+<button class="btn success"><a href="/2013-2014html/select.html">2013-2014</a></button>
+<button class="btn info"><a href="/2015-16html/select15-16.html">2015-2016</a></button>
+<button class="btn warning"><a href="/2017-2018html/select17-18.html">2017-2018</a></button>
+<button class="btn danger"><a href="/UNODC/UNODC.html">UNODC</a></button>
+<button class="btn default"><a href="/OECD/OECD.html">OECD</a></button>  
+<button class="btn maps"><a href="mappa.html">Maps</a></button> 
+</div>  
+<div class="vizYear">
+									<h2 class="populationYear"></h2>
+									<div class="sliderPopulation vizSlider"></div>
+								</div>
+    <div class="viz" id="populationMap" style="width: 50%; height: 40rem; margin:auto;padding-top: 30px;">
+        <div class="legendContainer">
+            <svg id="populationLegend"></svg>
+        </div>
+    </div>
+   <svg id="populationData" width="0" height="0" style="display:none;"></svg>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/d3js/6.5.0/d3.min.js"></script>
+
+  <script src="/js/mappa.js"></script>
+
+</body>
+
+</html>

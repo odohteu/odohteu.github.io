@@ -1,0 +1,98 @@
+html,body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+
+
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+
+h1,h2, h3 {
+ text-align: center
+}
+#descrizione {
+padding:10px;
+text-align: center;
+
+}
+#bottoni {
+text-align: center;
+
+padding-top:30px;
+
+} 
+.btn {
+
+  border: none;
+  background-color: inherit;
+  padding: 24px 28px;
+  font-size: 20px;
+  cursor: pointer;
+  display: inline-block;
+    border-radius: 10%;
+}
+
+/* On mouse-over */
+.btn:hover {background: rgba(238, 238, 238, 0.719);
+}
+
+.success {color: #FF4500;
+}
+.info {color: #CD853F;
+}
+.warning {color:#191970;
+}
+.danger {color: #87CEFA;
+}
+.default {color: #32CD32;
+}
+.maps {color:#C71585;
+}
+button{
+
+font-weight: bold;
+
+}  
