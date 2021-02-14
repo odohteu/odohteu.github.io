@@ -1,3 +1,4 @@
+
 const makeGraph = () =>
   d3.csv("../csv/UNODC/EuropeUNODC.csv", { mode: "same-origin" })
     .then(async (results) => {
@@ -28,7 +29,7 @@ const makeGraph = () =>
         .select("div")
         .append("svg")
         .attr("id", "chart")
-        .attr("viewBox", `0 0 1900 1900`);
+        .attr("viewBox", `5 0 1500 1500`);
 
       const smt = d3.rollup(
         results,
@@ -127,55 +128,39 @@ const makeGraph = () =>
               bar
                 .transition(transition)
                 .attr("y", (d) => y(d.rank))
-                .attr("width", (d) => x(d.value) - x(0) + 50)
+                .attr("width", (d) => x(d.value) - x(0) + 150)
             ));
       };
 
       const labels = (svg) => {
         let label = svg
           .append("g")
-          .style("font", "bold '25px var('sans-serif')")
-          .style("font-variant-numeric", "tabular-nums")
-          .attr("text-anchor", "start")
-          .selectAll("text");
+          .style("font", "bold 12px var(--sans-serif)")
+            .style("font-variant-numeric", "tabular-nums")
+      .attr("text-anchor", "start")
+    .selectAll("text");
 
         return ([date, results], transition) =>
           (label = label
             .data(results.slice(0, n), (d) => d.name)
             .join(
               (enter) =>
-                enter
-                  .append("text")
-                  .attr(
-                    "transform",
-                    (d) =>
-                      `translate(${x((prev.get(d) || d).value)},${y(
-                        (prev.get(d) || d).rank
-                      )})`
-                  )
+                enter.append("text")
+                  .attr("transform",(d) =>'translate(${x((prev.get(d) || d).value)},${y((prev.get(d) || d).rank)})')
                   .attr("y", y.bandwidth() / 2)
                   .attr("x", -6)
                   .attr("dy", "-0.25em")
                   .text((d) => d.name)
-                  .call((text) =>
-                    text
-                      .append("tspan")
-                      .attr("fill-opacity", 0.9)
-                      .attr("font-weight", "normal")
+                  .call((text) =>text.append("tspan")
+                      .attr("fill-opacity", 0.7)
+                      .attr("font-weight", "bold")
                       .attr("x", -2)
-                      .attr("dy", "1.15em")
-                  ),
-              (update) => update,
-              (exit) =>
-                exit
-                  .transition(transition)
-                  .remove()
-                  .attr(
-                    "transform",
-                    (d) =>
+                      .attr("dy", "1.15em")),
+              update => update,
+              exit =>exit.transition(transition).remove()
+                  .attr("transform",(d) =>
                       `translate(${x((next.get(d) || d).value)},${y(
-                        (next.get(d) || d).rank
-                      )})`
+                        (next.get(d) || d).rank)})`
                   )
                   .call((g) =>
                     g
@@ -210,7 +195,6 @@ const makeGraph = () =>
           this.textContent = formatNumber(i(t));
         };
       }
-
       const axis = (svg) => {
         const g = svg
           .append("g")
@@ -237,7 +221,7 @@ const makeGraph = () =>
           .append("text")
           .style("font", `bold ${barSize}px var(--sans-serif)`)
           .style("font-variant-numeric", "tabular-nums")
-          .attr("text-anchor", "end")
+          .attr("text-anchor", "start")
           .attr("x", width - 6)
           .attr("y", margin.top + barSize * (n - 0.45))
           .attr("dy", "0.32em")

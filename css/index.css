@@ -1,3 +1,7 @@
+body {
+  font-family: Alegreya Sans;
+
+}
 html,body {
     height: 100%;
     margin: 0;
@@ -8,43 +12,102 @@ html,body {
 
 
 
-li {
-  float: left;
-  border-right:1px solid #bbb;
+
+
+
+.clear{
+  clear: both;
 }
 
-li:last-child {
-  border-right: none;
+
+.slide-toggle{
+  display: none;
 }
 
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover:not(.active) {
-  background-color: #111;
-}
-
-.active {
-  background-color: #4CAF50;
-}
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+.slidemenu{
+  font-family: arial, sans-serif;
+  max-width: 900px;
+  margin: 30px auto;
   overflow: hidden;
-  background-color: #000;
+}
+
+.slidemenu label{
+  width: 15%;
+  text-align: center;
+  display: block;
+  float: left;
+  color: #333;
+  opacity: 0.2;
+
+}
+
+.slidemenu label:hover{
+  cursor: pointer;
+  color: #666;
+}
+
+.slidemenu label span{
+  display: block;
+  padding: 10px;    
+}
+
+.slidemenu label .icon{
+  font-size: 20px;
+  border: solid 2px #333;
+  text-align: center;
+  height: 50px;
+  width: 50px;
+
+  margin: 0 auto;
+  line-height: 50px;
+  border-radius: 50%;
+}
+
+/*Bar Style*/
+
+.slider{
+  width: 90%;
+  height: 5px;
+
+  background: #ccc;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.slider .bar{
+  width: 25%;
+  height: 5px;
+  background: #333;
+  border-radius: 5px;
+}
+
+/*Animations*/
+.slidemenu label, .slider .bar {
+  transition: all 500ms ease-in-out;
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+}
+
+/*Toggle*/
+
+.slidemenu .slide-toggle:checked + label{
+  opacity: 1;
 }
 
 
 
+.slidemenu #slide-item-1:checked ~ .slider .bar{ margin-left: 0; }
+.slidemenu #slide-item-2:checked ~ .slider .bar{ margin-left:15%; }
+.slidemenu #slide-item-3:checked ~ .slider .bar{ margin-left: 30%; }
+.slidemenu #slide-item-4:checked ~ .slider .bar{ margin-left: 45%; }
+.slidemenu #slide-item-5:checked ~ .slider .bar{ margin-left: 60%; }
+.slidemenu #slide-item-6:checked ~ .slider .bar{ margin-left: 75%; }
 
-h1,h2, h3 {
- text-align: center
+
+
+
+h1, h2, h3 {
+text-align: center;
 }
 
 .column1 {
@@ -76,6 +139,7 @@ flex-shrink: 0;
 #map {
   height: 100%;
 }
+
 
 
 @media screen and (max-width: 900px) {

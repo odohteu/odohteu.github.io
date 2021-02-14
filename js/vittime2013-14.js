@@ -27,7 +27,7 @@ function makeChart(data) {
             },
             title: {
                 display: true,
-                text: "Victims majority status and gender"
+               
             },
             animation: {
                 animateScale: true,
@@ -39,7 +39,7 @@ function makeChart(data) {
             datasets: [
                 {
                     data: dataValue,
-                    backgroundColor: ["black", "grey", "red", "green", "red"]
+                    backgroundColor: ["#FF1F35", "#ffff66", "#8f00ff", "#01796f"]
                 }
             ]
         }

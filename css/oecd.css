@@ -8,16 +8,12 @@
 	src: url(/Fonts/Roboto-LightItalic.ttf);
 
 }
-
-html,body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-
-
+#canvas {
+width: 90%!important;
+margin-top:10px!important;
+margin:auto;
 
 }
-
 .clear{
   clear: both;
 }
@@ -109,21 +105,35 @@ html,body {
 
 
 
-h1 {
+h1{
+
  text-align: center;
-font-family: Arial, Helvetica, sans-serif;
+
 }
+
+h2, h3 {
+
+ text-align: center;
+
+
+margin-bottom: 30px;
+}
+
 #descrizione {
 padding:10px;
 text-align: center;
 font-family: 'roboto';
 }
-h2 {
 
-text-align: center;
-margin-top:60px;
+
+#menu {
+width: 10%;
+height: 30px;
+margin-left: 10%;
+margin-top: 5%;
 
 }
+
 #bottoni {
 text-align: center;
 
@@ -216,4 +226,3 @@ a:hover {
   color:   rgba(75, 192, 192, 0.6);
 text-decoration: none;
 }
-

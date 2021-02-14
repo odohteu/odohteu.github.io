@@ -3,20 +3,7 @@
 	src: url(/Fonts/unicode.arialr.ttf);
 
 }
-@font-face {
-	font-family: 'roboto';
-	src: url(/Fonts/Roboto-LightItalic.ttf);
 
-}
-
-html,body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-
-
-
-}
 
 .clear{
   clear: both;
@@ -26,7 +13,11 @@ html,body {
 .slide-toggle{
   display: none;
 }
+#descrizione {
+padding:10px;
+text-align: center;
 
+}
 .slidemenu{
   font-family: arial, sans-serif;
   max-width: 900px;
@@ -60,7 +51,7 @@ html,body {
   text-align: center;
   height: 50px;
   width: 50px;
-
+  display: block;
   margin: 0 auto;
   line-height: 50px;
   border-radius: 50%;
@@ -71,7 +62,7 @@ html,body {
 .slider{
   width: 90%;
   height: 5px;
-
+  display: block;
   background: #ccc;
   margin-top: 10px;
   border-radius: 5px;
@@ -84,12 +75,7 @@ html,body {
   border-radius: 5px;
 }
 
-/*Animations*/
-.slidemenu label, .slider .bar {
-  transition: all 500ms ease-in-out;
-  -webkit-transition: all 500ms ease-in-out;
-  -moz-transition: all 500ms ease-in-out;
-}
+
 
 /*Toggle*/
 
@@ -99,25 +85,37 @@ html,body {
 
 
 
-.slidemenu #slide-item-1:checked ~ .slider .bar{ margin-left: 0; }
+.slidemenu #slide-item-1:checked > .slider .bar{ margin-left: 0; }
 .slidemenu #slide-item-2:checked ~ .slider .bar{ margin-left:15%; }
 .slidemenu #slide-item-3:checked ~ .slider .bar{ margin-left: 30%; }
 .slidemenu #slide-item-4:checked ~ .slider .bar{ margin-left: 45%; }
 .slidemenu #slide-item-5:checked ~ .slider .bar{ margin-left: 60%; }
-.slidemenu #slide-item-6:checked ~ .slider .bar{ margin-left: 75%; }
+.slidemenu #slide-item-6:checked ~ .slider .bar{ margin-left: 70%; }
 
 
+svg#chart {
+position:absolute;
+top:500px;
+width: 75%!important;
 
+}
+
+
+text g {
+font-weight: lighter;
+font-size: 35px;
+}
+
+rect {
+color: red, blue, violet;
+
+}
 
 h1 {
- text-align: center;
-font-family: Arial, Helvetica, sans-serif;
+ text-align: center
 }
-#descrizione {
-padding:10px;
-text-align: center;
-font-family: 'roboto';
-}
+ 
+
 h2 {
 
 text-align: center;
@@ -216,4 +214,3 @@ a:hover {
   color:   rgba(75, 192, 192, 0.6);
 text-decoration: none;
 }
-

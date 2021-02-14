@@ -1,57 +1,85 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-    
-  
-    <link rel="stylesheet" href="../css/pagina2013-2014.css">
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-    <!-- <script src="js/età2017-18.js"></script> -->
-    
-    <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA0fajVH04rewsgPhs-n4j3qsnmQvMaADQ&callback=initMap"
-      async defer>
-    </script>
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="">
 
+
+</head>
+
+	<!-- Bootstrap grid setup -->
+	
+
+	<!-- External JS libraries -->
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
     <script  type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
     <script  type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js"></script>
-    <script type='text/javascript' src='https://www.gstatic.com/charts/loader.js'></script>
-	<script src="https://d3js.org/d3.v6.min.js"></script>
+     <script type='text/javascript' src='https://www.gstatic.com/charts/loader.js'></script>
+	
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 	<!-- Custom JS -->
- 
 
-    </head>
+
+    <script src="https://d3js.org/d3.v6.min.js"></script>
     
+  
+    <link rel="stylesheet" href="/css/unodc.css">
+   
+<script src="/js/unodc.js"></script>
     <body>
+<nav class="slidemenu">
+  
+  <!-- Item 1 -->
+  <input type="radio" name="slideItem" id="slide-item-1" class="slide-toggle"/>
+  <label for="slide-item-1"><a href="/index.html"><p class="icon">🏠</p></a><span>Home</span></label>
+  
 
-
-<ul>
-  <li><a class="active" a href="../index.html">Home</a></li>
-  <li><a href="#news">Workflow</a></li>
-  <li><a href="#contact">Documentation</a></li>
-<li><a href="../visualization.html">Visualization</a></li>
-<li><a href="#contact">Metadata</a></li>
-  <li style="float:right"><a href="#about">About</a></li>
-</ul>
-
+  <!-- Item 3 -->
+  <input type="radio" name="slideItem" id="slide-item-2" class="slide-toggle"/>
+  <label for="slide-item-2"><p class="icon">⚙️</p><span>Workflow</span></label>
+  
+  <!-- Item 4 -->
+  <input type="radio" name="slideItem" id="slide-item-3" class="slide-toggle"/>
+  <label for="slide-item-3"><p class="icon">🕮</p><span>Documentation</span></label>
+  
+  <!-- Item 4 -->
+  <input type="radio" name="slideItem" id="slide-item-4" class="slide-toggle" checked/>
+  <label for="slide-item-4"><a href="/visualization.html"><p class="icon"> 🖥️</p></a><span>Visualization</span></label>
+  <!-- Item 4 -->
+  <input type="radio" name="slideItem" id="slide-item-5" class="slide-toggle"/>
+  <label for="slide-item-5"><p class="icon">🔍</p><span>Metadata</span></label>
+  <input type="radio" name="slideItem" id="slide-item-6" class="slide-toggle"/>
+  <label for="slide-item-6"><p class="icon">🤷</p><span>About</span></label>
+  <div class="clear"></div>
+  
+  <!-- Bar -->
+  <div class="slider">
+    <div class="bar"></div>
+  </div>
+  
+</nav>
 
 <h1>Visualization</h1>
 <div id="descrizione">
 <p>By the end of this session we will able to use competitive five force. You will be able to compare indexes structure.</p><p> We will consider the squat analysis : we will use all these knowledge and tecniques in order to recognize  SWOT analysis.</p><p> There are 2 tools: the SWOT analysis and Porter’s 5 forces.</p><p> The best way to discuss is show you a scheme. </p>
-</div>
-<div id="bottoni">
-<button class="btn success"><a href="/2013-2014html/select.html">2013-2014</a></button>
-<button class="btn info"><a href="/2015-16html/select15-16.html">2015-2016</a></button>
-<button class="btn warning"><a href="/2017-2018html/select17-18.html">2017-2018</a></button>
-<button class="btn danger"><a href="UNODC.html">UNODC</a></button>
-<button class="btn default"><a href="/OECD/OECD.html">OECD</a></button>  
-<button class="btn maps"><a href="/Mappa/mappa.html">Maps</a></button> 
-</div>  
-  <script src="../js/unodc.js"></script>
 
+<div id="bottoni">
+ <button class="big-button"><a href="/2013-2014html/select.html">2013-2014</a></button>
+<button class="big-button"><a href="/2015-16html/select15-16.html">2015-2016</a></button>
+<button class="big-button"><a href="/2017-2018html/select17-18.html">2017-2018</a></button>
+<button class="big-button"><a href="/OECD/OECD.html">OECD</a></button>
+<button class="big-button"><a href="UNODC.html">UNODC</a></button>
+<button class="big-button"><a href="/Mappa/mappa.html">Maps</a></button>
+</div> 
+
+
+
+
+  
+ <div id="container"></div>
+  <svg id="chart"></svg>
 </body>
 
 </html>
