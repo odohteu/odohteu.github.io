@@ -169,6 +169,6 @@
     <odohteu:victims2017>5 138</odohteu:victims2017>
     <odohteu:victims2018>6 985</odohteu:victims2018>
     <odohteu:victims2017-2018>12 123</odohteu:victims2017-2018>
-  </row>
-</odohteu:root>
-</odohteu:rdf:RDF>
+      </row>
+    </root>
+</rdf:RDF>

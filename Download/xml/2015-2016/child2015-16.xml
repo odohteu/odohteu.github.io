@@ -146,7 +146,7 @@
     <odohteu:TotalNumberOfChildRegisteredVictims>5</odohteu:TotalNumberOfChildRegisteredVictims>
     <odohteu:GenderPercentageMale>20</odohteu:GenderPercentageMale>
     <odohteu:GenderPercentageFemale>80</odohteu:GenderPercentageFemale>
-    <odohteu:PercentageOfTotalNumberOfRegisteredVictim>3</odohteu:PercentageOfTotalNumberOfRegisteredVictim
+    <odohteu:PercentageOfTotalNumberOfRegisteredVictim>3</odohteu:PercentageOfTotalNumberOfRegisteredVictim>
   </row>
   <row>
    <odohteu:Country>Portugal</odohteu:Country>
@@ -198,6 +198,6 @@
     <odohteu:GenderPercentageMale>:</odohteu:GenderPercentageMale>
     <odohteu:GenderPercentageFemale>:</odohteu:GenderPercentageFemale>
     <odohteu:PercentageOfTotalNumberOfRegisteredVictim>0</odohteu:PercentageOfTotalNumberOfRegisteredVictim>
-  </row>
-</odohteu:root>
-</odohteu:rdf:RDF>
+    </row>
+    </root>
+</rdf:RDF>
