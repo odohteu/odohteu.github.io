@@ -39,7 +39,7 @@ function makeChart(data) {
             datasets: [
                 {
                     data: dataValue,
-                    backgroundColor: ["#FF1F35", "#ffff66", "#8f00ff", "#01796f"]
+                    backgroundColor: ["#FF1F35", "#f3c12c", "#8f00ff", "#01796f"]
                 }
             ]
         }

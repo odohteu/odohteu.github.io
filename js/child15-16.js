@@ -31,7 +31,7 @@ var chart = new Chart('chart', {
            label : "male",
           data: datiMale,
 
-    backgroundColor: "red"
+    backgroundColor:  'rgba(132,76,130,0.6)'
 
         },
  
@@ -39,7 +39,7 @@ var chart = new Chart('chart', {
           label : "female",
           data: datiFemale,
 
-    backgroundColor: "green"
+    backgroundColor: 'rgba(54, 162, 235, 0.6)'
 
         }
 
@@ -48,49 +48,3 @@ var chart = new Chart('chart', {
     }
   });
 }
-
-
-
-
-
-/*
-var barChart = new Chart(popCanvas, {
-  type: 'bar',
-  data: {
-    labels: ["China", "India", "United States", "Indonesia", "Brazil", "Pakistan", "Nigeria", "Bangladesh", "Russia", "Japan"],
-    datasets: [{
-      label: 'Population',
-      data: [1379302771, 1281935911, 326625791, 260580739, 207353391, 204924861, 190632261, 157826578, 142257519, 126451398],
-  
-
-/*
-d3.csv("Europe.csv").then (data => {
-        console.log((data))
-        .get(function(data,error) {
-   
-})
-/*
-var height = 400;
-var width = 600;
-
-
-var maxDate  = d3.max( data, function(d) { return d.date; })
-    console.log(maxDate);
-
-
-/*
-
-const svg = d3.select("#chart-area").append("svg")
-    .attr("width",400)
-    .attr("height",400)
-
-const circle = svg.selectAll("circle")
-    .data(data)
-
-circle.enter().append("circle")
-    .attr("cx", (d,i)=> (i * 50) + 50)
-    .attr("cy",200)
-    .attr("r",(d) => d)
-    .attr("fill","red")
-*/
-

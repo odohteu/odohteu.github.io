@@ -1,16 +1,27 @@
-body {
-  font-family: Alegreya Sans;
+@font-face {
+	font-family: 'roboto';
+	src: url(/Fonts/Roboto-LightItalic.ttf);
 
 }
+@font-face {
+	font-family: 'traffic';
+	src: url(/Fonts/TRAFFICN.TTF);
+
+}
+
+
+
 html,body {
     height: 100%;
     margin: 0;
     padding: 0;
-
+  color:#f4f4f4;
 
 }
 
-
+#image  {
+text-align: center;
+}
 
 
 
@@ -27,7 +38,7 @@ html,body {
 .slidemenu{
   font-family: arial, sans-serif;
   max-width: 900px;
-  margin: 30px auto;
+  margin: 30px auto auto auto;
   overflow: hidden;
 }
 
@@ -106,8 +117,16 @@ html,body {
 
 
 
-h1, h2, h3 {
+h1 {
 text-align: center;
+font-family: 'traffic';
+font-size: 700%;
+letter-spacing: 8px;
+color: rgba(53,98,225,255);
+}
+img {
+width: 70%;
+
 }
 
 .column1 {
@@ -141,20 +160,5 @@ flex-shrink: 0;
 }
 
 
-
-@media screen and (max-width: 900px) {
- .column {
- width: 50%;
- }
-}
-
-
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
- .column {
- width: 100%;
- }
-}
 
 

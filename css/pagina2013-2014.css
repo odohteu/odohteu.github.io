@@ -1,7 +1,8 @@
 
-@font-face{
-	font-family: '2013-14font';
-	src: url(/Fonts/QumpellkaNo12.otf);
+@font-face {
+	font-family: 'oecd';
+	src: url(/Fonts/Kaleko105-BoldOblique.ttf);
+
 }
 
 @font-face {
@@ -18,15 +19,7 @@
 #canvas {
 
 align-items: center;
-margin-bottom: 50px;
-
-
-}
-html,body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-
+padding:80px;
 
 }
 
@@ -141,17 +134,17 @@ html,body {
 
 h1{
 
-font-family: '2013-14font';
+font-family: 'oecd';
  text-align: center;
 color: #01796f;
+font-size: 250%;
 }
 
-h2, h3 {
-font-family: '2013-14font';
+h2 {
+font-family: 'oecd';
  text-align: center;
-color: #8f00ff;
-
-margin-bottom: 30px;
+color: #f3c12c;
+margin-bottom: 0;
 }
 
 #descrizione {
@@ -164,7 +157,7 @@ font-family: 'roboto';
 #menu {
 width: 10%;
 height: 30px;
-margin-left: 10%;
+margin-left: 15%;
 margin-top: 5%;
 
 }
@@ -260,4 +253,13 @@ a:link {
 a:hover {
   color:   rgba(75, 192, 192, 0.6);
 text-decoration: none;
+}
+
+
+ #image img {
+position: relative;
+left:33%;
+margin-top:20px;
+padding:30px;
+width: 70px;
 }

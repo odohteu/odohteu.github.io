@@ -1,0 +1,1682 @@
+[
+ {
+   "Country Name": "Austria",
+   "Country Code": "AUT",
+   "Series Name": "Population, total",
+   "Series Code": "SP.POP.TOTL",
+   "Scale (Precision)": "Millions (0.00)",
+   "2000": 8.01,
+   "2010": 8.36,
+   "2018": 8.84
+ },
+ {
+   "Country Name": "Austria",
+   "Country Code": "AUT",
+   "Series Name": "Poverty headcount ratio at national poverty lines (% of population)",
+   "Series Code": "SI.POV.NAHC",
+   "Scale (Precision)": "Unit (0.0)",
+   "2000": 13,
+   "2010": 14.5,
+   "2018": 13.3
+ },
+ {
+   "Country Name": "Austria",
+   "Country Code": "AUT",
+   "Series Name": "Life expectancy at birth, total (years)",
+   "Series Code": "SP.DYN.LE00.IN",
+   "Scale (Precision)": "Unit (0)",
+   "2000": 78,
+   "2010": 81,
+   "2018": 82
+ },
+ {
+   "Country Name": "Austria",
+   "Country Code": "AUT",
+   "Series Name": "School enrollment, primary and secondary (gross), gender parity index (GPI)",
+   "Series Code": "SE.ENR.PRSC.FM.ZS",
+   "Scale (Precision)": "Unit (0)",
+   "2000": 1,
+   "2010": 1,
+   "2018": 1
+ },
+ {
+   "Country Name": "Austria",
+   "Country Code": "AUT",
+   "Series Name": "GDP (current US$)",
+   "Series Code": "NY.GDP.MKTP.CD",
+   "Scale (Precision)": "Billions (0.00)",
+   "2000": 196.8,
+   "2010": 391.89,
+   "2018": 455.09
+ },
+ {
+   "Country Name": "Austria",
+   "Country Code": "AUT",
+   "Series Name": "Net migration",
+   "Series Code": "SM.POP.NETM",
+   "Scale (Precision)": "Thousands (0)",
+   "2000": 178,
+   "2010": 267,
+   "2018": 325
+ },
+ {
+   "Country Name": "Belgium",
+   "Country Code": "BEL",
+   "Series Name": "Population, total",
+   "Series Code": "SP.POP.TOTL",
+   "Scale (Precision)": "Millions (0.00)",
+   "2000": 10.25,
+   "2010": 10.9,
+   "2018": 11.43
+ },
+ {
+   "Country Name": "Belgium",
+   "Country Code": "BEL",
+   "Series Name": "Poverty headcount ratio at national poverty lines (% of population)",
+   "Series Code": "SI.POV.NAHC",
+   "Scale (Precision)": "Unit (0.0)",
+   "2000": 14.3,
+   "2010": 15.3,
+   "2018": 16.4
+ },
+ {
+   "Country Name": "Belgium",
+   "Country Code": "BEL",
+   "Series Name": "Life expectancy at birth, total (years)",
+   "Series Code": "SP.DYN.LE00.IN",
+   "Scale (Precision)": "Unit (0)",
+   "2000": 78,
+   "2010": 80,
+   "2018": 82
+ },
+ {
+   "Country Name": "Belgium",
+   "Country Code": "BEL",
+   "Series Name": "School enrollment, primary and secondary (gross), gender parity index (GPI)",
+   "Series Code": "SE.ENR.PRSC.FM.ZS",
+   "Scale (Precision)": "Unit (0)",
+   "2000": 1,
+   "2010": 1,
+   "2018": 1
+ },
+ {
+   "Country Name": "Belgium",
+   "Country Code": "BEL",
+   "Series Name": "GDP (current US$)",
+   "Series Code": "NY.GDP.MKTP.CD",
+   "Scale (Precision)": "Billions (0.00)",
+   "2000": 236.2,
+   "2010": 480.95,
+   "2018": 543.73
+ },
+ {
+   "Country Name": "Belgium",
+   "Country Code": "BEL",
+   "Series Name": "Net migration",
+   "Series Code": "SM.POP.NETM",
+   "Scale (Precision)": "Thousands (0)",
+   "2000": 220,
+   "2010": 259,
+   "2018": 240
+ },
+ {
+   "Country Name": "Bulgaria",
+   "Country Code": "BGR",
+   "Series Name": "Population, total",
+   "Series Code": "SP.POP.TOTL",
+   "Scale (Precision)": "Millions (0.00)",
+   "2000": 8.17,
+   "2010": 7.4,
+   "2018": 7.03
+ },
+ {
+   "Country Name": "Bulgaria",
+   "Country Code": "BGR",
+   "Series Name": "Poverty headcount ratio at national poverty lines (% of population)",
+   "Series Code": "SI.POV.NAHC",
+   "Scale (Precision)": "Unit (0.0)",
+   "2000": null,
+   "2010": null,
+   "2018": 22.6
+ },
+ {
+   "Country Name": "Bulgaria",
+   "Country Code": "BGR",
+   "Series Name": "Life expectancy at birth, total (years)",
+   "Series Code": "SP.DYN.LE00.IN",
+   "Scale (Precision)": "Unit (0)",
+   "2000": 72,
+   "2010": 74,
+   "2018": 75
+ },
+ {
+   "Country Name": "Bulgaria",
+   "Country Code": "BGR",
+   "Series Name": "School enrollment, primary and secondary (gross), gender parity index (GPI)",
+   "Series Code": "SE.ENR.PRSC.FM.ZS",
+   "Scale (Precision)": "Unit (0)",
+   "2000": 1,
+   "2010": 1,
+   "2018": 1
+ },
+ {
+   "Country Name": "Bulgaria",
+   "Country Code": "BGR",
+   "Series Name": "GDP (current US$)",
+   "Series Code": "NY.GDP.MKTP.CD",
+   "Scale (Precision)": "Billions (0.00)",
+   "2000": 13.25,
+   "2010": 50.38,
+   "2018": 66.23
+ },
+ {
+   "Country Name": "Bulgaria",
+   "Country Code": "BGR",
+   "Series Name": "Net migration",
+   "Series Code": "SM.POP.NETM",
+   "Scale (Precision)": "Thousands (0)",
+   "2000": -86,
+   "2010": -24,
+   "2018": -24
+ },
+ {
+   "Country Name": "Croatia",
+   "Country Code": "HRV",
+   "Series Name": "Population, total",
+   "Series Code": "SP.POP.TOTL",
+   "Scale (Precision)": "Millions (0.00)",
+   "2000": 4.47,
+   "2010": 4.3,
+   "2018": 4.09
+ },
+ {
+   "Country Name": "Croatia",
+   "Country Code": "HRV",
+   "Series Name": "Poverty headcount ratio at national poverty lines (% of population)",
+   "Series Code": "SI.POV.NAHC",
+   "Scale (Precision)": "Unit (0.0)",
+   "2000": null,
+   "2010": 20.9,
+   "2018": 18.3
+ },
+ {
+   "Country Name": "Croatia",
+   "Country Code": "HRV",
+   "Series Name": "Life expectancy at birth, total (years)",
+   "Series Code": "SP.DYN.LE00.IN",
+   "Scale (Precision)": "Unit (0)",
+   "2000": 73,
+   "2010": 76,
+   "2018": 78
+ },
+ {
+   "Country Name": "Croatia",
+   "Country Code": "HRV",
+   "Series Name": "School enrollment, primary and secondary (gross), gender parity index (GPI)",
+   "Series Code": "SE.ENR.PRSC.FM.ZS",
+   "Scale (Precision)": "Unit (0)",
+   "2000": 1,
+   "2010": 1,
+   "2018": 1
+ },
+ {
+   "Country Name": "Croatia",
+   "Country Code": "HRV",
+   "Series Name": "GDP (current US$)",
+   "Series Code": "NY.GDP.MKTP.CD",
+   "Scale (Precision)": "Billions (0.00)",
+   "2000": 21.63,
+   "2010": 59.92,
+   "2018": 61.38
+ },
+ {
+   "Country Name": "Croatia",
+   "Country Code": "HRV",
+   "Series Name": "Net migration",
+   "Series Code": "SM.POP.NETM",
+   "Scale (Precision)": "Thousands (0)",
+   "2000": -3,
+   "2010": -38,
+   "2018": -40
+ },
+ {
+   "Country Name": "Cyprus",
+   "Country Code": "CYP",
+   "Series Name": "Population, total",
+   "Series Code": "SP.POP.TOTL",
+   "Scale (Precision)": "Millions (0.00)",
+   "2000": 0.94,
+   "2010": 1.11,
+   "2018": 1.19
+ },
+ {
+   "Country Name": "Cyprus",
+   "Country Code": "CYP",
+   "Series Name": "Poverty headcount ratio at national poverty lines (% of population)",
+   "Series Code": "SI.POV.NAHC",
+   "Scale (Precision)": "Unit (0.0)",
+   "2000": null,
+   "2010": 14.8,
+   "2018": 14.7
+ },
+ {
+   "Country Name": "Cyprus",
+   "Country Code": "CYP",
+   "Series Name": "Life expectancy at birth, total (years)",
+   "Series Code": "SP.DYN.LE00.IN",
+   "Scale (Precision)": "Unit (0)",
+   "2000": 78,
+   "2010": 79,
+   "2018": 81
+ },
+ {
+   "Country Name": "Cyprus",
+   "Country Code": "CYP",
+   "Series Name": "School enrollment, primary and secondary (gross), gender parity index (GPI)",
+   "Series Code": "SE.ENR.PRSC.FM.ZS",
+   "Scale (Precision)": "Unit (0)",
+   "2000": 1,
+   "2010": 1,
+   "2018": 1
+ },
+ {
+   "Country Name": "Cyprus",
+   "Country Code": "CYP",
+   "Series Name": "GDP (current US$)",
+   "Series Code": "NY.GDP.MKTP.CD",
+   "Scale (Precision)": "Billions (0.00)",
+   "2000": 9.99,
+   "2010": 25.73,
+   "2018": 25.31
+ },
+ {
+   "Country Name": "Cyprus",
+   "Country Code": "CYP",
+   "Series Name": "Net migration",
+   "Series Code": "SM.POP.NETM",
+   "Scale (Precision)": "Thousands (0)",
+   "2000": 58,
+   "2010": 23,
+   "2018": 25
+ },
+ {
+   "Country Name": "Czech Republic",
+   "Country Code": "CZE",
+   "Series Name": "Population, total",
+   "Series Code": "SP.POP.TOTL",
+   "Scale (Precision)": "Millions (0.00)",
+   "2000": 10.26,
+   "2010": 10.47,
+   "2018": 10.63
+ },
+ {
+   "Country Name": "Czech Republic",
+   "Country Code": "CZE",
+   "Series Name": "Poverty headcount ratio at national poverty lines (% of population)",
+   "Series Code": "SI.POV.NAHC",
+   "Scale (Precision)": "Unit (0.0)",
+   "2000": null,
+   "2010": 9.8,
+   "2018": 10.1
+ },
+ {
+   "Country Name": "Czech Republic",
+   "Country Code": "CZE",
+   "Series Name": "Life expectancy at birth, total (years)",
+   "Series Code": "SP.DYN.LE00.IN",
+   "Scale (Precision)": "Unit (0)",
+   "2000": 75,
+   "2010": 77,
+   "2018": 79
+ },
+ {
+   "Country Name": "Czech Republic",
+   "Country Code": "CZE",
+   "Series Name": "School enrollment, primary and secondary (gross), gender parity index (GPI)",
+   "Series Code": "SE.ENR.PRSC.FM.ZS",
+   "Scale (Precision)": "Unit (0)",
+   "2000": 1,
+   "2010": 1,
+   "2018": 1
+ },
+ {
+   "Country Name": "Czech Republic",
+   "Country Code": "CZE",
+   "Series Name": "GDP (current US$)",
+   "Series Code": "NY.GDP.MKTP.CD",
+   "Scale (Precision)": "Billions (0.00)",
+   "2000": 61.83,
+   "2010": 209.07,
+   "2018": 248.91
+ },
+ {
+   "Country Name": "Czech Republic",
+   "Country Code": "CZE",
+   "Series Name": "Net migration",
+   "Series Code": "SM.POP.NETM",
+   "Scale (Precision)": "Thousands (0)",
+   "2000": 47,
+   "2010": 60,
+   "2018": 110
+ },
+ {
+   "Country Name": "Denmark",
+   "Country Code": "DNK",
+   "Series Name": "Population, total",
+   "Series Code": "SP.POP.TOTL",
+   "Scale (Precision)": "Millions (0.00)",
+   "2000": 5.34,
+   "2010": 5.55,
+   "2018": 5.79
+ },
+ {
+   "Country Name": "Denmark",
+   "Country Code": "DNK",
+   "Series Name": "Poverty headcount ratio at national poverty lines (% of population)",
+   "Series Code": "SI.POV.NAHC",
+   "Scale (Precision)": "Unit (0.0)",
+   "2000": 10.9,
+   "2010": 12.1,
+   "2018": 12.5
+ },
+ {
+   "Country Name": "Denmark",
+   "Country Code": "DNK",
+   "Series Name": "Life expectancy at birth, total (years)",
+   "Series Code": "SP.DYN.LE00.IN",
+   "Scale (Precision)": "Unit (0)",
+   "2000": 77,
+   "2010": 79,
+   "2018": 81
+ },
+ {
+   "Country Name": "Denmark",
+   "Country Code": "DNK",
+   "Series Name": "School enrollment, primary and secondary (gross), gender parity index (GPI)",
+   "Series Code": "SE.ENR.PRSC.FM.ZS",
+   "Scale (Precision)": "Unit (0)",
+   "2000": 1,
+   "2010": 1,
+   "2018": 1
+ },
+ {
+   "Country Name": "Denmark",
+   "Country Code": "DNK",
+   "Series Name": "GDP (current US$)",
+   "Series Code": "NY.GDP.MKTP.CD",
+   "Scale (Precision)": "Billions (0.00)",
+   "2000": 164.16,
+   "2010": 322,
+   "2018": 356.88
+ },
+ {
+   "Country Name": "Denmark",
+   "Country Code": "DNK",
+   "Series Name": "Net migration",
+   "Series Code": "SM.POP.NETM",
+   "Scale (Precision)": "Thousands (0)",
+   "2000": 46,
+   "2010": 107,
+   "2018": 76
+ },
+ {
+   "Country Name": "Estonia",
+   "Country Code": "EST",
+   "Series Name": "Population, total",
+   "Series Code": "SP.POP.TOTL",
+   "Scale (Precision)": "Millions (0.00)",
+   "2000": 1.4,
+   "2010": 1.33,
+   "2018": 1.32
+ },
+ {
+   "Country Name": "Estonia",
+   "Country Code": "EST",
+   "Series Name": "Poverty headcount ratio at national poverty lines (% of population)",
+   "Series Code": "SI.POV.NAHC",
+   "Scale (Precision)": "Unit (0.0)",
+   "2000": null,
+   "2010": 17.5,
+   "2018": 21.7
+ },
+ {
+   "Country Name": "Estonia",
+   "Country Code": "EST",
+   "Series Name": "Life expectancy at birth, total (years)",
+   "Series Code": "SP.DYN.LE00.IN",
+   "Scale (Precision)": "Unit (0)",
+   "2000": 70,
+   "2010": 75,
+   "2018": 78
+ },
+ {
+   "Country Name": "Estonia",
+   "Country Code": "EST",
+   "Series Name": "School enrollment, primary and secondary (gross), gender parity index (GPI)",
+   "Series Code": "SE.ENR.PRSC.FM.ZS",
+   "Scale (Precision)": "Unit (0)",
+   "2000": 1,
+   "2010": 1,
+   "2018": 1
+ },
+ {
+   "Country Name": "Estonia",
+   "Country Code": "EST",
+   "Series Name": "GDP (current US$)",
+   "Series Code": "NY.GDP.MKTP.CD",
+   "Scale (Precision)": "Billions (0.00)",
+   "2000": 5.69,
+   "2010": 19.69,
+   "2018": 30.63
+ },
+ {
+   "Country Name": "Estonia",
+   "Country Code": "EST",
+   "Series Name": "Net migration",
+   "Series Code": "SM.POP.NETM",
+   "Scale (Precision)": "Thousands (0)",
+   "2000": -18,
+   "2010": -11,
+   "2018": 20
+ },
+ {
+   "Country Name": "Finland",
+   "Country Code": "FIN",
+   "Series Name": "Population, total",
+   "Series Code": "SP.POP.TOTL",
+   "Scale (Precision)": "Millions (0.00)",
+   "2000": 5.18,
+   "2010": 5.36,
+   "2018": 5.52
+ },
+ {
+   "Country Name": "Finland",
+   "Country Code": "FIN",
+   "Series Name": "Poverty headcount ratio at national poverty lines (% of population)",
+   "Series Code": "SI.POV.NAHC",
+   "Scale (Precision)": "Unit (0.0)",
+   "2000": null,
+   "2010": 13.7,
+   "2018": 11.6
+ },
+ {
+   "Country Name": "Finland",
+   "Country Code": "FIN",
+   "Series Name": "Life expectancy at birth, total (years)",
+   "Series Code": "SP.DYN.LE00.IN",
+   "Scale (Precision)": "Unit (0)",
+   "2000": 77,
+   "2010": 80,
+   "2018": 82
+ },
+ {
+   "Country Name": "Finland",
+   "Country Code": "FIN",
+   "Series Name": "School enrollment, primary and secondary (gross), gender parity index (GPI)",
+   "Series Code": "SE.ENR.PRSC.FM.ZS",
+   "Scale (Precision)": "Unit (0)",
+   "2000": 1,
+   "2010": 1,
+   "2018": 1
+ },
+ {
+   "Country Name": "Finland",
+   "Country Code": "FIN",
+   "Series Name": "GDP (current US$)",
+   "Series Code": "NY.GDP.MKTP.CD",
+   "Scale (Precision)": "Billions (0.00)",
+   "2000": 125.71,
+   "2010": 249.18,
+   "2018": 275.95
+ },
+ {
+   "Country Name": "Finland",
+   "Country Code": "FIN",
+   "Series Name": "Net migration",
+   "Series Code": "SM.POP.NETM",
+   "Scale (Precision)": "Thousands (0)",
+   "2000": 32,
+   "2010": 81,
+   "2018": 70
+ },
+ {
+   "Country Name": "France",
+   "Country Code": "FRA",
+   "Series Name": "Population, total",
+   "Series Code": "SP.POP.TOTL",
+   "Scale (Precision)": "Millions (0.00)",
+   "2000": 60.91,
+   "2010": 65.03,
+   "2018": 66.97
+ },
+ {
+   "Country Name": "France",
+   "Country Code": "FRA",
+   "Series Name": "Poverty headcount ratio at national poverty lines (% of population)",
+   "Series Code": "SI.POV.NAHC",
+   "Scale (Precision)": "Unit (0.0)",
+   "2000": null,
+   "2010": 14,
+   "2018": 13.4
+ },
+ {
+   "Country Name": "France",
+   "Country Code": "FRA",
+   "Series Name": "Life expectancy at birth, total (years)",
+   "Series Code": "SP.DYN.LE00.IN",
+   "Scale (Precision)": "Unit (0)",
+   "2000": 79,
+   "2010": 82,
+   "2018": 83
+ },
+ {
+   "Country Name": "France",
+   "Country Code": "FRA",
+   "Series Name": "School enrollment, primary and secondary (gross), gender parity index (GPI)",
+   "Series Code": "SE.ENR.PRSC.FM.ZS",
+   "Scale (Precision)": "Unit (0)",
+   "2000": 1,
+   "2010": 1,
+   "2018": 1
+ },
+ {
+   "Country Name": "France",
+   "Country Code": "FRA",
+   "Series Name": "GDP (current US$)",
+   "Series Code": "NY.GDP.MKTP.CD",
+   "Scale (Precision)": "Billions (0.00)",
+   "2000": 1362.25,
+   "2010": 2642.61,
+   "2018": 2787.86
+ },
+ {
+   "Country Name": "France",
+   "Country Code": "FRA",
+   "Series Name": "Net migration",
+   "Series Code": "SM.POP.NETM",
+   "Scale (Precision)": "Thousands (0)",
+   "2000": 926,
+   "2010": 424,
+   "2018": 183
+ },
+ {
+   "Country Name": "Germany",
+   "Country Code": "DEU",
+   "Series Name": "Population, total",
+   "Series Code": "SP.POP.TOTL",
+   "Scale (Precision)": "Millions (0.00)",
+   "2000": 82.21,
+   "2010": 81.78,
+   "2018": 82.91
+ },
+ {
+   "Country Name": "Germany",
+   "Country Code": "DEU",
+   "Series Name": "Poverty headcount ratio at national poverty lines (% of population)",
+   "Series Code": "SI.POV.NAHC",
+   "Scale (Precision)": "Unit (0.0)",
+   "2000": null,
+   "2010": 15.8,
+   "2018": 16
+ },
+ {
+   "Country Name": "Germany",
+   "Country Code": "DEU",
+   "Series Name": "Life expectancy at birth, total (years)",
+   "Series Code": "SP.DYN.LE00.IN",
+   "Scale (Precision)": "Unit (0)",
+   "2000": 78,
+   "2010": 80,
+   "2018": 81
+ },
+ {
+   "Country Name": "Germany",
+   "Country Code": "DEU",
+   "Series Name": "School enrollment, primary and secondary (gross), gender parity index (GPI)",
+   "Series Code": "SE.ENR.PRSC.FM.ZS",
+   "Scale (Precision)": "Unit (0)",
+   "2000": 1,
+   "2010": 1,
+   "2018": 1
+ },
+ {
+   "Country Name": "Germany",
+   "Country Code": "DEU",
+   "Series Name": "GDP (current US$)",
+   "Series Code": "NY.GDP.MKTP.CD",
+   "Scale (Precision)": "Billions (0.00)",
+   "2000": 1943.15,
+   "2010": 3396.35,
+   "2018": 3963.77
+ },
+ {
+   "Country Name": "Germany",
+   "Country Code": "DEU",
+   "Series Name": "Net migration",
+   "Series Code": "SM.POP.NETM",
+   "Scale (Precision)": "Thousands (0)",
+   "2000": 824,
+   "2010": 1939,
+   "2018": 2719
+ },
+ {
+   "Country Name": "Greece",
+   "Country Code": "GRC",
+   "Series Name": "Population, total",
+   "Series Code": "SP.POP.TOTL",
+   "Scale (Precision)": "Millions (0.00)",
+   "2000": 10.81,
+   "2010": 11.12,
+   "2018": 10.73
+ },
+ {
+   "Country Name": "Greece",
+   "Country Code": "GRC",
+   "Series Name": "Poverty headcount ratio at national poverty lines (% of population)",
+   "Series Code": "SI.POV.NAHC",
+   "Scale (Precision)": "Unit (0.0)",
+   "2000": 19.9,
+   "2010": 21.4,
+   "2018": 17.9
+ },
+ {
+   "Country Name": "Greece",
+   "Country Code": "GRC",
+   "Series Name": "Life expectancy at birth, total (years)",
+   "Series Code": "SP.DYN.LE00.IN",
+   "Scale (Precision)": "Unit (0)",
+   "2000": 78,
+   "2010": 80,
+   "2018": 82
+ },
+ {
+   "Country Name": "Greece",
+   "Country Code": "GRC",
+   "Series Name": "School enrollment, primary and secondary (gross), gender parity index (GPI)",
+   "Series Code": "SE.ENR.PRSC.FM.ZS",
+   "Scale (Precision)": "Unit (0)",
+   "2000": 1,
+   "2010": 1,
+   "2018": 1
+ },
+ {
+   "Country Name": "Greece",
+   "Country Code": "GRC",
+   "Series Name": "GDP (current US$)",
+   "Series Code": "NY.GDP.MKTP.CD",
+   "Scale (Precision)": "Billions (0.00)",
+   "2000": 130.13,
+   "2010": 299.36,
+   "2018": 218.14
+ },
+ {
+   "Country Name": "Greece",
+   "Country Code": "GRC",
+   "Series Name": "Net migration",
+   "Series Code": "SM.POP.NETM",
+   "Scale (Precision)": "Thousands (0)",
+   "2000": 114,
+   "2010": -162,
+   "2018": -80
+ },
+ {
+   "Country Name": "Hungary",
+   "Country Code": "HUN",
+   "Series Name": "Population, total",
+   "Series Code": "SP.POP.TOTL",
+   "Scale (Precision)": "Millions (0.00)",
+   "2000": 10.21,
+   "2010": 10,
+   "2018": 9.78
+ },
+ {
+   "Country Name": "Hungary",
+   "Country Code": "HUN",
+   "Series Name": "Poverty headcount ratio at national poverty lines (% of population)",
+   "Series Code": "SI.POV.NAHC",
+   "Scale (Precision)": "Unit (0.0)",
+   "2000": null,
+   "2010": 14.1,
+   "2018": 12.3
+ },
+ {
+   "Country Name": "Hungary",
+   "Country Code": "HUN",
+   "Series Name": "Life expectancy at birth, total (years)",
+   "Series Code": "SP.DYN.LE00.IN",
+   "Scale (Precision)": "Unit (0)",
+   "2000": 71,
+   "2010": 74,
+   "2018": 76
+ },
+ {
+   "Country Name": "Hungary",
+   "Country Code": "HUN",
+   "Series Name": "School enrollment, primary and secondary (gross), gender parity index (GPI)",
+   "Series Code": "SE.ENR.PRSC.FM.ZS",
+   "Scale (Precision)": "Unit (0)",
+   "2000": 1,
+   "2010": 1,
+   "2018": 1
+ },
+ {
+   "Country Name": "Hungary",
+   "Country Code": "HUN",
+   "Series Name": "GDP (current US$)",
+   "Series Code": "NY.GDP.MKTP.CD",
+   "Scale (Precision)": "Billions (0.00)",
+   "2000": 47.22,
+   "2010": 131.92,
+   "2018": 160.42
+ },
+ {
+   "Country Name": "Hungary",
+   "Country Code": "HUN",
+   "Series Name": "Net migration",
+   "Series Code": "SM.POP.NETM",
+   "Scale (Precision)": "Thousands (0)",
+   "2000": 62,
+   "2010": 30,
+   "2018": 30
+ },
+ {
+   "Country Name": "Ireland",
+   "Country Code": "IRL",
+   "Series Name": "Population, total",
+   "Series Code": "SP.POP.TOTL",
+   "Scale (Precision)": "Millions (0.00)",
+   "2000": 3.81,
+   "2010": 4.56,
+   "2018": 4.87
+ },
+ {
+   "Country Name": "Ireland",
+   "Country Code": "IRL",
+   "Series Name": "Poverty headcount ratio at national poverty lines (% of population)",
+   "Series Code": "SI.POV.NAHC",
+   "Scale (Precision)": "Unit (0.0)",
+   "2000": 20.9,
+   "2010": 15.2,
+   "2018": 14.9
+ },
+ {
+   "Country Name": "Ireland",
+   "Country Code": "IRL",
+   "Series Name": "Life expectancy at birth, total (years)",
+   "Series Code": "SP.DYN.LE00.IN",
+   "Scale (Precision)": "Unit (0)",
+   "2000": 77,
+   "2010": 81,
+   "2018": 82
+ },
+ {
+   "Country Name": "Ireland",
+   "Country Code": "IRL",
+   "Series Name": "School enrollment, primary and secondary (gross), gender parity index (GPI)",
+   "Series Code": "SE.ENR.PRSC.FM.ZS",
+   "Scale (Precision)": "Unit (0)",
+   "2000": 1,
+   "2010": 1,
+   "2018": 1
+ },
+ {
+   "Country Name": "Ireland",
+   "Country Code": "IRL",
+   "Series Name": "GDP (current US$)",
+   "Series Code": "NY.GDP.MKTP.CD",
+   "Scale (Precision)": "Billions (0.00)",
+   "2000": 99.85,
+   "2010": 222.15,
+   "2018": 382.67
+ },
+ {
+   "Country Name": "Ireland",
+   "Country Code": "IRL",
+   "Series Name": "Net migration",
+   "Series Code": "SM.POP.NETM",
+   "Scale (Precision)": "Thousands (0)",
+   "2000": 201,
+   "2010": -112,
+   "2018": 118
+ },
+ {
+   "Country Name": "Italy",
+   "Country Code": "ITA",
+   "Series Name": "Population, total",
+   "Series Code": "SP.POP.TOTL",
+   "Scale (Precision)": "Millions (0.00)",
+   "2000": 56.94,
+   "2010": 59.28,
+   "2018": 60.42
+ },
+ {
+   "Country Name": "Italy",
+   "Country Code": "ITA",
+   "Series Name": "Poverty headcount ratio at national poverty lines (% of population)",
+   "Series Code": "SI.POV.NAHC",
+   "Scale (Precision)": "Unit (0.0)",
+   "2000": null,
+   "2010": 19.8,
+   "2018": 20.3
+ },
+ {
+   "Country Name": "Italy",
+   "Country Code": "ITA",
+   "Series Name": "Life expectancy at birth, total (years)",
+   "Series Code": "SP.DYN.LE00.IN",
+   "Scale (Precision)": "Unit (0)",
+   "2000": 80,
+   "2010": 82,
+   "2018": 83
+ },
+ {
+   "Country Name": "Italy",
+   "Country Code": "ITA",
+   "Series Name": "School enrollment, primary and secondary (gross), gender parity index (GPI)",
+   "Series Code": "SE.ENR.PRSC.FM.ZS",
+   "Scale (Precision)": "Unit (0)",
+   "2000": 1,
+   "2010": 1,
+   "2018": 1
+ },
+ {
+   "Country Name": "Italy",
+   "Country Code": "ITA",
+   "Series Name": "GDP (current US$)",
+   "Series Code": "NY.GDP.MKTP.CD",
+   "Scale (Precision)": "Billions (0.00)",
+   "2000": 1143.83,
+   "2010": 2134.02,
+   "2018": 2091.54
+ },
+ {
+   "Country Name": "Italy",
+   "Country Code": "ITA",
+   "Series Name": "Net migration",
+   "Series Code": "SM.POP.NETM",
+   "Scale (Precision)": "Thousands (0)",
+   "2000": 1664,
+   "2010": 1637,
+   "2018": 745
+ },
+ {
+   "Country Name": "Latvia",
+   "Country Code": "LVA",
+   "Series Name": "Population, total",
+   "Series Code": "SP.POP.TOTL",
+   "Scale (Precision)": "Millions (0.00)",
+   "2000": 2.37,
+   "2010": 2.1,
+   "2018": 1.93
+ },
+ {
+   "Country Name": "Latvia",
+   "Country Code": "LVA",
+   "Series Name": "Poverty headcount ratio at national poverty lines (% of population)",
+   "Series Code": "SI.POV.NAHC",
+   "Scale (Precision)": "Unit (0.0)",
+   "2000": null,
+   "2010": 19,
+   "2018": 22.9
+ },
+ {
+   "Country Name": "Latvia",
+   "Country Code": "LVA",
+   "Series Name": "Life expectancy at birth, total (years)",
+   "Series Code": "SP.DYN.LE00.IN",
+   "Scale (Precision)": "Unit (0)",
+   "2000": 70,
+   "2010": 73,
+   "2018": 75
+ },
+ {
+   "Country Name": "Latvia",
+   "Country Code": "LVA",
+   "Series Name": "School enrollment, primary and secondary (gross), gender parity index (GPI)",
+   "Series Code": "SE.ENR.PRSC.FM.ZS",
+   "Scale (Precision)": "Unit (0)",
+   "2000": 1,
+   "2010": 1,
+   "2018": 1
+ },
+ {
+   "Country Name": "Latvia",
+   "Country Code": "LVA",
+   "Series Name": "GDP (current US$)",
+   "Series Code": "NY.GDP.MKTP.CD",
+   "Scale (Precision)": "Billions (0.00)",
+   "2000": 7.95,
+   "2010": 23.88,
+   "2018": 34.42
+ },
+ {
+   "Country Name": "Latvia",
+   "Country Code": "LVA",
+   "Series Name": "Net migration",
+   "Series Code": "SM.POP.NETM",
+   "Scale (Precision)": "Thousands (0)",
+   "2000": -72,
+   "2010": -83,
+   "2018": -74
+ },
+ {
+   "Country Name": "Lithuania",
+   "Country Code": "LTU",
+   "Series Name": "Population, total",
+   "Series Code": "SP.POP.TOTL",
+   "Scale (Precision)": "Millions (0.00)",
+   "2000": 3.5,
+   "2010": 3.1,
+   "2018": 2.8
+ },
+ {
+   "Country Name": "Lithuania",
+   "Country Code": "LTU",
+   "Series Name": "Poverty headcount ratio at national poverty lines (% of population)",
+   "Series Code": "SI.POV.NAHC",
+   "Scale (Precision)": "Unit (0.0)",
+   "2000": null,
+   "2010": 19.2,
+   "2018": 20.6
+ },
+ {
+   "Country Name": "Lithuania",
+   "Country Code": "LTU",
+   "Series Name": "Life expectancy at birth, total (years)",
+   "Series Code": "SP.DYN.LE00.IN",
+   "Scale (Precision)": "Unit (0)",
+   "2000": 72,
+   "2010": 73,
+   "2018": 76
+ },
+ {
+   "Country Name": "Lithuania",
+   "Country Code": "LTU",
+   "Series Name": "School enrollment, primary and secondary (gross), gender parity index (GPI)",
+   "Series Code": "SE.ENR.PRSC.FM.ZS",
+   "Scale (Precision)": "Unit (0)",
+   "2000": 1,
+   "2010": 1,
+   "2018": 1
+ },
+ {
+   "Country Name": "Lithuania",
+   "Country Code": "LTU",
+   "Series Name": "GDP (current US$)",
+   "Series Code": "NY.GDP.MKTP.CD",
+   "Scale (Precision)": "Billions (0.00)",
+   "2000": 11.52,
+   "2010": 37.14,
+   "2018": 53.72
+ },
+ {
+   "Country Name": "Lithuania",
+   "Country Code": "LTU",
+   "Series Name": "Net migration",
+   "Series Code": "SM.POP.NETM",
+   "Scale (Precision)": "Thousands (0)",
+   "2000": -99,
+   "2010": -146,
+   "2018": -164
+ },
+ {
+   "Country Name": "Luxembourg",
+   "Country Code": "LUX",
+   "Series Name": "Population, total",
+   "Series Code": "SP.POP.TOTL",
+   "Scale (Precision)": "Millions (0.00)",
+   "2000": 0.44,
+   "2010": 0.51,
+   "2018": 0.61
+ },
+ {
+   "Country Name": "Luxembourg",
+   "Country Code": "LUX",
+   "Series Name": "Poverty headcount ratio at national poverty lines (% of population)",
+   "Series Code": "SI.POV.NAHC",
+   "Scale (Precision)": "Unit (0.0)",
+   "2000": null,
+   "2010": null,
+   "2018": 18.3
+ },
+ {
+   "Country Name": "Luxembourg",
+   "Country Code": "LUX",
+   "Series Name": "Life expectancy at birth, total (years)",
+   "Series Code": "SP.DYN.LE00.IN",
+   "Scale (Precision)": "Unit (0)",
+   "2000": 78,
+   "2010": 81,
+   "2018": 82
+ },
+ {
+   "Country Name": "Luxembourg",
+   "Country Code": "LUX",
+   "Series Name": "School enrollment, primary and secondary (gross), gender parity index (GPI)",
+   "Series Code": "SE.ENR.PRSC.FM.ZS",
+   "Scale (Precision)": "Unit (0)",
+   "2000": 1,
+   "2010": 1,
+   "2018": 1
+ },
+ {
+   "Country Name": "Luxembourg",
+   "Country Code": "LUX",
+   "Series Name": "GDP (current US$)",
+   "Series Code": "NY.GDP.MKTP.CD",
+   "Scale (Precision)": "Billions (0.00)",
+   "2000": 21.26,
+   "2010": 53.21,
+   "2018": 70.92
+ },
+ {
+   "Country Name": "Luxembourg",
+   "Country Code": "LUX",
+   "Series Name": "Net migration",
+   "Series Code": "SM.POP.NETM",
+   "Scale (Precision)": "Thousands (0)",
+   "2000": 14,
+   "2010": 49,
+   "2018": 49
+ },
+ {
+   "Country Name": "Malta",
+   "Country Code": "MLT",
+   "Series Name": "Population, total",
+   "Series Code": "SP.POP.TOTL",
+   "Scale (Precision)": "Millions (0.00)",
+   "2000": 0.39,
+   "2010": 0.41,
+   "2018": 0.48
+ },
+ {
+   "Country Name": "Malta",
+   "Country Code": "MLT",
+   "Series Name": "Poverty headcount ratio at national poverty lines (% of population)",
+   "Series Code": "SI.POV.NAHC",
+   "Scale (Precision)": "Unit (0.0)",
+   "2000": null,
+   "2010": 15.6,
+   "2018": 17.1
+ },
+ {
+   "Country Name": "Malta",
+   "Country Code": "MLT",
+   "Series Name": "Life expectancy at birth, total (years)",
+   "Series Code": "SP.DYN.LE00.IN",
+   "Scale (Precision)": "Unit (0)",
+   "2000": 78,
+   "2010": 81,
+   "2018": 82
+ },
+ {
+   "Country Name": "Malta",
+   "Country Code": "MLT",
+   "Series Name": "School enrollment, primary and secondary (gross), gender parity index (GPI)",
+   "Series Code": "SE.ENR.PRSC.FM.ZS",
+   "Scale (Precision)": "Unit (0)",
+   "2000": 1,
+   "2010": 1,
+   "2018": 1
+ },
+ {
+   "Country Name": "Malta",
+   "Country Code": "MLT",
+   "Series Name": "GDP (current US$)",
+   "Series Code": "NY.GDP.MKTP.CD",
+   "Scale (Precision)": "Billions (0.00)",
+   "2000": 4.07,
+   "2010": 9.04,
+   "2018": 14.75
+ },
+ {
+   "Country Name": "Malta",
+   "Country Code": "MLT",
+   "Series Name": "Net migration",
+   "Series Code": "SM.POP.NETM",
+   "Scale (Precision)": "Thousands (0)",
+   "2000": 6,
+   "2010": 16,
+   "2018": 5
+ },
+ {
+   "Country Name": "Netherlands",
+   "Country Code": "NLD",
+   "Series Name": "Population, total",
+   "Series Code": "SP.POP.TOTL",
+   "Scale (Precision)": "Millions (0.00)",
+   "2000": 15.93,
+   "2010": 16.62,
+   "2018": 17.23
+ },
+ {
+   "Country Name": "Netherlands",
+   "Country Code": "NLD",
+   "Series Name": "Poverty headcount ratio at national poverty lines (% of population)",
+   "Series Code": "SI.POV.NAHC",
+   "Scale (Precision)": "Unit (0.0)",
+   "2000": null,
+   "2010": null,
+   "2018": 13.2
+ },
+ {
+   "Country Name": "Netherlands",
+   "Country Code": "NLD",
+   "Series Name": "Life expectancy at birth, total (years)",
+   "Series Code": "SP.DYN.LE00.IN",
+   "Scale (Precision)": "Unit (0)",
+   "2000": 78,
+   "2010": 81,
+   "2018": 82
+ },
+ {
+   "Country Name": "Netherlands",
+   "Country Code": "NLD",
+   "Series Name": "School enrollment, primary and secondary (gross), gender parity index (GPI)",
+   "Series Code": "SE.ENR.PRSC.FM.ZS",
+   "Scale (Precision)": "Unit (0)",
+   "2000": 1,
+   "2010": 1,
+   "2018": 1
+ },
+ {
+   "Country Name": "Netherlands",
+   "Country Code": "NLD",
+   "Series Name": "GDP (current US$)",
+   "Series Code": "NY.GDP.MKTP.CD",
+   "Scale (Precision)": "Billions (0.00)",
+   "2000": 416.44,
+   "2010": 846.55,
+   "2018": 914.04
+ },
+ {
+   "Country Name": "Netherlands",
+   "Country Code": "NLD",
+   "Series Name": "Net migration",
+   "Series Code": "SM.POP.NETM",
+   "Scale (Precision)": "Thousands (0)",
+   "2000": 146,
+   "2010": 63,
+   "2018": 80
+ },
+ {
+   "Country Name": "Poland",
+   "Country Code": "POL",
+   "Series Name": "Population, total",
+   "Series Code": "SP.POP.TOTL",
+   "Scale (Precision)": "Millions (0.00)",
+   "2000": 38.26,
+   "2010": 38.04,
+   "2018": 37.97
+ },
+ {
+   "Country Name": "Poland",
+   "Country Code": "POL",
+   "Series Name": "Poverty headcount ratio at national poverty lines (% of population)",
+   "Series Code": "SI.POV.NAHC",
+   "Scale (Precision)": "Unit (0.0)",
+   "2000": null,
+   "2010": 17.7,
+   "2018": 15.4
+ },
+ {
+   "Country Name": "Poland",
+   "Country Code": "POL",
+   "Series Name": "Life expectancy at birth, total (years)",
+   "Series Code": "SP.DYN.LE00.IN",
+   "Scale (Precision)": "Unit (0)",
+   "2000": 74,
+   "2010": 76,
+   "2018": 78
+ },
+ {
+   "Country Name": "Poland",
+   "Country Code": "POL",
+   "Series Name": "School enrollment, primary and secondary (gross), gender parity index (GPI)",
+   "Series Code": "SE.ENR.PRSC.FM.ZS",
+   "Scale (Precision)": "Unit (0)",
+   "2000": 1,
+   "2010": 1,
+   "2018": 1
+ },
+ {
+   "Country Name": "Poland",
+   "Country Code": "POL",
+   "Series Name": "GDP (current US$)",
+   "Series Code": "NY.GDP.MKTP.CD",
+   "Scale (Precision)": "Billions (0.00)",
+   "2000": 172.22,
+   "2010": 479.83,
+   "2018": 587.41
+ },
+ {
+   "Country Name": "Poland",
+   "Country Code": "POL",
+   "Series Name": "Net migration",
+   "Series Code": "SM.POP.NETM",
+   "Scale (Precision)": "Thousands (0)",
+   "2000": -183,
+   "2010": -321,
+   "2018": -147
+ },
+ {
+   "Country Name": "Portugal",
+   "Country Code": "PRT",
+   "Series Name": "Population, total",
+   "Series Code": "SP.POP.TOTL",
+   "Scale (Precision)": "Millions (0.00)",
+   "2000": 10.29,
+   "2010": 10.57,
+   "2018": 10.28
+ },
+ {
+   "Country Name": "Portugal",
+   "Country Code": "PRT",
+   "Series Name": "Poverty headcount ratio at national poverty lines (% of population)",
+   "Series Code": "SI.POV.NAHC",
+   "Scale (Precision)": "Unit (0.0)",
+   "2000": null,
+   "2010": 18,
+   "2018": 17.2
+ },
+ {
+   "Country Name": "Portugal",
+   "Country Code": "PRT",
+   "Series Name": "Life expectancy at birth, total (years)",
+   "Series Code": "SP.DYN.LE00.IN",
+   "Scale (Precision)": "Unit (0)",
+   "2000": 76,
+   "2010": 79,
+   "2018": 81
+ },
+ {
+   "Country Name": "Portugal",
+   "Country Code": "PRT",
+   "Series Name": "School enrollment, primary and secondary (gross), gender parity index (GPI)",
+   "Series Code": "SE.ENR.PRSC.FM.ZS",
+   "Scale (Precision)": "Unit (0)",
+   "2000": 1,
+   "2010": 1,
+   "2018": 1
+ },
+ {
+   "Country Name": "Portugal",
+   "Country Code": "PRT",
+   "Series Name": "GDP (current US$)",
+   "Series Code": "NY.GDP.MKTP.CD",
+   "Scale (Precision)": "Billions (0.00)",
+   "2000": 118.31,
+   "2010": 237.88,
+   "2018": 242.31
+ },
+ {
+   "Country Name": "Portugal",
+   "Country Code": "PRT",
+   "Series Name": "Net migration",
+   "Series Code": "SM.POP.NETM",
+   "Scale (Precision)": "Thousands (0)",
+   "2000": 178,
+   "2010": -140,
+   "2018": -30
+ },
+ {
+   "Country Name": "Romania",
+   "Country Code": "ROU",
+   "Series Name": "Population, total",
+   "Series Code": "SP.POP.TOTL",
+   "Scale (Precision)": "Millions (0.00)",
+   "2000": 22.44,
+   "2010": 20.25,
+   "2018": 19.47
+ },
+ {
+   "Country Name": "Romania",
+   "Country Code": "ROU",
+   "Series Name": "Poverty headcount ratio at national poverty lines (% of population)",
+   "Series Code": "SI.POV.NAHC",
+   "Scale (Precision)": "Unit (0.0)",
+   "2000": null,
+   "2010": 22.3,
+   "2018": 23.8
+ },
+ {
+   "Country Name": "Romania",
+   "Country Code": "ROU",
+   "Series Name": "Life expectancy at birth, total (years)",
+   "Series Code": "SP.DYN.LE00.IN",
+   "Scale (Precision)": "Unit (0)",
+   "2000": 71,
+   "2010": 73,
+   "2018": 75
+ },
+ {
+   "Country Name": "Romania",
+   "Country Code": "ROU",
+   "Series Name": "School enrollment, primary and secondary (gross), gender parity index (GPI)",
+   "Series Code": "SE.ENR.PRSC.FM.ZS",
+   "Scale (Precision)": "Unit (0)",
+   "2000": 1,
+   "2010": 1,
+   "2018": 1
+ },
+ {
+   "Country Name": "Romania",
+   "Country Code": "ROU",
+   "Series Name": "GDP (current US$)",
+   "Series Code": "NY.GDP.MKTP.CD",
+   "Scale (Precision)": "Billions (0.00)",
+   "2000": 37.25,
+   "2010": 166.31,
+   "2018": 241.46
+ },
+ {
+   "Country Name": "Romania",
+   "Country Code": "ROU",
+   "Series Name": "Net migration",
+   "Series Code": "SM.POP.NETM",
+   "Scale (Precision)": "Thousands (0)",
+   "2000": -468,
+   "2010": -300,
+   "2018": -370
+ },
+ {
+   "Country Name": "Slovak Republic",
+   "Country Code": "SVK",
+   "Series Name": "Population, total",
+   "Series Code": "SP.POP.TOTL",
+   "Scale (Precision)": "Millions (0.00)",
+   "2000": 5.39,
+   "2010": 5.39,
+   "2018": 5.45
+ },
+ {
+   "Country Name": "Slovak Republic",
+   "Country Code": "SVK",
+   "Series Name": "Poverty headcount ratio at national poverty lines (% of population)",
+   "Series Code": "SI.POV.NAHC",
+   "Scale (Precision)": "Unit (0.0)",
+   "2000": null,
+   "2010": 13,
+   "2018": 12.2
+ },
+ {
+   "Country Name": "Slovak Republic",
+   "Country Code": "SVK",
+   "Series Name": "Life expectancy at birth, total (years)",
+   "Series Code": "SP.DYN.LE00.IN",
+   "Scale (Precision)": "Unit (0)",
+   "2000": 73,
+   "2010": 75,
+   "2018": 77
+ },
+ {
+   "Country Name": "Slovak Republic",
+   "Country Code": "SVK",
+   "Series Name": "School enrollment, primary and secondary (gross), gender parity index (GPI)",
+   "Series Code": "SE.ENR.PRSC.FM.ZS",
+   "Scale (Precision)": "Unit (0)",
+   "2000": 1,
+   "2010": 1,
+   "2018": 1
+ },
+ {
+   "Country Name": "Slovak Republic",
+   "Country Code": "SVK",
+   "Series Name": "GDP (current US$)",
+   "Series Code": "NY.GDP.MKTP.CD",
+   "Scale (Precision)": "Billions (0.00)",
+   "2000": 29.17,
+   "2010": 90.31,
+   "2018": 105.7
+ },
+ {
+   "Country Name": "Slovak Republic",
+   "Country Code": "SVK",
+   "Series Name": "Net migration",
+   "Series Code": "SM.POP.NETM",
+   "Scale (Precision)": "Thousands (0)",
+   "2000": 1,
+   "2010": 11,
+   "2018": 7
+ },
+ {
+   "Country Name": "Slovenia",
+   "Country Code": "SVN",
+   "Series Name": "Population, total",
+   "Series Code": "SP.POP.TOTL",
+   "Scale (Precision)": "Millions (0.00)",
+   "2000": 1.99,
+   "2010": 2.05,
+   "2018": 2.07
+ },
+ {
+   "Country Name": "Slovenia",
+   "Country Code": "SVN",
+   "Series Name": "Poverty headcount ratio at national poverty lines (% of population)",
+   "Series Code": "SI.POV.NAHC",
+   "Scale (Precision)": "Unit (0.0)",
+   "2000": null,
+   "2010": 13.6,
+   "2018": 12
+ },
+ {
+   "Country Name": "Slovenia",
+   "Country Code": "SVN",
+   "Series Name": "Life expectancy at birth, total (years)",
+   "Series Code": "SP.DYN.LE00.IN",
+   "Scale (Precision)": "Unit (0)",
+   "2000": 75,
+   "2010": 79,
+   "2018": 81
+ },
+ {
+   "Country Name": "Slovenia",
+   "Country Code": "SVN",
+   "Series Name": "School enrollment, primary and secondary (gross), gender parity index (GPI)",
+   "Series Code": "SE.ENR.PRSC.FM.ZS",
+   "Scale (Precision)": "Unit (0)",
+   "2000": 1,
+   "2010": 1,
+   "2018": 1
+ },
+ {
+   "Country Name": "Slovenia",
+   "Country Code": "SVN",
+   "Series Name": "GDP (current US$)",
+   "Series Code": "NY.GDP.MKTP.CD",
+   "Scale (Precision)": "Billions (0.00)",
+   "2000": 20.29,
+   "2010": 48.16,
+   "2018": 54.16
+ },
+ {
+   "Country Name": "Slovenia",
+   "Country Code": "SVN",
+   "Series Name": "Net migration",
+   "Series Code": "SM.POP.NETM",
+   "Scale (Precision)": "Thousands (0)",
+   "2000": 15,
+   "2010": 17,
+   "2018": 10
+ },
+ {
+   "Country Name": "Spain",
+   "Country Code": "ESP",
+   "Series Name": "Population, total",
+   "Series Code": "SP.POP.TOTL",
+   "Scale (Precision)": "Millions (0.00)",
+   "2000": 40.57,
+   "2010": 46.58,
+   "2018": 46.8
+ },
+ {
+   "Country Name": "Spain",
+   "Country Code": "ESP",
+   "Series Name": "Poverty headcount ratio at national poverty lines (% of population)",
+   "Series Code": "SI.POV.NAHC",
+   "Scale (Precision)": "Unit (0.0)",
+   "2000": null,
+   "2010": 20.6,
+   "2018": 20.7
+ },
+ {
+   "Country Name": "Spain",
+   "Country Code": "ESP",
+   "Series Name": "Life expectancy at birth, total (years)",
+   "Series Code": "SP.DYN.LE00.IN",
+   "Scale (Precision)": "Unit (0)",
+   "2000": 79,
+   "2010": 82,
+   "2018": 83
+ },
+ {
+   "Country Name": "Spain",
+   "Country Code": "ESP",
+   "Series Name": "School enrollment, primary and secondary (gross), gender parity index (GPI)",
+   "Series Code": "SE.ENR.PRSC.FM.ZS",
+   "Scale (Precision)": "Unit (0)",
+   "2000": 1,
+   "2010": 1,
+   "2018": 1
+ },
+ {
+   "Country Name": "Spain",
+   "Country Code": "ESP",
+   "Series Name": "GDP (current US$)",
+   "Series Code": "NY.GDP.MKTP.CD",
+   "Scale (Precision)": "Billions (0.00)",
+   "2000": 596.88,
+   "2010": 1420.72,
+   "2018": 1422.15
+ },
+ {
+   "Country Name": "Spain",
+   "Country Code": "ESP",
+   "Series Name": "Net migration",
+   "Series Code": "SM.POP.NETM",
+   "Scale (Precision)": "Thousands (0)",
+   "2000": 2908,
+   "2010": -520,
+   "2018": 200
+ },
+ {
+   "Country Name": "Sweden",
+   "Country Code": "SWE",
+   "Series Name": "Population, total",
+   "Series Code": "SP.POP.TOTL",
+   "Scale (Precision)": "Millions (0.00)",
+   "2000": 8.87,
+   "2010": 9.38,
+   "2018": 10.18
+ },
+ {
+   "Country Name": "Sweden",
+   "Country Code": "SWE",
+   "Series Name": "Poverty headcount ratio at national poverty lines (% of population)",
+   "Series Code": "SI.POV.NAHC",
+   "Scale (Precision)": "Unit (0.0)",
+   "2000": null,
+   "2010": 15.4,
+   "2018": 17.1
+ },
+ {
+   "Country Name": "Sweden",
+   "Country Code": "SWE",
+   "Series Name": "Life expectancy at birth, total (years)",
+   "Series Code": "SP.DYN.LE00.IN",
+   "Scale (Precision)": "Unit (0)",
+   "2000": 80,
+   "2010": 81,
+   "2018": 83
+ },
+ {
+   "Country Name": "Sweden",
+   "Country Code": "SWE",
+   "Series Name": "School enrollment, primary and secondary (gross), gender parity index (GPI)",
+   "Series Code": "SE.ENR.PRSC.FM.ZS",
+   "Scale (Precision)": "Unit (0)",
+   "2000": 1,
+   "2010": 1,
+   "2018": 1
+ },
+ {
+   "Country Name": "Sweden",
+   "Country Code": "SWE",
+   "Series Name": "GDP (current US$)",
+   "Series Code": "NY.GDP.MKTP.CD",
+   "Scale (Precision)": "Billions (0.00)",
+   "2000": 262.84,
+   "2010": 495.81,
+   "2018": 555.46
+ },
+ {
+   "Country Name": "Sweden",
+   "Country Code": "SWE",
+   "Series Name": "Net migration",
+   "Series Code": "SM.POP.NETM",
+   "Scale (Precision)": "Thousands (0)",
+   "2000": 142,
+   "2010": 254,
+   "2018": 200
+ },
+ {
+   "Country Name": "United Kingdom",
+   "Country Code": "GBR",
+   "Series Name": "Population, total",
+   "Series Code": "SP.POP.TOTL",
+   "Scale (Precision)": "Millions (0.00)",
+   "2000": 58.89,
+   "2010": 62.77,
+   "2018": 66.46
+ },
+ {
+   "Country Name": "United Kingdom",
+   "Country Code": "GBR",
+   "Series Name": "Poverty headcount ratio at national poverty lines (% of population)",
+   "Series Code": "SI.POV.NAHC",
+   "Scale (Precision)": "Unit (0.0)",
+   "2000": null,
+   "2010": null,
+   "2018": 18.6
+ },
+ {
+   "Country Name": "United Kingdom",
+   "Country Code": "GBR",
+   "Series Name": "Life expectancy at birth, total (years)",
+   "Series Code": "SP.DYN.LE00.IN",
+   "Scale (Precision)": "Unit (0)",
+   "2000": 78,
+   "2010": 80,
+   "2018": 81
+ },
+ {
+   "Country Name": "United Kingdom",
+   "Country Code": "GBR",
+   "Series Name": "School enrollment, primary and secondary (gross), gender parity index (GPI)",
+   "Series Code": "SE.ENR.PRSC.FM.ZS",
+   "Scale (Precision)": "Unit (0)",
+   "2000": 1,
+   "2010": 1,
+   "2018": 1
+ },
+ {
+   "Country Name": "United Kingdom",
+   "Country Code": "GBR",
+   "Series Name": "GDP (current US$)",
+   "Series Code": "NY.GDP.MKTP.CD",
+   "Scale (Precision)": "Billions (0.00)",
+   "2000": 1657.82,
+   "2010": 2475.24,
+   "2018": 2860.67
+ },
+ {
+   "Country Name": "United Kingdom",
+   "Country Code": "GBR",
+   "Series Name": "Net migration",
+   "Series Code": "SM.POP.NETM",
+   "Scale (Precision)": "Thousands (0)",
+   "2000": 992,
+   "2010": 1300,
+   "2018": 1303
+ }
+]

@@ -9,8 +9,8 @@
 
 }
 @font-face {
-	font-family: 'magic';
-	src: url(/Fonts/CoertSchrift_Romaans.ttf);
+	font-family: 'oecd';
+	src: url(/Fonts/Kaleko105-BoldOblique.ttf);
 
 }
 html,body {
@@ -114,26 +114,31 @@ html,body {
 .slidemenu #slide-item-5:checked ~ .slider .bar{ margin-left: 60%; }
 .slidemenu #slide-item-6:checked ~ .slider .bar{ margin-left: 75%; }
 
+#canvas {
 
+padding:20px;
+}
 
 
 h1 {
  text-align: center;
-font-family: 'magic';
-color: #ffd700;
-}
+font-family: 'oecd';
+color: #ff9900;
+font-size: 250%;
+} 
 h2 {
 
 text-align: center;
 margin-bottom:30px;
-font-family: 'magic';
-color: #987654;
+font-family: 'oecd';
+color: #581d22;
+
 
 }
 #menu {
 width: 10%;
 height: 30px;
-margin-left: 10%;
+margin-left: 15%;
 margin-top: 5%;
 
 }
@@ -142,6 +147,7 @@ margin-top: 5%;
 padding:10px;
 text-align: center;
 font-family: 'roboto';
+
 
 }
 #bottoni {

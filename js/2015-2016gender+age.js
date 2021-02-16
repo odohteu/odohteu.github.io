@@ -55,22 +55,22 @@ function makeChart(csvdata) {
                 {
                     label: "women",
                     data: womenValue,
-                    backgroundColor: "green"
+                    backgroundColor: 'rgba(0,181,26,0.6)'
                 },
                 {
                     label: "girls",
                     data: girlsValue,
-                    backgroundColor: "red"
+                    backgroundColor: 'rgba(255,42,27,0.6)'
                 },
                 {
                     label: "men",
                     data: menValue,
-                    backgroundColor: "blue"
+                    backgroundColor: 'rgba(0,91,140,0.6)'
                 },
                 {
                     label: "boys",
                     data: boysValue,
-                    backgroundColor: "yellow"
+                    backgroundColor: 'rgba(127,64,49,0.6)'
                 }
             ]
         }

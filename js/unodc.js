@@ -137,7 +137,7 @@ const makeGraph = () =>
           .append("g")
           .style("font", "bold 12px var(--sans-serif)")
             .style("font-variant-numeric", "tabular-nums")
-      .attr("text-anchor", "start")
+      .attr("text-anchor", "start-7")
     .selectAll("text");
 
         return ([date, results], transition) =>

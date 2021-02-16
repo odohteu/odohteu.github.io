@@ -32,7 +32,7 @@ var chart = new Chart('chart', {
            label : "2017",
           data: anno1,
 
-    backgroundColor: "pink"
+    backgroundColor: '	rgb(0, 191, 255,0.8)'
 
         },
  
@@ -40,14 +40,14 @@ var chart = new Chart('chart', {
           label : "2018",
           data: anno2,
 
-    backgroundColor: "blue"
+    backgroundColor: 	'rgb(255, 128, 0,0.8)'
 
         },
    {
            label : "2017-2018",
           data: mix,
 
-    backgroundColor: "red"
+    backgroundColor: 	'rgba(255, 0, 64,0.8)'
 
         }
  

@@ -3,7 +3,16 @@
 	src: url(/Fonts/unicode.arialr.ttf);
 
 }
+@font-face {
+	font-family: 'roboto';
+	src: url(/Fonts/Roboto-LightItalic.ttf);
 
+}
+@font-face {
+	font-family: 'oecd';
+	src: url(/Fonts/Kaleko105-BoldOblique.ttf);
+
+}
 html,body {
     height: 100%;
     margin: 0;
@@ -11,11 +20,21 @@ html,body {
 
 
 }
+#menu {
+width: 10%;
+height: 30px;
+margin-left: 15%;
+margin-top: 5%;
+
+}
 
 .clear{
   clear: both;
 }
+#canvas {
 
+padding:20px;
+}
 
 .slide-toggle{
   display: none;
@@ -24,7 +43,7 @@ html,body {
 .slidemenu{
   font-family: arial, sans-serif;
   max-width: 900px;
-  margin: 50px auto;
+  margin: 50px auto auto auto;
   overflow: hidden;
 }
 
@@ -104,18 +123,26 @@ html,body {
 
 
 h1 {
- text-align: center
+ text-align: center;
+font-family: 'oecd';
+font-weight: bolder;
+font-size: 250%;
+color: rgba(255, 99, 71, 2);
+
 }
 
 h2 {
 
 text-align: center;
-margin-top:60px;
+
+font-family: 'oecd';
+
 
 }
 #descrizione {
 padding:10px;
 text-align: center;
+font-family: 'roboto';
 
 }
 #bottoni {

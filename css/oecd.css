@@ -8,6 +8,11 @@
 	src: url(/Fonts/Roboto-LightItalic.ttf);
 
 }
+@font-face {
+	font-family: 'oecd';
+	src: url(/Fonts/Kaleko105-BoldOblique.ttf);
+
+}
 #canvas {
 width: 90%!important;
 margin-top:10px!important;
@@ -108,16 +113,19 @@ margin:auto;
 h1{
 
  text-align: center;
-
+font-family: 'oecd';
+color: #0b4970;
 }
 
-h2, h3 {
-
- text-align: center;
+h2 {
 
 
-margin-bottom: 30px;
+
+margin-top:70px;
 }
+
+
+
 
 #descrizione {
 padding:10px;
@@ -125,7 +133,11 @@ text-align: center;
 font-family: 'roboto';
 }
 
+#canvas {
+padding:50px;
 
+
+}
 #menu {
 width: 10%;
 height: 30px;

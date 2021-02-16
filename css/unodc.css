@@ -1,9 +1,14 @@
+
 @font-face {
-	font-family: 'arial';
-	src: url(/Fonts/unicode.arialr.ttf);
+	font-family: 'roboto';
+	src: url(/Fonts/Roboto-LightItalic.ttf);
 
 }
+@font-face {
+	font-family: 'oecd';
+	src: url(/Fonts/Kaleko105-BoldOblique.ttf);
 
+}
 
 .clear{
   clear: both;
@@ -16,6 +21,7 @@
 #descrizione {
 padding:10px;
 text-align: center;
+font-family: 'roboto';
 
 }
 .slidemenu{
@@ -95,7 +101,7 @@ text-align: center;
 
 svg#chart {
 position:absolute;
-top:500px;
+top:600px;
 width: 75%!important;
 
 }
@@ -106,13 +112,10 @@ font-weight: lighter;
 font-size: 35px;
 }
 
-rect {
-color: red, blue, violet;
-
-}
 
 h1 {
- text-align: center
+ text-align: center;
+font-family: 'oecd';
 }
  
 
@@ -120,6 +123,7 @@ h2 {
 
 text-align: center;
 margin-top:60px;
+font-family: 'oecd';
 
 }
 #bottoni {

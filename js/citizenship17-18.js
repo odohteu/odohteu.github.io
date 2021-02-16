@@ -41,7 +41,7 @@ var chart = new Chart('chart', {
           label : "Other EU Country N",
           data: OtherCountry,
 
-    backgroundColor: 'rgba(255, 206, 86, 0.6)'
+    backgroundColor:  'rgba(255,140,0)'
       
 
         },
@@ -52,36 +52,8 @@ var chart = new Chart('chart', {
  
 
         
-backgroundColor: [
-        'rgba(95,158,160)',
-        'rgba(138,43,226)',
-        'rgba(165,42,42)',
-        'rgba(189,183,107)',
-        'rgba(255,140,0)',
-'rgba(139,0,0)',
-        'rgba(218,165,32)',
-        'rgba(173,255,47)',
-  'rgba(95,158,160)',
-        'rgba(138,43,226)',
-        'rgba(165,42,42)',
-        'rgba(189,183,107)',
-        'rgba(255,140,0)',
-'rgba(139,0,0)',
-        'rgba(218,165,32)',
-        'rgba(173,255,47)',
- 'rgba(95,158,160)',
-        'rgba(138,43,226)',
-        'rgba(165,42,42)',
-        'rgba(189,183,107)',
-        'rgba(255,140,0)',
-'rgba(138,43,226)',
-        'rgba(165,42,42)',
-        'rgba(189,183,107)',
-        'rgba(255,140,0)',
-         'rgba(189,183,107)',
-        'rgba(255,140,0)',
-        
-]
+backgroundColor: 
+        'rgba(95,158,160)'
 }
     
       ]

@@ -21,7 +21,7 @@ var NonsiSa = countries.map(function (d) {return d["2015-2016 N Known"]});
 
 
 var chart = new Chart('chart', {
-    type: "horizontalBar",
+    type: "bar",
 
   
  
@@ -33,7 +33,7 @@ var chart = new Chart('chart', {
            label : "2015 Female",
           data: Female2015,
 
-    backgroundColor:  'rgb(106, 90, 205)'
+    backgroundColor:  'rgba(75, 192, 192, 0.6)'
 
         },
  
@@ -41,7 +41,8 @@ var chart = new Chart('chart', {
           label : "2016 Female",
           data: Female2016,
 
-    backgroundColor: 'rgba(255, 206, 86, 0.6)'
+    backgroundColor:   'rgba(255, 99, 132, 0.6)'
+
       
 
         },
@@ -52,42 +53,8 @@ var chart = new Chart('chart', {
  
 
         
-backgroundColor: [
-        'rgba(255, 99, 132, 0.6)',
-        'rgba(54, 162, 235, 0.6)',
-        'rgba(255, 206, 86, 0.6)',
-        'rgba(75, 192, 192, 0.6)',
-        'rgba(153, 102, 255, 0.6)',
-'rgba(255, 99, 132, 0.6)',
-        'rgba(54, 162, 235, 0.6)',
-        'rgba(255, 206, 86, 0.6)',
-        'rgba(75, 192, 192, 0.6)',
-        'rgba(153, 102, 255, 0.6)',
-          'rgba(255, 99, 132, 0.6)',
-        'rgba(54, 162, 235, 0.6)',
-        'rgba(255, 206, 86, 0.6)',
-        'rgba(75, 192, 192, 0.6)',
-        'rgba(153, 102, 255, 0.6)',
-  'rgba(255, 99, 132, 0.6)',
-        'rgba(54, 162, 235, 0.6)',
-        'rgba(255, 206, 86, 0.6)',
-        'rgba(75, 192, 192, 0.6)',
-        'rgba(153, 102, 255, 0.6)',
-'rgba(255, 99, 132, 0.6)',
-        'rgba(54, 162, 235, 0.6)',
-        'rgba(255, 206, 86, 0.6)',
-        'rgba(75, 192, 192, 0.6)',
-        'rgba(153, 102, 255, 0.6)',
- 'rgba(54, 162, 235, 0.6)',
-        'rgba(255, 206, 86, 0.6)',
-        'rgba(75, 192, 192, 0.6)',
-        'rgba(153, 102, 255, 0.6)',
-'rgba(255, 99, 132, 0.6)',
-        'rgba(54, 162, 235, 0.6)',
-        'rgba(255, 206, 86, 0.6)',
-        'rgba(75, 192, 192, 0.6)',
-      
-]
+backgroundColor:  'rgba(54, 162, 235, 0.6)'
+        
 }
     
       ]

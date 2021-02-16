@@ -49,12 +49,12 @@ function makeChart(csvdata) {
                 {
                     label: "female",
                     data: femaleValue,
-                    backgroundColor: "green"
+                    backgroundColor:  'rgba(187,30,16,0.6)'
                 },
                 {
                     label: "male",
                     data: maleValue,
-                    backgroundColor: "red"
+                    backgroundColor:  'rgba(255,178,0,0.6)'
                 }
             ]
         }

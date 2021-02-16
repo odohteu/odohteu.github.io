@@ -33,7 +33,7 @@ var chart = new Chart('chart', {
            label : "Male",
           data: Male,
 
-    backgroundColor:  'red'
+    backgroundColor:   'rgba(184,134,11,1)'
 
         },
  
@@ -41,7 +41,7 @@ var chart = new Chart('chart', {
           label : "Female",
           data: Female,
 
-    backgroundColor: 'green',
+    backgroundColor:  'rgba(255,160,122,1)'
       
 
 
