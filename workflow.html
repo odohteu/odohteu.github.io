@@ -4,6 +4,7 @@
     
     
 <link rel="stylesheet" href="css/workflow.css">
+  <script src="/js/workflow.js"></script>
 
     </head>
     
@@ -41,3 +42,98 @@
   
 </nav>
 <h1>Workflow</h1>
+
+  
+<div id="timeline">
+<div class="FadeIn">          
+<div class="timeline-item one">
+	<div class="timeline-content">
+		<h1>0. BRAINSTORMING </h1>
+		<p>
+			Being aware that according to the G8 Open Data Charter and European Commission guidelines some categories of data are more relevant than others and have higher potential values, we have chosen as the main category of reference data crime and justice, but secondly some data belongs to the categories of education, development and government. According to the 5 W, <b>ODOHTEU</b> scenario can be defined as centered on the human trafficking and supposedly related factors, such as the well-being of a country <span class="W">(WHAT)</span>; in the 2000s <span class="W">(WHEN)</span>; within the member states of the European Union <span class="W">(WHERE)</span>; about victims’ s age, sex, country of origin <span class="W">(WHO)</span>; to investigate the forms of exploitation, as they could be considered as the scope of human traffickers <span class="W">(WHY)</span>.
+		</p>
+	</div>
+</div>	
+			
+<div class="timeline-item two">
+	<div class="timeline-content">
+		<h1>2. DATA COLLECTION </h1>
+		<p>
+			One of our goals is to have a look without bias or prejudices on the phenomenon, so for this reason we have chosen data both from the European Union Commission and other International Organizations not located in the EU. The institutions from which have selected datasets are:  CTDC - Counter Trafficking Data Collaborative: first global data hub on human trafficking;  UNODC – Office on Drugs and Crime of the United Nations: global authority in the fields of drugs and crime; EU Commission and EU Open Data Portal: world leader in anti-trafficking actions; World Bank Group and World Bank Open Data: provides free and open access to global development data; OECD – Organisation for Economic Co-operation and Development: collects statistical data on indicators of the wellness of a country.
+		</p>
+	</div>
+</div>		
+	
+<div class="timeline-item three">
+		<div class="timeline-content">
+		<h1>3. DATA ANALYSIS </h1>
+		<p>
+			We then analyzed the datasets according to four different aspects: qualitative analysis (content quality, timeliness, and consistency); legal analysis (privacy issues, licesing, legislation accordance, intellectual property rights, liability); ethical analysis (human being at the center; individual data control; transparency; accountability, equality, bias-free and sustainability); technical analysis (available formats, presence and typology of metadata, URI and provenance).
+			</p>
+	</div>
+</div>	
+			
+			
+			
+<div class="timeline-item four">
+		<div class="timeline-content">
+		<h1>4. DATA CORRECTION</h1>
+		<p>
+			For the purposes of ODOHTEU project the original datasets that we have found were not appropriate on several fronts:  technically; temporally; geographically; and for their content, since we wanted to focus on the total number of victims, sex, age or majority status, form of exploitation, citizenship and country of destination; while for what concerns the growth or well-being indicators of the European states we have taken into consideration the population growth, poverty rate, life expectancy, schooling/education, GDP, net migration, jobs, income, safety, health, environment, civic engagement, accessiblity to services, housing.
+		</p>
+	</div>
+</div>	
+			
+
+<div class="timeline-item five">
+		<div class="timeline-content">
+		<h1>5. CREATION OF NEW DATASETS</h1>
+		<p>
+			For our selected scenario we had to create new datasets following the FAIR principles stated by the Guidelines for Open Data provided by the EU: data have to be findable, accessible, interoperable and re-usable. Technically speaking, we have written and used python functions to extract data of interest, delete rows or columns of csv files, convert pdf files into csv files and join together data in order to create a new dataset in csv format. We also imported python libraries such as “CSV” and “Camelot”.
+		</p>
+	</div>
+</div>	
+
+
+<div class="timeline-item six">
+	<div class="timeline-content right">
+		<h1>6. OPEN DATASETS</h1>
+		<p>
+			ODOHTEU was developed with the aim of making it compliant with LOD characteristics (open and machine-readable formats for datasets, licence specified, and metadata in DCAT). Following the 5-STAR OPEN DATA MODEL, we have made available our datasets under a specified licence, making it available ad structured data (xml, csv, json) not bound to specific software or a specific vendor.
+		</p>
+	</div>
+</div>			
+		
+<div class="timeline-item seven">
+	<div class="timeline-content">
+		<h1>7. RDF METADATA</h1>
+		<p>
+	We provided data with its metadata in order to provide effective reusable and interoperable data, adopting the DCAT AP version 2.0.0 specification, as it is an internationally established standards or controlled vocabulary. We asserted metadata in Turtle serialization.  Then we used meaningful persistent, dereferenceable and unambiguous URIs, supported by a reliable and following the pattern: 
+	http: // {domain} / {resource-type} / {concept} / {reference}.
+
+		</p>
+	</div>
+</div>				
+		
+<div class="timeline-item eight">
+		<div class="timeline-content right">
+		<h1>8. VISUALIZATIONS </h1>
+		<p>
+			In order to explicit the results and to support the communication, we have developed several kinds of visualizations: mainly static but also interactive (animated horizontal bar chart; as well as an interactive map (you can select the year you want to visualize data of). In particular, we have decided to develop: multiple or simple bar charts; pie charts; a map and line plots (area charts). As tools we used the following Javascript libraries: Leaflet.js, Chart.js and D3.js.
+		</p>
+	</div>
+</div>				
+
+
+<div class="timeline-item nine">
+		<div class="timeline-content">
+		<h1> 9. PUBLICATION WITH LICENSING </h1>
+		<p>
+			Finally, we released ODOHTEU licensed under a Creative Commons Attribution 4.0 International License. As it was developed as the final examination for the Open Access and Digital Ethics course within the Master's Degree in Digital Humanities and Digital Information at the University of Bologna, we do not intend to update it. As regards the qualitative sustainability, we used persistent URIs and we integrated the data with RDF metadata serialized in Turtle, using the DCAT standard integrated with other ontologies such as SKOS, FOAF, etc.
+		</p>
+	</div>
+</div>		
+  </div>  
+		
+    </body>
+</html>

@@ -155,7 +155,7 @@
     <odohteu:_2016Female>40</odohteu:_2016Female>
     <odohteu:_2016PercentageFemale>90,9</odohteu:_2016PercentageFemale>
     <odohteu:_2015-2016Male>27</odohteu:_2015-2016Male>
-    <odohteu:_2015-2016Female>63</odohteu:_201>
+    <odohteu:_2015-2016Female>63</odohteu:_2015-2016Female>
  </row>
   <row>
    <odohteu:Country>Latvia</odohteu:Country>
@@ -336,6 +336,6 @@
     <odohteu:_2015-2016Male>3382</odohteu:_2015-2016Male>
     <odohteu:_2015-2016Female>3680</odohteu:_2015-2016Female>
     <odohteu:_2015-2016PercentageFemale>52,1</odohteu:_2015-2016PercentageFemale>
-  </row>
-</odohteu:root>
-</odohteu:rdf:RDF>
+      </row>
+    </root>
+</rdf:RDF>
