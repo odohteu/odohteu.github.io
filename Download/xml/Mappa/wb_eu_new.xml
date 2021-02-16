@@ -1,0 +1,1686 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:odohteu="http://www.odohteu.github.io/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<root>
+  <row>
+    <odohteu:_2000>8.01</odohteu:_2000>
+    <odohteu:_2010>8.36</odohteu:_2010>
+    <odohteu:_2018>8.84</odohteu:_2018>
+    <odohteu:CountryName>Austria</odohteu:CountryName>
+    <odohteu:CountryCode>AUT</odohteu:CountryCode>
+    <odohteu:SeriesName>Population, total</odohteu:SeriesName>
+    <odohteu:SeriesCode>SP.POP.TOTL</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Millions (0.00)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>13.0</odohteu:_2000>
+    <odohteu:_2010>14.5</odohteu:_2010>
+    <odohteu:_2018>13.3</odohteu:_2018>
+    <odohteu:CountryName>Austria</odohteu:CountryName>
+    <odohteu:CountryCode>AUT</odohteu:CountryCode>
+    <odohteu:SeriesName>Poverty headcount ratio at national poverty lines (% of population)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SI.POV.NAHC</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0.0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>78</odohteu:_2000>
+    <odohteu:_2010>81</odohteu:_2010>
+    <odohteu:_2018>82</odohteu:_2018>
+    <odohteu:CountryName>Austria</odohteu:CountryName>
+    <odohteu:CountryCode>AUT</odohteu:CountryCode>
+    <odohteu:SeriesName>Life expectancy at birth, total (years)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SP.DYN.LE00.IN</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>1</odohteu:_2000>
+    <odohteu:_2010>1</odohteu:_2010>
+    <odohteu:_2018>1</odohteu:_2018>
+    <odohteu:CountryName>Austria</odohteu:CountryName>
+    <odohteu:CountryCode>AUT</odohteu:CountryCode>
+    <odohteu:SeriesName>School enrollment, primary and secondary (gross), gender parity index (GPI)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SE.ENR.PRSC.FM.ZS</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>196.80</odohteu:_2000>
+    <odohteu:_2010>391.89</odohteu:_2010>
+    <odohteu:_2018>455.09</odohteu:_2018>
+    <odohteu:CountryName>Austria</odohteu:CountryName>
+    <odohteu:CountryCode>AUT</odohteu:CountryCode>
+    <odohteu:SeriesName>GDP (current US$)</odohteu:SeriesName>
+    <odohteu:SeriesCode>NY.GDP.MKTP.CD</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Billions (0.00)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>178</odohteu:_2000>
+    <odohteu:_2010>267</odohteu:_2010>
+    <odohteu:_2018>325</odohteu:_2018>
+    <odohteu:CountryName>Austria</odohteu:CountryName>
+    <odohteu:CountryCode>AUT</odohteu:CountryCode>
+    <odohteu:SeriesName>Net migration</odohteu:SeriesName>
+    <odohteu:SeriesCode>SM.POP.NETM</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Thousands (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>10.25</odohteu:_2000>
+    <odohteu:_2010>10.90</odohteu:_2010>
+    <odohteu:_2018>11.43</odohteu:_2018>
+    <odohteu:CountryName>Belgium</odohteu:CountryName>
+    <odohteu:CountryCode>BEL</odohteu:CountryCode>
+    <odohteu:SeriesName>Population, total</odohteu:SeriesName>
+    <odohteu:SeriesCode>SP.POP.TOTL</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Millions (0.00)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>14.3</odohteu:_2000>
+    <odohteu:_2010>15.3</odohteu:_2010>
+    <odohteu:_2018>16.4</odohteu:_2018>
+    <odohteu:CountryName>Belgium</odohteu:CountryName>
+    <odohteu:CountryCode>BEL</odohteu:CountryCode>
+    <odohteu:SeriesName>Poverty headcount ratio at national poverty lines (% of population)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SI.POV.NAHC</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0.0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>78</odohteu:_2000>
+    <odohteu:_2010>80</odohteu:_2010>
+    <odohteu:_2018>82</odohteu:_2018>
+    <odohteu:CountryName>Belgium</odohteu:CountryName>
+    <odohteu:CountryCode>BEL</odohteu:CountryCode>
+    <odohteu:SeriesName>Life expectancy at birth, total (years)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SP.DYN.LE00.IN</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>1</odohteu:_2000>
+    <odohteu:_2010>1</odohteu:_2010>
+    <odohteu:_2018>1</odohteu:_2018>
+    <odohteu:CountryName>Belgium</odohteu:CountryName>
+    <odohteu:CountryCode>BEL</odohteu:CountryCode>
+    <odohteu:SeriesName>School enrollment, primary and secondary (gross), gender parity index (GPI)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SE.ENR.PRSC.FM.ZS</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>236.20</odohteu:_2000>
+    <odohteu:_2010>480.95</odohteu:_2010>
+    <odohteu:_2018>543.73</odohteu:_2018>
+    <odohteu:CountryName>Belgium</odohteu:CountryName>
+    <odohteu:CountryCode>BEL</odohteu:CountryCode>
+    <odohteu:SeriesName>GDP (current US$)</odohteu:SeriesName>
+    <odohteu:SeriesCode>NY.GDP.MKTP.CD</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Billions (0.00)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>220</odohteu:_2000>
+    <odohteu:_2010>259</odohteu:_2010>
+    <odohteu:_2018>240</odohteu:_2018>
+    <odohteu:CountryName>Belgium</odohteu:CountryName>
+    <odohteu:CountryCode>BEL</odohteu:CountryCode>
+    <odohteu:SeriesName>Net migration</odohteu:SeriesName>
+    <odohteu:SeriesCode>SM.POP.NETM</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Thousands (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>8.17</odohteu:_2000>
+    <odohteu:_2010>7.40</odohteu:_2010>
+    <odohteu:_2018>7.03</odohteu:_2018>
+    <odohteu:CountryName>Bulgaria</odohteu:CountryName>
+    <odohteu:CountryCode>BGR</odohteu:CountryCode>
+    <odohteu:SeriesName>Population, total</odohteu:SeriesName>
+    <odohteu:SeriesCode>SP.POP.TOTL</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Millions (0.00)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000></odohteu:_2000>
+    <odohteu:_2010></odohteu:_2010>
+    <odohteu:_2018>22.6</odohteu:_2018>
+    <odohteu:CountryName>Bulgaria</odohteu:CountryName>
+    <odohteu:CountryCode>BGR</odohteu:CountryCode>
+    <odohteu:SeriesName>Poverty headcount ratio at national poverty lines (% of population)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SI.POV.NAHC</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0.0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>72</odohteu:_2000>
+    <odohteu:_2010>74</odohteu:_2010>
+    <odohteu:_2018>75</odohteu:_2018>
+    <odohteu:CountryName>Bulgaria</odohteu:CountryName>
+    <odohteu:CountryCode>BGR</odohteu:CountryCode>
+    <odohteu:SeriesName>Life expectancy at birth, total (years)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SP.DYN.LE00.IN</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>1</odohteu:_2000>
+    <odohteu:_2010>1</odohteu:_2010>
+    <odohteu:_2018>1</odohteu:_2018>
+    <odohteu:CountryName>Bulgaria</odohteu:CountryName>
+    <odohteu:CountryCode>BGR</odohteu:CountryCode>
+    <odohteu:SeriesName>School enrollment, primary and secondary (gross), gender parity index (GPI)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SE.ENR.PRSC.FM.ZS</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>13.25</odohteu:_2000>
+    <odohteu:_2010>50.38</odohteu:_2010>
+    <odohteu:_2018>66.23</odohteu:_2018>
+    <odohteu:CountryName>Bulgaria</odohteu:CountryName>
+    <odohteu:CountryCode>BGR</odohteu:CountryCode>
+    <odohteu:SeriesName>GDP (current US$)</odohteu:SeriesName>
+    <odohteu:SeriesCode>NY.GDP.MKTP.CD</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Billions (0.00)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>-86</odohteu:_2000>
+    <odohteu:_2010>-24</odohteu:_2010>
+    <odohteu:_2018>-24</odohteu:_2018>
+    <odohteu:CountryName>Bulgaria</odohteu:CountryName>
+    <odohteu:CountryCode>BGR</odohteu:CountryCode>
+    <odohteu:SeriesName>Net migration</odohteu:SeriesName>
+    <odohteu:SeriesCode>SM.POP.NETM</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Thousands (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>4.47</odohteu:_2000>
+    <odohteu:_2010>4.30</odohteu:_2010>
+    <odohteu:_2018>4.09</odohteu:_2018>
+    <odohteu:CountryName>Croatia</odohteu:CountryName>
+    <odohteu:CountryCode>HRV</odohteu:CountryCode>
+    <odohteu:SeriesName>Population, total</odohteu:SeriesName>
+    <odohteu:SeriesCode>SP.POP.TOTL</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Millions (0.00)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000></odohteu:_2000>
+    <odohteu:_2010>20.9</odohteu:_2010>
+    <odohteu:_2018>18.3</odohteu:_2018>
+    <odohteu:CountryName>Croatia</odohteu:CountryName>
+    <odohteu:CountryCode>HRV</odohteu:CountryCode>
+    <odohteu:SeriesName>Poverty headcount ratio at national poverty lines (% of population)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SI.POV.NAHC</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0.0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>73</odohteu:_2000>
+    <odohteu:_2010>76</odohteu:_2010>
+    <odohteu:_2018>78</odohteu:_2018>
+    <odohteu:CountryName>Croatia</odohteu:CountryName>
+    <odohteu:CountryCode>HRV</odohteu:CountryCode>
+    <odohteu:SeriesName>Life expectancy at birth, total (years)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SP.DYN.LE00.IN</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>1</odohteu:_2000>
+    <odohteu:_2010>1</odohteu:_2010>
+    <odohteu:_2018>1</odohteu:_2018>
+    <odohteu:CountryName>Croatia</odohteu:CountryName>
+    <odohteu:CountryCode>HRV</odohteu:CountryCode>
+    <odohteu:SeriesName>School enrollment, primary and secondary (gross), gender parity index (GPI)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SE.ENR.PRSC.FM.ZS</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>21.63</odohteu:_2000>
+    <odohteu:_2010>59.92</odohteu:_2010>
+    <odohteu:_2018>61.38</odohteu:_2018>
+    <odohteu:CountryName>Croatia</odohteu:CountryName>
+    <odohteu:CountryCode>HRV</odohteu:CountryCode>
+    <odohteu:SeriesName>GDP (current US$)</odohteu:SeriesName>
+    <odohteu:SeriesCode>NY.GDP.MKTP.CD</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Billions (0.00)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>-3</odohteu:_2000>
+    <odohteu:_2010>-38</odohteu:_2010>
+    <odohteu:_2018>-40</odohteu:_2018>
+    <odohteu:CountryName>Croatia</odohteu:CountryName>
+    <odohteu:CountryCode>HRV</odohteu:CountryCode>
+    <odohteu:SeriesName>Net migration</odohteu:SeriesName>
+    <odohteu:SeriesCode>SM.POP.NETM</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Thousands (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>0.94</odohteu:_2000>
+    <odohteu:_2010>1.11</odohteu:_2010>
+    <odohteu:_2018>1.19</odohteu:_2018>
+    <odohteu:CountryName>Cyprus</odohteu:CountryName>
+    <odohteu:CountryCode>CYP</odohteu:CountryCode>
+    <odohteu:SeriesName>Population, total</odohteu:SeriesName>
+    <odohteu:SeriesCode>SP.POP.TOTL</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Millions (0.00)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000></odohteu:_2000>
+    <odohteu:_2010>14.8</odohteu:_2010>
+    <odohteu:_2018>14.7</odohteu:_2018>
+    <odohteu:CountryName>Cyprus</odohteu:CountryName>
+    <odohteu:CountryCode>CYP</odohteu:CountryCode>
+    <odohteu:SeriesName>Poverty headcount ratio at national poverty lines (% of population)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SI.POV.NAHC</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0.0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>78</odohteu:_2000>
+    <odohteu:_2010>79</odohteu:_2010>
+    <odohteu:_2018>81</odohteu:_2018>
+    <odohteu:CountryName>Cyprus</odohteu:CountryName>
+    <odohteu:CountryCode>CYP</odohteu:CountryCode>
+    <odohteu:SeriesName>Life expectancy at birth, total (years)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SP.DYN.LE00.IN</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>1</odohteu:_2000>
+    <odohteu:_2010>1</odohteu:_2010>
+    <odohteu:_2018>1</odohteu:_2018>
+    <odohteu:CountryName>Cyprus</odohteu:CountryName>
+    <odohteu:CountryCode>CYP</odohteu:CountryCode>
+    <odohteu:SeriesName>School enrollment, primary and secondary (gross), gender parity index (GPI)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SE.ENR.PRSC.FM.ZS</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>9.99</odohteu:_2000>
+    <odohteu:_2010>25.73</odohteu:_2010>
+    <odohteu:_2018>25.31</odohteu:_2018>
+    <odohteu:CountryName>Cyprus</odohteu:CountryName>
+    <odohteu:CountryCode>CYP</odohteu:CountryCode>
+    <odohteu:SeriesName>GDP (current US$)</odohteu:SeriesName>
+    <odohteu:SeriesCode>NY.GDP.MKTP.CD</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Billions (0.00)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>58</odohteu:_2000>
+    <odohteu:_2010>23</odohteu:_2010>
+    <odohteu:_2018>25</odohteu:_2018>
+    <odohteu:CountryName>Cyprus</odohteu:CountryName>
+    <odohteu:CountryCode>CYP</odohteu:CountryCode>
+    <odohteu:SeriesName>Net migration</odohteu:SeriesName>
+    <odohteu:SeriesCode>SM.POP.NETM</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Thousands (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>10.26</odohteu:_2000>
+    <odohteu:_2010>10.47</odohteu:_2010>
+    <odohteu:_2018>10.63</odohteu:_2018>
+    <odohteu:CountryName>Czech Republic</odohteu:CountryName>
+    <odohteu:CountryCode>CZE</odohteu:CountryCode>
+    <odohteu:SeriesName>Population, total</odohteu:SeriesName>
+    <odohteu:SeriesCode>SP.POP.TOTL</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Millions (0.00)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000></odohteu:_2000>
+    <odohteu:_2010>9.8</odohteu:_2010>
+    <odohteu:_2018>10.1</odohteu:_2018>
+    <odohteu:CountryName>Czech Republic</odohteu:CountryName>
+    <odohteu:CountryCode>CZE</odohteu:CountryCode>
+    <odohteu:SeriesName>Poverty headcount ratio at national poverty lines (% of population)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SI.POV.NAHC</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0.0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>75</odohteu:_2000>
+    <odohteu:_2010>77</odohteu:_2010>
+    <odohteu:_2018>79</odohteu:_2018>
+    <odohteu:CountryName>Czech Republic</odohteu:CountryName>
+    <odohteu:CountryCode>CZE</odohteu:CountryCode>
+    <odohteu:SeriesName>Life expectancy at birth, total (years)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SP.DYN.LE00.IN</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>1</odohteu:_2000>
+    <odohteu:_2010>1</odohteu:_2010>
+    <odohteu:_2018>1</odohteu:_2018>
+    <odohteu:CountryName>Czech Republic</odohteu:CountryName>
+    <odohteu:CountryCode>CZE</odohteu:CountryCode>
+    <odohteu:SeriesName>School enrollment, primary and secondary (gross), gender parity index (GPI)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SE.ENR.PRSC.FM.ZS</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>61.83</odohteu:_2000>
+    <odohteu:_2010>209.07</odohteu:_2010>
+    <odohteu:_2018>248.91</odohteu:_2018>
+    <odohteu:CountryName>Czech Republic</odohteu:CountryName>
+    <odohteu:CountryCode>CZE</odohteu:CountryCode>
+    <odohteu:SeriesName>GDP (current US$)</odohteu:SeriesName>
+    <odohteu:SeriesCode>NY.GDP.MKTP.CD</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Billions (0.00)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>47</odohteu:_2000>
+    <odohteu:_2010>60</odohteu:_2010>
+    <odohteu:_2018>110</odohteu:_2018>
+    <odohteu:CountryName>Czech Republic</odohteu:CountryName>
+    <odohteu:CountryCode>CZE</odohteu:CountryCode>
+    <odohteu:SeriesName>Net migration</odohteu:SeriesName>
+    <odohteu:SeriesCode>SM.POP.NETM</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Thousands (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>5.34</odohteu:_2000>
+    <odohteu:_2010>5.55</odohteu:_2010>
+    <odohteu:_2018>5.79</odohteu:_2018>
+    <odohteu:CountryName>Denmark</odohteu:CountryName>
+    <odohteu:CountryCode>DNK</odohteu:CountryCode>
+    <odohteu:SeriesName>Population, total</odohteu:SeriesName>
+    <odohteu:SeriesCode>SP.POP.TOTL</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Millions (0.00)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>10.9</odohteu:_2000>
+    <odohteu:_2010>12.1</odohteu:_2010>
+    <odohteu:_2018>12.5</odohteu:_2018>
+    <odohteu:CountryName>Denmark</odohteu:CountryName>
+    <odohteu:CountryCode>DNK</odohteu:CountryCode>
+    <odohteu:SeriesName>Poverty headcount ratio at national poverty lines (% of population)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SI.POV.NAHC</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0.0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>77</odohteu:_2000>
+    <odohteu:_2010>79</odohteu:_2010>
+    <odohteu:_2018>81</odohteu:_2018>
+    <odohteu:CountryName>Denmark</odohteu:CountryName>
+    <odohteu:CountryCode>DNK</odohteu:CountryCode>
+    <odohteu:SeriesName>Life expectancy at birth, total (years)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SP.DYN.LE00.IN</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>1</odohteu:_2000>
+    <odohteu:_2010>1</odohteu:_2010>
+    <odohteu:_2018>1</odohteu:_2018>
+    <odohteu:CountryName>Denmark</odohteu:CountryName>
+    <odohteu:CountryCode>DNK</odohteu:CountryCode>
+    <odohteu:SeriesName>School enrollment, primary and secondary (gross), gender parity index (GPI)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SE.ENR.PRSC.FM.ZS</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>164.16</odohteu:_2000>
+    <odohteu:_2010>322.00</odohteu:_2010>
+    <odohteu:_2018>356.88</odohteu:_2018>
+    <odohteu:CountryName>Denmark</odohteu:CountryName>
+    <odohteu:CountryCode>DNK</odohteu:CountryCode>
+    <odohteu:SeriesName>GDP (current US$)</odohteu:SeriesName>
+    <odohteu:SeriesCode>NY.GDP.MKTP.CD</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Billions (0.00)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>46</odohteu:_2000>
+    <odohteu:_2010>107</odohteu:_2010>
+    <odohteu:_2018>76</odohteu:_2018>
+    <odohteu:CountryName>Denmark</odohteu:CountryName>
+    <odohteu:CountryCode>DNK</odohteu:CountryCode>
+    <odohteu:SeriesName>Net migration</odohteu:SeriesName>
+    <odohteu:SeriesCode>SM.POP.NETM</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Thousands (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>1.40</odohteu:_2000>
+    <odohteu:_2010>1.33</odohteu:_2010>
+    <odohteu:_2018>1.32</odohteu:_2018>
+    <odohteu:CountryName>Estonia</odohteu:CountryName>
+    <odohteu:CountryCode>EST</odohteu:CountryCode>
+    <odohteu:SeriesName>Population, total</odohteu:SeriesName>
+    <odohteu:SeriesCode>SP.POP.TOTL</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Millions (0.00)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000></odohteu:_2000>
+    <odohteu:_2010>17.5</odohteu:_2010>
+    <odohteu:_2018>21.7</odohteu:_2018>
+    <odohteu:CountryName>Estonia</odohteu:CountryName>
+    <odohteu:CountryCode>EST</odohteu:CountryCode>
+    <odohteu:SeriesName>Poverty headcount ratio at national poverty lines (% of population)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SI.POV.NAHC</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0.0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>70</odohteu:_2000>
+    <odohteu:_2010>75</odohteu:_2010>
+    <odohteu:_2018>78</odohteu:_2018>
+    <odohteu:CountryName>Estonia</odohteu:CountryName>
+    <odohteu:CountryCode>EST</odohteu:CountryCode>
+    <odohteu:SeriesName>Life expectancy at birth, total (years)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SP.DYN.LE00.IN</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>1</odohteu:_2000>
+    <odohteu:_2010>1</odohteu:_2010>
+    <odohteu:_2018>1</odohteu:_2018>
+    <odohteu:CountryName>Estonia</odohteu:CountryName>
+    <odohteu:CountryCode>EST</odohteu:CountryCode>
+    <odohteu:SeriesName>School enrollment, primary and secondary (gross), gender parity index (GPI)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SE.ENR.PRSC.FM.ZS</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>5.69</odohteu:_2000>
+    <odohteu:_2010>19.69</odohteu:_2010>
+    <odohteu:_2018>30.63</odohteu:_2018>
+    <odohteu:CountryName>Estonia</odohteu:CountryName>
+    <odohteu:CountryCode>EST</odohteu:CountryCode>
+    <odohteu:SeriesName>GDP (current US$)</odohteu:SeriesName>
+    <odohteu:SeriesCode>NY.GDP.MKTP.CD</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Billions (0.00)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>-18</odohteu:_2000>
+    <odohteu:_2010>-11</odohteu:_2010>
+    <odohteu:_2018>20</odohteu:_2018>
+    <odohteu:CountryName>Estonia</odohteu:CountryName>
+    <odohteu:CountryCode>EST</odohteu:CountryCode>
+    <odohteu:SeriesName>Net migration</odohteu:SeriesName>
+    <odohteu:SeriesCode>SM.POP.NETM</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Thousands (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>5.18</odohteu:_2000>
+    <odohteu:_2010>5.36</odohteu:_2010>
+    <odohteu:_2018>5.52</odohteu:_2018>
+    <odohteu:CountryName>Finland</odohteu:CountryName>
+    <odohteu:CountryCode>FIN</odohteu:CountryCode>
+    <odohteu:SeriesName>Population, total</odohteu:SeriesName>
+    <odohteu:SeriesCode>SP.POP.TOTL</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Millions (0.00)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000></odohteu:_2000>
+    <odohteu:_2010>13.7</odohteu:_2010>
+    <odohteu:_2018>11.6</odohteu:_2018>
+    <odohteu:CountryName>Finland</odohteu:CountryName>
+    <odohteu:CountryCode>FIN</odohteu:CountryCode>
+    <odohteu:SeriesName>Poverty headcount ratio at national poverty lines (% of population)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SI.POV.NAHC</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0.0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>77</odohteu:_2000>
+    <odohteu:_2010>80</odohteu:_2010>
+    <odohteu:_2018>82</odohteu:_2018>
+    <odohteu:CountryName>Finland</odohteu:CountryName>
+    <odohteu:CountryCode>FIN</odohteu:CountryCode>
+    <odohteu:SeriesName>Life expectancy at birth, total (years)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SP.DYN.LE00.IN</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>1</odohteu:_2000>
+    <odohteu:_2010>1</odohteu:_2010>
+    <odohteu:_2018>1</odohteu:_2018>
+    <odohteu:CountryName>Finland</odohteu:CountryName>
+    <odohteu:CountryCode>FIN</odohteu:CountryCode>
+    <odohteu:SeriesName>School enrollment, primary and secondary (gross), gender parity index (GPI)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SE.ENR.PRSC.FM.ZS</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>125.71</odohteu:_2000>
+    <odohteu:_2010>249.18</odohteu:_2010>
+    <odohteu:_2018>275.95</odohteu:_2018>
+    <odohteu:CountryName>Finland</odohteu:CountryName>
+    <odohteu:CountryCode>FIN</odohteu:CountryCode>
+    <odohteu:SeriesName>GDP (current US$)</odohteu:SeriesName>
+    <odohteu:SeriesCode>NY.GDP.MKTP.CD</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Billions (0.00)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>32</odohteu:_2000>
+    <odohteu:_2010>81</odohteu:_2010>
+    <odohteu:_2018>70</odohteu:_2018>
+    <odohteu:CountryName>Finland</odohteu:CountryName>
+    <odohteu:CountryCode>FIN</odohteu:CountryCode>
+    <odohteu:SeriesName>Net migration</odohteu:SeriesName>
+    <odohteu:SeriesCode>SM.POP.NETM</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Thousands (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>60.91</odohteu:_2000>
+    <odohteu:_2010>65.03</odohteu:_2010>
+    <odohteu:_2018>66.97</odohteu:_2018>
+    <odohteu:CountryName>France</odohteu:CountryName>
+    <odohteu:CountryCode>FRA</odohteu:CountryCode>
+    <odohteu:SeriesName>Population, total</odohteu:SeriesName>
+    <odohteu:SeriesCode>SP.POP.TOTL</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Millions (0.00)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000></odohteu:_2000>
+    <odohteu:_2010>14.0</odohteu:_2010>
+    <odohteu:_2018>13.4</odohteu:_2018>
+    <odohteu:CountryName>France</odohteu:CountryName>
+    <odohteu:CountryCode>FRA</odohteu:CountryCode>
+    <odohteu:SeriesName>Poverty headcount ratio at national poverty lines (% of population)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SI.POV.NAHC</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0.0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>79</odohteu:_2000>
+    <odohteu:_2010>82</odohteu:_2010>
+    <odohteu:_2018>83</odohteu:_2018>
+    <odohteu:CountryName>France</odohteu:CountryName>
+    <odohteu:CountryCode>FRA</odohteu:CountryCode>
+    <odohteu:SeriesName>Life expectancy at birth, total (years)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SP.DYN.LE00.IN</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>1</odohteu:_2000>
+    <odohteu:_2010>1</odohteu:_2010>
+    <odohteu:_2018>1</odohteu:_2018>
+    <odohteu:CountryName>France</odohteu:CountryName>
+    <odohteu:CountryCode>FRA</odohteu:CountryCode>
+    <odohteu:SeriesName>School enrollment, primary and secondary (gross), gender parity index (GPI)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SE.ENR.PRSC.FM.ZS</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>1362.25</odohteu:_2000>
+    <odohteu:_2010>2642.61</odohteu:_2010>
+    <odohteu:_2018>2787.86</odohteu:_2018>
+    <odohteu:CountryName>France</odohteu:CountryName>
+    <odohteu:CountryCode>FRA</odohteu:CountryCode>
+    <odohteu:SeriesName>GDP (current US$)</odohteu:SeriesName>
+    <odohteu:SeriesCode>NY.GDP.MKTP.CD</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Billions (0.00)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>926</odohteu:_2000>
+    <odohteu:_2010>424</odohteu:_2010>
+    <odohteu:_2018>183</odohteu:_2018>
+    <odohteu:CountryName>France</odohteu:CountryName>
+    <odohteu:CountryCode>FRA</odohteu:CountryCode>
+    <odohteu:SeriesName>Net migration</odohteu:SeriesName>
+    <odohteu:SeriesCode>SM.POP.NETM</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Thousands (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>82.21</odohteu:_2000>
+    <odohteu:_2010>81.78</odohteu:_2010>
+    <odohteu:_2018>82.91</odohteu:_2018>
+    <odohteu:CountryName>Germany</odohteu:CountryName>
+    <odohteu:CountryCode>DEU</odohteu:CountryCode>
+    <odohteu:SeriesName>Population, total</odohteu:SeriesName>
+    <odohteu:SeriesCode>SP.POP.TOTL</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Millions (0.00)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000></odohteu:_2000>
+    <odohteu:_2010>15.8</odohteu:_2010>
+    <odohteu:_2018>16.0</odohteu:_2018>
+    <odohteu:CountryName>Germany</odohteu:CountryName>
+    <odohteu:CountryCode>DEU</odohteu:CountryCode>
+    <odohteu:SeriesName>Poverty headcount ratio at national poverty lines (% of population)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SI.POV.NAHC</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0.0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>78</odohteu:_2000>
+    <odohteu:_2010>80</odohteu:_2010>
+    <odohteu:_2018>81</odohteu:_2018>
+    <odohteu:CountryName>Germany</odohteu:CountryName>
+    <odohteu:CountryCode>DEU</odohteu:CountryCode>
+    <odohteu:SeriesName>Life expectancy at birth, total (years)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SP.DYN.LE00.IN</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>1</odohteu:_2000>
+    <odohteu:_2010>1</odohteu:_2010>
+    <odohteu:_2018>1</odohteu:_2018>
+    <odohteu:CountryName>Germany</odohteu:CountryName>
+    <odohteu:CountryCode>DEU</odohteu:CountryCode>
+    <odohteu:SeriesName>School enrollment, primary and secondary (gross), gender parity index (GPI)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SE.ENR.PRSC.FM.ZS</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>1943.15</odohteu:_2000>
+    <odohteu:_2010>3396.35</odohteu:_2010>
+    <odohteu:_2018>3963.77</odohteu:_2018>
+    <odohteu:CountryName>Germany</odohteu:CountryName>
+    <odohteu:CountryCode>DEU</odohteu:CountryCode>
+    <odohteu:SeriesName>GDP (current US$)</odohteu:SeriesName>
+    <odohteu:SeriesCode>NY.GDP.MKTP.CD</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Billions (0.00)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>824</odohteu:_2000>
+    <odohteu:_2010>1939</odohteu:_2010>
+    <odohteu:_2018>2719</odohteu:_2018>
+    <odohteu:CountryName>Germany</odohteu:CountryName>
+    <odohteu:CountryCode>DEU</odohteu:CountryCode>
+    <odohteu:SeriesName>Net migration</odohteu:SeriesName>
+    <odohteu:SeriesCode>SM.POP.NETM</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Thousands (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>10.81</odohteu:_2000>
+    <odohteu:_2010>11.12</odohteu:_2010>
+    <odohteu:_2018>10.73</odohteu:_2018>
+    <odohteu:CountryName>Greece</odohteu:CountryName>
+    <odohteu:CountryCode>GRC</odohteu:CountryCode>
+    <odohteu:SeriesName>Population, total</odohteu:SeriesName>
+    <odohteu:SeriesCode>SP.POP.TOTL</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Millions (0.00)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>19.9</odohteu:_2000>
+    <odohteu:_2010>21.4</odohteu:_2010>
+    <odohteu:_2018>17.9</odohteu:_2018>
+    <odohteu:CountryName>Greece</odohteu:CountryName>
+    <odohteu:CountryCode>GRC</odohteu:CountryCode>
+    <odohteu:SeriesName>Poverty headcount ratio at national poverty lines (% of population)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SI.POV.NAHC</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0.0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>78</odohteu:_2000>
+    <odohteu:_2010>80</odohteu:_2010>
+    <odohteu:_2018>82</odohteu:_2018>
+    <odohteu:CountryName>Greece</odohteu:CountryName>
+    <odohteu:CountryCode>GRC</odohteu:CountryCode>
+    <odohteu:SeriesName>Life expectancy at birth, total (years)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SP.DYN.LE00.IN</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>1</odohteu:_2000>
+    <odohteu:_2010>1</odohteu:_2010>
+    <odohteu:_2018>1</odohteu:_2018>
+    <odohteu:CountryName>Greece</odohteu:CountryName>
+    <odohteu:CountryCode>GRC</odohteu:CountryCode>
+    <odohteu:SeriesName>School enrollment, primary and secondary (gross), gender parity index (GPI)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SE.ENR.PRSC.FM.ZS</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>130.13</odohteu:_2000>
+    <odohteu:_2010>299.36</odohteu:_2010>
+    <odohteu:_2018>218.14</odohteu:_2018>
+    <odohteu:CountryName>Greece</odohteu:CountryName>
+    <odohteu:CountryCode>GRC</odohteu:CountryCode>
+    <odohteu:SeriesName>GDP (current US$)</odohteu:SeriesName>
+    <odohteu:SeriesCode>NY.GDP.MKTP.CD</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Billions (0.00)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>114</odohteu:_2000>
+    <odohteu:_2010>-162</odohteu:_2010>
+    <odohteu:_2018>-80</odohteu:_2018>
+    <odohteu:CountryName>Greece</odohteu:CountryName>
+    <odohteu:CountryCode>GRC</odohteu:CountryCode>
+    <odohteu:SeriesName>Net migration</odohteu:SeriesName>
+    <odohteu:SeriesCode>SM.POP.NETM</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Thousands (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>10.21</odohteu:_2000>
+    <odohteu:_2010>10.00</odohteu:_2010>
+    <odohteu:_2018>9.78</odohteu:_2018>
+    <odohteu:CountryName>Hungary</odohteu:CountryName>
+    <odohteu:CountryCode>HUN</odohteu:CountryCode>
+    <odohteu:SeriesName>Population, total</odohteu:SeriesName>
+    <odohteu:SeriesCode>SP.POP.TOTL</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Millions (0.00)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000></odohteu:_2000>
+    <odohteu:_2010>14.1</odohteu:_2010>
+    <odohteu:_2018>12.3</odohteu:_2018>
+    <odohteu:CountryName>Hungary</odohteu:CountryName>
+    <odohteu:CountryCode>HUN</odohteu:CountryCode>
+    <odohteu:SeriesName>Poverty headcount ratio at national poverty lines (% of population)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SI.POV.NAHC</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0.0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>71</odohteu:_2000>
+    <odohteu:_2010>74</odohteu:_2010>
+    <odohteu:_2018>76</odohteu:_2018>
+    <odohteu:CountryName>Hungary</odohteu:CountryName>
+    <odohteu:CountryCode>HUN</odohteu:CountryCode>
+    <odohteu:SeriesName>Life expectancy at birth, total (years)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SP.DYN.LE00.IN</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>1</odohteu:_2000>
+    <odohteu:_2010>1</odohteu:_2010>
+    <odohteu:_2018>1</odohteu:_2018>
+    <odohteu:CountryName>Hungary</odohteu:CountryName>
+    <odohteu:CountryCode>HUN</odohteu:CountryCode>
+    <odohteu:SeriesName>School enrollment, primary and secondary (gross), gender parity index (GPI)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SE.ENR.PRSC.FM.ZS</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>47.22</odohteu:_2000>
+    <odohteu:_2010>131.92</odohteu:_2010>
+    <odohteu:_2018>160.42</odohteu:_2018>
+    <odohteu:CountryName>Hungary</odohteu:CountryName>
+    <odohteu:CountryCode>HUN</odohteu:CountryCode>
+    <odohteu:SeriesName>GDP (current US$)</odohteu:SeriesName>
+    <odohteu:SeriesCode>NY.GDP.MKTP.CD</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Billions (0.00)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>62</odohteu:_2000>
+    <odohteu:_2010>30</odohteu:_2010>
+    <odohteu:_2018>30</odohteu:_2018>
+    <odohteu:CountryName>Hungary</odohteu:CountryName>
+    <odohteu:CountryCode>HUN</odohteu:CountryCode>
+    <odohteu:SeriesName>Net migration</odohteu:SeriesName>
+    <odohteu:SeriesCode>SM.POP.NETM</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Thousands (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>3.81</odohteu:_2000>
+    <odohteu:_2010>4.56</odohteu:_2010>
+    <odohteu:_2018>4.87</odohteu:_2018>
+    <odohteu:CountryName>Ireland</odohteu:CountryName>
+    <odohteu:CountryCode>IRL</odohteu:CountryCode>
+    <odohteu:SeriesName>Population, total</odohteu:SeriesName>
+    <odohteu:SeriesCode>SP.POP.TOTL</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Millions (0.00)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>20.9</odohteu:_2000>
+    <odohteu:_2010>15.2</odohteu:_2010>
+    <odohteu:_2018>14.9</odohteu:_2018>
+    <odohteu:CountryName>Ireland</odohteu:CountryName>
+    <odohteu:CountryCode>IRL</odohteu:CountryCode>
+    <odohteu:SeriesName>Poverty headcount ratio at national poverty lines (% of population)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SI.POV.NAHC</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0.0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>77</odohteu:_2000>
+    <odohteu:_2010>81</odohteu:_2010>
+    <odohteu:_2018>82</odohteu:_2018>
+    <odohteu:CountryName>Ireland</odohteu:CountryName>
+    <odohteu:CountryCode>IRL</odohteu:CountryCode>
+    <odohteu:SeriesName>Life expectancy at birth, total (years)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SP.DYN.LE00.IN</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>1</odohteu:_2000>
+    <odohteu:_2010>1</odohteu:_2010>
+    <odohteu:_2018>1</odohteu:_2018>
+    <odohteu:CountryName>Ireland</odohteu:CountryName>
+    <odohteu:CountryCode>IRL</odohteu:CountryCode>
+    <odohteu:SeriesName>School enrollment, primary and secondary (gross), gender parity index (GPI)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SE.ENR.PRSC.FM.ZS</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>99.85</odohteu:_2000>
+    <odohteu:_2010>222.15</odohteu:_2010>
+    <odohteu:_2018>382.67</odohteu:_2018>
+    <odohteu:CountryName>Ireland</odohteu:CountryName>
+    <odohteu:CountryCode>IRL</odohteu:CountryCode>
+    <odohteu:SeriesName>GDP (current US$)</odohteu:SeriesName>
+    <odohteu:SeriesCode>NY.GDP.MKTP.CD</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Billions (0.00)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>201</odohteu:_2000>
+    <odohteu:_2010>-112</odohteu:_2010>
+    <odohteu:_2018>118</odohteu:_2018>
+    <odohteu:CountryName>Ireland</odohteu:CountryName>
+    <odohteu:CountryCode>IRL</odohteu:CountryCode>
+    <odohteu:SeriesName>Net migration</odohteu:SeriesName>
+    <odohteu:SeriesCode>SM.POP.NETM</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Thousands (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>56.94</odohteu:_2000>
+    <odohteu:_2010>59.28</odohteu:_2010>
+    <odohteu:_2018>60.42</odohteu:_2018>
+    <odohteu:CountryName>Italy</odohteu:CountryName>
+    <odohteu:CountryCode>ITA</odohteu:CountryCode>
+    <odohteu:SeriesName>Population, total</odohteu:SeriesName>
+    <odohteu:SeriesCode>SP.POP.TOTL</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Millions (0.00)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000></odohteu:_2000>
+    <odohteu:_2010>19.8</odohteu:_2010>
+    <odohteu:_2018>20.3</odohteu:_2018>
+    <odohteu:CountryName>Italy</odohteu:CountryName>
+    <odohteu:CountryCode>ITA</odohteu:CountryCode>
+    <odohteu:SeriesName>Poverty headcount ratio at national poverty lines (% of population)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SI.POV.NAHC</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0.0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>80</odohteu:_2000>
+    <odohteu:_2010>82</odohteu:_2010>
+    <odohteu:_2018>83</odohteu:_2018>
+    <odohteu:CountryName>Italy</odohteu:CountryName>
+    <odohteu:CountryCode>ITA</odohteu:CountryCode>
+    <odohteu:SeriesName>Life expectancy at birth, total (years)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SP.DYN.LE00.IN</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>1</odohteu:_2000>
+    <odohteu:_2010>1</odohteu:_2010>
+    <odohteu:_2018>1</odohteu:_2018>
+    <odohteu:CountryName>Italy</odohteu:CountryName>
+    <odohteu:CountryCode>ITA</odohteu:CountryCode>
+    <odohteu:SeriesName>School enrollment, primary and secondary (gross), gender parity index (GPI)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SE.ENR.PRSC.FM.ZS</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>1143.83</odohteu:_2000>
+    <odohteu:_2010>2134.02</odohteu:_2010>
+    <odohteu:_2018>2091.54</odohteu:_2018>
+    <odohteu:CountryName>Italy</odohteu:CountryName>
+    <odohteu:CountryCode>ITA</odohteu:CountryCode>
+    <odohteu:SeriesName>GDP (current US$)</odohteu:SeriesName>
+    <odohteu:SeriesCode>NY.GDP.MKTP.CD</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Billions (0.00)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>1664</odohteu:_2000>
+    <odohteu:_2010>1637</odohteu:_2010>
+    <odohteu:_2018>745</odohteu:_2018>
+    <odohteu:CountryName>Italy</odohteu:CountryName>
+    <odohteu:CountryCode>ITA</odohteu:CountryCode>
+    <odohteu:SeriesName>Net migration</odohteu:SeriesName>
+    <odohteu:SeriesCode>SM.POP.NETM</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Thousands (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>2.37</odohteu:_2000>
+    <odohteu:_2010>2.10</odohteu:_2010>
+    <odohteu:_2018>1.93</odohteu:_2018>
+    <odohteu:CountryName>Latvia</odohteu:CountryName>
+    <odohteu:CountryCode>LVA</odohteu:CountryCode>
+    <odohteu:SeriesName>Population, total</odohteu:SeriesName>
+    <odohteu:SeriesCode>SP.POP.TOTL</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Millions (0.00)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000></odohteu:_2000>
+    <odohteu:_2010>19.0</odohteu:_2010>
+    <odohteu:_2018>22.9</odohteu:_2018>
+    <odohteu:CountryName>Latvia</odohteu:CountryName>
+    <odohteu:CountryCode>LVA</odohteu:CountryCode>
+    <odohteu:SeriesName>Poverty headcount ratio at national poverty lines (% of population)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SI.POV.NAHC</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0.0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>70</odohteu:_2000>
+    <odohteu:_2010>73</odohteu:_2010>
+    <odohteu:_2018>75</odohteu:_2018>
+    <odohteu:CountryName>Latvia</odohteu:CountryName>
+    <odohteu:CountryCode>LVA</odohteu:CountryCode>
+    <odohteu:SeriesName>Life expectancy at birth, total (years)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SP.DYN.LE00.IN</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>1</odohteu:_2000>
+    <odohteu:_2010>1</odohteu:_2010>
+    <odohteu:_2018>1</odohteu:_2018>
+    <odohteu:CountryName>Latvia</odohteu:CountryName>
+    <odohteu:CountryCode>LVA</odohteu:CountryCode>
+    <odohteu:SeriesName>School enrollment, primary and secondary (gross), gender parity index (GPI)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SE.ENR.PRSC.FM.ZS</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>7.95</odohteu:_2000>
+    <odohteu:_2010>23.88</odohteu:_2010>
+    <odohteu:_2018>34.42</odohteu:_2018>
+    <odohteu:CountryName>Latvia</odohteu:CountryName>
+    <odohteu:CountryCode>LVA</odohteu:CountryCode>
+    <odohteu:SeriesName>GDP (current US$)</odohteu:SeriesName>
+    <odohteu:SeriesCode>NY.GDP.MKTP.CD</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Billions (0.00)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>-72</odohteu:_2000>
+    <odohteu:_2010>-83</odohteu:_2010>
+    <odohteu:_2018>-74</odohteu:_2018>
+    <odohteu:CountryName>Latvia</odohteu:CountryName>
+    <odohteu:CountryCode>LVA</odohteu:CountryCode>
+    <odohteu:SeriesName>Net migration</odohteu:SeriesName>
+    <odohteu:SeriesCode>SM.POP.NETM</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Thousands (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>3.50</odohteu:_2000>
+    <odohteu:_2010>3.10</odohteu:_2010>
+    <odohteu:_2018>2.80</odohteu:_2018>
+    <odohteu:CountryName>Lithuania</odohteu:CountryName>
+    <odohteu:CountryCode>LTU</odohteu:CountryCode>
+    <odohteu:SeriesName>Population, total</odohteu:SeriesName>
+    <odohteu:SeriesCode>SP.POP.TOTL</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Millions (0.00)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000></odohteu:_2000>
+    <odohteu:_2010>19.2</odohteu:_2010>
+    <odohteu:_2018>20.6</odohteu:_2018>
+    <odohteu:CountryName>Lithuania</odohteu:CountryName>
+    <odohteu:CountryCode>LTU</odohteu:CountryCode>
+    <odohteu:SeriesName>Poverty headcount ratio at national poverty lines (% of population)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SI.POV.NAHC</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0.0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>72</odohteu:_2000>
+    <odohteu:_2010>73</odohteu:_2010>
+    <odohteu:_2018>76</odohteu:_2018>
+    <odohteu:CountryName>Lithuania</odohteu:CountryName>
+    <odohteu:CountryCode>LTU</odohteu:CountryCode>
+    <odohteu:SeriesName>Life expectancy at birth, total (years)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SP.DYN.LE00.IN</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>1</odohteu:_2000>
+    <odohteu:_2010>1</odohteu:_2010>
+    <odohteu:_2018>1</odohteu:_2018>
+    <odohteu:CountryName>Lithuania</odohteu:CountryName>
+    <odohteu:CountryCode>LTU</odohteu:CountryCode>
+    <odohteu:SeriesName>School enrollment, primary and secondary (gross), gender parity index (GPI)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SE.ENR.PRSC.FM.ZS</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>11.52</odohteu:_2000>
+    <odohteu:_2010>37.14</odohteu:_2010>
+    <odohteu:_2018>53.72</odohteu:_2018>
+    <odohteu:CountryName>Lithuania</odohteu:CountryName>
+    <odohteu:CountryCode>LTU</odohteu:CountryCode>
+    <odohteu:SeriesName>GDP (current US$)</odohteu:SeriesName>
+    <odohteu:SeriesCode>NY.GDP.MKTP.CD</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Billions (0.00)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>-99</odohteu:_2000>
+    <odohteu:_2010>-146</odohteu:_2010>
+    <odohteu:_2018>-164</odohteu:_2018>
+    <odohteu:CountryName>Lithuania</odohteu:CountryName>
+    <odohteu:CountryCode>LTU</odohteu:CountryCode>
+    <odohteu:SeriesName>Net migration</odohteu:SeriesName>
+    <odohteu:SeriesCode>SM.POP.NETM</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Thousands (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>0.44</odohteu:_2000>
+    <odohteu:_2010>0.51</odohteu:_2010>
+    <odohteu:_2018>0.61</odohteu:_2018>
+    <odohteu:CountryName>Luxembourg</odohteu:CountryName>
+    <odohteu:CountryCode>LUX</odohteu:CountryCode>
+    <odohteu:SeriesName>Population, total</odohteu:SeriesName>
+    <odohteu:SeriesCode>SP.POP.TOTL</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Millions (0.00)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000></odohteu:_2000>
+    <odohteu:_2010></odohteu:_2010>
+    <odohteu:_2018>18.3</odohteu:_2018>
+    <odohteu:CountryName>Luxembourg</odohteu:CountryName>
+    <odohteu:CountryCode>LUX</odohteu:CountryCode>
+    <odohteu:SeriesName>Poverty headcount ratio at national poverty lines (% of population)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SI.POV.NAHC</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0.0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>78</odohteu:_2000>
+    <odohteu:_2010>81</odohteu:_2010>
+    <odohteu:_2018>82</odohteu:_2018>
+    <odohteu:CountryName>Luxembourg</odohteu:CountryName>
+    <odohteu:CountryCode>LUX</odohteu:CountryCode>
+    <odohteu:SeriesName>Life expectancy at birth, total (years)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SP.DYN.LE00.IN</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>1</odohteu:_2000>
+    <odohteu:_2010>1</odohteu:_2010>
+    <odohteu:_2018>1</odohteu:_2018>
+    <odohteu:CountryName>Luxembourg</odohteu:CountryName>
+    <odohteu:CountryCode>LUX</odohteu:CountryCode>
+    <odohteu:SeriesName>School enrollment, primary and secondary (gross), gender parity index (GPI)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SE.ENR.PRSC.FM.ZS</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>21.26</odohteu:_2000>
+    <odohteu:_2010>53.21</odohteu:_2010>
+    <odohteu:_2018>70.92</odohteu:_2018>
+    <odohteu:CountryName>Luxembourg</odohteu:CountryName>
+    <odohteu:CountryCode>LUX</odohteu:CountryCode>
+    <odohteu:SeriesName>GDP (current US$)</odohteu:SeriesName>
+    <odohteu:SeriesCode>NY.GDP.MKTP.CD</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Billions (0.00)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>14</odohteu:_2000>
+    <odohteu:_2010>49</odohteu:_2010>
+    <odohteu:_2018>49</odohteu:_2018>
+    <odohteu:CountryName>Luxembourg</odohteu:CountryName>
+    <odohteu:CountryCode>LUX</odohteu:CountryCode>
+    <odohteu:SeriesName>Net migration</odohteu:SeriesName>
+    <odohteu:SeriesCode>SM.POP.NETM</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Thousands (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>0.39</odohteu:_2000>
+    <odohteu:_2010>0.41</odohteu:_2010>
+    <odohteu:_2018>0.48</odohteu:_2018>
+    <odohteu:CountryName>Malta</odohteu:CountryName>
+    <odohteu:CountryCode>MLT</odohteu:CountryCode>
+    <odohteu:SeriesName>Population, total</odohteu:SeriesName>
+    <odohteu:SeriesCode>SP.POP.TOTL</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Millions (0.00)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000></odohteu:_2000>
+    <odohteu:_2010>15.6</odohteu:_2010>
+    <odohteu:_2018>17.1</odohteu:_2018>
+    <odohteu:CountryName>Malta</odohteu:CountryName>
+    <odohteu:CountryCode>MLT</odohteu:CountryCode>
+    <odohteu:SeriesName>Poverty headcount ratio at national poverty lines (% of population)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SI.POV.NAHC</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0.0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>78</odohteu:_2000>
+    <odohteu:_2010>81</odohteu:_2010>
+    <odohteu:_2018>82</odohteu:_2018>
+    <odohteu:CountryName>Malta</odohteu:CountryName>
+    <odohteu:CountryCode>MLT</odohteu:CountryCode>
+    <odohteu:SeriesName>Life expectancy at birth, total (years)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SP.DYN.LE00.IN</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>1</odohteu:_2000>
+    <odohteu:_2010>1</odohteu:_2010>
+    <odohteu:_2018>1</odohteu:_2018>
+    <odohteu:CountryName>Malta</odohteu:CountryName>
+    <odohteu:CountryCode>MLT</odohteu:CountryCode>
+    <odohteu:SeriesName>School enrollment, primary and secondary (gross), gender parity index (GPI)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SE.ENR.PRSC.FM.ZS</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>4.07</odohteu:_2000>
+    <odohteu:_2010>9.04</odohteu:_2010>
+    <odohteu:_2018>14.75</odohteu:_2018>
+    <odohteu:CountryName>Malta</odohteu:CountryName>
+    <odohteu:CountryCode>MLT</odohteu:CountryCode>
+    <odohteu:SeriesName>GDP (current US$)</odohteu:SeriesName>
+    <odohteu:SeriesCode>NY.GDP.MKTP.CD</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Billions (0.00)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>6</odohteu:_2000>
+    <odohteu:_2010>16</odohteu:_2010>
+    <odohteu:_2018>5</odohteu:_2018>
+    <odohteu:CountryName>Malta</odohteu:CountryName>
+    <odohteu:CountryCode>MLT</odohteu:CountryCode>
+    <odohteu:SeriesName>Net migration</odohteu:SeriesName>
+    <odohteu:SeriesCode>SM.POP.NETM</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Thousands (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>15.93</odohteu:_2000>
+    <odohteu:_2010>16.62</odohteu:_2010>
+    <odohteu:_2018>17.23</odohteu:_2018>
+    <odohteu:CountryName>Netherlands</odohteu:CountryName>
+    <odohteu:CountryCode>NLD</odohteu:CountryCode>
+    <odohteu:SeriesName>Population, total</odohteu:SeriesName>
+    <odohteu:SeriesCode>SP.POP.TOTL</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Millions (0.00)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000></odohteu:_2000>
+    <odohteu:_2010></odohteu:_2010>
+    <odohteu:_2018>13.2</odohteu:_2018>
+    <odohteu:CountryName>Netherlands</odohteu:CountryName>
+    <odohteu:CountryCode>NLD</odohteu:CountryCode>
+    <odohteu:SeriesName>Poverty headcount ratio at national poverty lines (% of population)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SI.POV.NAHC</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0.0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>78</odohteu:_2000>
+    <odohteu:_2010>81</odohteu:_2010>
+    <odohteu:_2018>82</odohteu:_2018>
+    <odohteu:CountryName>Netherlands</odohteu:CountryName>
+    <odohteu:CountryCode>NLD</odohteu:CountryCode>
+    <odohteu:SeriesName>Life expectancy at birth, total (years)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SP.DYN.LE00.IN</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>1</odohteu:_2000>
+    <odohteu:_2010>1</odohteu:_2010>
+    <odohteu:_2018>1</odohteu:_2018>
+    <odohteu:CountryName>Netherlands</odohteu:CountryName>
+    <odohteu:CountryCode>NLD</odohteu:CountryCode>
+    <odohteu:SeriesName>School enrollment, primary and secondary (gross), gender parity index (GPI)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SE.ENR.PRSC.FM.ZS</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>416.44</odohteu:_2000>
+    <odohteu:_2010>846.55</odohteu:_2010>
+    <odohteu:_2018>914.04</odohteu:_2018>
+    <odohteu:CountryName>Netherlands</odohteu:CountryName>
+    <odohteu:CountryCode>NLD</odohteu:CountryCode>
+    <odohteu:SeriesName>GDP (current US$)</odohteu:SeriesName>
+    <odohteu:SeriesCode>NY.GDP.MKTP.CD</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Billions (0.00)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>146</odohteu:_2000>
+    <odohteu:_2010>63</odohteu:_2010>
+    <odohteu:_2018>80</odohteu:_2018>
+    <odohteu:CountryName>Netherlands</odohteu:CountryName>
+    <odohteu:CountryCode>NLD</odohteu:CountryCode>
+    <odohteu:SeriesName>Net migration</odohteu:SeriesName>
+    <odohteu:SeriesCode>SM.POP.NETM</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Thousands (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>38.26</odohteu:_2000>
+    <odohteu:_2010>38.04</odohteu:_2010>
+    <odohteu:_2018>37.97</odohteu:_2018>
+    <odohteu:CountryName>Poland</odohteu:CountryName>
+    <odohteu:CountryCode>POL</odohteu:CountryCode>
+    <odohteu:SeriesName>Population, total</odohteu:SeriesName>
+    <odohteu:SeriesCode>SP.POP.TOTL</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Millions (0.00)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000></odohteu:_2000>
+    <odohteu:_2010>17.7</odohteu:_2010>
+    <odohteu:_2018>15.4</odohteu:_2018>
+    <odohteu:CountryName>Poland</odohteu:CountryName>
+    <odohteu:CountryCode>POL</odohteu:CountryCode>
+    <odohteu:SeriesName>Poverty headcount ratio at national poverty lines (% of population)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SI.POV.NAHC</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0.0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>74</odohteu:_2000>
+    <odohteu:_2010>76</odohteu:_2010>
+    <odohteu:_2018>78</odohteu:_2018>
+    <odohteu:CountryName>Poland</odohteu:CountryName>
+    <odohteu:CountryCode>POL</odohteu:CountryCode>
+    <odohteu:SeriesName>Life expectancy at birth, total (years)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SP.DYN.LE00.IN</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>1</odohteu:_2000>
+    <odohteu:_2010>1</odohteu:_2010>
+    <odohteu:_2018>1</odohteu:_2018>
+    <odohteu:CountryName>Poland</odohteu:CountryName>
+    <odohteu:CountryCode>POL</odohteu:CountryCode>
+    <odohteu:SeriesName>School enrollment, primary and secondary (gross), gender parity index (GPI)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SE.ENR.PRSC.FM.ZS</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>172.22</odohteu:_2000>
+    <odohteu:_2010>479.83</odohteu:_2010>
+    <odohteu:_2018>587.41</odohteu:_2018>
+    <odohteu:CountryName>Poland</odohteu:CountryName>
+    <odohteu:CountryCode>POL</odohteu:CountryCode>
+    <odohteu:SeriesName>GDP (current US$)</odohteu:SeriesName>
+    <odohteu:SeriesCode>NY.GDP.MKTP.CD</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Billions (0.00)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>-183</odohteu:_2000>
+    <odohteu:_2010>-321</odohteu:_2010>
+    <odohteu:_2018>-147</odohteu:_2018>
+    <odohteu:CountryName>Poland</odohteu:CountryName>
+    <odohteu:CountryCode>POL</odohteu:CountryCode>
+    <odohteu:SeriesName>Net migration</odohteu:SeriesName>
+    <odohteu:SeriesCode>SM.POP.NETM</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Thousands (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>10.29</odohteu:_2000>
+    <odohteu:_2010>10.57</odohteu:_2010>
+    <odohteu:_2018>10.28</odohteu:_2018>
+    <odohteu:CountryName>Portugal</odohteu:CountryName>
+    <odohteu:CountryCode>PRT</odohteu:CountryCode>
+    <odohteu:SeriesName>Population, total</odohteu:SeriesName>
+    <odohteu:SeriesCode>SP.POP.TOTL</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Millions (0.00)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000></odohteu:_2000>
+    <odohteu:_2010>18.0</odohteu:_2010>
+    <odohteu:_2018>17.2</odohteu:_2018>
+    <odohteu:CountryName>Portugal</odohteu:CountryName>
+    <odohteu:CountryCode>PRT</odohteu:CountryCode>
+    <odohteu:SeriesName>Poverty headcount ratio at national poverty lines (% of population)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SI.POV.NAHC</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0.0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>76</odohteu:_2000>
+    <odohteu:_2010>79</odohteu:_2010>
+    <odohteu:_2018>81</odohteu:_2018>
+    <odohteu:CountryName>Portugal</odohteu:CountryName>
+    <odohteu:CountryCode>PRT</odohteu:CountryCode>
+    <odohteu:SeriesName>Life expectancy at birth, total (years)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SP.DYN.LE00.IN</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>1</odohteu:_2000>
+    <odohteu:_2010>1</odohteu:_2010>
+    <odohteu:_2018>1</odohteu:_2018>
+    <odohteu:CountryName>Portugal</odohteu:CountryName>
+    <odohteu:CountryCode>PRT</odohteu:CountryCode>
+    <odohteu:SeriesName>School enrollment, primary and secondary (gross), gender parity index (GPI)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SE.ENR.PRSC.FM.ZS</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>118.31</odohteu:_2000>
+    <odohteu:_2010>237.88</odohteu:_2010>
+    <odohteu:_2018>242.31</odohteu:_2018>
+    <odohteu:CountryName>Portugal</odohteu:CountryName>
+    <odohteu:CountryCode>PRT</odohteu:CountryCode>
+    <odohteu:SeriesName>GDP (current US$)</odohteu:SeriesName>
+    <odohteu:SeriesCode>NY.GDP.MKTP.CD</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Billions (0.00)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>178</odohteu:_2000>
+    <odohteu:_2010>-140</odohteu:_2010>
+    <odohteu:_2018>-30</odohteu:_2018>
+    <odohteu:CountryName>Portugal</odohteu:CountryName>
+    <odohteu:CountryCode>PRT</odohteu:CountryCode>
+    <odohteu:SeriesName>Net migration</odohteu:SeriesName>
+    <odohteu:SeriesCode>SM.POP.NETM</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Thousands (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>22.44</odohteu:_2000>
+    <odohteu:_2010>20.25</odohteu:_2010>
+    <odohteu:_2018>19.47</odohteu:_2018>
+    <odohteu:CountryName>Romania</odohteu:CountryName>
+    <odohteu:CountryCode>ROU</odohteu:CountryCode>
+    <odohteu:SeriesName>Population, total</odohteu:SeriesName>
+    <odohteu:SeriesCode>SP.POP.TOTL</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Millions (0.00)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000></odohteu:_2000>
+    <odohteu:_2010>22.3</odohteu:_2010>
+    <odohteu:_2018>23.8</odohteu:_2018>
+    <odohteu:CountryName>Romania</odohteu:CountryName>
+    <odohteu:CountryCode>ROU</odohteu:CountryCode>
+    <odohteu:SeriesName>Poverty headcount ratio at national poverty lines (% of population)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SI.POV.NAHC</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0.0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>71</odohteu:_2000>
+    <odohteu:_2010>73</odohteu:_2010>
+    <odohteu:_2018>75</odohteu:_2018>
+    <odohteu:CountryName>Romania</odohteu:CountryName>
+    <odohteu:CountryCode>ROU</odohteu:CountryCode>
+    <odohteu:SeriesName>Life expectancy at birth, total (years)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SP.DYN.LE00.IN</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>1</odohteu:_2000>
+    <odohteu:_2010>1</odohteu:_2010>
+    <odohteu:_2018>1</odohteu:_2018>
+    <odohteu:CountryName>Romania</odohteu:CountryName>
+    <odohteu:CountryCode>ROU</odohteu:CountryCode>
+    <odohteu:SeriesName>School enrollment, primary and secondary (gross), gender parity index (GPI)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SE.ENR.PRSC.FM.ZS</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>37.25</odohteu:_2000>
+    <odohteu:_2010>166.31</odohteu:_2010>
+    <odohteu:_2018>241.46</odohteu:_2018>
+    <odohteu:CountryName>Romania</odohteu:CountryName>
+    <odohteu:CountryCode>ROU</odohteu:CountryCode>
+    <odohteu:SeriesName>GDP (current US$)</odohteu:SeriesName>
+    <odohteu:SeriesCode>NY.GDP.MKTP.CD</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Billions (0.00)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>-468</odohteu:_2000>
+    <odohteu:_2010>-300</odohteu:_2010>
+    <odohteu:_2018>-370</odohteu:_2018>
+    <odohteu:CountryName>Romania</odohteu:CountryName>
+    <odohteu:CountryCode>ROU</odohteu:CountryCode>
+    <odohteu:SeriesName>Net migration</odohteu:SeriesName>
+    <odohteu:SeriesCode>SM.POP.NETM</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Thousands (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>5.39</odohteu:_2000>
+    <odohteu:_2010>5.39</odohteu:_2010>
+    <odohteu:_2018>5.45</odohteu:_2018>
+    <odohteu:CountryName>Slovak Republic</odohteu:CountryName>
+    <odohteu:CountryCode>SVK</odohteu:CountryCode>
+    <odohteu:SeriesName>Population, total</odohteu:SeriesName>
+    <odohteu:SeriesCode>SP.POP.TOTL</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Millions (0.00)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000></odohteu:_2000>
+    <odohteu:_2010>13.0</odohteu:_2010>
+    <odohteu:_2018>12.2</odohteu:_2018>
+    <odohteu:CountryName>Slovak Republic</odohteu:CountryName>
+    <odohteu:CountryCode>SVK</odohteu:CountryCode>
+    <odohteu:SeriesName>Poverty headcount ratio at national poverty lines (% of population)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SI.POV.NAHC</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0.0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>73</odohteu:_2000>
+    <odohteu:_2010>75</odohteu:_2010>
+    <odohteu:_2018>77</odohteu:_2018>
+    <odohteu:CountryName>Slovak Republic</odohteu:CountryName>
+    <odohteu:CountryCode>SVK</odohteu:CountryCode>
+    <odohteu:SeriesName>Life expectancy at birth, total (years)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SP.DYN.LE00.IN</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>1</odohteu:_2000>
+    <odohteu:_2010>1</odohteu:_2010>
+    <odohteu:_2018>1</odohteu:_2018>
+    <odohteu:CountryName>Slovak Republic</odohteu:CountryName>
+    <odohteu:CountryCode>SVK</odohteu:CountryCode>
+    <odohteu:SeriesName>School enrollment, primary and secondary (gross), gender parity index (GPI)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SE.ENR.PRSC.FM.ZS</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>29.17</odohteu:_2000>
+    <odohteu:_2010>90.31</odohteu:_2010>
+    <odohteu:_2018>105.70</odohteu:_2018>
+    <odohteu:CountryName>Slovak Republic</odohteu:CountryName>
+    <odohteu:CountryCode>SVK</odohteu:CountryCode>
+    <odohteu:SeriesName>GDP (current US$)</odohteu:SeriesName>
+    <odohteu:SeriesCode>NY.GDP.MKTP.CD</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Billions (0.00)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>1</odohteu:_2000>
+    <odohteu:_2010>11</odohteu:_2010>
+    <odohteu:_2018>7</odohteu:_2018>
+    <odohteu:CountryName>Slovak Republic</odohteu:CountryName>
+    <odohteu:CountryCode>SVK</odohteu:CountryCode>
+    <odohteu:SeriesName>Net migration</odohteu:SeriesName>
+    <odohteu:SeriesCode>SM.POP.NETM</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Thousands (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>1.99</odohteu:_2000>
+    <odohteu:_2010>2.05</odohteu:_2010>
+    <odohteu:_2018>2.07</odohteu:_2018>
+    <odohteu:CountryName>Slovenia</odohteu:CountryName>
+    <odohteu:CountryCode>SVN</odohteu:CountryCode>
+    <odohteu:SeriesName>Population, total</odohteu:SeriesName>
+    <odohteu:SeriesCode>SP.POP.TOTL</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Millions (0.00)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000></odohteu:_2000>
+    <odohteu:_2010>13.6</odohteu:_2010>
+    <odohteu:_2018>12.0</odohteu:_2018>
+    <odohteu:CountryName>Slovenia</odohteu:CountryName>
+    <odohteu:CountryCode>SVN</odohteu:CountryCode>
+    <odohteu:SeriesName>Poverty headcount ratio at national poverty lines (% of population)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SI.POV.NAHC</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0.0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>75</odohteu:_2000>
+    <odohteu:_2010>79</odohteu:_2010>
+    <odohteu:_2018>81</odohteu:_2018>
+    <odohteu:CountryName>Slovenia</odohteu:CountryName>
+    <odohteu:CountryCode>SVN</odohteu:CountryCode>
+    <odohteu:SeriesName>Life expectancy at birth, total (years)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SP.DYN.LE00.IN</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>1</odohteu:_2000>
+    <odohteu:_2010>1</odohteu:_2010>
+    <odohteu:_2018>1</odohteu:_2018>
+    <odohteu:CountryName>Slovenia</odohteu:CountryName>
+    <odohteu:CountryCode>SVN</odohteu:CountryCode>
+    <odohteu:SeriesName>School enrollment, primary and secondary (gross), gender parity index (GPI)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SE.ENR.PRSC.FM.ZS</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>20.29</odohteu:_2000>
+    <odohteu:_2010>48.16</odohteu:_2010>
+    <odohteu:_2018>54.16</odohteu:_2018>
+    <odohteu:CountryName>Slovenia</odohteu:CountryName>
+    <odohteu:CountryCode>SVN</odohteu:CountryCode>
+    <odohteu:SeriesName>GDP (current US$)</odohteu:SeriesName>
+    <odohteu:SeriesCode>NY.GDP.MKTP.CD</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Billions (0.00)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>15</odohteu:_2000>
+    <odohteu:_2010>17</odohteu:_2010>
+    <odohteu:_2018>10</odohteu:_2018>
+    <odohteu:CountryName>Slovenia</odohteu:CountryName>
+    <odohteu:CountryCode>SVN</odohteu:CountryCode>
+    <odohteu:SeriesName>Net migration</odohteu:SeriesName>
+    <odohteu:SeriesCode>SM.POP.NETM</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Thousands (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>40.57</odohteu:_2000>
+    <odohteu:_2010>46.58</odohteu:_2010>
+    <odohteu:_2018>46.80</odohteu:_2018>
+    <odohteu:CountryName>Spain</odohteu:CountryName>
+    <odohteu:CountryCode>ESP</odohteu:CountryCode>
+    <odohteu:SeriesName>Population, total</odohteu:SeriesName>
+    <odohteu:SeriesCode>SP.POP.TOTL</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Millions (0.00)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000></odohteu:_2000>
+    <odohteu:_2010>20.6</odohteu:_2010>
+    <odohteu:_2018>20.7</odohteu:_2018>
+    <odohteu:CountryName>Spain</odohteu:CountryName>
+    <odohteu:CountryCode>ESP</odohteu:CountryCode>
+    <odohteu:SeriesName>Poverty headcount ratio at national poverty lines (% of population)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SI.POV.NAHC</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0.0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>79</odohteu:_2000>
+    <odohteu:_2010>82</odohteu:_2010>
+    <odohteu:_2018>83</odohteu:_2018>
+    <odohteu:CountryName>Spain</odohteu:CountryName>
+    <odohteu:CountryCode>ESP</odohteu:CountryCode>
+    <odohteu:SeriesName>Life expectancy at birth, total (years)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SP.DYN.LE00.IN</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>1</odohteu:_2000>
+    <odohteu:_2010>1</odohteu:_2010>
+    <odohteu:_2018>1</odohteu:_2018>
+    <odohteu:CountryName>Spain</odohteu:CountryName>
+    <odohteu:CountryCode>ESP</odohteu:CountryCode>
+    <odohteu:SeriesName>School enrollment, primary and secondary (gross), gender parity index (GPI)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SE.ENR.PRSC.FM.ZS</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>596.88</odohteu:_2000>
+    <odohteu:_2010>1420.72</odohteu:_2010>
+    <odohteu:_2018>1422.15</odohteu:_2018>
+    <odohteu:CountryName>Spain</odohteu:CountryName>
+    <odohteu:CountryCode>ESP</odohteu:CountryCode>
+    <odohteu:SeriesName>GDP (current US$)</odohteu:SeriesName>
+    <odohteu:SeriesCode>NY.GDP.MKTP.CD</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Billions (0.00)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>2908</odohteu:_2000>
+    <odohteu:_2010>-520</odohteu:_2010>
+    <odohteu:_2018>200</odohteu:_2018>
+    <odohteu:CountryName>Spain</odohteu:CountryName>
+    <odohteu:CountryCode>ESP</odohteu:CountryCode>
+    <odohteu:SeriesName>Net migration</odohteu:SeriesName>
+    <odohteu:SeriesCode>SM.POP.NETM</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Thousands (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>8.87</odohteu:_2000>
+    <odohteu:_2010>9.38</odohteu:_2010>
+    <odohteu:_2018>10.18</odohteu:_2018>
+    <odohteu:CountryName>Sweden</odohteu:CountryName>
+    <odohteu:CountryCode>SWE</odohteu:CountryCode>
+    <odohteu:SeriesName>Population, total</odohteu:SeriesName>
+    <odohteu:SeriesCode>SP.POP.TOTL</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Millions (0.00)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000></odohteu:_2000>
+    <odohteu:_2010>15.4</odohteu:_2010>
+    <odohteu:_2018>17.1</odohteu:_2018>
+    <odohteu:CountryName>Sweden</odohteu:CountryName>
+    <odohteu:CountryCode>SWE</odohteu:CountryCode>
+    <odohteu:SeriesName>Poverty headcount ratio at national poverty lines (% of population)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SI.POV.NAHC</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0.0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>80</odohteu:_2000>
+    <odohteu:_2010>81</odohteu:_2010>
+    <odohteu:_2018>83</odohteu:_2018>
+    <odohteu:CountryName>Sweden</odohteu:CountryName>
+    <odohteu:CountryCode>SWE</odohteu:CountryCode>
+    <odohteu:SeriesName>Life expectancy at birth, total (years)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SP.DYN.LE00.IN</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>1</odohteu:_2000>
+    <odohteu:_2010>1</odohteu:_2010>
+    <odohteu:_2018>1</odohteu:_2018>
+    <odohteu:CountryName>Sweden</odohteu:CountryName>
+    <odohteu:CountryCode>SWE</odohteu:CountryCode>
+    <odohteu:SeriesName>School enrollment, primary and secondary (gross), gender parity index (GPI)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SE.ENR.PRSC.FM.ZS</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>262.84</odohteu:_2000>
+    <odohteu:_2010>495.81</odohteu:_2010>
+    <odohteu:_2018>555.46</odohteu:_2018>
+    <odohteu:CountryName>Sweden</odohteu:CountryName>
+    <odohteu:CountryCode>SWE</odohteu:CountryCode>
+    <odohteu:SeriesName>GDP (current US$)</odohteu:SeriesName>
+    <odohteu:SeriesCode>NY.GDP.MKTP.CD</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Billions (0.00)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>142</odohteu:_2000>
+    <odohteu:_2010>254</odohteu:_2010>
+    <odohteu:_2018>200</odohteu:_2018>
+    <odohteu:CountryName>Sweden</odohteu:CountryName>
+    <odohteu:CountryCode>SWE</odohteu:CountryCode>
+    <odohteu:SeriesName>Net migration</odohteu:SeriesName>
+    <odohteu:SeriesCode>SM.POP.NETM</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Thousands (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>58.89</odohteu:_2000>
+    <odohteu:_2010>62.77</odohteu:_2010>
+    <odohteu:_2018>66.46</odohteu:_2018>
+    <odohteu:CountryName>United Kingdom</odohteu:CountryName>
+    <odohteu:CountryCode>GBR</odohteu:CountryCode>
+    <odohteu:SeriesName>Population, total</odohteu:SeriesName>
+    <odohteu:SeriesCode>SP.POP.TOTL</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Millions (0.00)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000></odohteu:_2000>
+    <odohteu:_2010></odohteu:_2010>
+    <odohteu:_2018>18.6</odohteu:_2018>
+    <odohteu:CountryName>United Kingdom</odohteu:CountryName>
+    <odohteu:CountryCode>GBR</odohteu:CountryCode>
+    <odohteu:SeriesName>Poverty headcount ratio at national poverty lines (% of population)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SI.POV.NAHC</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0.0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>78</odohteu:_2000>
+    <odohteu:_2010>80</odohteu:_2010>
+    <odohteu:_2018>81</odohteu:_2018>
+    <odohteu:CountryName>United Kingdom</odohteu:CountryName>
+    <odohteu:CountryCode>GBR</odohteu:CountryCode>
+    <odohteu:SeriesName>Life expectancy at birth, total (years)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SP.DYN.LE00.IN</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>1</odohteu:_2000>
+    <odohteu:_2010>1</odohteu:_2010>
+    <odohteu:_2018>1</odohteu:_2018>
+    <odohteu:CountryName>United Kingdom</odohteu:CountryName>
+    <odohteu:CountryCode>GBR</odohteu:CountryCode>
+    <odohteu:SeriesName>School enrollment, primary and secondary (gross), gender parity index (GPI)</odohteu:SeriesName>
+    <odohteu:SeriesCode>SE.ENR.PRSC.FM.ZS</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Unit (0)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>1657.82</odohteu:_2000>
+    <odohteu:_2010>2475.24</odohteu:_2010>
+    <odohteu:_2018>2860.67</odohteu:_2018>
+    <odohteu:CountryName>United Kingdom</odohteu:CountryName>
+    <odohteu:CountryCode>GBR</odohteu:CountryCode>
+    <odohteu:SeriesName>GDP (current US$)</odohteu:SeriesName>
+    <odohteu:SeriesCode>NY.GDP.MKTP.CD</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Billions (0.00)</odohteu:ScalePrecision>
+  </row>
+  <row>
+    <odohteu:_2000>992</odohteu:_2000>
+    <odohteu:_2010>1300</odohteu:_2010>
+    <odohteu:_2018>1303</odohteu:_2018>
+    <odohteu:CountryName>United Kingdom</odohteu:CountryName>
+    <odohteu:CountryCode>GBR</odohteu:CountryCode>
+    <odohteu:SeriesName>Net migration</odohteu:SeriesName>
+    <odohteu:SeriesCode>SM.POP.NETM</odohteu:SeriesCode>
+    <odohteu:ScalePrecision>Thousands (0)</odohteu:ScalePrecision>
+  </row>
+</odohteu:root>
+</odohteu:rdf:RDF>

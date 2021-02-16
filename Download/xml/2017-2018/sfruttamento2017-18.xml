@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:odohteu="http://www.odohteu.github.io/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<root>
+  <row>
+    <odohteu:Type>Sexual exploitation</odohteu:Type>
+    <odohteu:BoysN>351</odohteu:BoysN>
+    <odohteu:BoysPercentage>3</odohteu:BoysPercentage>
+    <odohteu:GirlsN>2 761</odohteu:GirlsN>
+    <odohteu:GirlsPercentage>23</odohteu:GirlsPercentage>
+    <odohteu:MenN>507</odohteu:MenN>
+    <odohteu:MenPercentage>4</odohteu:MenPercentage>
+    <odohteu:WomenN>7 819</odohteu:WomenN>
+    <odohteu:WomenPercentage>65</odohteu:WomenPercentage>
+    <odohteu:SexOrAgeUnknownOrNonClassifiedN>530</odohteu:SexOrAgeUnknownOrNonClassifiedN>
+    <odohteu:SexOrAgeUnknownOrNonClassifiedPercentage>5</odohteu:SexOrAgeUnknownOrNonClassifiedPercentage>
+    <odohteu:TotalN>11 968</odohteu:TotalN>
+  </row>
+  <row>
+    <odohteu:Type>Forced labour</odohteu:Type>
+    <odohteu:BoysN>1 093</odohteu:BoysN>
+    <odohteu:BoysPercentage>19</odohteu:BoysPercentage>
+    <odohteu:GirlsN>199</odohteu:GirlsN>
+    <odohteu:GirlsPercentage>4</odohteu:GirlsPercentage>
+    <odohteu:MenN>3 355</odohteu:MenN>
+    <odohteu:MenPercentage>60</odohteu:MenPercentage>
+    <odohteu:WomenN>686</odohteu:WomenN>
+    <odohteu:WomenPercentage>12</odohteu:WomenPercentage>
+    <odohteu:SexOrAgeUnknownOrNonClassifiedN>279</odohteu:SexOrAgeUnknownOrNonClassifiedN>
+    <odohteu:SexOrAgeUnknownOrNonClassifiedPercentage>5</odohteu:SexOrAgeUnknownOrNonClassifiedPercentage>
+    <odohteu:TotalN>5 612</odohteu:TotalN>
+  </row>
+  <row>
+    <odohteu:Type>Benefit fraud</odohteu:Type>
+    <odohteu:BoysN>10</odohteu:BoysN>
+    <odohteu:BoysPercentage>7</odohteu:BoysPercentage>
+    <odohteu:GirlsN>8</odohteu:GirlsN>
+    <odohteu:GirlsPercentage>6</odohteu:GirlsPercentage>
+    <odohteu:MenN>69</odohteu:MenN>
+    <odohteu:MenPercentage>52</odohteu:MenPercentage>
+    <odohteu:WomenN>46</odohteu:WomenN>
+    <odohteu:WomenPercentage>35</odohteu:WomenPercentage>
+    <odohteu:SexOrAgeUnknownOrNonClassifiedN>0</odohteu:SexOrAgeUnknownOrNonClassifiedN>
+    <odohteu:SexOrAgeUnknownOrNonClassifiedPercentage>0</odohteu:SexOrAgeUnknownOrNonClassifiedPercentage>
+    <odohteu:TotalN>133</odohteu:TotalN>
+  </row>
+  <row>
+    <odohteu:Type>Criminal activities</odohteu:Type>
+    <odohteu:BoysN>1 747</odohteu:BoysN>
+    <odohteu:BoysPercentage>59</odohteu:BoysPercentage>
+    <odohteu:GirlsN>205</odohteu:GirlsN>
+    <odohteu:GirlsPercentage>7</odohteu:GirlsPercentage>
+    <odohteu:MenN>869</odohteu:MenN>
+    <odohteu:MenPercentage>29</odohteu:MenPercentage>
+    <odohteu:WomenN>140</odohteu:WomenN>
+    <odohteu:WomenPercentage>5</odohteu:WomenPercentage>
+    <odohteu:SexOrAgeUnknownOrNonClassifiedN>1</odohteu:SexOrAgeUnknownOrNonClassifiedN>
+    <odohteu:SexOrAgeUnknownOrNonClassifiedPercentage>0</odohteu:SexOrAgeUnknownOrNonClassifiedPercentage>
+    <odohteu:TotalN>2 962</odohteu:TotalN>
+  </row>
+  <row>
+    <odohteu:Type>Domestic servitude</odohteu:Type>
+    <odohteu:BoysN>106</odohteu:BoysN>
+    <odohteu:BoysPercentage>9</odohteu:BoysPercentage>
+    <odohteu:GirlsN>119</odohteu:GirlsN>
+    <odohteu:GirlsPercentage>10</odohteu:GirlsPercentage>
+    <odohteu:MenN>195</odohteu:MenN>
+    <odohteu:MenPercentage>16</odohteu:MenPercentage>
+    <odohteu:WomenN>671</odohteu:WomenN>
+    <odohteu:WomenPercentage>55</odohteu:WomenPercentage>
+    <odohteu:SexOrAgeUnknownOrNonClassifiedN>128</odohteu:SexOrAgeUnknownOrNonClassifiedN>
+    <odohteu:SexOrAgeUnknownOrNonClassifiedPercentage>10</odohteu:SexOrAgeUnknownOrNonClassifiedPercentage>
+    <odohteu:TotalN>1 219</odohteu:TotalN>
+  </row>
+  <row>
+    <odohteu:Type>Forced begging</odohteu:Type>
+    <odohteu:BoysN>60</odohteu:BoysN>
+    <odohteu:BoysPercentage>22</odohteu:BoysPercentage>
+    <odohteu:GirlsN>29</odohteu:GirlsN>
+    <odohteu:GirlsPercentage>11</odohteu:GirlsPercentage>
+    <odohteu:MenN>106</odohteu:MenN>
+    <odohteu:MenPercentage>39</odohteu:MenPercentage>
+    <odohteu:WomenN>52</odohteu:WomenN>
+    <odohteu:WomenPercentage>19</odohteu:WomenPercentage>
+    <odohteu:SexOrAgeUnknownOrNonClassifiedN>23</odohteu:SexOrAgeUnknownOrNonClassifiedN>
+    <odohteu:SexOrAgeUnknownOrNonClassifiedPercentage>9</odohteu:SexOrAgeUnknownOrNonClassifiedPercentage>
+    <odohteu:TotalN>270</odohteu:TotalN>
+  </row>
+  <row>
+    <odohteu:Type>Removal of organs</odohteu:Type>
+    <odohteu:BoysN>5</odohteu:BoysN>
+    <odohteu:BoysPercentage>29</odohteu:BoysPercentage>
+    <odohteu:GirlsN>0</odohteu:GirlsN>
+    <odohteu:GirlsPercentage>0</odohteu:GirlsPercentage>
+    <odohteu:MenN>8</odohteu:MenN>
+    <odohteu:MenPercentage>47</odohteu:MenPercentage>
+    <odohteu:WomenN>2</odohteu:WomenN>
+    <odohteu:WomenPercentage>12</odohteu:WomenPercentage>
+    <odohteu:SexOrAgeUnknownOrNonClassifiedN>2</odohteu:SexOrAgeUnknownOrNonClassifiedN>
+    <odohteu:SexOrAgeUnknownOrNonClassifiedPercentage>12</odohteu:SexOrAgeUnknownOrNonClassifiedPercentage>
+    <odohteu:TotalN>17</odohteu:TotalN>
+  </row>
+  <row>
+    <odohteu:Type>Other</odohteu:Type>
+    <odohteu:BoysN>171</odohteu:BoysN>
+    <odohteu:BoysPercentage>10</odohteu:BoysPercentage>
+    <odohteu:GirlsN>321</odohteu:GirlsN>
+    <odohteu:GirlsPercentage>18</odohteu:GirlsPercentage>
+    <odohteu:MenN>459</odohteu:MenN>
+    <odohteu:MenPercentage>26</odohteu:MenPercentage>
+    <odohteu:WomenN>735</odohteu:WomenN>
+    <odohteu:WomenPercentage>42</odohteu:WomenPercentage>
+    <odohteu:SexOrAgeUnknownOrNonClassifiedN>70</odohteu:SexOrAgeUnknownOrNonClassifiedN>
+    <odohteu:SexOrAgeUnknownOrNonClassifiedPercentage>4</odohteu:SexOrAgeUnknownOrNonClassifiedPercentage>
+    <odohteu:TotalN>1 756</odohteu:TotalN>
+  </row>
+  <row>
+    <odohteu:Type>Unknown</odohteu:Type>
+    <odohteu:BoysN>642</odohteu:BoysN>
+    <odohteu:BoysPercentage>32</odohteu:BoysPercentage>
+    <odohteu:GirlsN>415</odohteu:GirlsN>
+    <odohteu:GirlsPercentage>21</odohteu:GirlsPercentage>
+    <odohteu:MenN>312</odohteu:MenN>
+    <odohteu:MenPercentage>15</odohteu:MenPercentage>
+    <odohteu:WomenN>574</odohteu:WomenN>
+    <odohteu:WomenPercentage>29</odohteu:WomenPercentage>
+    <odohteu:SexOrAgeUnknownOrNonClassifiedN>60</odohteu:SexOrAgeUnknownOrNonClassifiedN>
+    <odohteu:SexOrAgeUnknownOrNonClassifiedPercentage>3</odohteu:SexOrAgeUnknownOrNonClassifiedPercentage>
+    <odohteu:TotalN>2 003</odohteu:TotalN>
+  </row>
+</odohteu:root>
+</odohteu:rdf:RDF>

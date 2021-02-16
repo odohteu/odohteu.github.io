@@ -1,0 +1,3174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:odohteu="http://www.odohteu.github.io/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<root>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Western Europe</odohteu:SubRegion>
+    <odohteu:Country>Austria</odohteu:Country>
+    <odohteu:Year>2007</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>12</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Western Europe</odohteu:SubRegion>
+    <odohteu:Country>Austria</odohteu:Country>
+    <odohteu:Year>2008</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>4</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Western Europe</odohteu:SubRegion>
+    <odohteu:Country>Austria</odohteu:Country>
+    <odohteu:Year>2009</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>22</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Western Europe</odohteu:SubRegion>
+    <odohteu:Country>Austria</odohteu:Country>
+    <odohteu:Year>2010</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>14</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Western Europe</odohteu:SubRegion>
+    <odohteu:Country>Austria</odohteu:Country>
+    <odohteu:Year>2012</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>28</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Western Europe</odohteu:SubRegion>
+    <odohteu:Country>Austria</odohteu:Country>
+    <odohteu:Year>2013</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>23</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Western Europe</odohteu:SubRegion>
+    <odohteu:Country>Austria</odohteu:Country>
+    <odohteu:Year>2014</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>79</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Western Europe</odohteu:SubRegion>
+    <odohteu:Country>Austria</odohteu:Country>
+    <odohteu:Year>2015</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>126</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Western Europe</odohteu:SubRegion>
+    <odohteu:Country>Austria</odohteu:Country>
+    <odohteu:Year>2016</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>72</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Western Europe</odohteu:SubRegion>
+    <odohteu:Country>Belgium</odohteu:Country>
+    <odohteu:Year>2005</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>130</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Western Europe</odohteu:SubRegion>
+    <odohteu:Country>Belgium</odohteu:Country>
+    <odohteu:Year>2006</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>139</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Western Europe</odohteu:SubRegion>
+    <odohteu:Country>Belgium</odohteu:Country>
+    <odohteu:Year>2007</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>74</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Western Europe</odohteu:SubRegion>
+    <odohteu:Country>Belgium</odohteu:Country>
+    <odohteu:Year>2008</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>65</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Western Europe</odohteu:SubRegion>
+    <odohteu:Country>Belgium</odohteu:Country>
+    <odohteu:Year>2009</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>50</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Western Europe</odohteu:SubRegion>
+    <odohteu:Country>Belgium</odohteu:Country>
+    <odohteu:Year>2012</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>127</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Western Europe</odohteu:SubRegion>
+    <odohteu:Country>Belgium</odohteu:Country>
+    <odohteu:Year>2013</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>116</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Western Europe</odohteu:SubRegion>
+    <odohteu:Country>Belgium</odohteu:Country>
+    <odohteu:Year>2014</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>84</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Western Europe</odohteu:SubRegion>
+    <odohteu:Country>Belgium</odohteu:Country>
+    <odohteu:Year>2015</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>90</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Western Europe</odohteu:SubRegion>
+    <odohteu:Country>Belgium</odohteu:Country>
+    <odohteu:Year>2016</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>84</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Bulgaria</odohteu:Country>
+    <odohteu:Year>2004</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>170</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Bulgaria</odohteu:Country>
+    <odohteu:Year>2005</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>211</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Bulgaria</odohteu:Country>
+    <odohteu:Year>2006</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>340</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Bulgaria</odohteu:Country>
+    <odohteu:Year>2007</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>288</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Bulgaria</odohteu:Country>
+    <odohteu:Year>2008</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>250</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Bulgaria</odohteu:Country>
+    <odohteu:Year>2009</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>297</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Bulgaria</odohteu:Country>
+    <odohteu:Year>2010</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>429</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Bulgaria</odohteu:Country>
+    <odohteu:Year>2011</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>540</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Bulgaria</odohteu:Country>
+    <odohteu:Year>2012</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>579</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Bulgaria</odohteu:Country>
+    <odohteu:Year>2013</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>538</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Bulgaria</odohteu:Country>
+    <odohteu:Year>2014</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>495</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Bulgaria</odohteu:Country>
+    <odohteu:Year>2015</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>409</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Bulgaria</odohteu:Country>
+    <odohteu:Year>2016</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>447</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Bulgaria</odohteu:Country>
+    <odohteu:Year>2017</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>368</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Asia</odohteu:Region>
+    <odohteu:SubRegion>Western Asia</odohteu:SubRegion>
+    <odohteu:Country>Cyprus</odohteu:Country>
+    <odohteu:Year>2007</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>54</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Asia</odohteu:Region>
+    <odohteu:SubRegion>Western Asia</odohteu:SubRegion>
+    <odohteu:Country>Cyprus</odohteu:Country>
+    <odohteu:Year>2008</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>58</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Asia</odohteu:Region>
+    <odohteu:SubRegion>Western Asia</odohteu:SubRegion>
+    <odohteu:Country>Cyprus</odohteu:Country>
+    <odohteu:Year>2009</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>113</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Asia</odohteu:Region>
+    <odohteu:SubRegion>Western Asia</odohteu:SubRegion>
+    <odohteu:Country>Cyprus</odohteu:Country>
+    <odohteu:Year>2010</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>52</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Asia</odohteu:Region>
+    <odohteu:SubRegion>Western Asia</odohteu:SubRegion>
+    <odohteu:Country>Cyprus</odohteu:Country>
+    <odohteu:Year>2011</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>40</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Asia</odohteu:Region>
+    <odohteu:SubRegion>Western Asia</odohteu:SubRegion>
+    <odohteu:Country>Cyprus</odohteu:Country>
+    <odohteu:Year>2014</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>42</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Asia</odohteu:Region>
+    <odohteu:SubRegion>Western Asia</odohteu:SubRegion>
+    <odohteu:Country>Cyprus</odohteu:Country>
+    <odohteu:Year>2015</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>33</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Asia</odohteu:Region>
+    <odohteu:SubRegion>Western Asia</odohteu:SubRegion>
+    <odohteu:Country>Cyprus</odohteu:Country>
+    <odohteu:Year>2016</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>30</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Asia</odohteu:Region>
+    <odohteu:SubRegion>Western Asia</odohteu:SubRegion>
+    <odohteu:Country>Cyprus</odohteu:Country>
+    <odohteu:Year>2017</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>9</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Denmark</odohteu:Country>
+    <odohteu:Year>2007</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>17</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Denmark</odohteu:Country>
+    <odohteu:Year>2008</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>28</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Denmark</odohteu:Country>
+    <odohteu:Year>2009</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>47</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Denmark</odohteu:Country>
+    <odohteu:Year>2010</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>53</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Denmark</odohteu:Country>
+    <odohteu:Year>2011</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>60</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Denmark</odohteu:Country>
+    <odohteu:Year>2012</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>66</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Denmark</odohteu:Country>
+    <odohteu:Year>2013</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>76</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Denmark</odohteu:Country>
+    <odohteu:Year>2014</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>71</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Denmark</odohteu:Country>
+    <odohteu:Year>2015</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>93</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Denmark</odohteu:Country>
+    <odohteu:Year>2016</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>121</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Denmark</odohteu:Country>
+    <odohteu:Year>2017</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>61</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Hungary</odohteu:Country>
+    <odohteu:Year>2003</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>18</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Poland</odohteu:Country>
+    <odohteu:Year>2003</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>261</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Slovakia</odohteu:Country>
+    <odohteu:Year>2003</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>43</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Greece</odohteu:Country>
+    <odohteu:Year>2003</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>93</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Italy</odohteu:Country>
+    <odohteu:Year>2003</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>34</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Slovenia</odohteu:Country>
+    <odohteu:Year>2003</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>28</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Spain</odohteu:Country>
+    <odohteu:Year>2003</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>2549</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Western Europe</odohteu:SubRegion>
+    <odohteu:Country>Germany</odohteu:Country>
+    <odohteu:Year>2003</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>1235</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Western Europe</odohteu:SubRegion>
+    <odohteu:Country>Netherlands</odohteu:Country>
+    <odohteu:Year>2003</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>257</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Hungary</odohteu:Country>
+    <odohteu:Year>2004</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>23</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Poland</odohteu:Country>
+    <odohteu:Year>2004</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>98</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Slovakia</odohteu:Country>
+    <odohteu:Year>2004</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>33</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Latvia</odohteu:Country>
+    <odohteu:Year>2004</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>13</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Lithuania</odohteu:Country>
+    <odohteu:Year>2004</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>10</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Greece</odohteu:Country>
+    <odohteu:Year>2004</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>181</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Italy</odohteu:Country>
+    <odohteu:Year>2004</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>120</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Malta</odohteu:Country>
+    <odohteu:Year>2004</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>5</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Slovenia</odohteu:Country>
+    <odohteu:Year>2004</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>25</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Spain</odohteu:Country>
+    <odohteu:Year>2004</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>2768</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Western Europe</odohteu:SubRegion>
+    <odohteu:Country>Germany</odohteu:Country>
+    <odohteu:Year>2004</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>972</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Western Europe</odohteu:SubRegion>
+    <odohteu:Country>Netherlands</odohteu:Country>
+    <odohteu:Year>2004</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>403</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Hungary</odohteu:Country>
+    <odohteu:Year>2005</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>28</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Poland</odohteu:Country>
+    <odohteu:Year>2005</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>99</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Romania</odohteu:Country>
+    <odohteu:Year>2005</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>2251</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Slovakia</odohteu:Country>
+    <odohteu:Year>2005</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>18</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Latvia</odohteu:Country>
+    <odohteu:Year>2005</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>21</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Lithuania</odohteu:Country>
+    <odohteu:Year>2005</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>13</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Greece</odohteu:Country>
+    <odohteu:Year>2005</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>137</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Italy</odohteu:Country>
+    <odohteu:Year>2005</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>209</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Malta</odohteu:Country>
+    <odohteu:Year>2005</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>5</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Slovenia</odohteu:Country>
+    <odohteu:Year>2005</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>8</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Spain</odohteu:Country>
+    <odohteu:Year>2005</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>2174</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Western Europe</odohteu:SubRegion>
+    <odohteu:Country>Germany</odohteu:Country>
+    <odohteu:Year>2005</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>641</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Western Europe</odohteu:SubRegion>
+    <odohteu:Country>Netherlands</odohteu:Country>
+    <odohteu:Year>2005</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>424</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Hungary</odohteu:Country>
+    <odohteu:Year>2006</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>5</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Poland</odohteu:Country>
+    <odohteu:Year>2006</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>126</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Romania</odohteu:Country>
+    <odohteu:Year>2006</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>2285</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Slovakia</odohteu:Country>
+    <odohteu:Year>2006</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>31</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Latvia</odohteu:Country>
+    <odohteu:Year>2006</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>13</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Lithuania</odohteu:Country>
+    <odohteu:Year>2006</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>27</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Greece</odohteu:Country>
+    <odohteu:Year>2006</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>83</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Italy</odohteu:Country>
+    <odohteu:Year>2006</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>178</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Malta</odohteu:Country>
+    <odohteu:Year>2006</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>1</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Slovenia</odohteu:Country>
+    <odohteu:Year>2006</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>44</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Spain</odohteu:Country>
+    <odohteu:Year>2006</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>2464</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Western Europe</odohteu:SubRegion>
+    <odohteu:Country>Germany</odohteu:Country>
+    <odohteu:Year>2006</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>775</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Western Europe</odohteu:SubRegion>
+    <odohteu:Country>Netherlands</odohteu:Country>
+    <odohteu:Year>2006</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>580</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Hungary</odohteu:Country>
+    <odohteu:Year>2007</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>28</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Poland</odohteu:Country>
+    <odohteu:Year>2007</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>859</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Romania</odohteu:Country>
+    <odohteu:Year>2007</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>1780</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Slovakia</odohteu:Country>
+    <odohteu:Year>2007</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>10</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Finland</odohteu:Country>
+    <odohteu:Year>2007</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>5</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Lithuania</odohteu:Country>
+    <odohteu:Year>2007</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>11</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Greece</odohteu:Country>
+    <odohteu:Year>2007</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>99</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Italy</odohteu:Country>
+    <odohteu:Year>2007</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>715</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Malta</odohteu:Country>
+    <odohteu:Year>2007</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>7</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Slovenia</odohteu:Country>
+    <odohteu:Year>2007</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>9</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Spain</odohteu:Country>
+    <odohteu:Year>2007</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>2521</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Western Europe</odohteu:SubRegion>
+    <odohteu:Country>Germany</odohteu:Country>
+    <odohteu:Year>2007</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>689</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Western Europe</odohteu:SubRegion>
+    <odohteu:Country>Netherlands</odohteu:Country>
+    <odohteu:Year>2007</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>716</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Hungary</odohteu:Country>
+    <odohteu:Year>2008</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>10</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Poland</odohteu:Country>
+    <odohteu:Year>2008</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>62</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Romania</odohteu:Country>
+    <odohteu:Year>2008</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>1240</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Slovakia</odohteu:Country>
+    <odohteu:Year>2008</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>17</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Estonia</odohteu:Country>
+    <odohteu:Year>2008</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>55</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Finland</odohteu:Country>
+    <odohteu:Year>2008</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>16</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Latvia</odohteu:Country>
+    <odohteu:Year>2008</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>8</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Lithuania</odohteu:Country>
+    <odohteu:Year>2008</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>25</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Sweden</odohteu:Country>
+    <odohteu:Year>2008</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>21</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Greece</odohteu:Country>
+    <odohteu:Year>2008</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>76</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Italy</odohteu:Country>
+    <odohteu:Year>2008</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>628</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Malta</odohteu:Country>
+    <odohteu:Year>2008</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>1</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Portugal</odohteu:Country>
+    <odohteu:Year>2008</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>42</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Slovenia</odohteu:Country>
+    <odohteu:Year>2008</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>68</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Spain</odohteu:Country>
+    <odohteu:Year>2008</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>3201</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Western Europe</odohteu:SubRegion>
+    <odohteu:Country>Germany</odohteu:Country>
+    <odohteu:Year>2008</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>692</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Western Europe</odohteu:SubRegion>
+    <odohteu:Country>Netherlands</odohteu:Country>
+    <odohteu:Year>2008</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>826</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Hungary</odohteu:Country>
+    <odohteu:Year>2009</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>9</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Poland</odohteu:Country>
+    <odohteu:Year>2009</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>19</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Romania</odohteu:Country>
+    <odohteu:Year>2009</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>780</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Slovakia</odohteu:Country>
+    <odohteu:Year>2009</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>25</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Estonia</odohteu:Country>
+    <odohteu:Year>2009</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>78</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Finland</odohteu:Country>
+    <odohteu:Year>2009</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>17</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Ireland</odohteu:Country>
+    <odohteu:Year>2009</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>66</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Latvia</odohteu:Country>
+    <odohteu:Year>2009</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>12</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Lithuania</odohteu:Country>
+    <odohteu:Year>2009</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>14</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Sweden</odohteu:Country>
+    <odohteu:Year>2009</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>44</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>United Kingdom</odohteu:Country>
+    <odohteu:Year>2009</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>549</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Greece</odohteu:Country>
+    <odohteu:Year>2009</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>121</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Italy</odohteu:Country>
+    <odohteu:Year>2009</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>381</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Portugal</odohteu:Country>
+    <odohteu:Year>2009</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>17</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Slovenia</odohteu:Country>
+    <odohteu:Year>2009</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>28</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Spain</odohteu:Country>
+    <odohteu:Year>2009</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>443</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Western Europe</odohteu:SubRegion>
+    <odohteu:Country>Germany</odohteu:Country>
+    <odohteu:Year>2009</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>733</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Western Europe</odohteu:SubRegion>
+    <odohteu:Country>Netherlands</odohteu:Country>
+    <odohteu:Year>2009</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>909</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Hungary</odohteu:Country>
+    <odohteu:Year>2010</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>59</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Romania</odohteu:Country>
+    <odohteu:Year>2010</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>1154</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Slovakia</odohteu:Country>
+    <odohteu:Year>2010</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>28</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Estonia</odohteu:Country>
+    <odohteu:Year>2010</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>57</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Finland</odohteu:Country>
+    <odohteu:Year>2010</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>48</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Ireland</odohteu:Country>
+    <odohteu:Year>2010</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>78</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Latvia</odohteu:Country>
+    <odohteu:Year>2010</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>9</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Lithuania</odohteu:Country>
+    <odohteu:Year>2010</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>15</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Sweden</odohteu:Country>
+    <odohteu:Year>2010</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>14</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>United Kingdom</odohteu:Country>
+    <odohteu:Year>2010</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>297</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Greece</odohteu:Country>
+    <odohteu:Year>2010</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>92</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Italy</odohteu:Country>
+    <odohteu:Year>2010</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>96</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Portugal</odohteu:Country>
+    <odohteu:Year>2010</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>18</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Slovenia</odohteu:Country>
+    <odohteu:Year>2010</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>33</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Western Europe</odohteu:SubRegion>
+    <odohteu:Country>Germany</odohteu:Country>
+    <odohteu:Year>2010</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>651</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Western Europe</odohteu:SubRegion>
+    <odohteu:Country>Netherlands</odohteu:Country>
+    <odohteu:Year>2010</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>993</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Hungary</odohteu:Country>
+    <odohteu:Year>2011</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>134</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Romania</odohteu:Country>
+    <odohteu:Year>2011</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>1048</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Slovakia</odohteu:Country>
+    <odohteu:Year>2011</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>31</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Estonia</odohteu:Country>
+    <odohteu:Year>2011</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>61</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Finland</odohteu:Country>
+    <odohteu:Year>2011</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>56</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Ireland</odohteu:Country>
+    <odohteu:Year>2011</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>57</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Latvia</odohteu:Country>
+    <odohteu:Year>2011</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>11</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Lithuania</odohteu:Country>
+    <odohteu:Year>2011</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>22</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Sweden</odohteu:Country>
+    <odohteu:Year>2011</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>10</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>United Kingdom</odohteu:Country>
+    <odohteu:Year>2011</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>482</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Greece</odohteu:Country>
+    <odohteu:Year>2011</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>97</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Italy</odohteu:Country>
+    <odohteu:Year>2011</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>91</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Malta</odohteu:Country>
+    <odohteu:Year>2011</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>3</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Portugal</odohteu:Country>
+    <odohteu:Year>2011</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>33</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Slovenia</odohteu:Country>
+    <odohteu:Year>2011</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>18</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Western Europe</odohteu:SubRegion>
+    <odohteu:Country>Germany</odohteu:Country>
+    <odohteu:Year>2011</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>672</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Western Europe</odohteu:SubRegion>
+    <odohteu:Country>Netherlands</odohteu:Country>
+    <odohteu:Year>2011</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>1222</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Hungary</odohteu:Country>
+    <odohteu:Year>2012</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>57</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Poland</odohteu:Country>
+    <odohteu:Year>2012</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>230</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Romania</odohteu:Country>
+    <odohteu:Year>2012</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>976</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Slovakia</odohteu:Country>
+    <odohteu:Year>2012</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>23</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Estonia</odohteu:Country>
+    <odohteu:Year>2012</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>23</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Finland</odohteu:Country>
+    <odohteu:Year>2012</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>53</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Ireland</odohteu:Country>
+    <odohteu:Year>2012</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>48</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Latvia</odohteu:Country>
+    <odohteu:Year>2012</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>25</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Lithuania</odohteu:Country>
+    <odohteu:Year>2012</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>14</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Sweden</odohteu:Country>
+    <odohteu:Year>2012</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>33</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>United Kingdom</odohteu:Country>
+    <odohteu:Year>2012</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>555</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Greece</odohteu:Country>
+    <odohteu:Year>2012</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>109</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Italy</odohteu:Country>
+    <odohteu:Year>2012</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>435</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Malta</odohteu:Country>
+    <odohteu:Year>2012</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>1</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Portugal</odohteu:Country>
+    <odohteu:Year>2012</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>13</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Slovenia</odohteu:Country>
+    <odohteu:Year>2012</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>15</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Spain</odohteu:Country>
+    <odohteu:Year>2012</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>495</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Western Europe</odohteu:SubRegion>
+    <odohteu:Country>Germany</odohteu:Country>
+    <odohteu:Year>2012</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>626</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Western Europe</odohteu:SubRegion>
+    <odohteu:Country>Netherlands</odohteu:Country>
+    <odohteu:Year>2012</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>1711</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Poland</odohteu:Country>
+    <odohteu:Year>2013</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>135</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Romania</odohteu:Country>
+    <odohteu:Year>2013</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>896</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Slovakia</odohteu:Country>
+    <odohteu:Year>2013</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>30</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Estonia</odohteu:Country>
+    <odohteu:Year>2013</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>24</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Finland</odohteu:Country>
+    <odohteu:Year>2013</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>56</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Ireland</odohteu:Country>
+    <odohteu:Year>2013</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>44</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Latvia</odohteu:Country>
+    <odohteu:Year>2013</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>22</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Sweden</odohteu:Country>
+    <odohteu:Year>2013</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>2</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>United Kingdom</odohteu:Country>
+    <odohteu:Year>2013</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>816</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Greece</odohteu:Country>
+    <odohteu:Year>2013</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>102</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Italy</odohteu:Country>
+    <odohteu:Year>2013</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>593</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Portugal</odohteu:Country>
+    <odohteu:Year>2013</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>144</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Slovenia</odohteu:Country>
+    <odohteu:Year>2013</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>37</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Spain</odohteu:Country>
+    <odohteu:Year>2013</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>244</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Western Europe</odohteu:SubRegion>
+    <odohteu:Country>Germany</odohteu:Country>
+    <odohteu:Year>2013</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>603</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Western Europe</odohteu:SubRegion>
+    <odohteu:Country>Netherlands</odohteu:Country>
+    <odohteu:Year>2013</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>1434</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Hungary</odohteu:Country>
+    <odohteu:Year>2014</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>294</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Poland</odohteu:Country>
+    <odohteu:Year>2014</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>201</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Romania</odohteu:Country>
+    <odohteu:Year>2014</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>831</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Slovakia</odohteu:Country>
+    <odohteu:Year>2014</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>34</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Estonia</odohteu:Country>
+    <odohteu:Year>2014</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>2</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Finland</odohteu:Country>
+    <odohteu:Year>2014</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>50</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Ireland</odohteu:Country>
+    <odohteu:Year>2014</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>46</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Latvia</odohteu:Country>
+    <odohteu:Year>2014</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>34</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Lithuania</odohteu:Country>
+    <odohteu:Year>2014</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>47</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Sweden</odohteu:Country>
+    <odohteu:Year>2014</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>4</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>United Kingdom</odohteu:Country>
+    <odohteu:Year>2014</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>543</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Greece</odohteu:Country>
+    <odohteu:Year>2014</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>78</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Italy</odohteu:Country>
+    <odohteu:Year>2014</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>597</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Malta</odohteu:Country>
+    <odohteu:Year>2014</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>20</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Portugal</odohteu:Country>
+    <odohteu:Year>2014</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>33</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Slovenia</odohteu:Country>
+    <odohteu:Year>2014</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>5</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Spain</odohteu:Country>
+    <odohteu:Year>2014</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>153</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Western Europe</odohteu:SubRegion>
+    <odohteu:Country>Germany</odohteu:Country>
+    <odohteu:Year>2014</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>583</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Western Europe</odohteu:SubRegion>
+    <odohteu:Country>Luxembourg</odohteu:Country>
+    <odohteu:Year>2014</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>12</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Western Europe</odohteu:SubRegion>
+    <odohteu:Country>Netherlands</odohteu:Country>
+    <odohteu:Year>2014</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>1256</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Hungary</odohteu:Country>
+    <odohteu:Year>2015</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>507</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Poland</odohteu:Country>
+    <odohteu:Year>2015</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>173</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Romania</odohteu:Country>
+    <odohteu:Year>2015</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>649</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Slovakia</odohteu:Country>
+    <odohteu:Year>2015</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>25</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Estonia</odohteu:Country>
+    <odohteu:Year>2015</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>13</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Finland</odohteu:Country>
+    <odohteu:Year>2015</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>52</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Ireland</odohteu:Country>
+    <odohteu:Year>2015</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>78</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Latvia</odohteu:Country>
+    <odohteu:Year>2015</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>10</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Lithuania</odohteu:Country>
+    <odohteu:Year>2015</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>62</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Sweden</odohteu:Country>
+    <odohteu:Year>2015</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>2</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>United Kingdom</odohteu:Country>
+    <odohteu:Year>2015</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>596</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Greece</odohteu:Country>
+    <odohteu:Year>2015</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>57</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Italy</odohteu:Country>
+    <odohteu:Year>2015</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>609</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Malta</odohteu:Country>
+    <odohteu:Year>2015</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>3</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Slovenia</odohteu:Country>
+    <odohteu:Year>2015</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>47</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Spain</odohteu:Country>
+    <odohteu:Year>2015</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>267</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Western Europe</odohteu:SubRegion>
+    <odohteu:Country>France</odohteu:Country>
+    <odohteu:Year>2015</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>1432</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Western Europe</odohteu:SubRegion>
+    <odohteu:Country>Germany</odohteu:Country>
+    <odohteu:Year>2015</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>470</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Western Europe</odohteu:SubRegion>
+    <odohteu:Country>Luxembourg</odohteu:Country>
+    <odohteu:Year>2015</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>7</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Western Europe</odohteu:SubRegion>
+    <odohteu:Country>Netherlands</odohteu:Country>
+    <odohteu:Year>2015</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>1150</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Hungary</odohteu:Country>
+    <odohteu:Year>2016</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>489</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Poland</odohteu:Country>
+    <odohteu:Year>2016</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>199</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Romania</odohteu:Country>
+    <odohteu:Year>2016</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>474</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Slovakia</odohteu:Country>
+    <odohteu:Year>2016</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>45</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Estonia</odohteu:Country>
+    <odohteu:Year>2016</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>10</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Finland</odohteu:Country>
+    <odohteu:Year>2016</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>130</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Ireland</odohteu:Country>
+    <odohteu:Year>2016</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>95</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Latvia</odohteu:Country>
+    <odohteu:Year>2016</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>17</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Lithuania</odohteu:Country>
+    <odohteu:Year>2016</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>45</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Sweden</odohteu:Country>
+    <odohteu:Year>2016</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>2</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>United Kingdom</odohteu:Country>
+    <odohteu:Year>2016</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>601</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Greece</odohteu:Country>
+    <odohteu:Year>2016</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>62</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Italy</odohteu:Country>
+    <odohteu:Year>2016</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>663</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Malta</odohteu:Country>
+    <odohteu:Year>2016</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>31</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Portugal</odohteu:Country>
+    <odohteu:Year>2016</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>132</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Slovenia</odohteu:Country>
+    <odohteu:Year>2016</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>27</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Spain</odohteu:Country>
+    <odohteu:Year>2016</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>193</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Western Europe</odohteu:SubRegion>
+    <odohteu:Country>France</odohteu:Country>
+    <odohteu:Year>2016</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>1516</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Western Europe</odohteu:SubRegion>
+    <odohteu:Country>Germany</odohteu:Country>
+    <odohteu:Year>2016</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>536</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Western Europe</odohteu:SubRegion>
+    <odohteu:Country>Luxembourg</odohteu:Country>
+    <odohteu:Year>2016</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>20</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Western Europe</odohteu:SubRegion>
+    <odohteu:Country>Netherlands</odohteu:Country>
+    <odohteu:Year>2016</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>952</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Hungary</odohteu:Country>
+    <odohteu:Year>2017</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>386</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Poland</odohteu:Country>
+    <odohteu:Year>2017</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>94</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Romania</odohteu:Country>
+    <odohteu:Year>2017</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>334</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Eastern Europe</odohteu:SubRegion>
+    <odohteu:Country>Slovakia</odohteu:Country>
+    <odohteu:Year>2017</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>88</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Estonia</odohteu:Country>
+    <odohteu:Year>2017</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>10</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Finland</odohteu:Country>
+    <odohteu:Year>2017</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>56</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Northern Europe</odohteu:SubRegion>
+    <odohteu:Country>Latvia</odohteu:Country>
+    <odohteu:Year>2017</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>20</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Greece</odohteu:Country>
+    <odohteu:Year>2017</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>26</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Southern Europe</odohteu:SubRegion>
+    <odohteu:Country>Slovenia</odohteu:Country>
+    <odohteu:Year>2017</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>25</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Western Europe</odohteu:SubRegion>
+    <odohteu:Country>Luxembourg</odohteu:Country>
+    <odohteu:Year>2017</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>16</odohteu:Value>
+  </row>
+  <row>
+    <odohteu:Region>Europe</odohteu:Region>
+    <odohteu:SubRegion>Western Europe</odohteu:SubRegion>
+    <odohteu:Country>Netherlands</odohteu:Country>
+    <odohteu:Year>2017</odohteu:Year>
+    <odohteu:download></odohteu:download>
+    <odohteu:Indicator>7.1</odohteu:Indicator>
+    <odohteu:IndicatorName>Total detected victims</odohteu:IndicatorName>
+    <odohteu:Numerodirecord>1</odohteu:Numerodirecord>
+    <odohteu:Value>952</odohteu:Value>
+  </row>
+</odohteu:root>
+</odohteu:rdf:RDF>

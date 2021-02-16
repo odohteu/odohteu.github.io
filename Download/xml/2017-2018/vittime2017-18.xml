@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:odohteu="http://www.odohteu.github.io/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<root>
+  <row>
+      <odohteu:Country>BE</odohteu:Country>
+    <odohteu:victims2017>140</odohteu:victims2017>
+    <odohteu:victims2018>134</odohteu:victims2018>
+    <odohteu:victims2017-2018>274</odohteu:victims2017-2018>
+  </row>
+  <row>
+    <odohteu:Country>BG</odohteu:Country>
+    <odohteu:victims2017>19</odohteu:victims2017>
+    <odohteu:victims2018>9</odohteu:victims2018>
+    <odohteu:victims2017-2018>28</odohteu:victims2017-2018>
+  </row>
+  <row>
+   <odohteu:Country>CZ</odohteu:Country>
+    <odohteu:victims2017>:</odohteu:victims2017>
+    <odohteu:victims2018>:</odohteu:victims2018>
+    <odohteu:victims2017-2018>:</odohteu:victims2017-2018>
+  </row>
+  <row>
+     <odohteu:Country>DK</odohteu:Country>
+    <odohteu:victims2017>98</odohteu:victims2017>
+    <odohteu:victims2018>97</odohteu:victims2018>
+    <odohteu:victims2017-2018>195</odohteu:victims2017-2018>
+  </row>
+  <row>
+     <odohteu:Country>DE</odohteu:Country>
+    <odohteu:victims2017>773</odohteu:victims2017>
+    <odohteu:victims2018>607</odohteu:victims2018>
+    <odohteu:victims2017-2018>1 380</odohteu:victims2017-2018>
+  </row>
+  <row>
+      <odohteu:Country>EE</odohteu:Country>
+    <odohteu:victims2017>10</odohteu:victims2017>
+    <odohteu:victims2018>12</odohteu:victims2018>
+    <odohteu:victims2017-2018>22</odohteu:victims2017-2018>
+  </row>
+  <row>
+    <odohteu:Country>IE</odohteu:Country>
+    <odohteu:victims2017>101</odohteu:victims2017>
+    <odohteu:victims2018>81</odohteu:victims2018>
+    <odohteu:victims2017-2018>182</odohteu:victims2017-2018>
+  </row>
+  <row>
+     <odohteu:Country>EL</odohteu:Country>
+    <odohteu:victims2017>144</odohteu:victims2017>
+    <odohteu:victims2018>129</odohteu:victims2018>
+    <odohteu:victims2017-2018>273</odohteu:victims2017-2018>
+  </row>
+  <row>
+    <odohteu:Country>ES</odohteu:Country>
+    <odohteu:victims2017>220</odohteu:victims2017>
+    <odohteu:victims2018>238</odohteu:victims2018>
+    <odohteu:victims2017-2018>458</odohteu:victims2017-2018>
+  </row>
+  <row>
+    <odohteu:Country>FR</odohteu:Country>
+    <odohteu:victims2017>1 321</odohteu:victims2017>
+    <odohteu:victims2018>1 525</odohteu:victims2018>
+    <odohteu:victims2017-2018>2 846</odohteu:victims2017-2018>
+  </row>
+  <row>
+     <odohteu:Country>HR</odohteu:Country>
+    <odohteu:victims2017>29</odohteu:victims2017>
+    <odohteu:victims2018>76</odohteu:victims2018>
+    <odohteu:victims2017-2018>105</odohteu:victims2017-2018>
+   
+  </row>
+  <row>
+     <odohteu:Country>IT</odohteu:Country>
+    <odohteu:victims2017>1 062</odohteu:victims2017>
+    <odohteu:victims2018>926</odohteu:victims2018>
+    <odohteu:victims2017-2018>1 988</odohteu:victims2017-2018>
+  </row>
+  <row>
+  <odohteu:Country>CY</odohteu:Country>
+    <odohteu:victims2017>134</odohteu:victims2017>
+    <odohteu:victims2018>156</odohteu:victims2018>
+    <odohteu:victims2017-2018>290</odohteu:victims2017-2018>
+  </row>
+  <row>
+     <odohteu:Country>LV</odohteu:Country>
+    <odohteu:victims2017>25</odohteu:victims2017>
+    <odohteu:victims2018>23</odohteu:victims2018>
+    <odohteu:victims2017-2018>48</odohteu:victims2017-2018>
+  </row>
+  <row>
+     <odohteu:Country>LT</odohteu:Country>
+    <odohteu:victims2017>60</odohteu:victims2017>
+    <odohteu:victims2018>44</odohteu:victims2018>
+    <odohteu:victims2017-2018>104</odohteu:victims2017-2018>
+  </row>
+  <row>
+     <odohteu:Country>LU</odohteu:Country>
+    <odohteu:victims2017>17</odohteu:victims2017>
+    <odohteu:victims2018>14</odohteu:victims2018>
+    <odohteu:victims2017-2018>31</odohteu:victims2017-2018>
+  </row>
+  <row>
+   <odohteu:Country>HU</odohteu:Country>
+    <odohteu:victims2017>415</odohteu:victims2017>
+    <odohteu:victims2018>519</odohteu:victims2018>
+    <odohteu:victims2017-2018>934</odohteu:victims2017-2018>
+  </row>
+  <row>
+     <odohteu:Country>MT</odohteu:Country>
+    <odohteu:victims2017>5</odohteu:victims2017>
+    <odohteu:victims2018>35</odohteu:victims2018>
+    <odohteu:victims2017-2018>40</odohteu:victims2017-2018>
+  </row>
+  <row>
+   <odohteu:Country>NL</odohteu:Country>
+    <odohteu:victims2017>956</odohteu:victims2017>
+    <odohteu:victims2018>668</odohteu:victims2018>
+    <odohteu:victims2017-2018>1 624</odohteu:victims2017-2018>
+  </row>
+  <row>
+    <odohteu:Country>AT</odohteu:Country>
+    <odohteu:victims2017>390</odohteu:victims2017>
+    <odohteu:victims2018>391</odohteu:victims2018>
+    <odohteu:victims2017-2018>781</odohteu:victims2017-2018>
+  </row>
+  <row>
+     <odohteu:Country>PL</odohteu:Country>
+    <odohteu:victims2017>453</odohteu:victims2017>
+    <odohteu:victims2018>222</odohteu:victims2018>
+    <odohteu:victims2017-2018>675</odohteu:victims2017-2018>
+  </row>
+  <row>
+      <odohteu:Country>PT</odohteu:Country>
+    <odohteu:victims2017>103</odohteu:victims2017>
+    <odohteu:victims2018>121</odohteu:victims2018>
+    <odohteu:victims2017-2018>224</odohteu:victims2017-2018>
+  </row>
+  <row>
+    <odohteu:Country>RO</odohteu:Country>
+    <odohteu:victims2017>662</odohteu:victims2017>
+    <odohteu:victims2018>497</odohteu:victims2018>
+    <odohteu:victims2017-2018>1 159</odohteu:victims2017-2018>
+  </row>
+  <row>
+   <odohteu:Country>SI</odohteu:Country>
+    <odohteu:victims2017>66</odohteu:victims2017>
+    <odohteu:victims2018>101</odohteu:victims2018>
+    <odohteu:victims2017-2018>167</odohteu:victims2017-2018>
+  </row>
+  <row>
+        <odohteu:Country>SK</odohteu:Country>
+    <odohteu:victims2017>88</odohteu:victims2017>
+    <odohteu:victims2018>56</odohteu:victims2018>
+    <odohteu:victims2017-2018>144</odohteu:victims2017-2018>
+  </row>
+  <row>
+    <odohteu:Country>FI</odohteu:Country>
+    <odohteu:victims2017>85</odohteu:victims2017>
+    <odohteu:victims2018>88</odohteu:victims2018>
+    <odohteu:victims2017-2018>173</odohteu:victims2017-2018>
+  </row>
+  <row>
+     <odohteu:Country>SE</odohteu:Country>
+    <odohteu:victims2017>:</odohteu:victims2017>
+    <odohteu:victims2018>:</odohteu:victims2018>
+    <odohteu:victims2017-2018>:</odohteu:victims2017-2018>
+  </row>
+  <row>
+   <odohteu:Country>UK</odohteu:Country>
+    <odohteu:victims2017>5 138</odohteu:victims2017>
+    <odohteu:victims2018>6 985</odohteu:victims2018>
+    <odohteu:victims2017-2018>12 123</odohteu:victims2017-2018>
+  </row>
+</odohteu:root>
+</odohteu:rdf:RDF>

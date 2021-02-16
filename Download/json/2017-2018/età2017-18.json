@@ -1,0 +1,282 @@
+[
+ {
+   "Country": "BE",
+   "Child N": "24",
+   "Child %": "9",
+   "Adult N": "250",
+   "Adult %": "91",
+   "Unknown N": "0",
+   "Unknown %": "0",
+   "Total N": "274"
+ },
+ {
+   "Country": "BG",
+   "Child N": "7",
+   "Child %": "25",
+   "Adult N": "21",
+   "Adult %": "75",
+   "Unknown N": "0",
+   "Unknown %": "0",
+   "Total N": "28"
+ },
+ {
+   "Country": "CZ",
+   "Child N": ":",
+   "Child %": ":",
+   "Adult N": ":",
+   "Adult %": ":",
+   "Unknown N": ":",
+   "Unknown %": ":",
+   "Total N": ":"
+ },
+ {
+   "Country": "DK",
+   "Child N": "13",
+   "Child %": "7",
+   "Adult N": "182",
+   "Adult %": "93",
+   "Unknown N": "0",
+   "Unknown %": "0",
+   "Total N": "195"
+ },
+ {
+   "Country": "DE",
+   "Child N": "335",
+   "Child %": "24",
+   "Adult N": "955",
+   "Adult %": "69",
+   "Unknown N": "90",
+   "Unknown %": "7",
+   "Total N": "1 380"
+ },
+ {
+   "Country": "EE",
+   "Child N": "11",
+   "Child %": "50",
+   "Adult N": "11",
+   "Adult %": "50",
+   "Unknown N": ":",
+   "Unknown %": ":",
+   "Total N": "22"
+ },
+ {
+   "Country": "IE",
+   "Child N": "0",
+   "Child %": "0",
+   "Adult N": "182",
+   "Adult %": "100",
+   "Unknown N": "0",
+   "Unknown %": "0",
+   "Total N": "182"
+ },
+ {
+   "Country": "EL",
+   "Child N": "79",
+   "Child %": "29",
+   "Adult N": "194",
+   "Adult %": "71",
+   "Unknown N": "0",
+   "Unknown %": "0",
+   "Total N": "273"
+ },
+ {
+   "Country": "ES",
+   "Child N": "30",
+   "Child %": "7",
+   "Adult N": "428",
+   "Adult %": "93",
+   "Unknown N": ":",
+   "Unknown %": ":",
+   "Total N": "458"
+ },
+ {
+   "Country": "FR",
+   "Child N": "796",
+   "Child %": "28",
+   "Adult N": "2 050",
+   "Adult %": "72",
+   "Unknown N": "0",
+   "Unknown %": "0",
+   "Total N": "2 846"
+ },
+ {
+   "Country": "HR",
+   "Child N": "18",
+   "Child %": "17",
+   "Adult N": "87",
+   "Adult %": "83",
+   "Unknown N": ":",
+   "Unknown %": ":",
+   "Total N": "105"
+ },
+ {
+   "Country": "IT",
+   "Child N": "197",
+   "Child %": "10",
+   "Adult N": "1 791",
+   "Adult %": "90",
+   "Unknown N": "0",
+   "Unknown %": "0",
+   "Total N": "1 988"
+ },
+ {
+   "Country": "CY",
+   "Child N": "22",
+   "Child %": "8",
+   "Adult N": "268",
+   "Adult %": "92",
+   "Unknown N": ":",
+   "Unknown %": ":",
+   "Total N": "290"
+ },
+ {
+   "Country": "LV",
+   "Child N": "3",
+   "Child %": "6",
+   "Adult N": "45",
+   "Adult %": "94",
+   "Unknown N": "0",
+   "Unknown %": "0",
+   "Total N": "48"
+ },
+ {
+   "Country": "LT",
+   "Child N": "9",
+   "Child %": "9",
+   "Adult N": "95",
+   "Adult %": "91",
+   "Unknown N": ":",
+   "Unknown %": ":",
+   "Total N": "104"
+ },
+ {
+   "Country": "LU",
+   "Child N": "2",
+   "Child %": "6",
+   "Adult N": "29",
+   "Adult %": "94",
+   "Unknown N": ":",
+   "Unknown %": ":",
+   "Total N": "31"
+ },
+ {
+   "Country": "HU",
+   "Child N": "512",
+   "Child %": "55",
+   "Adult N": "422",
+   "Adult %": "45",
+   "Unknown N": ":",
+   "Unknown %": ":",
+   "Total N": "934"
+ },
+ {
+   "Country": "MT",
+   "Child N": "1",
+   "Child %": "2",
+   "Adult N": "39",
+   "Adult %": "98",
+   "Unknown N": "0",
+   "Unknown %": "0",
+   "Total N": "40"
+ },
+ {
+   "Country": "NL",
+   "Child N": "256",
+   "Child %": "16",
+   "Adult N": "1 364",
+   "Adult %": "84",
+   "Unknown N": "4",
+   "Unknown %": "0",
+   "Total N": "1 624"
+ },
+ {
+   "Country": "AT",
+   "Child N": "38",
+   "Child %": "5",
+   "Adult N": "648",
+   "Adult %": "83",
+   "Unknown N": "95",
+   "Unknown %": "12",
+   "Total N": "781"
+ },
+ {
+   "Country": "PL",
+   "Child N": "30",
+   "Child %": "4",
+   "Adult N": "620",
+   "Adult %": "92",
+   "Unknown N": "25",
+   "Unknown %": "4",
+   "Total N": "675"
+ },
+ {
+   "Country": "PT",
+   "Child N": "65",
+   "Child %": "29",
+   "Adult N": "157",
+   "Adult %": "70",
+   "Unknown N": "2",
+   "Unknown %": "1",
+   "Total N": "224"
+ },
+ {
+   "Country": "RO",
+   "Child N": "552",
+   "Child %": "48",
+   "Adult N": "607",
+   "Adult %": "52",
+   "Unknown N": "0",
+   "Unknown %": "0",
+   "Total N": "1 159"
+ },
+ {
+   "Country": "SI",
+   "Child N": "0",
+   "Child %": "0",
+   "Adult N": "167",
+   "Adult %": "100",
+   "Unknown N": "0",
+   "Unknown %": "0",
+   "Total N": "167"
+ },
+ {
+   "Country": "SK",
+   "Child N": "23",
+   "Child %": "16",
+   "Adult N": "121",
+   "Adult %": "84",
+   "Unknown N": "0",
+   "Unknown %": "0",
+   "Total N": "144"
+ },
+ {
+   "Country": "FI",
+   "Child N": "43",
+   "Child %": "25",
+   "Adult N": "123",
+   "Adult %": "71",
+   "Unknown N": "7",
+   "Unknown %": "4",
+   "Total N": "173"
+ },
+ {
+   "Country": "SE",
+   "Child N": ":",
+   "Child %": ":",
+   "Adult N": ":",
+   "Adult %": ":",
+   "Unknown N": ":",
+   "Unknown %": ":",
+   "Total N": ":"
+ },
+ {
+   "Country": "UK",
+   "Child N": "5 244",
+   "Child %": "43",
+   "Adult N": "6 879",
+   "Adult %": "57",
+   "Unknown N": "0",
+   "Unknown %": "0",
+   "Total N": "12 123"
+ }
+]

@@ -238,3 +238,17 @@ a:hover {
   color:   rgba(75, 192, 192, 0.6);
 text-decoration: none;
 }
+ #image img {
+position: relative;
+left:32%;
+bottom:40px;
+padding:30px;
+width: 70px;
+}
+ #imageLogo img {
+position: relative;
+width: 80px;
+left: 45%;
+padding:40px;
+
+}

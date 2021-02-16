@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:odohteu="http://www.odohteu.github.io/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <root>
+<root>
+  <row>
+     <odohteu:women>60%</odohteu:women>
+  </row>
+  <row>
+        <odohteu:girls>6%</odohteu:girls>
+  </row>
+  <row>
+     <odohteu:men>19%</odohteu:men>
+  </row>
+  <row>
+    <odohteu:boys>5%</odohteu:boys>
+  </row>
+</root>
+</rdf:RDF>

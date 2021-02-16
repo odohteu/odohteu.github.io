@@ -218,3 +218,17 @@ a:hover {
   color:   rgba(75, 192, 192, 0.6);
 text-decoration: none;
 }
+ #imageUNODC img {
+position: relative;
+left:25%;
+top:250px;
+padding:20px;
+width: 70px;
+}
+ #imageLogo img {
+position: relative;
+width: 80px;
+left: 45%;
+padding:40px;
+
+}
