@@ -181,12 +181,106 @@
 
     <h3>4.4 Technical analysis</h3>
     <p>TABBEEELLLAAA</p>
+    <p>*provenance and URI are those of the Italy Country Profile dataset, but for ODOHTEU project have been used 28 Country Profile dataset, one for each member state of the European Union (until 2018, thus considering also UK). For reasons of brevity and to avoid redundancy, it was chosen to report only the URI and the provenance of the Italian state dataset, as the URIs and the provenance of the other datasets on the other European Union nations have the same syntactic and technical characteristics respectively.</p>
 
 
     <h2>5. Mash-up and final datasets</h2>
     <h3>5.1 Principles and goals</h3>
-    <h3>5.2 Changes to original datasets and creation of final ones</h3>
+    <p>For the purposes of ODOHTEU project, as explained in the section "Scenario", the original datasets that we have found were not appropriate on several fronts:</p>
+    <p>1) <b>technically</b>: almost half of the original datasets are in pdf format;</p>
+    <p>1) <b>temporally</b>: we wanted to investigate data about the 21th century;</p>
+    <p>2) <b>geographically</b>: we were interested only in the human trafficking happening in the European Union member states;</p>
+    <p>3) <b>for their content</b>: having to choose some variables or indicators on which to focus our research, as regards the trafficking of human beings, we focused on the <b>total number of victims, sex, age or majority status, form of exploitation, citizenship and country of destination</b>; while for what concerns the growth or well-being indicators of the European states we have taken into consideration the <b>population growth, poverty rate, life expectancy, schooling/education, GDP, net migration, jobs, income, safety, health, environment, civic engagement, accessiblity to services, housing</b>.</p>
+    <p>For all of these reasons we had to create new datasets out of the modification that proved necessary for the purpose of this project. Thus each ODOHTEU dataset has been created through a process of comparing and harmonizing existing data models of original datasets owners seeking coherency and consistency in data aggregation and manipulation.</p>
 
+    <br>
+
+    <p>In particular, in order to create ODOHTEU final mash up datasets we have decided to follow the <b>FAIR principles</b> stated by the Guidelines for Open Data provided by the EU: data have to be findable, accessible, interoperable and re-usable.</p>
+
+    <p><b>Findable</b>: the first step in (re)using data is to find them. Metadata and data should be easy to find for both humans and computers. Machine-readable metadata are essential for automatic discovery of datasets and services, so this is an essential component of the FAIRification process.</p>
+    <p>F1. (Meta)data are assigned a globally unique and persistent identifier: both the mashed up data and the metadata we created according to the DCAT-AP are compliant with this point, presenting URI.</p>
+    <p>F2. Data are described with rich metadata: we associated a rich amount of metadata compliant with the DCAT-AP specification, including not only all the mandatory classes with their respective mandatory properties but also some recommended and optional properties that were useful for our data.</p>
+    <p>F3. Metadata clearly and explicitly include the identifier of the data they describe: for each dataset that is part of a catalogue and for our own dataset we associated to the metadata a unique identifier of the data described by means of the DCAT-AP optional property for datasets dct:identifier.</p>
+    <p>F4. (Meta)data are registered or indexed in a searchable resource: All the data we used are identified by an URL that allows to access the source where they are registered. For the creation of the metadata associated with our data we used the DCAT-AP specification, whose aim is to enable a cross-data portal search for data sets and make public sector data better searchable across borders and sectors. Therefore, we can state that our (meta)data are registered in a searchable infrastructure.</p>
+    <br>
+    <p><b>Accessible</b>: once the user finds the required data, they need to know how can they be accessed.</p>
+    <p>A1. (Meta)data are retrievable by their identifier using a standardised communications protocol: All the data we collected and mashed up and the relative metadata are retrievable through the HTTP or its extension HTTPS. Moreover, we provided also an explicit and clear contact protocol in the metadata by means of the names and emails of the data and metadata providers.</p>
+    <p>A1.1. The protocol is open, free, and universally implementable: HTTP and HTTPS are compliant with these characteristics.</p>
+    <p>A1.2 The protocol allows for an authentication and authorisation procedure, where necessary: the HTTP and HTTPS provide for authentication of the accessed website.</p>
+    <p>A2. Metadata are accessible, even when the data are no longer available: metadata will remain accessible from the metadata web page of this web resource.</p>
+    <br>
+    <p><b>Interoperable</b>: the data usually need to be integrated with other data. In addition, the data need to interoperate with applications or workflows for analysis, storage, and processing.</p>
+    <p>I1. (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation: we used JSON and CSV for the representation of the mashed up data and RDF with the Turtle syntax to describe and structure the metadata.</p>
+    <p>I2. (Meta)data use vocabularies that follow FAIR principles: the annotation format we used allow to use machine-readable terms from any controlled vocabulary. We used the ISO standard vocabulary to represent nations, the Linked Open Data vocabulary specification called DCAT-AP. These vocabularies are documented and resolvable using globally unique and persistent identifiers.</p>
+    <p>I3. (Meta)data include qualified references to other (meta)data: JSON, CSV and the RDF schema account for the data exchange and cross reference among metadata.</p>
+    <br>
+    <p><b>Reusable</b>: the ultimate goal of FAIR is to optimise the reuse of data. To achieve this, metadata and data should be well-described so that they can be replicated and/or combined in different settings.</p>
+    <p>R1. Meta(data) are richly described with a plurality of accurate and relevant attributes: our data and metadata are described through a rich and vary series of labels including the date of collection and modification of the data, the licence, the publisher, the creator, their content.</p>
+    <p>R1.1. (Meta)data are released with a clear and accessible data usage license: ODOHTEU datasets are released under the Creative Common License CC BY 4.0, which is specified for the dataset and respective metadata we created.</p>
+    <p>R1.2. (Meta)data are associated with detailed provenance: our project includes information about the provenance of data in a machine-readable format in the metadata codification. The website presents also a description of the workflow that led to final data.</p>
+    <p>R1.3. (Meta)data meet domain-relevant community standards: we used the ISO standard for geographic information.</p>
+    <br>
+    <p>The principles mentioned above include three types of entities: data, metadata and infrastructure. Thus given this examination, we may claim that ODOHTEU research data complies with the principles of FAIR.</p>
+
+
+    <h3>5.2 Changes to original datasets and creation of final ones</h3>
+    <p>General overview on main changes and measures on original datasets in order to obtain ODOHTEU final mash-up datasets:</p>
+    <p>TABEEEELLLAAA</p>
+
+    <p>To obtain the final dataset, data manipulation was proven necessary. We have written and used python functions to extract data of interest, delete rows or columns of csv files, convert pdf files into csv files and join together data in order to create a new dataset in csv format. We also imported python libraries such as “CSV” and “Camelot”.</p>
+    <p>Main functions used for data manipulation:</p>
+    <code style="margin-left: 2em; margin-right: 2em;">
+      import csv
+
+# process original dataset
+def process_metadata(metadata_file_path):
+    data = []
+    with open(metadata_file_path, 'r', encoding='utf-8') as csvfile:
+        reader = csv.DictReader(csvfile)
+        reader.fieldnames = 'Country', 'Code', 'Education', 'Jobs', 'Income', 'Safety', 'Health', 'Environment', 'Civic engagement', 'Accessiblity to services', 'Housing', 'Housing1', 'Housing2'
+
+        for row in reader:
+            data.append(row)
+        return data
+
+
+processedFile = process_metadata('dataset.csv')
+
+# filter relevant data
+def do_filter(data, field, country):
+    result = []
+    CampiPresentiEuropa = set() # to know in advance which European Union countries are present
+
+    for row in data:
+        campoDaControllare = row[field]
+
+        if campoDaControllare in country:
+            CampiPresentiEuropa.add(row[field])
+            result.append(row)
+    return result
+
+
+EuropeFilter = do_filter(processedFile, 'Country',
+                         ["Italy", "Austria", "Belgium", "Bulgaria", "Crotia", "Cyprus", "Czech Republic", "Denmark",
+                          "Estonia", "Finland", "France", "Germany", "Greece", "Hungary", "Ireland", "Latvia",
+                          "Lithuania", "Luxembourg", "Malta", "Netherlands", "Poland", "Portugal", "Romania",
+                          "Slovakia", "Slovenia", "Spain", "Sweden", "United Kingdom", "Great Britain"])
+
+# create new dataset with data of interest
+def create_dataset(filter):
+    with open('new_dataset.csv', 'w', newline='') as csvfile:
+        fieldnames = filter[0].keys()
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+
+        writer.writeheader()
+        for x in filter:
+            writer.writerow(x)
+
+
+create_dataset(EuropeFilter)     
+
+
+    </code>
 
     <h2>6. Sostenibility over time</h2>
 
