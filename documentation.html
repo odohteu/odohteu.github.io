@@ -62,7 +62,12 @@
         </ul>
       </li>
       <li>6. Sostenibility over time</li>
-      <li>7. Visualization</li>
+      <li>7. Visualization
+        <ul>
+          <li>7.1 Visualization tools</li>
+          <li>7.2 Visualizations for each dataset</li>
+        </ul>
+      </li>
       <li>8. RDF assertion of metadata</li>
       <li>9. Conclusions</li>
     </ul>
@@ -76,7 +81,7 @@
     <h2>2. Scenario</h2>
     <h4>Is human trafficking related to the country well-being within an International Organisation?</h4>
     <p>In order to choose our scenario, we decided to select the type of data to publish according to the G8 Open Data Charter and European Commission guidelines (Open Data Goldbook for Data Managers and Data Holders by the European Data Portal). Indeed, some categories of data are more relevant than others and have higher potential values: companies, crime and justice, earth observation, education, energy and environment, finance and contracts, geospatial, global development, government accountability and democracy, health, science and research, statistics, social mobility and welfare, transport and infrastructures. For this reason we chose a scenario at the crossroads of different categories: human trafficking and its supposedly related factors, such as the well-being of a country. The main category of reference data is crime and justice, but secondly some data belongs to the categories of education, development and government.</p>
-    <p>This project scenario could be explained more clearly through the 3 w:</p>
+    <p>This project scenario could be explained more clearly through the 5 W:</p>
     <p>1) <b>WHAT</b>: human trafficking and supposedly related factors. We tried to investigate data, through data analysis and visualization, to try to understand if there were any patterns, trends, in the evolution of this crime over the years and especially in the individual states. Given the delicacy but also the complexity of the topic, we immediately asked ourselves whether human trafficking was linked to the well-being of a state, defined on the basis of criteria of economic development, individual happiness, gross domestic product and so on. It is commonplace to think that the states with the highest poverty rate are the states with the highest crime rate, but is this really the case? If so, are there any states where this correlation is more evident? These are just some of the questions we asked ourselves.</p>
     <p>2) <b>WHEN</b>: the 2000s, most data are between 2007 and 2016. We decided to choose this time range for two main reasons: firstly, the greater quantity and quality of data at our disposal regarding human trafficking as a crime, but also the greater quantity and quality of secondary or complementary data. Secondly, we chose a time range large enough to allow us to have an overview of the trend of this crime, but not too broad to prevent us from grasping significant patterns on a small scale.</p>
     <p>3) <b>WHERE</b>: the states of the European Union. Most of the datasets we found contain data on all states of the world or most of them. We were more interested in investigating this phenomenon within an international organization such as the European Union. This is for several reasons: firstly, to try to understand if there are national differences (or, better, how many differences and how big) despite having adhered to the same declarations of struggle in favor of human rights, and adhering to the same economic policies. Secondly, because when we talk about human trafficking we first think of the poorest countries in the world, when various sources argue that it is a crime widely supported by the richest nations of the continents, including Europe.</p>
@@ -229,66 +234,100 @@
 
     <p>To obtain the final dataset, data manipulation was proven necessary. We have written and used python functions to extract data of interest, delete rows or columns of csv files, convert pdf files into csv files and join together data in order to create a new dataset in csv format. We also imported python libraries such as “CSV” and “Camelot”.</p>
     <p>Main functions used for data manipulation:</p>
-    <code style="margin-left: 2em; margin-right: 2em;">
-      import csv
+    <pre style="margin-left: 2em; margin-right: 2em;">
+      <code>
+        import csv
 
-# process original dataset
-def process_metadata(metadata_file_path):
-    data = []
-    with open(metadata_file_path, 'r', encoding='utf-8') as csvfile:
-        reader = csv.DictReader(csvfile)
-        reader.fieldnames = 'Country', 'Code', 'Education', 'Jobs', 'Income', 'Safety', 'Health', 'Environment', 'Civic engagement', 'Accessiblity to services', 'Housing', 'Housing1', 'Housing2'
+        # process original dataset
+        def process_metadata(metadata_file_path):
+            data = []
+            with open(metadata_file_path, 'r', encoding='utf-8') as csvfile:
+                reader = csv.DictReader(csvfile)
+                reader.fieldnames = 'Country', 'Code', 'Education', 'Jobs', 'Income', 'Safety', 'Health', 'Environment', 'Civic engagement', 'Accessiblity to services', 'Housing', 'Housing1', 'Housing2'
 
-        for row in reader:
-            data.append(row)
-        return data
-
-
-processedFile = process_metadata('dataset.csv')
-
-# filter relevant data
-def do_filter(data, field, country):
-    result = []
-    CampiPresentiEuropa = set() # to know in advance which European Union countries are present
-
-    for row in data:
-        campoDaControllare = row[field]
-
-        if campoDaControllare in country:
-            CampiPresentiEuropa.add(row[field])
-            result.append(row)
-    return result
+                for row in reader:
+                    data.append(row)
+                return data
 
 
-EuropeFilter = do_filter(processedFile, 'Country',
-                         ["Italy", "Austria", "Belgium", "Bulgaria", "Crotia", "Cyprus", "Czech Republic", "Denmark",
-                          "Estonia", "Finland", "France", "Germany", "Greece", "Hungary", "Ireland", "Latvia",
-                          "Lithuania", "Luxembourg", "Malta", "Netherlands", "Poland", "Portugal", "Romania",
-                          "Slovakia", "Slovenia", "Spain", "Sweden", "United Kingdom", "Great Britain"])
+        processedFile = process_metadata('dataset.csv')
 
-# create new dataset with data of interest
-def create_dataset(filter):
-    with open('new_dataset.csv', 'w', newline='') as csvfile:
-        fieldnames = filter[0].keys()
-        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        # filter relevant data
+        def do_filter(data, field, country):
+            result = []
+            CampiPresentiEuropa = set() # to know in advance which European Union countries are present
 
-        writer.writeheader()
-        for x in filter:
-            writer.writerow(x)
+            for row in data:
+                campoDaControllare = row[field]
 
-
-create_dataset(EuropeFilter)     
+                if campoDaControllare in country:
+                    CampiPresentiEuropa.add(row[field])
+                    result.append(row)
+            return result
 
 
-    </code>
+        EuropeFilter = do_filter(processedFile, 'Country',
+                                 ["Italy", "Austria", "Belgium", "Bulgaria", "Crotia", "Cyprus", "Czech Republic", "Denmark",
+                                  "Estonia", "Finland", "France", "Germany", "Greece", "Hungary", "Ireland", "Latvia",
+                                  "Lithuania", "Luxembourg", "Malta", "Netherlands", "Poland", "Portugal", "Romania",
+                                  "Slovakia", "Slovenia", "Spain", "Sweden", "United Kingdom", "Great Britain"])
+
+        # create new dataset with data of interest
+        def create_dataset(filter):
+            with open('new_dataset.csv', 'w', newline='') as csvfile:
+                fieldnames = filter[0].keys()
+                writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+
+                writer.writeheader()
+                for x in filter:
+                    writer.writerow(x)
+
+
+        create_dataset(EuropeFilter)
+      </code>
+    </pre>
 
     <h2>6. Sostenibility over time</h2>
+    <p>ODOHTEU project, as well as its catalog and datasets, have been developed as the final examination for the Open Access and Digital Ethics course within the Master's Degree in Digital Humanities and Digital Information at the University of Bologna, and is therefore <b>not regularly managed and updated</b>. Also, <b>as it takes a picture of a particular moment of time, to be specific 2007-2018, we do not intend to change ODOHTEU</b>. However, to be able to make comparisons between datasets, it will be interesting to build new datasets for the following years, even because the datasets used for this catalog are preserved and continuously updated by the relevant institutions which own them. In any case, our scripts remain usable and can be rerun on new files at any time.  If anyone finds that  a new release of one of our input dataset is available, we will be happy to be told about it in order to update our automated script file. <b>Under CC 4.0.0, our scripts are authorised and licensed</b>.</p>
+    <p>As regards the sustainability not over time but <b>qualitative</b> of the materials present in the ODOHTEU project, we have tried to maintain the historical series and above all its information load as a whole; we used persistent URIs; and we integrated the data with RDF metadata serialized in Turtle, using the DCAT standard integrated with other ontologies such as SKOS, FOAF, etc.</p>
 
     <h2>7. Visualization</h2>
+    <p>What we were looking for or what we wanted to visualize clearly are <b>trends</b> (overall picture of data over time), <b>features</b> (some sample of overall data, as in the map visualization), <b>outliers</b> (some data points in the dataset), <b>similarity</b> (common features of data points).</p>
+    <p>For achieving effective visualizations,  we tried to apply <b>redundancy of encoding</b>, by using color and shape for one dimension for instance, because it helps users’ perception; and we used <b>familiar colors, icons, layouts</b> as visual hooks and reduce users’ effort in understanding the intended message.</p>
+    <p>We used different type of data visualization: mainly <b>static</b> but also <b>interactive</b> (e.g., if the user hovers the bar in the bar chart a tool-tip appears showing data); we also add an <b>animated</b> horizontal bar chart; as well as an interactive map (you can select the year you want to visualize data of).</p>
+    <p>Finally, we also based our visualizations on the <b>type of data we wanted to represent</b>: categorical data, quantitative data or mixed data.</p>
+    <p>Generally speaking, we decided which visualization was best suited to represent a dataset based on what we wanted to show. For instance, when we wanted to show <b>comparisons</b> we used bar charts and line charts. To show <b>composition</b>, we used pie charts to represent simple share of total.</p>
+    <br>
+
+    <h3>7.1 Visualization tools</h3>
+    <p>In order to visualize the data the following libraries were used:</p>
+    <p><a href="https://leafletjs.com/">Leaflet.js</a>: an open-source JavaScript library for mobile-friendly interactive maps which uses <a href="https://geojson.io/#map=2/20.0/0.0">GEOJSON</a>: Leaflet makes it possible to draw polygons directly from geojson files.
+    <br>Code © BSD <a href="https://github.com/Leaflet/Leaflet/blob/master/LICENSE"> https://github.com/Leaflet/Leaflet/blob/master/LICENSE</a>
+    <br>Data © OpenStreetMap contributors <a href="https://www.openstreetmap.org/copyright">https://www.openstreetmap.org/copyright</a></p>
+    <p><a href="https://www.chartjs.org">Chart.js</a>: simple yet flexible JavaScript charting for designers and developers. License: <a href="https://www.chartjs.org/docs/latest/notes/license.html"> https://www.chartjs.org/docs/latest/notes/license.html</a></p>
+    <p><a href="https://d3js.org/">D3.js</a>: a JavaScript library for manipulating documents based on data, which uses HTML, SVG and CSS; and combines powerful visualization components and a data-driven approach to DOM manipulation. Library released under BSD license.</p>
+
+
+    <h3>7.2 Visualizations for each dataset</h3>
+    <p>In order to visualize the datasets in a proper and consistent way, we have decided to develop:</p>
+    <p>1) <b>multiple or simple bar charts</b>: often used with bivariate values, especially to combine a categorical value and a numeric value, and highlight differences between categories (their occurrence in the dataset). Indeed, we used it to represent data about age, sex and total number of victims both for datasets regarding 2015-2016 and datasets for 2017-2018, as well as for data from OECD dataset. An animated horizontal bar chart was used for display data from UNODC total detected victim dataset.</p>
+    <p>2) <b>pie charts</b>: circles cut in segments to show parts and their proportion with respect to the whole, and to other parts. Used to show univariate dependant data. Indeed, we used it to represent datasets about 2013-2014 data on human trafficking and citizenship of victims reported in datasets of 2015-2016.</p>
+    <p>3) <b>map</b>: as geographical maps can be more intuitive than other axes systems, we have decided to use this visualization to show the total population of each member state of the European Union in 2000, 2010 and 2018 (from the ODOHTEU dataset: Country profile for each member states of the European Union). This is a sample, as we can visualize in a map also the other indicators included in the dataset: poverty rate, life expectancy, school enrolling, GDP and net migration.</p>
+    <p>4) <b>line plots as area charts</b>: used to show dependent data, usually between a categorical value and a numeric one (when changes occur in one variable, these affect the other variables), it’s a special type of line chart where areas divided show a comparison of variables and their dependency (e.g. inverse proportion) and of the “size” of a phenomenon. Indeed, we used it to represent data on forms of exploitation for the years 2017-2018.</p>
+
+    
+
+
 
     <h2>8. RDF assertion of metadata</h2>
+    <p>We provided data with its metadata in order to provide <b>effective reusable and interoperable data</b>, adopting the <b>DCAT AP version 2.0.0 specification</b>. We chose to include metadata for the entire catalogue, but also separately for each dataset. The RDF assertion for the metadata in <b>Turtle serialization</b> has been released in the metadata web page of this project website.</p>
+    <p>The need for metadata in rdf derives from the goal of developing a project that was compliant with <b>LOD</b> characteristics. Indeed, in addition to having chosen to release ODOHTEU data sets in different <b>open and machine-readable formats</b>, we have specified the <b>license</b> in use for these datsets which derives from the one used in the original datasets reworked in the context of the ODOHTEU project. We used the RDF metadata to specify licence and attribution for each dataset. And therefore the third characteristic that allows to define "open" the data is the presence of <b>metadata that follows precise and internationally established standards or controlled vocabularies</b>, such as DCAT.</p>
+    <p>Following the <b>5-STAR OPEN DATA MODEL</b>, we have made available our datasets under a specified licence, making it available as <b>structured data (xml, csv, json)</b> not bound to specific software or a specific vendor. Then we used meaningful URIs to denote datasets (e.g. <code>data/id/2015-16EU-citizenship.zip</code>) and triples’ objects (e.g. <code>http://publications.europa.eu/resource/authority/file-type/CSV</code>). By "meaningful" we refer to the obligation of ensuring that <b>URIs are persistent, dereferenceable and unambiguous</b>; they should be supported by a <b>reliable infrastructure</b>; and they should follow the pattern:<code>http: // {domain} / {resource-type} / {concept} / {reference}</code></p>
+
+
 
     <h2>9. Conclusions</h2>
+    <p>The data we have collected, manipulated and visualized on human trafficking help shed light on a global phenomenon, analyzed here for the member states of the European Union, but by crossing and comparing datasets with different original sources: from international organizations to those based overseas, to the data of the European Union itself. One of our goals from the beginning has been to have a look without bias or prejudices on the phenomenon, so also for this reason we have chosen such different sources for the ODOHTEU datasets. <b>Comparing the data on this crime with those relating to the well-being and social and economic growth of a country can allow us to get a more precise idea of the phenomenon and the possible correlations with the well-being of a nation, to overcome prejudices and seek effective strategies to fight a crime against human beings and their fundamental rights.</b></p>
 
   </body>
 
