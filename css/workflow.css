@@ -9,13 +9,35 @@
 	src: url(/Fonts/Kaleko105-BoldOblique.ttf);
 
 }
-
+ @keyframes fadein {
+	 0% {
+		 opacity: 0;
+	}
+	 100% {
+		 opacity: 1;
+	}
+}
+@import "https://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700";
+ #timeline .timeline-item:after, #timeline .timeline-item:before {
+	 content: "";
+	 clear: both;
+	 display: block;
+	 width: 100%;
+}
+ *, *:before, *:after {
+	 box-sizing: border-box;
+	
+}
 
 html,body {
     height: 100%;
     margin: 0;
     padding: 0;
-
+ background: #f1f1f1;
+	
+	 font-family: 'roboto';
+	 line-height: 20px;
+	 font-size: 14px;
 
 }
 
@@ -118,31 +140,9 @@ font-family: 'oecd';
 
 
 
-@import "https://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700";
- #timeline .timeline-item:after, #timeline .timeline-item:before {
-	 content: "";
-	 clear: both;
-	 display: block;
-	 width: 100%;
-}
- *, *:before, *:after {
-	 box-sizing: border-box;
-	 -webkit-box-sizing: border-box;
-	 -moz-box-sizing: border-box;
-}
- body, html {
-	 height: 100%;
-}
- body {
-	 background: #f1f1f1;
-	 background-size: cover;
-	 margin: 0;
-	 padding: 0;
-	 font-family: 'roboto';
-	 line-height: 20px;
-	 font-size: 14px;
-	 color: #726f77;
-}
+
+
+
  img {
 	 max-width: 100%;
 }
@@ -150,9 +150,6 @@ font-family: 'oecd';
 	 text-decoration: none;
 }
  #timeline {
-	 -webkit-transition: all 0.5s ease;
-	 -moz-transition: all 0.5s ease;
-	 -ms-transition: all 0.5s ease;
 	 transition: all 0.5s ease;
 	 margin: 2%;
 	 padding: 0;
@@ -166,9 +163,7 @@ font-family: 'oecd';
 	 width: 100%;
 }
  #timeline .timeline-item {
-	 -webkit-animation: fadein 1s linear 1 forwards;
-	 -moz-animation: fadein 1s linear 1 forwards;
-	 -ms-animation: fadein 1s linear 1 forwards;
+animation-name: fadein;
 	 animation: fadein 1s linear 1 forwards;
 	 display: block;
 	 float: left;
@@ -206,9 +201,6 @@ font-family: 'oecd';
 	 margin-left: 50%;
 }
  #timeline .timeline-item.three:before {
-	 left: -webkit-calc(150% - 8px);
-	 left: -moz-calc(150% - 8px);
-	 left: -o-calc(150% - 8px);
 	 left: calc(150% - 8px);
 	 border-left: 7px solid transparent;
 	 border-top: 7px solid #f5b90f;
@@ -279,9 +271,6 @@ font-family: 'oecd';
 	 border: none;
 }
  #timeline .timeline-content {
-	 -webkit-transition: all 0.5s ease;
-	 -moz-transition: all 0.5s ease;
-	 -ms-transition: all 0.5s ease;
 	 transition: all 0.5s ease;
 	 padding: 5%;
 	 padding-top: 10%;
@@ -290,8 +279,8 @@ font-family: 'oecd';
 	 width: 100%;
 }
  #timeline .timeline-content h1 {
-	 color: #726f77;
-	 font-family: "Dosis", arial, tahoma, verdana;
+	 color: black;
+	 font-family: 'oecd';
 	 font-size: 1.3rem;
 	 font-weight: 500;
 	 margin: 10px 0 0 50%;
@@ -336,39 +325,21 @@ font-family: 'oecd';
 	 font-size: 1rem;
 	 text-decoration: none;
 }
- @-webkit-keyframes fadein {
-	 0% {
-		 opacity: 0;
-	}
-	 100% {
-		 opacity: 1;
-	}
+
+.W {
+font-weight: bold;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
- @-moz-keyframes fadein {
-	 0% {
-		 opacity: 0;
-	}
-	 100% {
-		 opacity: 1;
-	}
-}
- @-ms-keyframes fadein {
-	 0% {
-		 opacity: 0;
-	}
-	 100% {
-		 opacity: 1;
-	}
-}
- @keyframes fadein {
-	 0% {
-		 opacity: 0;
-	}
-	 100% {
-		 opacity: 1;
-	}
-}
- @media screen and (max-width: 768px) {
+
+
+
+@media screen and (min-width: 400px) and (max-width: 1024px) {
+/* regole CSS */
+
+
+
+ 
 	 #timeline {
 		 width: 95%;
 	}
@@ -437,10 +408,69 @@ font-family: 'oecd';
 		 left: -5px;
 		 top: -5px;
 	}
-}
+
+
  
-.W {
-font-weight: bold;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+footer{
+	position: fixed;
+	bottom: 0;
+}
+
+@media (max-height:800px){
+	footer { position: static; }
+	header { padding-top:50px; }
+}
+
+
+.footer-distributed{
+	background-color: #29292f;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: center;
+	font: bold 16px sans-serif;
+	padding: 10px 10px 30px 20px;
+	margin-top: 130px;
+}
+
+
+
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+
+.footer-distributed .footer-center i{
+	background-color:  #33333bb7;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 8px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+
+
+
+@media (max-width: 880px) {
+
+	
+	.footer-distributed .footer-center{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
 
 }

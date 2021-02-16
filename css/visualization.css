@@ -14,6 +14,7 @@ html,body {
     height: 100%;
     margin: 0;
     padding: 0;
+ background: #f1f1f1;
 
 
 }
@@ -247,7 +248,7 @@ footer{
 }
 
 
-.footer-distributed .footer-center i{
+.footer-distributed .footer-center p{
 	background-color:  #33333bb7;
 	color: #ffffff;
 	font-size: 25px;
@@ -260,7 +261,11 @@ footer{
 	vertical-align: middle;
 }
 
+footer p {
+color:#ffffff;
 
+
+}
 
 @media (max-width: 880px) {
 
