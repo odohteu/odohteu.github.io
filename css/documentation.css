@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 @font-face {
 	font-family: 'roboto';
 	src: url(/Fonts/Roboto-LightItalic.ttf);
@@ -10,12 +12,11 @@
 }
 
 
-html,body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-
-
+html, body {
+  height: 100%;
+  margin: 15px;
+  padding: 0;
+  background: #f1f1f1;
 }
 
 
@@ -61,7 +62,6 @@ html,body {
   text-align: center;
   height: 50px;
   width: 50px;
-
   margin: 0 auto;
   line-height: 50px;
   border-radius: 50%;
@@ -110,8 +110,41 @@ html,body {
 
 
 
-h1 {
-text-align: center;
-font-family: 'oecd';
+h2, h3, h4, h5, h6 {  
+  font-family: 'oecd';
+  margin-top: 3em;
+}
 
+h1 { 
+  text-align: center;
+  font-family: 'oecd';
+ }
+
+p, a, ul, li, table {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a, a:after {
+  color: #6aa389;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #96e8c3;
+}
+
+table {
+  border: 1px solid #96e8c3;
+  /*border-radius: 3%;*/
+  box-shadow: 1px 1px 1px #6aa389, -1px -1px 1px #6aa389;
+  padding: 5px;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+table>tbody>tr>td, table>tbody>tr>th, table>tfoot>tr>td, table>tfoot>tr>th, table>thead>tr>td, table>thead>tr>th {
+  padding: 8px;
+  vertical-align: center;
+  border: 1px solid #ddd;
 }
