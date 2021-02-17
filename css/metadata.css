@@ -110,11 +110,15 @@ html, body {
 
 
 
-h1, h2, h3, h4, h5, h6 {  
+h2, h3, h4, h5, h6 {  
   font-family: 'oecd';
+  margin-top: 3em;
 }
 
-h1 { text-align: center; }
+h1 { 
+  text-align: center;
+  font-family: 'oecd';
+ }
 
 p, a, ul, li, table {
   font-family: 'Open Sans', sans-serif;
