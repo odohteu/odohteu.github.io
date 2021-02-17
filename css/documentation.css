@@ -14,7 +14,7 @@
 
 html, body {
   height: 100%;
-  margin: 0;
+  margin: 15px;
   padding: 0;
 }
 
@@ -61,7 +61,6 @@ html, body {
   text-align: center;
   height: 50px;
   width: 50px;
-
   margin: 0 auto;
   line-height: 50px;
   border-radius: 50%;

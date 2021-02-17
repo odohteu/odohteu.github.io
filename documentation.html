@@ -243,7 +243,8 @@
             data = []
             with open(metadata_file_path, 'r', encoding='utf-8') as csvfile:
                 reader = csv.DictReader(csvfile)
-                reader.fieldnames = 'Country', 'Code', 'Education', 'Jobs', 'Income', 'Safety', 'Health', 'Environment', 'Civic engagement', 'Accessiblity to services', 'Housing', 'Housing1', 'Housing2'
+                reader.fieldnames = 'Country', 'Code', 'Education', 'Jobs', 'Income', 'Safety', 'Health', 'Environment',
+                'Civic engagement', 'Accessiblity to services', 'Housing', 'Housing1', 'Housing2'
 
                 for row in reader:
                     data.append(row)
