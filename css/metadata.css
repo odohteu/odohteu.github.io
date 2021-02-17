@@ -132,7 +132,7 @@ a:hover {
 
 table {
   border: 1px solid #96e8c3;
-  border-radius: 3%;
+  /*border-radius: 3%;*/
   box-shadow: 1px 1px 1px #6aa389, -1px -1px 1px #6aa389;
   padding: 5px;
   border-spacing: 0;
