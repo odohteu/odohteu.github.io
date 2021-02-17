@@ -44,7 +44,7 @@
     a dcat:Dataset;
     dct:identifier <data/zip/2013-14EU-victims-exploitation-age-gender.zip>;
     dct:title "ODOHTEU - 2013-2014 victims by exploitation form, majority status and gender";
-    dct:description "This dataset contains data from Europen Union Commission about victims of human traffic in 2013 and 2014 as the result of the first anti-trafficking report by the institution. The dataset contains information regarding the total number of victims, the forms of exploitation, the majority status combined to the gender (thus the share of men, boys, girls and women). The spatial coverage of the dataset are the European Union member states.";
+    dct:description "This dataset contains data from Europen Union Commission about victims of human traffic in 2013 and 2014 as the result of the first anti-trafficking report by the institution. The dataset contains information regarding the total number of victims, the forms of exploitation, the majority status combined to the gender (thus the share of men, boys, girls and women). The spatial coverage of the dataset are the European Union member States.";
     dct:modified "2020/02/15"^^xsd:date;
     dcat:theme <http://publications.europa.eu/resource/authority/data-theme/INTR>, <http://publications.europa.eu/resource/authority/data-theme/JUST>;
     dct:rightsHolder <https://europa.eu/>;
