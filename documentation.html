@@ -1080,8 +1080,9 @@
               data = []
               with open(metadata_file_path, 'r', encoding='utf-8') as csvfile:
                   reader = csv.DictReader(csvfile)
-                  reader.fieldnames = 'Country', 'Code', 'Education', 'Jobs', 'Income', 'Safety', 'Health', 'Environment',
-                  'Civic engagement', 'Accessiblity to services', 'Housing', 'Housing1', 'Housing2'
+                  reader.fieldnames = 'Country', 'Code', 'Education', 'Jobs', 'Income',
+                  'Safety', 'Health', 'Environment', 'Civic engagement', 
+                  'Accessiblity to services', 'Housing', 'Housing1', 'Housing2'
 
                   for row in reader:
                       data.append(row)
@@ -1105,10 +1106,13 @@
 
 
           EuropeFilter = do_filter(processedFile, 'Country',
-                                   ["Italy", "Austria", "Belgium", "Bulgaria", "Crotia", "Cyprus", "Czech Republic", "Denmark",
-                                    "Estonia", "Finland", "France", "Germany", "Greece", "Hungary", "Ireland", "Latvia",
-                                    "Lithuania", "Luxembourg", "Malta", "Netherlands", "Poland", "Portugal", "Romania",
-                                    "Slovakia", "Slovenia", "Spain", "Sweden", "United Kingdom", "Great Britain"])
+                                   ["Italy", "Austria", "Belgium", "Bulgaria", "Crotia",
+                                   "Cyprus", "Czech Republic", "Denmark", "Estonia",
+                                   "Finland", "France", "Germany", "Greece", "Hungary",
+                                   "Ireland", "Latvia", "Lithuania", "Luxembourg",
+                                   "Malta", "Netherlands", "Poland", "Portugal",
+                                   "Romania", "Slovakia", "Slovenia", "Spain", "Sweden",
+                                   "United Kingdom", "Great Britain"])
 
           # create new dataset with data of interest
           def create_dataset(filter):
