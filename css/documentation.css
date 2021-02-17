@@ -151,8 +151,22 @@ table th {
 
 table>tbody>tr>td, table>tbody>tr>th, table>tfoot>tr>td, table>tfoot>tr>th, table>thead>tr>td, table>thead>tr>th {
   padding: 8px;
-  vertical-align: center;
+  vertical-align: middle;
   border: 1px solid #6aa389;
+}
+
+table.legal>tbody>tr>td, table.legal>tbody>tr>th, table.legal>tfoot>tr>td, table.legal>tfoot>tr>th, table.legal>thead>tr>td, table.legal>thead>tr>th {
+  padding: 2px;
+}
+
+table.legal>tbody>tr>td, table.legal>tfoot>tr>td, table.legal>thead>tr>td {
+  vertical-align: top;
+}
+
+table.legal {
+  margin-right: -60px;
+  margin-left: -60px;
+  font-size: 14px;
 }
 
 #main {margin: 10px 60px 10px 70px;}
