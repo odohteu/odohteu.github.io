@@ -282,12 +282,12 @@
 
     <h2 id="analysis">4. Analysis of original datasets</h2>
     <p>A premise is necessary and fundamental to correctly understand and analyze the nature and completeness of the data collected: statistical information on the total number of victims of trafficking in human beings, as well as data regarding age, sex, forms of exploitation, citizenship and other valuable indicators are likely to be the most difficult data to collect, as stated by the European Union Commission (EU Data collection on trafficking in human  beings in the EU, 2020).</p>
-    <p>To choose the best datasets to investigate the criminal phenomenon of human trafficking, we followed the guidelines of the Open Data Goldbook for Data Managers and Data Holders by the European Data Portal. In particular, for each dataset we asked ourselves:</p>
-    <p>Can it be published (legally, politically, and organisationally)?</p>
-    <p>Is it of the right quality (and thus does not need thorough manipulation before publication)?</p>
-    <p>What about cleaning, anonymising, good quality and format?</p>
-    <p>Does it belong to one of the high-value topics?</p>
-    <p>While most of the datasets available on the topic belong to a high-value topic and can be published, not all of them have good quality and format; thus several modifications were made to obtain the final mash-up datasets.</p>
+    <p>To choose the best datasets to investigate the criminal phenomenon of human trafficking, we followed the guidelines of the Open Data Goldbook for Data Managers and Data Holders by the European Data Portal. In particular, for each dataset we asked ourselves:
+    <br>Can it be published (legally, politically, and organisationally)?
+    <br>Is it of the right quality (and thus does not need thorough manipulation before publication)?
+    <br>What about cleaning, anonymising, good quality and format?
+    <br>Does it belong to one of the high-value topics?
+    <br>While most of the datasets available on the topic belong to a high-value topic and can be published, not all of them have good quality and format; thus several modifications were made to obtain the final mash-up datasets.</p>
 
     <h3 id="quality">4.1 Quality analysis</h3>
     <p>For the quality analysis of the original datasets we have found, we decided to rely on the standards defined by the Open Data Goldbook for Data Managers and Data Holders. Indeed, there are three main aspects of data quality: content quality, timeliness, and consistency.</p>
@@ -297,18 +297,117 @@
     <p><b>Completeness</b> can be evaluated by the presence of a header row with a single description of what is shown (and in the metadata the header should be described); by the label of a version number (to keep track of changes); by the presence of origin and scope information on data; and by a given status (draft, validated, final).</p>
     <p><b>Cleanness</b> concerns empty fields, dummy data and default values, wrong values, double entries and privacy sensitive information. In evaluating cleanness, we had to take in consideration that data about human trafficking are among the most difficult data to collect with certainty and completeness, both among all the data belonging to the category of crime and justice, and in general among all the collectable statistical data.</p>
     <p>Finally, <b>accuracy</b> concerns data purpose, reliability, the choices concerning interval described, and aggregation or disaggregation needs for data.</p>
-    <p>TABBBEEELLLAAAAAAAAA</p>
+    <table>
+      <tr>
+        <th>Source institution</th>
+        <th>Completeness</th>
+        <th>Cleanness</th>
+        <th>Accuracy</th>
+      </tr>
+      <tr>
+        <td>CTDC</td>
+        <td>True. The dataset is provided with both a global dataset codebook and a data dictionary with precise and accurate information on the dataset, data collection methods and scopes.</td>
+        <td>No privacy issues or sensible data thanks to k-anonymization. No explicit error or wrong values. Several missing data, reported as “-99” value, also because of the type of structure of the dataset, which having boolean indicators necessarily presents more fields with missing data than the other datasets.</td>
+        <td>True. Highly specific information are provided in the global dataset data dictionary concerning data purpose, reliability, choices in data collection and aggregation.</td>
+      </tr>
+      <tr>
+        <td>UNODC</td>
+        <td>Data source is stated clearly for each dataset, but not other specific information (e.g., the meaning of the header row variables) is provided. Status and version number of the datasets are not explicitly reported. The datasets are accessible and they can be downloaded in different formats.</td>
+        <td>There is no sensitive information. No explicit error or wrong values. There are no missing data: cleanness: 100%.</td>
+        <td>UNODC does not guarantee or make any express or implied representations regarding the accuracy, reliability, correctness, fitness for use for a particular purpose, or otherwise, whatsoever, of any of the databases in dataUNODC website.</td>
+      </tr>
+      <tr>
+        <td>EU</td>
+        <td>True. Data source and methods of data collection are stated clearly by the European Commission. Meaning of variables and information on status and version are provided.</td>
+        <td>There is no sensitive information, no explicit error or wrong values and data cleanness is almost 100%, missing data often concern data from some countries for all indicators in the dataset.</td>
+        <td>Data purpose and reliability is defined for each dataset, as well as choices in data collection and aggregation.</td>
+      </tr>
+      <tr>
+        <td>World Bank</td>
+        <td>True. Each dataset is provided with a csv file explaining variables meaning, codes and uses. Source of data is stated clearly, as well as the status of the dataset. Also, the institution provides a FAQ page explaining methods and guidelines in data collection, compilation and management. Datasets are downloadable in different formats.</td>
+        <td>No sensitive information. No explicit error or wrong values. Missing data are really few.</td>
+        <td>Purpose, scope and choices in data collection and management are defined. Data reliability is insured as the data come from recognized international organizations.</td>
+      </tr>
+      <tr>
+        <td>OECD</td>
+        <td>True. The dataset is provided with detailed explation on header row variables definition and possibile values. There is also a user guide and a FAQ section.</td>
+        <td>No sensitive information. No explicit error or wrong values. Cleanness around 98%.</td>
+        <td>Purpose and methods of data collection are stated, as well as the way of measuring data. The reliability of the dataset and more detailed information on coverage and accuracy are published in World Health Statistics Annuals.</td>
+      </tr>
+    </table>
 
     <br>
 
     <h4>4.1.2 Timeliness</h4>
     <p>Since data changes over time, especially recent data need to be updated over time. We then checked if datasets source institutions adopt an update process to keep data up-to-date and their data contains  a notion of its timeliness.</p>
-    <p>TABBBEEELLLAAAAAAAAA</p>
+    <table>
+      <tr>
+        <th>Source institution</th>
+        <th>Time coverage is defined accurately</th>
+        <th>Data is updated</th>
+        <th>Time span for data updating</th>        
+      </tr>
+      <tr>
+        <td>CTDC</td>
+        <td>True</td>
+        <td>True</td>
+        <td>Not defined</td>
+      </tr>
+      <tr>
+        <td>UNODC</td>
+        <td>True</td>
+        <td>True</td>
+        <td>Periodically incorporates, without notice, revisions, updates, and improvements to this website’s content according to the sources’ availability.</td>
+      </tr>
+      <tr>
+        <td>EU</td>
+        <td>True</td>
+        <td>True</td>
+        <td>Every two years</td>
+      </tr>
+      <tr>
+        <td>World Bank</td>
+        <td>True</td>
+        <td>True</td>
+        <td>Not defined, but specific information is provided on how to find most recent data or data updates.</td>
+      </tr>
+      <tr>
+        <td>OECD</td>
+        <td>True</td>
+        <td>True, but not stated clearly.</td>
+        <td>Not defined.</td>
+      </tr>
+    </table>
 
 
     <h4>4.1.3 Consistency</h4>
     <p>When dealing with consistency of the presentation of data, we can relate to its accuracy, reliability, timeliness and all those aspects that allow for a simple and correct re-use of data without the need of manipulating them (e.g., the same variables – header row names – are used in different version of the same dataset). Consistency also deals with coherence: are data in the datasets organized accordingly to the specification provided by the source institution?</p>
-    <p>TABBBEEELLLAAAAAAAAA</p>
+    <table>
+      <tr>
+        <th>Source Institution</th>
+        <th>Consistency and Coherence</th>
+      </tr>
+      <tr>
+        <td>CTDC</td>
+        <td>True. Datasets are organized accordingly to the specification provided by the source institutions: even when datasets come from different sources (e.g., IOM, Polaris Project, Liberty Shared), differences in data organization are preserved.</td>
+      </tr>
+      <tr>
+        <td>UNODC</td>
+        <td>True. Datasets are organized accordingly to the specification provided by the source institution, even if not reported explicitly in each database (e.g. the geographical coverage of each region that constitutes a variable of the dataset is defined according to the definitions provided by the United Nations).</td>
+      </tr>
+      <tr>
+        <td>EU</td>
+        <td>True. In the different datasets as updates of the previous ones, variables used are mainly the same within the same framework of investigation methods and techniques.</td>
+      </tr>
+      <tr>
+        <td>World Bank</td>
+        <td>True. Datasets are organized accordingly to the specification provided by the source institution, which are easily accessible by the user.</td>
+      </tr>
+      <tr>
+        <td>OECD</td>
+        <td>True. Datasets are organized accordingly to the specification provided by the source institution and same indicators are used for different datasets, updates and modifications are reported.</td>
+      </tr>
+    </table>
 
 
 
