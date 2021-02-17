@@ -141,12 +141,17 @@ table {
   padding: 5px;
   border-spacing: 0;
   border-collapse: collapse;
+  background-color: #f5f5f5;
+}
+
+table th {
+    background-color: #c4d8cf;
 }
 
 table>tbody>tr>td, table>tbody>tr>th, table>tfoot>tr>td, table>tfoot>tr>th, table>thead>tr>td, table>thead>tr>th {
   padding: 8px;
   vertical-align: center;
-  border: 1px solid #ddd;
+  border: 1px solid #6aa389;
 }
 
 #main {margin: 10px 60px 10px 70px;}
