@@ -148,3 +148,5 @@ table>tbody>tr>td, table>tbody>tr>th, table>tfoot>tr>td, table>tfoot>tr>th, tabl
   vertical-align: center;
   border: 1px solid #6aa389;
 }
+
+#main {margin: 10px 60px 10px 70px;}

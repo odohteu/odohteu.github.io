@@ -41,691 +41,697 @@
     </nav>
 
 
-    <h1>Documentation</h1>
-
-    <ul>
-      <li><a href="#intro">1. Introduction</a></li>
-      <li><a href="#scenario">2. Scenario</a></li>
-      <li><a href="#overview">3. Overview on datasets</a></li>
-      <li><a href="#analysis">4. Analysis of original datasets</a>
-        <ul>
-          <li><a href="#quality">4.1 Quality analysis</a></li>
-          <li><a href="#legal">4.2 Legal analysis</a></li>
-          <li><a href="#ethical">4.3 Ethical analysis</a></li>
-          <li><a href="#technical">4.4 Technical analysis</a></li>
-        </ul>
-      </li>
-      <li><a href="#mashup">5. Mash-up and final datasets</a>
-        <ul>
-          <li><a href="#principles">5.1 Principles and goals</a></li>
-          <li><a href="#changes">5.2 Changes to original datasets and creation of final ones</a></li>
-        </ul>
-      </li>
-      <li><a href="#sost">6. Sostenibility over time</a></li>
-      <li><a href="#viz">7. Visualization</a>
-        <ul>
-          <li><a href="#tools">7.1 Visualization tools</a></li>
-          <li><a href="#each">7.2 Visualizations for each dataset</a></li>
-        </ul>
-      </li>
-      <li><a href="#rdf">8. RDF assertion of metadata</a></li>
-      <li><a href="#conc">9. Conclusions</a></li>
-    </ul>
-
-    <h2 id="intro">1. Introduction</h2>
-    <p>This project was developed as the final exam of the course Open Access and Digital Ethics within the master course degree Digital Humanities and Digital Knowledge, of the University of Bologna, held by professor Monica Palmirani.</p>
-    <p>The aim of the project was to <b>develop effective visualizations</b> starting from an hypothesis of <b>re-use of datasets</b> free from cognitive biases, fair, legal valid, consistent, accurate.</p>
-    <p>To achieve this goal, our workflow began with the definition of the main idea, thus the selection of the <b>application scenario</b>; followed by <b>data collection and data analysis</b>; to the <b>mash-up of collected data</b> to compose a new dataset whose data would then be displayed through graphs, maps and other <b>appropriate visualizations</b>.</p>
-    <p>Source datasets have been collected from official and established European and international institutions and then analyzed from an ethical-legal and technical point of view. To manage a mash-up of different datasets with different licenses we have followed the Guidelines for Open Data provided by the EU, with particular regard to data curation. In these steps we had to analyze legal and ethics issues, economical and sustainable aspects, technical and metadata foundations; in order to produce accurate  metadata using DCAT_AP through RDF.</p>
-
-    <h2 id="scenario">2. Scenario</h2>
-    <h4>Is human trafficking related to the country well-being within an International Organisation?</h4>
-    <p>In order to choose our scenario, we decided to select the type of data to publish according to the G8 Open Data Charter and European Commission guidelines (Open Data Goldbook for Data Managers and Data Holders by the European Data Portal). Indeed, some categories of data are more relevant than others and have higher potential values: companies, crime and justice, earth observation, education, energy and environment, finance and contracts, geospatial, global development, government accountability and democracy, health, science and research, statistics, social mobility and welfare, transport and infrastructures. For this reason we chose a scenario at the crossroads of different categories: human trafficking and its supposedly related factors, such as the well-being of a country. The main category of reference data is crime and justice, but secondly some data belongs to the categories of education, development and government.</p>
-    <p>This project scenario could be explained more clearly through the 5 W:</p>
-    <p>1) <b>WHAT</b>: human trafficking and supposedly related factors. We tried to investigate data, through data analysis and visualization, to try to understand if there were any patterns, trends, in the evolution of this crime over the years and especially in the individual states. Given the delicacy but also the complexity of the topic, we immediately asked ourselves whether human trafficking was linked to the well-being of a state, defined on the basis of criteria of economic development, individual happiness, gross domestic product and so on. It is commonplace to think that the states with the highest poverty rate are the states with the highest crime rate, but is this really the case? If so, are there any states where this correlation is more evident? These are just some of the questions we asked ourselves.</p>
-    <p>2) <b>WHEN</b>: the 2000s, most data are between 2007 and 2016. We decided to choose this time range for two main reasons: firstly, the greater quantity and quality of data at our disposal regarding human trafficking as a crime, but also the greater quantity and quality of secondary or complementary data. Secondly, we chose a time range large enough to allow us to have an overview of the trend of this crime, but not too broad to prevent us from grasping significant patterns on a small scale.</p>
-    <p>3) <b>WHERE</b>: the states of the European Union. Most of the datasets we found contain data on all states of the world or most of them. We were more interested in investigating this phenomenon within an international organization such as the European Union. This is for several reasons: firstly, to try to understand if there are national differences (or, better, how many differences and how big) despite having adhered to the same declarations of struggle in favor of human rights, and adhering to the same economic policies. Secondly, because when we talk about human trafficking we first think of the poorest countries in the world, when various sources argue that it is a crime widely supported by the richest nations of the continents, including Europe.</p>
-    <p>4) <b>WHO</b> (the victims): age, sex, country of origin. Our focus was more on victims than on traffickers. We believe that individual characteristics of these people, such as their citizenship or their sex, linked to the forms of exploitation they have suffered, can give us more interesting insights into what are the reasons for trafficking in human beings, what are its networks and why certain places are more privileged than others.</p>
-    <p>5) <b>WHY</b>: forms of exploitation, as they could be considered as the scope of human traffickers. Trafficking in human beings is a crime linked to different forms of exploitation: forced labor, child labor, forced prostitution, illegal international adoptions and much more. Identifying the links between all these crimes can certainly help fight them more effectively.</p>
-
-
-    <h2 id="overview">3. Overview on datasets</h2>
-    <p>Given the scenario chosen for this project, we decided to select two broad categories of datasets: one that specifically concerns the trafficking of human beings, so we looked for datasets that contained data on victims, forms and places of exploitation; and the other that could instead give us an image of the nations of the European Union from an economic, social, growth and well-being point of view. We have therefore selected datasets of established international institutions and organizations:</p>
-    <p><b>CTDC - Counter Trafficking Data Collaborative</b>: first global data hub on human trafficking, with data contributed by organizations from around the world (e.g.,IOM – International Organization for Migration, Liberty Shared, Polaris Project). Launched in November 2017, the goal of CTDC is to break down information-sharing barriers and equip the counter-trafficking community with up to date, reliable data on human trafficking. It counts 108,613 individual cases collected, 164 countries of exploitation, 175 nationalities. Its web resource provides 376 resources, 24 datasets, 21 data story, 13 documents and 4 data dashboard.</p>
-    <p><b>UNODC – Office on Drugs and Crime of the United Nations</b>: UNODC research and data provider constitutes the key global authority in the fields of drugs and crime, providing high-quality, essential evidence to inform policy-making and valuable sources of knowledge in drugs and crime domains. The Thematic Program on Research, Trend Analysis and Forensics defines the key challenges, work priorities and quality standards, as well as managing global and regional data collections, provides scientific and forensic services, defines research standards, and supports Member States to strengthen their data collection, research and forensics capacity.</p>
-    <p><b>EU Commission and EU Open Data Portal</b>: the European Union Commission, to address trafficking in human beings the EU, has put in place a comprehensive, gender-specific and victim-centred legal and policy framework and has developed a dedicated EU Anti-Trafficking resource called “Together Against Trafficking in Human Beings” collecting Legal and Policy Framework, information about EU projects and funding, as well as publications and reports. Data on human trafficking are also available on the EU Open Data Portal and the European Data Portal.</p>
-    <p><b>World Bank Group and World Bank Open Data</b>: provides free and open access to global development data. At the World Bank, the Development Data Group coordinates statistical and data work and maintains a number of macro, financial and sector databases. Working closely with the Bank’s regions and Global Practices, the group is guided by professional standards in the collection, compilation and dissemination of data to ensure that all data users can have confidence in the quality and integrity of the data produced.</p>
-    <p><b>OECD – Organisation for Economic Co-operation and Development</b>: international organisation that works to build better policies for better lives, having the goal of shaping policies that foster prosperity, equality, opportunity and well-being for all. Together with governments, policy makers and citizens, OECD works on establishing evidence-based international standards and finding solutions to a range of social, economic and environmental challenges. From improving economic performance and creating jobs to fostering strong education and fighting international tax evasion, OECD provides a unique forum and knowledge hub for data and analysis, exchange of experiences, best-practice sharing, and advice on public policies and international standard-setting. Among all these activities, OECD also collects statistical data on those indicators considered to be the signs of the wellness of a country.</p>
-    <br>
-    <p>To have more specific information regarding original dataset, you can either skip to section 4. Analysis of original datasets or go to the Metadata page of ODOHTEU web resource.</p>
-    <p>ORIGINAL DATASETS:</p>
-
-    <table>
-      <tr>
-        <th>Main Theme</th>
-        <th>Dataset Name</th>
-        <th>Source</th>
-        <th>Time Range</th>
-        <th>Spatial Coverage</th>
-        <th>Format</th>
-      </tr>
-      <tr>
-        <th rowspan="6">Human trafficking</th>
-        <td>CTDC Global dataset</td>
-        <td>CTDC</td>
-        <td>2002-2019</td>
-        <td>global</td>
-        <td>CSV</td>        
-      </tr>
-      <tr>
-        <td>Detected trafficking victims</td>
-        <td>UNODC</td>
-        <td>2003-17</td>
-        <td>global</td>
-        <td>CSV</td>
-      </tr>
-      <tr>
-        <td>Detected victims by citizenship</td>
-        <td>UNODC</td>
-        <td>2007-17</td>
-        <td>global</td>
-        <td>CSV</td>
-      </tr>
-      <tr>
-        <td>First anti-trafficking report (2016)</td>
-        <td>EU</td>
-        <td>2013-14</td>
-        <td>European union member states</td>
-        <td>PDF</td>
-      </tr>
-      <tr>
-        <td>Data collection on trafficking in human beings in the EU (2018)</td>
-        <td>EU</td>
-        <td>2015-16</td>
-        <td>European union member states</td>
-        <td>PDF</td>
-      </tr>
-      <tr>
-        <td>Data collection on trafficking in human beings in the EU (2020)</td>
-        <td>EU</td>
-        <td>2017-18</td>
-        <td>European union member states</td>
-        <td>PDF</td>
-      </tr>
-      <tr>
-        <th rowspan="2">Country well-being</th>
-        <td>Country profile for each member states of the European Union (28 datasets*)</td>
-        <td>World Bank Open Data</td>
-        <td>1990-18</td>
-        <td>National</td>
-        <td>CSV</td>
-      </tr>
-      <tr>
-        <td>OECD regional well-being</td>
-        <td>OECD</td>
-        <td>2000-2017</td>
-        <td>Global</td>
-        <td>XLSX</td>
-      </tr>
-    </table>
-
-    <p>*we have collected 28 datasets from the WBG, one for each member states of the European Union (until 2018, thus considering also UK). For reasons of brevity and to avoid redundancy we have decided to identify them with a single dataset as they have the same identifying characteristics, variables, sources and organization.</p>
-    <p>However, some datasets found have greater geographical coverage or temporal coverage than those of our interest, or contain more indicators than those needed for our research. For this reason we found it necessary to manipulate the datasets to obtain what became the final ODOHTEU datasets. More information on this can be found in section <a href="#mashup">5. Mash-up and final datasets</a>.</p>
-    <br>
-    <p>FINAL DATASETS:</p>
-
-    <table>
-      <tr>
-        <th>Main Theme</th>
-        <th>Dataset Name</th>
-        <th>Original Source</th>
-        <th>Time Range</th>
-        <th>Spatial Coverage</th>
-        <th>Format</th>
-      </tr>
-      <tr>
-        <th rowspan="11">Human trafficking</th>
-        <td>CTDC dataset of the European Union member states</td>
-        <td>CTDC</td>
-        <td>2004-2016</td>
-        <td>European union member states</td>
-        <td>CSV</td>        
-      </tr>
-      <tr>
-        <td>Detected trafficking victims</td>
-        <td>UNODC</td>
-        <td>2003-17</td>
-        <td>European union member states</td>
-        <td>CSV</td>
-      </tr>
-      <tr>
-        <td>Detected victims by citizenship</td>
-        <td>UNODC</td>
-        <td>2007-17</td>
-        <td>European union member states</td>
-        <td>CSV</td>
-      </tr>
-      <tr>
-        <td>Detected victims 2013-14</td>
-        <td>EU</td>
-        <td>2013-14</td>
-        <td>European union member states</td>
-        <td>CSV</td>
-      </tr>
-      <tr>
-        <td>Detected victims by citizenship 2015-2016</td>
-        <td>EU</td>
-        <td>2015-16</td>
-        <td>European union member states</td>
-        <td>CSV</td>
-      </tr>
-      <tr>
-        <td>Detected victims by destination country 2015-2016</td>
-        <td>EU</td>
-        <td>2015-16</td>
-        <td>European union member states</td>
-        <td>CSV</td>
-      </tr>
-      <tr>
-        <td>Detected victims by gender and age 2015-2016</td>
-        <td>EU</td>
-        <td>2015-16</td>
-        <td>European union member states</td>
-        <td>CSV</td>
-      </tr>
-      <tr>
-        <td>Detected victims by gender and age and majority status 2015-2016</td>
-        <td>EU</td>
-        <td>2015-16</td>
-        <td>European union member states</td>
-        <td>CSV</td>
-      </tr>
-      <tr>
-        <td>Detected victims by non-EU citizenship 2015-2016</td>
-        <td>EU</td>
-        <td>2015-16</td>
-        <td>European union member states</td>
-        <td>CSV</td>
-      </tr>
-      <tr>
-        <td>Detected victims by gender, age and citizenship 2017-2018</td>
-        <td>EU</td>
-        <td>2017-18</td>
-        <td>European union member states</td>
-        <td>CSV</td>
-      </tr>
-      <tr>
-        <td>Detected victims by exploitation forms 2017-2018</td>
-        <td>EU</td>
-        <td>2017-18</td>
-        <td>European union member states</td>
-        <td>CSV</td>
-      </tr>
-      <tr>
-        <th rowspan="2">Country well-being</th>
-        <td>Country profile for each member states of the European Union</td>
-        <td>World Bank Open Data</td>
-        <td>2000-18</td>
-        <td>European union member states</td>
-        <td>CSV</td>
-      </tr>
-      <tr>
-        <td>OECD regional well-being</td>
-        <td>OECD</td>
-        <td>2000-2017</td>
-        <td>European union member states</td>
-        <td>CSV</td>
-      </tr>
-    </table>
-
-
-
-    <h2 id="analysis">4. Analysis of original datasets</h2>
-    <p>A premise is necessary and fundamental to correctly understand and analyze the nature and completeness of the data collected: statistical information on the total number of victims of trafficking in human beings, as well as data regarding age, sex, forms of exploitation, citizenship and other valuable indicators are likely to be the most difficult data to collect, as stated by the European Union Commission (EU Data collection on trafficking in human  beings in the EU, 2020).</p>
-    <p>To choose the best datasets to investigate the criminal phenomenon of human trafficking, we followed the guidelines of the Open Data Goldbook for Data Managers and Data Holders by the European Data Portal. In particular, for each dataset we asked ourselves:
-    <br>Can it be published (legally, politically, and organisationally)?
-    <br>Is it of the right quality (and thus does not need thorough manipulation before publication)?
-    <br>What about cleaning, anonymising, good quality and format?
-    <br>Does it belong to one of the high-value topics?
-    <br>While most of the datasets available on the topic belong to a high-value topic and can be published, not all of them have good quality and format; thus several modifications were made to obtain the final mash-up datasets.</p>
-
-    <h3 id="quality">4.1 Quality analysis</h3>
-    <p>For the quality analysis of the original datasets we have found, we decided to rely on the standards defined by the Open Data Goldbook for Data Managers and Data Holders. Indeed, there are three main aspects of data quality: content quality, timeliness, and consistency.</p>
-
-    <h4>4.1.1 Content Quality</h4>
-    <p>Content quality concerns completeness, cleanness and accuracy of data.</p>
-    <p><b>Completeness</b> can be evaluated by the presence of a header row with a single description of what is shown (and in the metadata the header should be described); by the label of a version number (to keep track of changes); by the presence of origin and scope information on data; and by a given status (draft, validated, final).</p>
-    <p><b>Cleanness</b> concerns empty fields, dummy data and default values, wrong values, double entries and privacy sensitive information. In evaluating cleanness, we had to take in consideration that data about human trafficking are among the most difficult data to collect with certainty and completeness, both among all the data belonging to the category of crime and justice, and in general among all the collectable statistical data.</p>
-    <p>Finally, <b>accuracy</b> concerns data purpose, reliability, the choices concerning interval described, and aggregation or disaggregation needs for data.</p>
-    <table>
-      <tr>
-        <th>Source institution</th>
-        <th>Completeness</th>
-        <th>Cleanness</th>
-        <th>Accuracy</th>
-      </tr>
-      <tr>
-        <td>CTDC</td>
-        <td>True. The dataset is provided with both a global dataset codebook and a data dictionary with precise and accurate information on the dataset, data collection methods and scopes.</td>
-        <td>No privacy issues or sensible data thanks to k-anonymization. No explicit error or wrong values. Several missing data, reported as “-99” value, also because of the type of structure of the dataset, which having boolean indicators necessarily presents more fields with missing data than the other datasets.</td>
-        <td>True. Highly specific information are provided in the global dataset data dictionary concerning data purpose, reliability, choices in data collection and aggregation.</td>
-      </tr>
-      <tr>
-        <td>UNODC</td>
-        <td>Data source is stated clearly for each dataset, but not other specific information (e.g., the meaning of the header row variables) is provided. Status and version number of the datasets are not explicitly reported. The datasets are accessible and they can be downloaded in different formats.</td>
-        <td>There is no sensitive information. No explicit error or wrong values. There are no missing data: cleanness: 100%.</td>
-        <td>UNODC does not guarantee or make any express or implied representations regarding the accuracy, reliability, correctness, fitness for use for a particular purpose, or otherwise, whatsoever, of any of the databases in dataUNODC website.</td>
-      </tr>
-      <tr>
-        <td>EU</td>
-        <td>True. Data source and methods of data collection are stated clearly by the European Commission. Meaning of variables and information on status and version are provided.</td>
-        <td>There is no sensitive information, no explicit error or wrong values and data cleanness is almost 100%, missing data often concern data from some countries for all indicators in the dataset.</td>
-        <td>Data purpose and reliability is defined for each dataset, as well as choices in data collection and aggregation.</td>
-      </tr>
-      <tr>
-        <td>World Bank</td>
-        <td>True. Each dataset is provided with a csv file explaining variables meaning, codes and uses. Source of data is stated clearly, as well as the status of the dataset. Also, the institution provides a FAQ page explaining methods and guidelines in data collection, compilation and management. Datasets are downloadable in different formats.</td>
-        <td>No sensitive information. No explicit error or wrong values. Missing data are really few.</td>
-        <td>Purpose, scope and choices in data collection and management are defined. Data reliability is insured as the data come from recognized international organizations.</td>
-      </tr>
-      <tr>
-        <td>OECD</td>
-        <td>True. The dataset is provided with detailed explation on header row variables definition and possibile values. There is also a user guide and a FAQ section.</td>
-        <td>No sensitive information. No explicit error or wrong values. Cleanness around 98%.</td>
-        <td>Purpose and methods of data collection are stated, as well as the way of measuring data. The reliability of the dataset and more detailed information on coverage and accuracy are published in World Health Statistics Annuals.</td>
-      </tr>
-    </table>
-
-    <br>
-
-    <h4>4.1.2 Timeliness</h4>
-    <p>Since data changes over time, especially recent data need to be updated over time. We then checked if datasets source institutions adopt an update process to keep data up-to-date and their data contains  a notion of its timeliness.</p>
-    <table>
-      <tr>
-        <th>Source institution</th>
-        <th>Time coverage is defined accurately</th>
-        <th>Data is updated</th>
-        <th>Time span for data updating</th>        
-      </tr>
-      <tr>
-        <td>CTDC</td>
-        <td>True</td>
-        <td>True</td>
-        <td>Not defined</td>
-      </tr>
-      <tr>
-        <td>UNODC</td>
-        <td>True</td>
-        <td>True</td>
-        <td>Periodically incorporates, without notice, revisions, updates, and improvements to this website’s content according to the sources’ availability.</td>
-      </tr>
-      <tr>
-        <td>EU</td>
-        <td>True</td>
-        <td>True</td>
-        <td>Every two years</td>
-      </tr>
-      <tr>
-        <td>World Bank</td>
-        <td>True</td>
-        <td>True</td>
-        <td>Not defined, but specific information is provided on how to find most recent data or data updates.</td>
-      </tr>
-      <tr>
-        <td>OECD</td>
-        <td>True</td>
-        <td>True, but not stated clearly.</td>
-        <td>Not defined.</td>
-      </tr>
-    </table>
-
-
-    <h4>4.1.3 Consistency</h4>
-    <p>When dealing with consistency of the presentation of data, we can relate to its accuracy, reliability, timeliness and all those aspects that allow for a simple and correct re-use of data without the need of manipulating them (e.g., the same variables – header row names – are used in different version of the same dataset). Consistency also deals with coherence: are data in the datasets organized accordingly to the specification provided by the source institution?</p>
-    <table>
-      <tr>
-        <th>Source Institution</th>
-        <th>Consistency and Coherence</th>
-      </tr>
-      <tr>
-        <td>CTDC</td>
-        <td>True. Datasets are organized accordingly to the specification provided by the source institutions: even when datasets come from different sources (e.g., IOM, Polaris Project, Liberty Shared), differences in data organization are preserved.</td>
-      </tr>
-      <tr>
-        <td>UNODC</td>
-        <td>True. Datasets are organized accordingly to the specification provided by the source institution, even if not reported explicitly in each database (e.g. the geographical coverage of each region that constitutes a variable of the dataset is defined according to the definitions provided by the United Nations).</td>
-      </tr>
-      <tr>
-        <td>EU</td>
-        <td>True. In the different datasets as updates of the previous ones, variables used are mainly the same within the same framework of investigation methods and techniques.</td>
-      </tr>
-      <tr>
-        <td>World Bank</td>
-        <td>True. Datasets are organized accordingly to the specification provided by the source institution, which are easily accessible by the user.</td>
-      </tr>
-      <tr>
-        <td>OECD</td>
-        <td>True. Datasets are organized accordingly to the specification provided by the source institution and same indicators are used for different datasets, updates and modifications are reported.</td>
-      </tr>
-    </table>
-
-
-
-    <h3 id="legal">4.2 Legal analysis</h3>
-    <p>For the legal analysis of our dataset, we have taken into account the standards defined both by the Open Data Goldbook for Data Managers and Data Holders, and four main directives for the Open Data release:</p>
-    <p>1) Privacy: GDPR Regulation (EU) 2016/679, Regulation (EU) 2018/1807, Directive 2002/58/EC;</p>
-    <p>2) PSI: Directive (EU) 2019/1024;</p>
-    <p>3) CDSM: DIRECTIVE (EU) 2019/790;</p>
-    <p>4) INSPIRE: Directive 2007/2/EC that define particular limitation on public access for the spatial and geo data.</p>
-    <p>Given these standards chosen for the analysis, the main criteria according to which the legal analysis of the datasets was carried out are: <b>privacy issues, licesing, legislation accordance, intellectual property rights, privacy issues, liability, commercial law, limitations on public access, economical conditions and temporary aspects</b>.</p>
-
-    <h4>4.2.1 Legal analysis key points: issues, privacy, accountability and licences</h4>
-    <p>Historically, it has been difficult to make data on human trafficking readily accessible to analysts, academics, practitioners and policy-makers. Data on human trafficking are often highly sensitive raising a range of privacy and civil liberty concerns where the risk of identifying data subjects can be high and the consequences severe, as stated by CTDC (cita sito).
-    It is widely recognized that one of the foremost challenges in developing targeted counter-trafficking responses and measuring their impact is the lack of reliable, high-quality information. Data on human trafficking are often highly sensitive, raising a range of privacy and civil liberty concerns where the risk of identifying data subjects can be high and the consequences severe.</p>
-    <p>In the case of the ODOHTEU project, some datasets found and reused have in fact chosen some data anonymization techniques (such as CTDC, which uses k-anonymization for the dataset, even if non k-anonymized version of the dataset is displayed throughout the website through visualizations and charts showing detailed analysis). Other datasets do not contain information on individual victims identified but rather national or overall data (often as a percentage) of all the states of the entire European Union, thus making it very difficult to recognize individuals, since data are disaggregated at the level of the individual.</p>
-    <p>In all of the dataset there is no personal data as defined in the GDPR (i.e., data including information such as individuals name, address, ID card/passport number, income, cultural profile, Internet Protocol (IP) address, data about health). However, four datasets have data considered special categories of data, and in particular the citizenship of the individuals detected. Those datasets are: CTDC global dataset, UNODC victim citizenship, EU report 2018 and EU report 2020. Yet, CTDC uses k-anonymization, while the other three datasets show the total of individuals with a specific citizenship by exploitation nation, and this information is never crossed in the same dataset with other information that could be considered sensitive or personal, such as gender or age.</p>
-    <p>For what concerns privacy issues and accountability in general, it should be borne in mind that some organizations such as UNODC and CTDC delegate some responsibilities to individual country authorities that have provided data on victims, or to organizations that are partially data sources (for example the Polaris project for CTDC).</p>
-    <p>As regards the licenses, half of the datasets are under <b>CC BY 4.0 license</b> (World Bank data and EU data), while the institutions that own the other half of the datasets all allow for use, download, copy, adapt, print data as long ad the source institution is cited, either for non-commercial use only (CTDC) or even for commercial use (OECD).</p>
-
-    <h4>4.2.2 Legal analysis of each dataset</h4>
-    <p>TABELLA MOSTRUOSA</p>
-    <p>Directive 2000/31/EC of the European Parliament and of the Council of 8 June 2000 on certain legal aspects of information society services, in particular electronic commerce, in the Internal Market ('Directive on electronic commerce') - <a href="http://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32000L0031">http://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32000L0031</a></p>
-
-
-
-    <h3 id="ethical">4.3 Ethical analysis</h3>
-    <p>For what concern the ethical analysis of the original datasets, we followed the principles proposed by Data Ethics: Principles and Guidelines for Companies, Authorities & Organisations. Indeed, to evaluate our datasets we took in consideration the following criteria: the human being at the center; individual data control; transparency; accountability, equality. We also checked if data are bias-free and sustainable.</p>
-
-    <p>Broadly speaking, most of the institutions or organization owning the datasets used for ODOHTEU project value more principles such as <b>transparency and accountability</b>, while not all put the <b>human being at the center</b> in data processing, as well as for individual data control: for example, almost none of the institutions provide a specific and dedicated method for collecting request of deletion of personal data (eg right to be forgotten). More attention is given to <b>sustainability</b> by those data providers who guarantee accuracy and clarity in updating data, and also explicitly declare the temporary policy for updating the datasets. Given the delicacy and sensitivity of the type of data that are processed by most of the institutions from which we have collected the data, it is absolutely impossible for them to exclude the ethical principles of <b>equity and bias-free</b>. Some data providers and owners have stood out among others not only for the attention to respect for ethical principles, but also for the clarity in expressing and telling them to the user, as well as in making them easily available for anyone wishing to reuse their datasets consciously. responsibly. These are the <b>World Bank Group and CTDC</b>.</p>
-
-    <p><b>CTDC</b>: for CTDC the <b>human being at the center</b> is one of the core principles of their work. As it is stated in CTDC web resource, “Counter-trafficking case data contains highly sensitive information, and maintaining privacy and confidentiality is of paramount importance for CTDC. For example, all explicit identifiers, such as names, were removed from the global victim dataset and some data such as age has been transformed into age ranges. No personally identifying information is transferred to or hosted by CTDC, and organizations that want to contribute are asked to anonymize in accordance to the standards set by CTDC.” Since IOM is one of the main contributors to CTDC database, as well as the founder of the CTDC initiative, we have to consider also IOM’s Data Protection Policy for data collection and data process. CTDC and its contributors are clearly and explicitly aware of the sensitivity of the data they process. For this reason, in various points of the web resource, this awareness is emphasized and the consequent attention that is dedicated to the processing of data from when they are collected until they are combined into a single global dataset, in which there is a high risk of cross-fertilization that could lead to the identification of individuals. From this attention it follows the interest in respecting some fundamental principles of data ethics, for example <b>transparency</b> (data sources are always mentioned, revisions and changes made, license, methods of data collection and so on) and <b>accountability</b> for the choices made in the analysis and processing of the data, such as k-anonymization.</p>
-
-    <p><b>UNODC</b>: Although the DATAUNODC digital portal does not have sufficient specifications regarding the ethical and legal processing of data, the context in which the resource is inserted is that of UNODC, that is the branch of the United Nations that bases its work on ethical principles such as achieving <b>health, security and justice</b>. The Office is committed to supporting Member States in implementing the 2030 Agenda for Sustainable Development and the 17 Sustainable Development Goals (SDGs) at its core. The 2030 Agenda clearly recognizes that the rule of law and fair, effective and humane justice systems. The principles of <b>clarity and transparency</b> emerge from the organization's willingness to make the data collection methodology public. However, information regarding their process and treatment is scarce, and the non-liability statements on the conditions and updates of the data are not very precise and may suggest a slight disinterest in respecting ethical principles in the processing of data. For this reason, more detailed information on data processing and the ethical principles in processing it would complement that clarity in the statement of the work ethics guidelines of the United Nations Office on Drugs and Crimes.</p>
-
-    <p><b>EU Commission and EU data portal</b>: One of the first value mentioned in different pages of the web resources of both the EU Commission and the EU Open Data Portal is transparency: the aim of collecting, processing and publishing open data for the general public to reuse is fundamental for the international organization, as it promotes both economic development within the EU and <b>transparency</b> within the EU institutions. It is not necessary to reiterate that the European Union is among the world leaders in promoting laws, regulations, methodologies and procedures for <b>data protection</b> (to name a few: The General Data Protection Regulation (GDPR) and the Data Protection Law Enforcement Directive). This attention to data protection is reflected and complements the aforementioned principle of transparency: the organization manages to balance these two values ​​through particular attention to methodological aspects, in order to facilitate the understanding of the data. In each report of the datasets used in the ODOHTEU project, the transparency of the methodology is guaranteed by the lengthy and detailed explanations regarding data sources, collection, metadata, and any other policy regarding the data process. The accuracy of the measurements and data reported in the datasets and reports is accompanied by statements of <b>liability and accountability</b>.</p>
-
-    <p><b>World Bank Group</b>: the World Bank Group is one of the best institutions, among those selected by ODOHTEU project, in terms of interest towards data ethics and ethical behavior and integrity. Indeed, the Group has a specific department for this reason: The Bank Group's Ethics and Business Conduct Department (EBC), which promotes the development and application of the highest ethical standards by staff members. Firstly, in methods of collecting and processing data it is clear that the <b>human being is at the center</b> and each dataset is <b>bias-free</b>. Secondly, the high quality standards reflect in compliance with the principle of <b>sustainability</b>, as the data are characterized by integrity and timeliness. Furthermore, among the stated principls of the Organization we can read that one of their core principle is <b>professional integrity</b>, that is they develop and use <b>objective and transparent methods</b> to deliver reliable and trustworthy statistics and other products, based on professional principles and best practices. Last but not least, WBG guarantees <b>individual data control</b> as it is the only data owner and provider that has a specific technical mechanism for collecting request of deletion in case of personal data.</p>
-
-    <p><b>OECD: Organisation for Economic Co-operation and Development</b>: The principles defining OECD’s work are <b>integrity, transparency and accountability</b>, as well as putting the <b>human being at the centre</b>, since the core mission of the organization is to build better policies for better lives. OECD goal is to shape policies that foster prosperity, equality, opportunity and well-being for all. The OECD also collaborates with governments, policy makers and citizens both in establishing evidence-based international standards and finding solutions to a range of social, economic and environmental challenges; and in designing and implementing policies by providing policy advice and recommendations on how to integrate these core principles into public sector reforms.</p>
-
-
-
-
-
-    <h3 id="technical">4.4 Technical analysis</h3>
-    <table>
-      <tr>
-        <th>Dataset</th>
-        <th>Available Formats</th>
-        <th>Metadata</th>
-        <th>URI (of the dataset)</th>
-        <th>Provenance (web page where to download the dataset file)</th>
-      </tr>
-      <tr>
-        <th>CTDC global dataset</th>
-        <td>text/csv</td>
-        <td>There is a codebook in pdf format with description of data and a small table in the provenance web page with some metadata, but not metadata as an independent and downloadable file.</td>
-        <td><a href="https://www.ctdatacollaborative.org/node/153/download">https://www.ctdatacollaborative.org/node/153/download</a></td>
-        <td><a href="https://www.ctdatacollaborative.org/download-global-dataset">https://www.ctdatacollaborative.org/download-global-dataset</a>, <a href="https://www.ctdatacollaborative.org/dataset/resource/511adcb7-b1a2-4cc7-bf2f-0960d43a49cc"> https://www.ctdatacollaborative.org/dataset/resource/511adcb7-b1a2-4cc7-bf2f-0960d43a49cc</a></td>
-      </tr>
-      <tr>
-        <th>UNODC Detected trafficking victims</th>
-        <td>png, csv, xlsx, pdf, pptx, twbx</td>
-        <td>No</td>
-        <td><a href="https://public.tableau.com/vizql/w/Detectedtraffickingvictims/v/VIctims/vudcsv/sessions/EB9427BAF35A48ED987E465CC50AA691-0:0/views/7338697581919019501_612865295399968430?summary=true">https://public.tableau.com/vizql/w/Detectedtraffickingvictims/v/VIctims/vudcsv/sessions/EB9427BAF35A48ED987E465CC50AA691-0:0/views/7338697581919019501_612865295399968430?summary=true</a></td>
-        <td><a href="https://dataunodc.un.org/data/TIP/Detected%20trafficking%20victims">https://dataunodc.un.org/data/TIP/Detected%20trafficking%20victims</a></td>
-      </tr>
-      <tr>
-        <th>UNODC Detected victims by citizenship</th>
-        <td>png, csv, xlsx, pdf, pptx, twbx</td>
-        <td>No</td>
-        <td><a href="https://public.tableau.com/vizql/w/Detectedvictimsbycitizenship/v/Victim-Citizenship/vudcsv/sessions/6C26EE7DDF7D49AEBA112C70D62DB64B-0:0/views/574788002465414412_2846486867110215378?underlying_table_id=Migrated%20Data&underlying_table_caption=Dati%20completi">https://public.tableau.com/vizql/w/Detectedvictimsbycitizenship/v/Victim-Citizenship/vudcsv/sessions/6C26EE7DDF7D49AEBA112C70D62DB64B-0:0/views/574788002465414412_2846486867110215378?underlying_table_id=Migrated%20Data&underlying_table_caption=Dati%20completi</a></td>
-        <td><a href="https://dataunodc.un.org/data/TIP/Detected%20victims%20by%20citizenship">https://dataunodc.un.org/data/TIP/Detected%20victims%20by%20citizenship</a></td>
-      </tr>
-      <tr>
-        <th>First anti-trafficking report (2016)</th>
-        <td>pdf</td>
-        <td>Not as an independent and downloadable file. Data related to metadata are reported in the document in textual form.</td>
-        <td><a href="https://ec.europa.eu/anti-trafficking/sites/default/files/commission_staff_working_document.pdf">https://ec.europa.eu/anti-trafficking/sites/default/files/commission_staff_working_document.pdf</a></td>
-        <td><a href="https://ec.europa.eu/anti-trafficking/eu-policy/first-report-progress-made-fight-against-trafficking-human-beings-2016_en">https://ec.europa.eu/anti-trafficking/eu-policy/first-report-progress-made-fight-against-trafficking-human-beings-2016_en</a></td>
-      </tr>
-      <tr>
-        <th>Data collection on trafficking in human beings in the EU (2018)</th>
-        <td>pdf</td>
-        <td>Not as an independent and downloadable file. Data related to metadata are reported in the document in textual form.</td>
-        <td><a href="https://ec.europa.eu/home-affairs/sites/homeaffairs/files/what-we-do/policies/european-agenda-security/20181204_data-collection-study.pdf">https://ec.europa.eu/home-affairs/sites/homeaffairs/files/what-we-do/policies/european-agenda-security/20181204_data-collection-study.pdf</a></td>
-        <td><a href="https://ec.europa.eu/anti-trafficking/node/1_en">https://ec.europa.eu/anti-trafficking/node/1_en</a></td>
-      </tr>
-      <tr>
-        <th>Data collection on trafficking in human beings in the EU (2020)</th>
-        <td>pdf</td>
-        <td>Not as an independent and downloadable file. Data related to metadata are reported in the document in textual form.</td>
-        <td><a href="https://ec.europa.eu/anti-trafficking/sites/default/files/study_on_data_collection_on_trafficking_in_human_beings_in_the_eu.pdf">https://ec.europa.eu/anti-trafficking/sites/default/files/study_on_data_collection_on_trafficking_in_human_beings_in_the_eu.pdf</a></td>
-        <td><a href="https://ec.europa.eu/anti-trafficking/eu-policy/third-report-progress-made-fight-against-trafficking-human-beings_en">https://ec.europa.eu/anti-trafficking/eu-policy/third-report-progress-made-fight-against-trafficking-human-beings_en</a></td>
-      </tr>
-      <tr>
-        <th>WBG countries profiles*</th>
-        <td>csv, xls, tabbed txt, pdf</td>
-        <td>Yes, independent from dataset and downloadable. Metadata is about the type of license (CC-BY-SA 4.0) and its URL, indicators name, its code, its long definition, the topic, the period, the aggregation method, the statistical method, and general comments.</td>
-        <td><a href="https://databank.worldbank.org/views/reports/reportwidget.aspx?Report_Name=CountryProfile&Id=b450fd57&tbar=y&dd=y&inf=n&zm=n&country=ITA, https://databank.worldbank.org/reports.aspx?source=2&country=ITA">https://databank.worldbank.org/views/reports/reportwidget.aspx?Report_Name=CountryProfile&Id=b450fd57&tbar=y&dd=y&inf=n&zm=n&country=ITA, https://databank.worldbank.org/reports.aspx?source=2&country=ITA</a></td>
-        <td><a href="https://data.worldbank.org/country/italy">https://data.worldbank.org/country/italy</a></td>
-      </tr>
-      <tr>
-        <th>OECD regional well-being</th>
-        <td>xlsx</td>
-        <td>Not in the provenance web page (OECD regional well-being), but metadata about data contained in this dataset may be available on the OECD general web resource.</td>
-        <td><a href="https://www.oecdregionalwellbeing.org/assets/downloads/OECD-Regional-Well-Being-Data-File.xlsx">https://www.oecdregionalwellbeing.org/assets/downloads/OECD-Regional-Well-Being-Data-File.xlsx</a></td>
-        <td><a href="https://www.oecdregionalwellbeing.org/">https://www.oecdregionalwellbeing.org/</a></td>
-      </tr>      
-    </table>
-
-    <p>*provenance and URI are those of the Italy Country Profile dataset, but for ODOHTEU project have been used 28 Country Profile dataset, one for each member state of the European Union (until 2018, thus considering also UK). For reasons of brevity and to avoid redundancy, it was chosen to report only the URI and the provenance of the Italian state dataset, as the URIs and the provenance of the other datasets on the other European Union nations have the same syntactic and technical characteristics respectively.</p>
-
-
-    <h2 id="mashup">5. Mash-up and final datasets</h2>
-    <h3 id="principles">5.1 Principles and goals</h3>
-    <p>For the purposes of ODOHTEU project, as explained in the section "Scenario", the original datasets that we have found were not appropriate on several fronts:</p>
-    <p>1) <b>technically</b>: almost half of the original datasets are in pdf format;</p>
-    <p>1) <b>temporally</b>: we wanted to investigate data about the 21th century;</p>
-    <p>2) <b>geographically</b>: we were interested only in the human trafficking happening in the European Union member states;</p>
-    <p>3) <b>for their content</b>: having to choose some variables or indicators on which to focus our research, as regards the trafficking of human beings, we focused on the <b>total number of victims, sex, age or majority status, form of exploitation, citizenship and country of destination</b>; while for what concerns the growth or well-being indicators of the European states we have taken into consideration the <b>population growth, poverty rate, life expectancy, schooling/education, GDP, net migration, jobs, income, safety, health, environment, civic engagement, accessiblity to services, housing</b>.</p>
-    <p>For all of these reasons we had to create new datasets out of the modification that proved necessary for the purpose of this project. Thus each ODOHTEU dataset has been created through a process of comparing and harmonizing existing data models of original datasets owners seeking coherency and consistency in data aggregation and manipulation.</p>
-
-    <br>
-
-    <p>In particular, in order to create ODOHTEU final mash-up datasets we have decided to follow the <b>FAIR principles</b> stated by the Guidelines for Open Data provided by the EU: data have to be findable, accessible, interoperable and re-usable.</p>
-
-    <p><b>Findable</b>: the first step in (re)using data is to find them. Metadata and data should be easy to find for both humans and computers. Machine-readable metadata are essential for automatic discovery of datasets and services, so this is an essential component of the FAIRification process.</p>
-    <p>F1. (Meta)data are assigned a globally unique and persistent identifier: both the mashed up data and the metadata we created according to the DCAT-AP are compliant with this point, presenting URI.</p>
-    <p>F2. Data are described with rich metadata: we associated a rich amount of metadata compliant with the DCAT-AP specification, including not only all the mandatory classes with their respective mandatory properties but also some recommended and optional properties that were useful for our data.</p>
-    <p>F3. Metadata clearly and explicitly include the identifier of the data they describe: for each dataset that is part of a catalogue and for our own dataset we associated to the metadata a unique identifier of the data described by means of the DCAT-AP optional property for datasets dct:identifier.</p>
-    <p>F4. (Meta)data are registered or indexed in a searchable resource: All the data we used are identified by an URL that allows to access the source where they are registered. For the creation of the metadata associated with our data we used the DCAT-AP specification, whose aim is to enable a cross-data portal search for data sets and make public sector data better searchable across borders and sectors. Therefore, we can state that our (meta)data are registered in a searchable infrastructure.</p>
-    <br>
-    <p><b>Accessible</b>: once the user finds the required data, they need to know how can they be accessed.</p>
-    <p>A1. (Meta)data are retrievable by their identifier using a standardised communications protocol: All the data we collected and mashed up and the relative metadata are retrievable through the HTTP or its extension HTTPS. Moreover, we provided also an explicit and clear contact protocol in the metadata by means of the names and emails of the data and metadata providers.</p>
-    <p>A1.1. The protocol is open, free, and universally implementable: HTTP and HTTPS are compliant with these characteristics.</p>
-    <p>A1.2 The protocol allows for an authentication and authorisation procedure, where necessary: the HTTP and HTTPS provide for authentication of the accessed website.</p>
-    <p>A2. Metadata are accessible, even when the data are no longer available: metadata will remain accessible from the metadata web page of this web resource.</p>
-    <br>
-    <p><b>Interoperable</b>: the data usually need to be integrated with other data. In addition, the data need to interoperate with applications or workflows for analysis, storage, and processing.</p>
-    <p>I1. (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation: we used JSON and CSV for the representation of the mashed up data and RDF with the Turtle syntax to describe and structure the metadata.</p>
-    <p>I2. (Meta)data use vocabularies that follow FAIR principles: the annotation format we used allow to use machine-readable terms from any controlled vocabulary. We used the ISO standard vocabulary to represent nations, the Linked Open Data vocabulary specification called DCAT-AP. These vocabularies are documented and resolvable using globally unique and persistent identifiers.</p>
-    <p>I3. (Meta)data include qualified references to other (meta)data: JSON, CSV and the RDF schema account for the data exchange and cross reference among metadata.</p>
-    <br>
-    <p><b>Reusable</b>: the ultimate goal of FAIR is to optimise the reuse of data. To achieve this, metadata and data should be well-described so that they can be replicated and/or combined in different settings.</p>
-    <p>R1. Meta(data) are richly described with a plurality of accurate and relevant attributes: our data and metadata are described through a rich and vary series of labels including the date of collection and modification of the data, the licence, the publisher, the creator, their content.</p>
-    <p>R1.1. (Meta)data are released with a clear and accessible data usage license: ODOHTEU datasets are released under the Creative Common License CC BY 4.0, which is specified for the dataset and respective metadata we created.</p>
-    <p>R1.2. (Meta)data are associated with detailed provenance: our project includes information about the provenance of data in a machine-readable format in the metadata codification. The website presents also a description of the workflow that led to final data.</p>
-    <p>R1.3. (Meta)data meet domain-relevant community standards: we used the ISO standard for geographic information.</p>
-    <br>
-    <p>The principles mentioned above include three types of entities: data, metadata and infrastructure. Thus given this examination, we may claim that ODOHTEU research data complies with the principles of FAIR.</p>
-
-
-    <h3 id="changes">5.2 Changes to original datasets and creation of final ones</h3>
-    <p>General overview on main changes and measures on original datasets in order to obtain ODOHTEU final mash-up datasets:</p>
-    <table>
-      <tr>
-        <th>Original dataset</th>
-        <th>Format transition</th>
-        <th>Cleaning and extraction of data of interest</th>
-        <th>Data aggregation or separation</th>
-        <th>Final dataset(s)</th>
-      </tr>
-      <tr>
-        <td>CTDC global dataset</td>
-        <td>/</td>
-        <td>Filtering of the desired fields: only data concerning the countries of the European Union.</td>
-        <td>None. After filtering the original dataset we obtained 1 csv dataset.</td>
-        <td></td>                
-      </tr>
-      <tr>
-        <td>UNODC Detected trafficking victims</td>
-        <td>/</td>
-        <td>Filtering of the desired fields: only data concerning the countries of the European Union.</td>
-        <td>None. After filtering the original dataset we obtained 1 csv dataset.</td> 
-        <td></td>
-      </tr>
-      <tr>
-        <td>UNODC Detected victims by citizenship</td>
-        <td>/</td>
-        <td>Filtering of the desired fields: only data concerning the countries of the European Union.</td>
-        <td>None. After filtering the original dataset we obtained 1 csv dataset.</td> 
-        <td></td>
-      </tr>
-      <tr>
-        <td>First anti-trafficking report (2016)</td>
-        <td>From pdf to csv</td>
-        <td>Filtering of the desired fields: extraction of tables about total detected victims, age, gender and forms of exploitation.</td>
-        <td>From 1 pdf file we obtained 3 csv file, then aggregated in 1 final dataset in csv format.</td> 
-        <td></td>
-      </tr>
-      <tr>
-        <td>Data collection on trafficking in human beings in the EU (2018)</td>
-        <td>From pdf to csv</td>
-        <td></td>
-        <td></td> 
-        <td></td>
-      </tr>
-      <tr>
-        <td>Data collection on trafficking in human beings in the EU (2020)</td>
-        <td>From pdf to csv</td>
-        <td></td>
-        <td></td> 
-        <td></td>
-      </tr>
-      <tr>
-        <td>WBG countries profiles*</td>
-        <td></td>
-        <td></td>
-        <td></td> 
-        <td></td>
-      </tr>
-      <tr>
-        <td>OECD regional well-being</td>
-        <td></td>
-        <td></td>
-        <td></td> 
-        <td></td>
-      </tr>
-    </table>
-
-    <p>To obtain the final dataset, data manipulation was proven necessary. We have written and used python functions to extract data of interest, delete rows or columns of csv files, convert pdf files into csv files and join together data in order to create a new dataset in csv format. We also imported python libraries such as “CSV” and “Camelot”.</p>
-    <p>Main functions used for data manipulation:</p>
-    <pre style="margin-left: 2em; margin-right: 2em;">
-      <code>
-        import csv
-
-        # process original dataset
-        def process_metadata(metadata_file_path):
-            data = []
-            with open(metadata_file_path, 'r', encoding='utf-8') as csvfile:
-                reader = csv.DictReader(csvfile)
-                reader.fieldnames = 'Country', 'Code', 'Education', 'Jobs', 'Income', 'Safety', 'Health', 'Environment',
-                'Civic engagement', 'Accessiblity to services', 'Housing', 'Housing1', 'Housing2'
-
-                for row in reader:
-                    data.append(row)
-                return data
-
-
-        processedFile = process_metadata('dataset.csv')
-
-        # filter relevant data
-        def do_filter(data, field, country):
-            result = []
-            CampiPresentiEuropa = set() # to know in advance which European Union countries are present
-
-            for row in data:
-                campoDaControllare = row[field]
-
-                if campoDaControllare in country:
-                    CampiPresentiEuropa.add(row[field])
-                    result.append(row)
-            return result
-
-
-        EuropeFilter = do_filter(processedFile, 'Country',
-                                 ["Italy", "Austria", "Belgium", "Bulgaria", "Crotia", "Cyprus", "Czech Republic", "Denmark",
-                                  "Estonia", "Finland", "France", "Germany", "Greece", "Hungary", "Ireland", "Latvia",
-                                  "Lithuania", "Luxembourg", "Malta", "Netherlands", "Poland", "Portugal", "Romania",
-                                  "Slovakia", "Slovenia", "Spain", "Sweden", "United Kingdom", "Great Britain"])
-
-        # create new dataset with data of interest
-        def create_dataset(filter):
-            with open('new_dataset.csv', 'w', newline='') as csvfile:
-                fieldnames = filter[0].keys()
-                writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-
-                writer.writeheader()
-                for x in filter:
-                    writer.writerow(x)
-
-
-        create_dataset(EuropeFilter)
-      </code>
-    </pre>
-
-    <h2 id="sost">6. Sostenibility over time</h2>
-    <p>ODOHTEU project, as well as its catalog and datasets, have been developed as the final examination for the Open Access and Digital Ethics course within the Master's Degree in Digital Humanities and Digital Information at the University of Bologna, and is therefore <b>not regularly managed and updated</b>. Also, <b>as it takes a picture of a particular moment of time, to be specific 2000-2018, we do not intend to change ODOHTEU</b>. However, to be able to make comparisons between datasets, it will be interesting to build new datasets for the following years, even because the datasets used for this catalog are preserved and continuously updated by the relevant institutions which own them. In any case, our scripts remain usable and can be rerun on new files at any time.  If anyone finds that  a new release of one of our input dataset is available, we will be happy to be told about it in order to update our automated script file. <b>Under CC 4.0.0, our scripts are authorised and licensed</b>.</p>
-    <p>As regards the sustainability not over time but <b>qualitative</b> of the materials present in the ODOHTEU project, we have tried to maintain the historical series and above all its information load as a whole; we used persistent URIs; and we integrated the data with RDF metadata serialized in Turtle, using the DCAT standard integrated with other ontologies such as SKOS, FOAF, etc.</p>
-
-    <h2 id="viz">7. Visualization</h2>
-    <p>What we were looking for or what we wanted to visualize clearly are <b>trends</b> (overall picture of data over time), <b>features</b> (some sample of overall data, as in the map visualization), <b>outliers</b> (some data points in the dataset), <b>similarity</b> (common features of data points).</p>
-    <p>For achieving effective visualizations,  we tried to apply <b>redundancy of encoding</b>, by using color and shape for one dimension for instance, because it helps users’ perception; and we used <b>familiar colors, icons, layouts</b> as visual hooks and reduce users’ effort in understanding the intended message.</p>
-    <p>We used different type of data visualization: mainly <b>static</b> but also <b>interactive</b> (e.g., if the user hovers the bar in the bar chart a tool-tip appears showing data); we also add an <b>animated</b> horizontal bar chart; as well as an interactive map (you can select the year you want to visualize data of).</p>
-    <p>Finally, we also based our visualizations on the <b>type of data we wanted to represent</b>: categorical data, quantitative data or mixed data.</p>
-    <p>Generally speaking, we decided which visualization was best suited to represent a dataset based on what we wanted to show. For instance, when we wanted to show <b>comparisons</b> we used bar charts and line charts. To show <b>composition</b>, we used pie charts to represent simple share of total.</p>
-    <br>
-
-    <h3 id="tools">7.1 Visualization tools</h3>
-    <p>In order to visualize the data the following libraries were used:</p>
-    <p><a href="https://leafletjs.com/">Leaflet.js</a>: an open-source JavaScript library for mobile-friendly interactive maps which uses <a href="https://geojson.io/#map=2/20.0/0.0">GEOJSON</a>: Leaflet makes it possible to draw polygons directly from geojson files.
-    <br>Code © BSD <a href="https://github.com/Leaflet/Leaflet/blob/master/LICENSE"> https://github.com/Leaflet/Leaflet/blob/master/LICENSE</a>
-    <br>Data © OpenStreetMap contributors <a href="https://www.openstreetmap.org/copyright">https://www.openstreetmap.org/copyright</a></p>
-    <p><a href="https://www.chartjs.org">Chart.js</a>: simple yet flexible JavaScript charting for designers and developers. License: <a href="https://www.chartjs.org/docs/latest/notes/license.html"> https://www.chartjs.org/docs/latest/notes/license.html</a></p>
-    <p><a href="https://d3js.org/">D3.js</a>: a JavaScript library for manipulating documents based on data, which uses HTML, SVG and CSS; and combines powerful visualization components and a data-driven approach to DOM manipulation. Library released under BSD license.</p>
-
-
-    <h3 id="each">7.2 Visualizations for each dataset</h3>
-    <p>In order to visualize the datasets in a proper and consistent way, we have decided to develop:</p>
-    <p>1) <b>multiple or simple bar charts</b>: often used with bivariate values, especially to combine a categorical value and a numeric value, and highlight differences between categories (their occurrence in the dataset). Indeed, we used it to represent data about age, sex and total number of victims both for datasets regarding 2015-2016 and datasets for 2017-2018, as well as for data from OECD dataset. An animated horizontal bar chart was used for display data from UNODC total detected victim dataset.</p>
-    <p>2) <b>pie charts</b>: circles cut in segments to show parts and their proportion with respect to the whole, and to other parts. Used to show univariate dependant data. Indeed, we used it to represent datasets about 2013-2014 data on human trafficking and citizenship of victims reported in datasets of 2015-2016.</p>
-    <p>3) <b>map</b>: as geographical maps can be more intuitive than other axes systems, we have decided to use this visualization to show the total population of each member state of the European Union in 2000, 2010 and 2018 (from the ODOHTEU dataset: Country profile for each member states of the European Union). This is a sample, as we can visualize in a map also the other indicators included in the dataset: poverty rate, life expectancy, school enrolling, GDP and net migration.</p>
-    <p>4) <b>line plots as area charts</b>: used to show dependent data, usually between a categorical value and a numeric one (when changes occur in one variable, these affect the other variables), it’s a special type of line chart where areas divided show a comparison of variables and their dependency (e.g. inverse proportion) and of the “size” of a phenomenon. Indeed, we used it to represent data on forms of exploitation for the years 2017-2018.</p>
-
-    
-
-
-
-    <h2 id="rdf">8. RDF assertion of metadata</h2>
-    <p>We provided data with its metadata in order to provide <b>effective reusable and interoperable data</b>, adopting the <b>DCAT AP version 2.0.0 specification</b>. We chose to include metadata for the entire catalogue, but also separately for each dataset. The RDF assertion for the metadata in <b>Turtle serialization</b> has been released in the metadata web page of this project website.</p>
-    <p>The need for metadata in rdf derives from the goal of developing a project that was compliant with <b>LOD</b> characteristics. Indeed, in addition to having chosen to release ODOHTEU data sets in different <b>open and machine-readable formats</b>, we have specified the <b>license</b> in use for these datsets which derives from the one used in the original datasets reworked in the context of the ODOHTEU project. We used the RDF metadata to specify licence and attribution for each dataset. And therefore the third characteristic that allows to define "open" the data is the presence of <b>metadata that follows precise and internationally established standards or controlled vocabularies</b>, such as DCAT.</p>
-    <p>Following the <b>5-STAR OPEN DATA MODEL</b>, we have made available our datasets under a specified licence, making it available as <b>structured data (xml, csv, json)</b> not bound to specific software or a specific vendor. Then we used meaningful URIs to denote datasets (e.g. <code>data/id/2015-16EU-citizenship.zip</code>) and triples’ objects (e.g. <code>http://publications.europa.eu/resource/authority/file-type/CSV</code>). By "meaningful" we refer to the obligation of ensuring that <b>URIs are persistent, dereferenceable and unambiguous</b>; they should be supported by a <b>reliable infrastructure</b>; and they should follow the pattern:<code>http: // {domain} / {resource-type} / {concept} / {reference}</code></p>
-
-
-
-    <h2 id="conc">9. Conclusions</h2>
-    <p>The data we have collected, manipulated and visualized on human trafficking help shed light on a global phenomenon, analyzed here for the member states of the European Union, but by crossing and comparing datasets with different original sources: from international organizations to those based overseas, to the data of the European Union itself. One of our goals from the beginning has been to have a look without bias or prejudices on the phenomenon, so also for this reason we have chosen such different sources for the ODOHTEU datasets. <b>Comparing the data on this crime with those relating to the well-being and social and economic growth of a country can allow us to get a more precise idea of the phenomenon and the possible correlations with the well-being of a nation, to overcome prejudices and seek effective strategies to fight a crime against human beings and their fundamental rights.</b></p>
+
+
+
+    <section id="main">
+      <h1>Documentation</h1>
+
+      <ul>
+        <li><a href="#intro">1. Introduction</a></li>
+        <li><a href="#scenario">2. Scenario</a></li>
+        <li><a href="#overview">3. Overview on datasets</a></li>
+        <li><a href="#analysis">4. Analysis of original datasets</a>
+          <ul>
+            <li><a href="#quality">4.1 Quality analysis</a></li>
+            <li><a href="#legal">4.2 Legal analysis</a></li>
+            <li><a href="#ethical">4.3 Ethical analysis</a></li>
+            <li><a href="#technical">4.4 Technical analysis</a></li>
+          </ul>
+        </li>
+        <li><a href="#mashup">5. Mash-up and final datasets</a>
+          <ul>
+            <li><a href="#principles">5.1 Principles and goals</a></li>
+            <li><a href="#changes">5.2 Changes to original datasets and creation of final ones</a></li>
+          </ul>
+        </li>
+        <li><a href="#sost">6. Sostenibility over time</a></li>
+        <li><a href="#viz">7. Visualization</a>
+          <ul>
+            <li><a href="#tools">7.1 Visualization tools</a></li>
+            <li><a href="#each">7.2 Visualizations for each dataset</a></li>
+          </ul>
+        </li>
+        <li><a href="#rdf">8. RDF assertion of metadata</a></li>
+        <li><a href="#conc">9. Conclusions</a></li>
+      </ul>
+
+      <h2 id="intro">1. Introduction</h2>
+      <p>This project was developed as the final exam of the course Open Access and Digital Ethics within the master course degree Digital Humanities and Digital Knowledge, of the University of Bologna, held by professor Monica Palmirani.</p>
+      <p>The aim of the project was to <b>develop effective visualizations</b> starting from an hypothesis of <b>re-use of datasets</b> free from cognitive biases, fair, legal valid, consistent, accurate.</p>
+      <p>To achieve this goal, our workflow began with the definition of the main idea, thus the selection of the <b>application scenario</b>; followed by <b>data collection and data analysis</b>; to the <b>mash-up of collected data</b> to compose a new dataset whose data would then be displayed through graphs, maps and other <b>appropriate visualizations</b>.</p>
+      <p>Source datasets have been collected from official and established European and international institutions and then analyzed from an ethical-legal and technical point of view. To manage a mash-up of different datasets with different licenses we have followed the Guidelines for Open Data provided by the EU, with particular regard to data curation. In these steps we had to analyze legal and ethics issues, economical and sustainable aspects, technical and metadata foundations; in order to produce accurate  metadata using DCAT_AP through RDF.</p>
+
+      <h2 id="scenario">2. Scenario</h2>
+      <h4>Is human trafficking related to the country well-being within an International Organisation?</h4>
+      <p>In order to choose our scenario, we decided to select the type of data to publish according to the G8 Open Data Charter and European Commission guidelines (Open Data Goldbook for Data Managers and Data Holders by the European Data Portal). Indeed, some categories of data are more relevant than others and have higher potential values: companies, crime and justice, earth observation, education, energy and environment, finance and contracts, geospatial, global development, government accountability and democracy, health, science and research, statistics, social mobility and welfare, transport and infrastructures. For this reason we chose a scenario at the crossroads of different categories: human trafficking and its supposedly related factors, such as the well-being of a country. The main category of reference data is crime and justice, but secondly some data belongs to the categories of education, development and government.</p>
+      <p>This project scenario could be explained more clearly through the 5 W:</p>
+      <p>1) <b>WHAT</b>: human trafficking and supposedly related factors. We tried to investigate data, through data analysis and visualization, to try to understand if there were any patterns, trends, in the evolution of this crime over the years and especially in the individual states. Given the delicacy but also the complexity of the topic, we immediately asked ourselves whether human trafficking was linked to the well-being of a state, defined on the basis of criteria of economic development, individual happiness, gross domestic product and so on. It is commonplace to think that the states with the highest poverty rate are the states with the highest crime rate, but is this really the case? If so, are there any states where this correlation is more evident? These are just some of the questions we asked ourselves.</p>
+      <p>2) <b>WHEN</b>: the 2000s, most data are between 2007 and 2016. We decided to choose this time range for two main reasons: firstly, the greater quantity and quality of data at our disposal regarding human trafficking as a crime, but also the greater quantity and quality of secondary or complementary data. Secondly, we chose a time range large enough to allow us to have an overview of the trend of this crime, but not too broad to prevent us from grasping significant patterns on a small scale.</p>
+      <p>3) <b>WHERE</b>: the states of the European Union. Most of the datasets we found contain data on all states of the world or most of them. We were more interested in investigating this phenomenon within an international organization such as the European Union. This is for several reasons: firstly, to try to understand if there are national differences (or, better, how many differences and how big) despite having adhered to the same declarations of struggle in favor of human rights, and adhering to the same economic policies. Secondly, because when we talk about human trafficking we first think of the poorest countries in the world, when various sources argue that it is a crime widely supported by the richest nations of the continents, including Europe.</p>
+      <p>4) <b>WHO</b> (the victims): age, sex, country of origin. Our focus was more on victims than on traffickers. We believe that individual characteristics of these people, such as their citizenship or their sex, linked to the forms of exploitation they have suffered, can give us more interesting insights into what are the reasons for trafficking in human beings, what are its networks and why certain places are more privileged than others.</p>
+      <p>5) <b>WHY</b>: forms of exploitation, as they could be considered as the scope of human traffickers. Trafficking in human beings is a crime linked to different forms of exploitation: forced labor, child labor, forced prostitution, illegal international adoptions and much more. Identifying the links between all these crimes can certainly help fight them more effectively.</p>
+
+
+      <h2 id="overview">3. Overview on datasets</h2>
+      <p>Given the scenario chosen for this project, we decided to select two broad categories of datasets: one that specifically concerns the trafficking of human beings, so we looked for datasets that contained data on victims, forms and places of exploitation; and the other that could instead give us an image of the nations of the European Union from an economic, social, growth and well-being point of view. We have therefore selected datasets of established international institutions and organizations:</p>
+      <p><b>CTDC - Counter Trafficking Data Collaborative</b>: first global data hub on human trafficking, with data contributed by organizations from around the world (e.g.,IOM – International Organization for Migration, Liberty Shared, Polaris Project). Launched in November 2017, the goal of CTDC is to break down information-sharing barriers and equip the counter-trafficking community with up to date, reliable data on human trafficking. It counts 108,613 individual cases collected, 164 countries of exploitation, 175 nationalities. Its web resource provides 376 resources, 24 datasets, 21 data story, 13 documents and 4 data dashboard.</p>
+      <p><b>UNODC – Office on Drugs and Crime of the United Nations</b>: UNODC research and data provider constitutes the key global authority in the fields of drugs and crime, providing high-quality, essential evidence to inform policy-making and valuable sources of knowledge in drugs and crime domains. The Thematic Program on Research, Trend Analysis and Forensics defines the key challenges, work priorities and quality standards, as well as managing global and regional data collections, provides scientific and forensic services, defines research standards, and supports Member States to strengthen their data collection, research and forensics capacity.</p>
+      <p><b>EU Commission and EU Open Data Portal</b>: the European Union Commission, to address trafficking in human beings the EU, has put in place a comprehensive, gender-specific and victim-centred legal and policy framework and has developed a dedicated EU Anti-Trafficking resource called “Together Against Trafficking in Human Beings” collecting Legal and Policy Framework, information about EU projects and funding, as well as publications and reports. Data on human trafficking are also available on the EU Open Data Portal and the European Data Portal.</p>
+      <p><b>World Bank Group and World Bank Open Data</b>: provides free and open access to global development data. At the World Bank, the Development Data Group coordinates statistical and data work and maintains a number of macro, financial and sector databases. Working closely with the Bank’s regions and Global Practices, the group is guided by professional standards in the collection, compilation and dissemination of data to ensure that all data users can have confidence in the quality and integrity of the data produced.</p>
+      <p><b>OECD – Organisation for Economic Co-operation and Development</b>: international organisation that works to build better policies for better lives, having the goal of shaping policies that foster prosperity, equality, opportunity and well-being for all. Together with governments, policy makers and citizens, OECD works on establishing evidence-based international standards and finding solutions to a range of social, economic and environmental challenges. From improving economic performance and creating jobs to fostering strong education and fighting international tax evasion, OECD provides a unique forum and knowledge hub for data and analysis, exchange of experiences, best-practice sharing, and advice on public policies and international standard-setting. Among all these activities, OECD also collects statistical data on those indicators considered to be the signs of the wellness of a country.</p>
+      <br>
+      <p>To have more specific information regarding original dataset, you can either skip to section 4. Analysis of original datasets or go to the Metadata page of ODOHTEU web resource.</p>
+      <p>ORIGINAL DATASETS:</p>
+
+      <table>
+        <tr>
+          <th>Main Theme</th>
+          <th>Dataset Name</th>
+          <th>Source</th>
+          <th>Time Range</th>
+          <th>Spatial Coverage</th>
+          <th>Format</th>
+        </tr>
+        <tr>
+          <th rowspan="6">Human trafficking</th>
+          <td>CTDC Global dataset</td>
+          <td>CTDC</td>
+          <td>2002-2019</td>
+          <td>global</td>
+          <td>CSV</td>        
+        </tr>
+        <tr>
+          <td>Detected trafficking victims</td>
+          <td>UNODC</td>
+          <td>2003-17</td>
+          <td>global</td>
+          <td>CSV</td>
+        </tr>
+        <tr>
+          <td>Detected victims by citizenship</td>
+          <td>UNODC</td>
+          <td>2007-17</td>
+          <td>global</td>
+          <td>CSV</td>
+        </tr>
+        <tr>
+          <td>First anti-trafficking report (2016)</td>
+          <td>EU</td>
+          <td>2013-14</td>
+          <td>European union member states</td>
+          <td>PDF</td>
+        </tr>
+        <tr>
+          <td>Data collection on trafficking in human beings in the EU (2018)</td>
+          <td>EU</td>
+          <td>2015-16</td>
+          <td>European union member states</td>
+          <td>PDF</td>
+        </tr>
+        <tr>
+          <td>Data collection on trafficking in human beings in the EU (2020)</td>
+          <td>EU</td>
+          <td>2017-18</td>
+          <td>European union member states</td>
+          <td>PDF</td>
+        </tr>
+        <tr>
+          <th rowspan="2">Country well-being</th>
+          <td>Country profile for each member states of the European Union (28 datasets*)</td>
+          <td>World Bank Open Data</td>
+          <td>1990-18</td>
+          <td>National</td>
+          <td>CSV</td>
+        </tr>
+        <tr>
+          <td>OECD regional well-being</td>
+          <td>OECD</td>
+          <td>2000-2017</td>
+          <td>Global</td>
+          <td>XLSX</td>
+        </tr>
+      </table>
+
+      <p>*we have collected 28 datasets from the WBG, one for each member states of the European Union (until 2018, thus considering also UK). For reasons of brevity and to avoid redundancy we have decided to identify them with a single dataset as they have the same identifying characteristics, variables, sources and organization.</p>
+      <p>However, some datasets found have greater geographical coverage or temporal coverage than those of our interest, or contain more indicators than those needed for our research. For this reason we found it necessary to manipulate the datasets to obtain what became the final ODOHTEU datasets. More information on this can be found in section <a href="#mashup">5. Mash-up and final datasets</a>.</p>
+      <br>
+      <p>FINAL DATASETS:</p>
+
+      <table>
+        <tr>
+          <th>Main Theme</th>
+          <th>Dataset Name</th>
+          <th>Original Source</th>
+          <th>Time Range</th>
+          <th>Spatial Coverage</th>
+          <th>Format</th>
+        </tr>
+        <tr>
+          <th rowspan="11">Human trafficking</th>
+          <td>CTDC dataset of the European Union member states</td>
+          <td>CTDC</td>
+          <td>2004-2016</td>
+          <td>European union member states</td>
+          <td>CSV</td>        
+        </tr>
+        <tr>
+          <td>Detected trafficking victims</td>
+          <td>UNODC</td>
+          <td>2003-17</td>
+          <td>European union member states</td>
+          <td>CSV</td>
+        </tr>
+        <tr>
+          <td>Detected victims by citizenship</td>
+          <td>UNODC</td>
+          <td>2007-17</td>
+          <td>European union member states</td>
+          <td>CSV</td>
+        </tr>
+        <tr>
+          <td>Detected victims 2013-14</td>
+          <td>EU</td>
+          <td>2013-14</td>
+          <td>European union member states</td>
+          <td>CSV</td>
+        </tr>
+        <tr>
+          <td>Detected victims by citizenship 2015-2016</td>
+          <td>EU</td>
+          <td>2015-16</td>
+          <td>European union member states</td>
+          <td>CSV</td>
+        </tr>
+        <tr>
+          <td>Detected victims by destination country 2015-2016</td>
+          <td>EU</td>
+          <td>2015-16</td>
+          <td>European union member states</td>
+          <td>CSV</td>
+        </tr>
+        <tr>
+          <td>Detected victims by gender and age 2015-2016</td>
+          <td>EU</td>
+          <td>2015-16</td>
+          <td>European union member states</td>
+          <td>CSV</td>
+        </tr>
+        <tr>
+          <td>Detected victims by gender and age and majority status 2015-2016</td>
+          <td>EU</td>
+          <td>2015-16</td>
+          <td>European union member states</td>
+          <td>CSV</td>
+        </tr>
+        <tr>
+          <td>Detected victims by non-EU citizenship 2015-2016</td>
+          <td>EU</td>
+          <td>2015-16</td>
+          <td>European union member states</td>
+          <td>CSV</td>
+        </tr>
+        <tr>
+          <td>Detected victims by gender, age and citizenship 2017-2018</td>
+          <td>EU</td>
+          <td>2017-18</td>
+          <td>European union member states</td>
+          <td>CSV</td>
+        </tr>
+        <tr>
+          <td>Detected victims by exploitation forms 2017-2018</td>
+          <td>EU</td>
+          <td>2017-18</td>
+          <td>European union member states</td>
+          <td>CSV</td>
+        </tr>
+        <tr>
+          <th rowspan="2">Country well-being</th>
+          <td>Country profile for each member states of the European Union</td>
+          <td>World Bank Open Data</td>
+          <td>2000-18</td>
+          <td>European union member states</td>
+          <td>CSV</td>
+        </tr>
+        <tr>
+          <td>OECD regional well-being</td>
+          <td>OECD</td>
+          <td>2000-2017</td>
+          <td>European union member states</td>
+          <td>CSV</td>
+        </tr>
+      </table>
+
+
+
+      <h2 id="analysis">4. Analysis of original datasets</h2>
+      <p>A premise is necessary and fundamental to correctly understand and analyze the nature and completeness of the data collected: statistical information on the total number of victims of trafficking in human beings, as well as data regarding age, sex, forms of exploitation, citizenship and other valuable indicators are likely to be the most difficult data to collect, as stated by the European Union Commission (EU Data collection on trafficking in human  beings in the EU, 2020).</p>
+      <p>To choose the best datasets to investigate the criminal phenomenon of human trafficking, we followed the guidelines of the Open Data Goldbook for Data Managers and Data Holders by the European Data Portal. In particular, for each dataset we asked ourselves:
+      <br>Can it be published (legally, politically, and organisationally)?
+      <br>Is it of the right quality (and thus does not need thorough manipulation before publication)?
+      <br>What about cleaning, anonymising, good quality and format?
+      <br>Does it belong to one of the high-value topics?
+      <br>While most of the datasets available on the topic belong to a high-value topic and can be published, not all of them have good quality and format; thus several modifications were made to obtain the final mash-up datasets.</p>
+
+      <h3 id="quality">4.1 Quality analysis</h3>
+      <p>For the quality analysis of the original datasets we have found, we decided to rely on the standards defined by the Open Data Goldbook for Data Managers and Data Holders. Indeed, there are three main aspects of data quality: content quality, timeliness, and consistency.</p>
+
+      <h4>4.1.1 Content Quality</h4>
+      <p>Content quality concerns completeness, cleanness and accuracy of data.</p>
+      <p><b>Completeness</b> can be evaluated by the presence of a header row with a single description of what is shown (and in the metadata the header should be described); by the label of a version number (to keep track of changes); by the presence of origin and scope information on data; and by a given status (draft, validated, final).</p>
+      <p><b>Cleanness</b> concerns empty fields, dummy data and default values, wrong values, double entries and privacy sensitive information. In evaluating cleanness, we had to take in consideration that data about human trafficking are among the most difficult data to collect with certainty and completeness, both among all the data belonging to the category of crime and justice, and in general among all the collectable statistical data.</p>
+      <p>Finally, <b>accuracy</b> concerns data purpose, reliability, the choices concerning interval described, and aggregation or disaggregation needs for data.</p>
+      <table>
+        <tr>
+          <th>Source institution</th>
+          <th>Completeness</th>
+          <th>Cleanness</th>
+          <th>Accuracy</th>
+        </tr>
+        <tr>
+          <td>CTDC</td>
+          <td>True. The dataset is provided with both a global dataset codebook and a data dictionary with precise and accurate information on the dataset, data collection methods and scopes.</td>
+          <td>No privacy issues or sensible data thanks to k-anonymization. No explicit error or wrong values. Several missing data, reported as “-99” value, also because of the type of structure of the dataset, which having boolean indicators necessarily presents more fields with missing data than the other datasets.</td>
+          <td>True. Highly specific information are provided in the global dataset data dictionary concerning data purpose, reliability, choices in data collection and aggregation.</td>
+        </tr>
+        <tr>
+          <td>UNODC</td>
+          <td>Data source is stated clearly for each dataset, but not other specific information (e.g., the meaning of the header row variables) is provided. Status and version number of the datasets are not explicitly reported. The datasets are accessible and they can be downloaded in different formats.</td>
+          <td>There is no sensitive information. No explicit error or wrong values. There are no missing data: cleanness: 100%.</td>
+          <td>UNODC does not guarantee or make any express or implied representations regarding the accuracy, reliability, correctness, fitness for use for a particular purpose, or otherwise, whatsoever, of any of the databases in dataUNODC website.</td>
+        </tr>
+        <tr>
+          <td>EU</td>
+          <td>True. Data source and methods of data collection are stated clearly by the European Commission. Meaning of variables and information on status and version are provided.</td>
+          <td>There is no sensitive information, no explicit error or wrong values and data cleanness is almost 100%, missing data often concern data from some countries for all indicators in the dataset.</td>
+          <td>Data purpose and reliability is defined for each dataset, as well as choices in data collection and aggregation.</td>
+        </tr>
+        <tr>
+          <td>World Bank</td>
+          <td>True. Each dataset is provided with a csv file explaining variables meaning, codes and uses. Source of data is stated clearly, as well as the status of the dataset. Also, the institution provides a FAQ page explaining methods and guidelines in data collection, compilation and management. Datasets are downloadable in different formats.</td>
+          <td>No sensitive information. No explicit error or wrong values. Missing data are really few.</td>
+          <td>Purpose, scope and choices in data collection and management are defined. Data reliability is insured as the data come from recognized international organizations.</td>
+        </tr>
+        <tr>
+          <td>OECD</td>
+          <td>True. The dataset is provided with detailed explation on header row variables definition and possibile values. There is also a user guide and a FAQ section.</td>
+          <td>No sensitive information. No explicit error or wrong values. Cleanness around 98%.</td>
+          <td>Purpose and methods of data collection are stated, as well as the way of measuring data. The reliability of the dataset and more detailed information on coverage and accuracy are published in World Health Statistics Annuals.</td>
+        </tr>
+      </table>
+
+      <br>
+
+      <h4>4.1.2 Timeliness</h4>
+      <p>Since data changes over time, especially recent data need to be updated over time. We then checked if datasets source institutions adopt an update process to keep data up-to-date and their data contains  a notion of its timeliness.</p>
+      <table>
+        <tr>
+          <th>Source institution</th>
+          <th>Time coverage is defined accurately</th>
+          <th>Data is updated</th>
+          <th>Time span for data updating</th>        
+        </tr>
+        <tr>
+          <td>CTDC</td>
+          <td>True</td>
+          <td>True</td>
+          <td>Not defined</td>
+        </tr>
+        <tr>
+          <td>UNODC</td>
+          <td>True</td>
+          <td>True</td>
+          <td>Periodically incorporates, without notice, revisions, updates, and improvements to this website’s content according to the sources’ availability.</td>
+        </tr>
+        <tr>
+          <td>EU</td>
+          <td>True</td>
+          <td>True</td>
+          <td>Every two years</td>
+        </tr>
+        <tr>
+          <td>World Bank</td>
+          <td>True</td>
+          <td>True</td>
+          <td>Not defined, but specific information is provided on how to find most recent data or data updates.</td>
+        </tr>
+        <tr>
+          <td>OECD</td>
+          <td>True</td>
+          <td>True, but not stated clearly.</td>
+          <td>Not defined.</td>
+        </tr>
+      </table>
+
+
+      <h4>4.1.3 Consistency</h4>
+      <p>When dealing with consistency of the presentation of data, we can relate to its accuracy, reliability, timeliness and all those aspects that allow for a simple and correct re-use of data without the need of manipulating them (e.g., the same variables – header row names – are used in different version of the same dataset). Consistency also deals with coherence: are data in the datasets organized accordingly to the specification provided by the source institution?</p>
+      <table>
+        <tr>
+          <th>Source Institution</th>
+          <th>Consistency and Coherence</th>
+        </tr>
+        <tr>
+          <td>CTDC</td>
+          <td>True. Datasets are organized accordingly to the specification provided by the source institutions: even when datasets come from different sources (e.g., IOM, Polaris Project, Liberty Shared), differences in data organization are preserved.</td>
+        </tr>
+        <tr>
+          <td>UNODC</td>
+          <td>True. Datasets are organized accordingly to the specification provided by the source institution, even if not reported explicitly in each database (e.g. the geographical coverage of each region that constitutes a variable of the dataset is defined according to the definitions provided by the United Nations).</td>
+        </tr>
+        <tr>
+          <td>EU</td>
+          <td>True. In the different datasets as updates of the previous ones, variables used are mainly the same within the same framework of investigation methods and techniques.</td>
+        </tr>
+        <tr>
+          <td>World Bank</td>
+          <td>True. Datasets are organized accordingly to the specification provided by the source institution, which are easily accessible by the user.</td>
+        </tr>
+        <tr>
+          <td>OECD</td>
+          <td>True. Datasets are organized accordingly to the specification provided by the source institution and same indicators are used for different datasets, updates and modifications are reported.</td>
+        </tr>
+      </table>
+
+
+
+      <h3 id="legal">4.2 Legal analysis</h3>
+      <p>For the legal analysis of our dataset, we have taken into account the standards defined both by the Open Data Goldbook for Data Managers and Data Holders, and four main directives for the Open Data release:</p>
+      <p>1) Privacy: GDPR Regulation (EU) 2016/679, Regulation (EU) 2018/1807, Directive 2002/58/EC;</p>
+      <p>2) PSI: Directive (EU) 2019/1024;</p>
+      <p>3) CDSM: DIRECTIVE (EU) 2019/790;</p>
+      <p>4) INSPIRE: Directive 2007/2/EC that define particular limitation on public access for the spatial and geo data.</p>
+      <p>Given these standards chosen for the analysis, the main criteria according to which the legal analysis of the datasets was carried out are: <b>privacy issues, licesing, legislation accordance, intellectual property rights, privacy issues, liability, commercial law, limitations on public access, economical conditions and temporary aspects</b>.</p>
+
+      <h4>4.2.1 Legal analysis key points: issues, privacy, accountability and licences</h4>
+      <p>Historically, it has been difficult to make data on human trafficking readily accessible to analysts, academics, practitioners and policy-makers. Data on human trafficking are often highly sensitive raising a range of privacy and civil liberty concerns where the risk of identifying data subjects can be high and the consequences severe, as stated by CTDC (cita sito).
+      It is widely recognized that one of the foremost challenges in developing targeted counter-trafficking responses and measuring their impact is the lack of reliable, high-quality information. Data on human trafficking are often highly sensitive, raising a range of privacy and civil liberty concerns where the risk of identifying data subjects can be high and the consequences severe.</p>
+      <p>In the case of the ODOHTEU project, some datasets found and reused have in fact chosen some data anonymization techniques (such as CTDC, which uses k-anonymization for the dataset, even if non k-anonymized version of the dataset is displayed throughout the website through visualizations and charts showing detailed analysis). Other datasets do not contain information on individual victims identified but rather national or overall data (often as a percentage) of all the states of the entire European Union, thus making it very difficult to recognize individuals, since data are disaggregated at the level of the individual.</p>
+      <p>In all of the dataset there is no personal data as defined in the GDPR (i.e., data including information such as individuals name, address, ID card/passport number, income, cultural profile, Internet Protocol (IP) address, data about health). However, four datasets have data considered special categories of data, and in particular the citizenship of the individuals detected. Those datasets are: CTDC global dataset, UNODC victim citizenship, EU report 2018 and EU report 2020. Yet, CTDC uses k-anonymization, while the other three datasets show the total of individuals with a specific citizenship by exploitation nation, and this information is never crossed in the same dataset with other information that could be considered sensitive or personal, such as gender or age.</p>
+      <p>For what concerns privacy issues and accountability in general, it should be borne in mind that some organizations such as UNODC and CTDC delegate some responsibilities to individual country authorities that have provided data on victims, or to organizations that are partially data sources (for example the Polaris project for CTDC).</p>
+      <p>As regards the licenses, half of the datasets are under <b>CC BY 4.0 license</b> (World Bank data and EU data), while the institutions that own the other half of the datasets all allow for use, download, copy, adapt, print data as long ad the source institution is cited, either for non-commercial use only (CTDC) or even for commercial use (OECD).</p>
+
+      <h4>4.2.2 Legal analysis of each dataset</h4>
+      <p>TABELLA MOSTRUOSA</p>
+      <p>Directive 2000/31/EC of the European Parliament and of the Council of 8 June 2000 on certain legal aspects of information society services, in particular electronic commerce, in the Internal Market ('Directive on electronic commerce') - <a href="http://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32000L0031">http://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32000L0031</a></p>
+
+
+
+      <h3 id="ethical">4.3 Ethical analysis</h3>
+      <p>For what concern the ethical analysis of the original datasets, we followed the principles proposed by Data Ethics: Principles and Guidelines for Companies, Authorities & Organisations. Indeed, to evaluate our datasets we took in consideration the following criteria: the human being at the center; individual data control; transparency; accountability, equality. We also checked if data are bias-free and sustainable.</p>
+
+      <p>Broadly speaking, most of the institutions or organization owning the datasets used for ODOHTEU project value more principles such as <b>transparency and accountability</b>, while not all put the <b>human being at the center</b> in data processing, as well as for individual data control: for example, almost none of the institutions provide a specific and dedicated method for collecting request of deletion of personal data (eg right to be forgotten). More attention is given to <b>sustainability</b> by those data providers who guarantee accuracy and clarity in updating data, and also explicitly declare the temporary policy for updating the datasets. Given the delicacy and sensitivity of the type of data that are processed by most of the institutions from which we have collected the data, it is absolutely impossible for them to exclude the ethical principles of <b>equity and bias-free</b>. Some data providers and owners have stood out among others not only for the attention to respect for ethical principles, but also for the clarity in expressing and telling them to the user, as well as in making them easily available for anyone wishing to reuse their datasets consciously. responsibly. These are the <b>World Bank Group and CTDC</b>.</p>
+
+      <p><b>CTDC</b>: for CTDC the <b>human being at the center</b> is one of the core principles of their work. As it is stated in CTDC web resource, “Counter-trafficking case data contains highly sensitive information, and maintaining privacy and confidentiality is of paramount importance for CTDC. For example, all explicit identifiers, such as names, were removed from the global victim dataset and some data such as age has been transformed into age ranges. No personally identifying information is transferred to or hosted by CTDC, and organizations that want to contribute are asked to anonymize in accordance to the standards set by CTDC.” Since IOM is one of the main contributors to CTDC database, as well as the founder of the CTDC initiative, we have to consider also IOM’s Data Protection Policy for data collection and data process. CTDC and its contributors are clearly and explicitly aware of the sensitivity of the data they process. For this reason, in various points of the web resource, this awareness is emphasized and the consequent attention that is dedicated to the processing of data from when they are collected until they are combined into a single global dataset, in which there is a high risk of cross-fertilization that could lead to the identification of individuals. From this attention it follows the interest in respecting some fundamental principles of data ethics, for example <b>transparency</b> (data sources are always mentioned, revisions and changes made, license, methods of data collection and so on) and <b>accountability</b> for the choices made in the analysis and processing of the data, such as k-anonymization.</p>
+
+      <p><b>UNODC</b>: Although the DATAUNODC digital portal does not have sufficient specifications regarding the ethical and legal processing of data, the context in which the resource is inserted is that of UNODC, that is the branch of the United Nations that bases its work on ethical principles such as achieving <b>health, security and justice</b>. The Office is committed to supporting Member States in implementing the 2030 Agenda for Sustainable Development and the 17 Sustainable Development Goals (SDGs) at its core. The 2030 Agenda clearly recognizes that the rule of law and fair, effective and humane justice systems. The principles of <b>clarity and transparency</b> emerge from the organization's willingness to make the data collection methodology public. However, information regarding their process and treatment is scarce, and the non-liability statements on the conditions and updates of the data are not very precise and may suggest a slight disinterest in respecting ethical principles in the processing of data. For this reason, more detailed information on data processing and the ethical principles in processing it would complement that clarity in the statement of the work ethics guidelines of the United Nations Office on Drugs and Crimes.</p>
+
+      <p><b>EU Commission and EU data portal</b>: One of the first value mentioned in different pages of the web resources of both the EU Commission and the EU Open Data Portal is transparency: the aim of collecting, processing and publishing open data for the general public to reuse is fundamental for the international organization, as it promotes both economic development within the EU and <b>transparency</b> within the EU institutions. It is not necessary to reiterate that the European Union is among the world leaders in promoting laws, regulations, methodologies and procedures for <b>data protection</b> (to name a few: The General Data Protection Regulation (GDPR) and the Data Protection Law Enforcement Directive). This attention to data protection is reflected and complements the aforementioned principle of transparency: the organization manages to balance these two values ​​through particular attention to methodological aspects, in order to facilitate the understanding of the data. In each report of the datasets used in the ODOHTEU project, the transparency of the methodology is guaranteed by the lengthy and detailed explanations regarding data sources, collection, metadata, and any other policy regarding the data process. The accuracy of the measurements and data reported in the datasets and reports is accompanied by statements of <b>liability and accountability</b>.</p>
+
+      <p><b>World Bank Group</b>: the World Bank Group is one of the best institutions, among those selected by ODOHTEU project, in terms of interest towards data ethics and ethical behavior and integrity. Indeed, the Group has a specific department for this reason: The Bank Group's Ethics and Business Conduct Department (EBC), which promotes the development and application of the highest ethical standards by staff members. Firstly, in methods of collecting and processing data it is clear that the <b>human being is at the center</b> and each dataset is <b>bias-free</b>. Secondly, the high quality standards reflect in compliance with the principle of <b>sustainability</b>, as the data are characterized by integrity and timeliness. Furthermore, among the stated principls of the Organization we can read that one of their core principle is <b>professional integrity</b>, that is they develop and use <b>objective and transparent methods</b> to deliver reliable and trustworthy statistics and other products, based on professional principles and best practices. Last but not least, WBG guarantees <b>individual data control</b> as it is the only data owner and provider that has a specific technical mechanism for collecting request of deletion in case of personal data.</p>
+
+      <p><b>OECD: Organisation for Economic Co-operation and Development</b>: The principles defining OECD’s work are <b>integrity, transparency and accountability</b>, as well as putting the <b>human being at the centre</b>, since the core mission of the organization is to build better policies for better lives. OECD goal is to shape policies that foster prosperity, equality, opportunity and well-being for all. The OECD also collaborates with governments, policy makers and citizens both in establishing evidence-based international standards and finding solutions to a range of social, economic and environmental challenges; and in designing and implementing policies by providing policy advice and recommendations on how to integrate these core principles into public sector reforms.</p>
+
+
+
+
+
+      <h3 id="technical">4.4 Technical analysis</h3>
+      <table>
+        <tr>
+          <th>Dataset</th>
+          <th>Available Formats</th>
+          <th>Metadata</th>
+          <th>URI (of the dataset)</th>
+          <th>Provenance (web page where to download the dataset file)</th>
+        </tr>
+        <tr>
+          <th>CTDC global dataset</th>
+          <td>text/csv</td>
+          <td>There is a codebook in pdf format with description of data and a small table in the provenance web page with some metadata, but not metadata as an independent and downloadable file.</td>
+          <td><a href="https://www.ctdatacollaborative.org/node/153/download">https://www.ctdatacollaborative.org/node/153/download</a></td>
+          <td><a href="https://www.ctdatacollaborative.org/download-global-dataset">https://www.ctdatacollaborative.org/download-global-dataset</a>, <a href="https://www.ctdatacollaborative.org/dataset/resource/511adcb7-b1a2-4cc7-bf2f-0960d43a49cc"> https://www.ctdatacollaborative.org/dataset/resource/511adcb7-b1a2-4cc7-bf2f-0960d43a49cc</a></td>
+        </tr>
+        <tr>
+          <th>UNODC Detected trafficking victims</th>
+          <td>png, csv, xlsx, pdf, pptx, twbx</td>
+          <td>No</td>
+          <td><a href="https://public.tableau.com/vizql/w/Detectedtraffickingvictims/v/VIctims/vudcsv/sessions/EB9427BAF35A48ED987E465CC50AA691-0:0/views/7338697581919019501_612865295399968430?summary=true">https://public.tableau.com/vizql/w/Detectedtraffickingvictims/v/VIctims/vudcsv/sessions/EB9427BAF35A48ED987E465CC50AA691-0:0/views/7338697581919019501_612865295399968430?summary=true</a></td>
+          <td><a href="https://dataunodc.un.org/data/TIP/Detected%20trafficking%20victims">https://dataunodc.un.org/data/TIP/Detected%20trafficking%20victims</a></td>
+        </tr>
+        <tr>
+          <th>UNODC Detected victims by citizenship</th>
+          <td>png, csv, xlsx, pdf, pptx, twbx</td>
+          <td>No</td>
+          <td><a href="https://public.tableau.com/vizql/w/Detectedvictimsbycitizenship/v/Victim-Citizenship/vudcsv/sessions/6C26EE7DDF7D49AEBA112C70D62DB64B-0:0/views/574788002465414412_2846486867110215378?underlying_table_id=Migrated%20Data&underlying_table_caption=Dati%20completi">https://public.tableau.com/vizql/w/Detectedvictimsbycitizenship/v/Victim-Citizenship/vudcsv/sessions/6C26EE7DDF7D49AEBA112C70D62DB64B-0:0/views/574788002465414412_2846486867110215378?underlying_table_id=Migrated%20Data&underlying_table_caption=Dati%20completi</a></td>
+          <td><a href="https://dataunodc.un.org/data/TIP/Detected%20victims%20by%20citizenship">https://dataunodc.un.org/data/TIP/Detected%20victims%20by%20citizenship</a></td>
+        </tr>
+        <tr>
+          <th>First anti-trafficking report (2016)</th>
+          <td>pdf</td>
+          <td>Not as an independent and downloadable file. Data related to metadata are reported in the document in textual form.</td>
+          <td><a href="https://ec.europa.eu/anti-trafficking/sites/default/files/commission_staff_working_document.pdf">https://ec.europa.eu/anti-trafficking/sites/default/files/commission_staff_working_document.pdf</a></td>
+          <td><a href="https://ec.europa.eu/anti-trafficking/eu-policy/first-report-progress-made-fight-against-trafficking-human-beings-2016_en">https://ec.europa.eu/anti-trafficking/eu-policy/first-report-progress-made-fight-against-trafficking-human-beings-2016_en</a></td>
+        </tr>
+        <tr>
+          <th>Data collection on trafficking in human beings in the EU (2018)</th>
+          <td>pdf</td>
+          <td>Not as an independent and downloadable file. Data related to metadata are reported in the document in textual form.</td>
+          <td><a href="https://ec.europa.eu/home-affairs/sites/homeaffairs/files/what-we-do/policies/european-agenda-security/20181204_data-collection-study.pdf">https://ec.europa.eu/home-affairs/sites/homeaffairs/files/what-we-do/policies/european-agenda-security/20181204_data-collection-study.pdf</a></td>
+          <td><a href="https://ec.europa.eu/anti-trafficking/node/1_en">https://ec.europa.eu/anti-trafficking/node/1_en</a></td>
+        </tr>
+        <tr>
+          <th>Data collection on trafficking in human beings in the EU (2020)</th>
+          <td>pdf</td>
+          <td>Not as an independent and downloadable file. Data related to metadata are reported in the document in textual form.</td>
+          <td><a href="https://ec.europa.eu/anti-trafficking/sites/default/files/study_on_data_collection_on_trafficking_in_human_beings_in_the_eu.pdf">https://ec.europa.eu/anti-trafficking/sites/default/files/study_on_data_collection_on_trafficking_in_human_beings_in_the_eu.pdf</a></td>
+          <td><a href="https://ec.europa.eu/anti-trafficking/eu-policy/third-report-progress-made-fight-against-trafficking-human-beings_en">https://ec.europa.eu/anti-trafficking/eu-policy/third-report-progress-made-fight-against-trafficking-human-beings_en</a></td>
+        </tr>
+        <tr>
+          <th>WBG countries profiles*</th>
+          <td>csv, xls, tabbed txt, pdf</td>
+          <td>Yes, independent from dataset and downloadable. Metadata is about the type of license (CC-BY-SA 4.0) and its URL, indicators name, its code, its long definition, the topic, the period, the aggregation method, the statistical method, and general comments.</td>
+          <td><a href="https://databank.worldbank.org/views/reports/reportwidget.aspx?Report_Name=CountryProfile&Id=b450fd57&tbar=y&dd=y&inf=n&zm=n&country=ITA, https://databank.worldbank.org/reports.aspx?source=2&country=ITA">https://databank.worldbank.org/views/reports/reportwidget.aspx?Report_Name=CountryProfile&Id=b450fd57&tbar=y&dd=y&inf=n&zm=n&country=ITA, https://databank.worldbank.org/reports.aspx?source=2&country=ITA</a></td>
+          <td><a href="https://data.worldbank.org/country/italy">https://data.worldbank.org/country/italy</a></td>
+        </tr>
+        <tr>
+          <th>OECD regional well-being</th>
+          <td>xlsx</td>
+          <td>Not in the provenance web page (OECD regional well-being), but metadata about data contained in this dataset may be available on the OECD general web resource.</td>
+          <td><a href="https://www.oecdregionalwellbeing.org/assets/downloads/OECD-Regional-Well-Being-Data-File.xlsx">https://www.oecdregionalwellbeing.org/assets/downloads/OECD-Regional-Well-Being-Data-File.xlsx</a></td>
+          <td><a href="https://www.oecdregionalwellbeing.org/">https://www.oecdregionalwellbeing.org/</a></td>
+        </tr>      
+      </table>
+
+      <p>*provenance and URI are those of the Italy Country Profile dataset, but for ODOHTEU project have been used 28 Country Profile dataset, one for each member state of the European Union (until 2018, thus considering also UK). For reasons of brevity and to avoid redundancy, it was chosen to report only the URI and the provenance of the Italian state dataset, as the URIs and the provenance of the other datasets on the other European Union nations have the same syntactic and technical characteristics respectively.</p>
+
+
+      <h2 id="mashup">5. Mash-up and final datasets</h2>
+      <h3 id="principles">5.1 Principles and goals</h3>
+      <p>For the purposes of ODOHTEU project, as explained in the section "Scenario", the original datasets that we have found were not appropriate on several fronts:</p>
+      <p>1) <b>technically</b>: almost half of the original datasets are in pdf format;</p>
+      <p>1) <b>temporally</b>: we wanted to investigate data about the 21th century;</p>
+      <p>2) <b>geographically</b>: we were interested only in the human trafficking happening in the European Union member states;</p>
+      <p>3) <b>for their content</b>: having to choose some variables or indicators on which to focus our research, as regards the trafficking of human beings, we focused on the <b>total number of victims, sex, age or majority status, form of exploitation, citizenship and country of destination</b>; while for what concerns the growth or well-being indicators of the European states we have taken into consideration the <b>population growth, poverty rate, life expectancy, schooling/education, GDP, net migration, jobs, income, safety, health, environment, civic engagement, accessiblity to services, housing</b>.</p>
+      <p>For all of these reasons we had to create new datasets out of the modification that proved necessary for the purpose of this project. Thus each ODOHTEU dataset has been created through a process of comparing and harmonizing existing data models of original datasets owners seeking coherency and consistency in data aggregation and manipulation.</p>
+
+      <br>
+
+      <p>In particular, in order to create ODOHTEU final mash-up datasets we have decided to follow the <b>FAIR principles</b> stated by the Guidelines for Open Data provided by the EU: data have to be findable, accessible, interoperable and re-usable.</p>
+
+      <p><b>Findable</b>: the first step in (re)using data is to find them. Metadata and data should be easy to find for both humans and computers. Machine-readable metadata are essential for automatic discovery of datasets and services, so this is an essential component of the FAIRification process.</p>
+      <p>F1. (Meta)data are assigned a globally unique and persistent identifier: both the mashed up data and the metadata we created according to the DCAT-AP are compliant with this point, presenting URI.</p>
+      <p>F2. Data are described with rich metadata: we associated a rich amount of metadata compliant with the DCAT-AP specification, including not only all the mandatory classes with their respective mandatory properties but also some recommended and optional properties that were useful for our data.</p>
+      <p>F3. Metadata clearly and explicitly include the identifier of the data they describe: for each dataset that is part of a catalogue and for our own dataset we associated to the metadata a unique identifier of the data described by means of the DCAT-AP optional property for datasets dct:identifier.</p>
+      <p>F4. (Meta)data are registered or indexed in a searchable resource: All the data we used are identified by an URL that allows to access the source where they are registered. For the creation of the metadata associated with our data we used the DCAT-AP specification, whose aim is to enable a cross-data portal search for data sets and make public sector data better searchable across borders and sectors. Therefore, we can state that our (meta)data are registered in a searchable infrastructure.</p>
+      <br>
+      <p><b>Accessible</b>: once the user finds the required data, they need to know how can they be accessed.</p>
+      <p>A1. (Meta)data are retrievable by their identifier using a standardised communications protocol: All the data we collected and mashed up and the relative metadata are retrievable through the HTTP or its extension HTTPS. Moreover, we provided also an explicit and clear contact protocol in the metadata by means of the names and emails of the data and metadata providers.</p>
+      <p>A1.1. The protocol is open, free, and universally implementable: HTTP and HTTPS are compliant with these characteristics.</p>
+      <p>A1.2 The protocol allows for an authentication and authorisation procedure, where necessary: the HTTP and HTTPS provide for authentication of the accessed website.</p>
+      <p>A2. Metadata are accessible, even when the data are no longer available: metadata will remain accessible from the metadata web page of this web resource.</p>
+      <br>
+      <p><b>Interoperable</b>: the data usually need to be integrated with other data. In addition, the data need to interoperate with applications or workflows for analysis, storage, and processing.</p>
+      <p>I1. (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation: we used JSON and CSV for the representation of the mashed up data and RDF with the Turtle syntax to describe and structure the metadata.</p>
+      <p>I2. (Meta)data use vocabularies that follow FAIR principles: the annotation format we used allow to use machine-readable terms from any controlled vocabulary. We used the ISO standard vocabulary to represent nations, the Linked Open Data vocabulary specification called DCAT-AP. These vocabularies are documented and resolvable using globally unique and persistent identifiers.</p>
+      <p>I3. (Meta)data include qualified references to other (meta)data: JSON, CSV and the RDF schema account for the data exchange and cross reference among metadata.</p>
+      <br>
+      <p><b>Reusable</b>: the ultimate goal of FAIR is to optimise the reuse of data. To achieve this, metadata and data should be well-described so that they can be replicated and/or combined in different settings.</p>
+      <p>R1. Meta(data) are richly described with a plurality of accurate and relevant attributes: our data and metadata are described through a rich and vary series of labels including the date of collection and modification of the data, the licence, the publisher, the creator, their content.</p>
+      <p>R1.1. (Meta)data are released with a clear and accessible data usage license: ODOHTEU datasets are released under the Creative Common License CC BY 4.0, which is specified for the dataset and respective metadata we created.</p>
+      <p>R1.2. (Meta)data are associated with detailed provenance: our project includes information about the provenance of data in a machine-readable format in the metadata codification. The website presents also a description of the workflow that led to final data.</p>
+      <p>R1.3. (Meta)data meet domain-relevant community standards: we used the ISO standard for geographic information.</p>
+      <br>
+      <p>The principles mentioned above include three types of entities: data, metadata and infrastructure. Thus given this examination, we may claim that ODOHTEU research data complies with the principles of FAIR.</p>
+
+
+      <h3 id="changes">5.2 Changes to original datasets and creation of final ones</h3>
+      <p>General overview on main changes and measures on original datasets in order to obtain ODOHTEU final mash-up datasets:</p>
+      <table>
+        <tr>
+          <th>Original dataset</th>
+          <th>Format transition</th>
+          <th>Cleaning and extraction of data of interest</th>
+          <th>Data aggregation or separation</th>
+          <th>Final dataset(s)</th>
+        </tr>
+        <tr>
+          <td>CTDC global dataset</td>
+          <td>/</td>
+          <td>Filtering of the desired fields: only data concerning the countries of the European Union.</td>
+          <td>None. After filtering the original dataset we obtained 1 csv dataset.</td>
+          <td></td>                
+        </tr>
+        <tr>
+          <td>UNODC Detected trafficking victims</td>
+          <td>/</td>
+          <td>Filtering of the desired fields: only data concerning the countries of the European Union.</td>
+          <td>None. After filtering the original dataset we obtained 1 csv dataset.</td> 
+          <td></td>
+        </tr>
+        <tr>
+          <td>UNODC Detected victims by citizenship</td>
+          <td>/</td>
+          <td>Filtering of the desired fields: only data concerning the countries of the European Union.</td>
+          <td>None. After filtering the original dataset we obtained 1 csv dataset.</td> 
+          <td></td>
+        </tr>
+        <tr>
+          <td>First anti-trafficking report (2016)</td>
+          <td>From pdf to csv</td>
+          <td>Filtering of the desired fields: extraction of tables about total detected victims, age, gender and forms of exploitation.</td>
+          <td>From 1 pdf file we obtained 3 csv file, then aggregated in 1 final dataset in csv format.</td> 
+          <td></td>
+        </tr>
+        <tr>
+          <td>Data collection on trafficking in human beings in the EU (2018)</td>
+          <td>From pdf to csv</td>
+          <td></td>
+          <td></td> 
+          <td></td>
+        </tr>
+        <tr>
+          <td>Data collection on trafficking in human beings in the EU (2020)</td>
+          <td>From pdf to csv</td>
+          <td></td>
+          <td></td> 
+          <td></td>
+        </tr>
+        <tr>
+          <td>WBG countries profiles*</td>
+          <td></td>
+          <td></td>
+          <td></td> 
+          <td></td>
+        </tr>
+        <tr>
+          <td>OECD regional well-being</td>
+          <td></td>
+          <td></td>
+          <td></td> 
+          <td></td>
+        </tr>
+      </table>
+
+      <p>To obtain the final dataset, data manipulation was proven necessary. We have written and used python functions to extract data of interest, delete rows or columns of csv files, convert pdf files into csv files and join together data in order to create a new dataset in csv format. We also imported python libraries such as “CSV” and “Camelot”.</p>
+      <p>Main functions used for data manipulation:</p>
+      <pre style="margin-left: 2em; margin-right: 2em;">
+        <code>
+          import csv
+
+          # process original dataset
+          def process_metadata(metadata_file_path):
+              data = []
+              with open(metadata_file_path, 'r', encoding='utf-8') as csvfile:
+                  reader = csv.DictReader(csvfile)
+                  reader.fieldnames = 'Country', 'Code', 'Education', 'Jobs', 'Income', 'Safety', 'Health', 'Environment',
+                  'Civic engagement', 'Accessiblity to services', 'Housing', 'Housing1', 'Housing2'
+
+                  for row in reader:
+                      data.append(row)
+                  return data
+
+
+          processedFile = process_metadata('dataset.csv')
+
+          # filter relevant data
+          def do_filter(data, field, country):
+              result = []
+              CampiPresentiEuropa = set() # to know in advance which European Union countries are present
+
+              for row in data:
+                  campoDaControllare = row[field]
+
+                  if campoDaControllare in country:
+                      CampiPresentiEuropa.add(row[field])
+                      result.append(row)
+              return result
+
+
+          EuropeFilter = do_filter(processedFile, 'Country',
+                                   ["Italy", "Austria", "Belgium", "Bulgaria", "Crotia", "Cyprus", "Czech Republic", "Denmark",
+                                    "Estonia", "Finland", "France", "Germany", "Greece", "Hungary", "Ireland", "Latvia",
+                                    "Lithuania", "Luxembourg", "Malta", "Netherlands", "Poland", "Portugal", "Romania",
+                                    "Slovakia", "Slovenia", "Spain", "Sweden", "United Kingdom", "Great Britain"])
+
+          # create new dataset with data of interest
+          def create_dataset(filter):
+              with open('new_dataset.csv', 'w', newline='') as csvfile:
+                  fieldnames = filter[0].keys()
+                  writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+
+                  writer.writeheader()
+                  for x in filter:
+                      writer.writerow(x)
+
+
+          create_dataset(EuropeFilter)
+        </code>
+      </pre>
+
+      <h2 id="sost">6. Sostenibility over time</h2>
+      <p>ODOHTEU project, as well as its catalog and datasets, have been developed as the final examination for the Open Access and Digital Ethics course within the Master's Degree in Digital Humanities and Digital Information at the University of Bologna, and is therefore <b>not regularly managed and updated</b>. Also, <b>as it takes a picture of a particular moment of time, to be specific 2000-2018, we do not intend to change ODOHTEU</b>. However, to be able to make comparisons between datasets, it will be interesting to build new datasets for the following years, even because the datasets used for this catalog are preserved and continuously updated by the relevant institutions which own them. In any case, our scripts remain usable and can be rerun on new files at any time.  If anyone finds that  a new release of one of our input dataset is available, we will be happy to be told about it in order to update our automated script file. <b>Under CC 4.0.0, our scripts are authorised and licensed</b>.</p>
+      <p>As regards the sustainability not over time but <b>qualitative</b> of the materials present in the ODOHTEU project, we have tried to maintain the historical series and above all its information load as a whole; we used persistent URIs; and we integrated the data with RDF metadata serialized in Turtle, using the DCAT standard integrated with other ontologies such as SKOS, FOAF, etc.</p>
+
+      <h2 id="viz">7. Visualization</h2>
+      <p>What we were looking for or what we wanted to visualize clearly are <b>trends</b> (overall picture of data over time), <b>features</b> (some sample of overall data, as in the map visualization), <b>outliers</b> (some data points in the dataset), <b>similarity</b> (common features of data points).</p>
+      <p>For achieving effective visualizations,  we tried to apply <b>redundancy of encoding</b>, by using color and shape for one dimension for instance, because it helps users’ perception; and we used <b>familiar colors, icons, layouts</b> as visual hooks and reduce users’ effort in understanding the intended message.</p>
+      <p>We used different type of data visualization: mainly <b>static</b> but also <b>interactive</b> (e.g., if the user hovers the bar in the bar chart a tool-tip appears showing data); we also add an <b>animated</b> horizontal bar chart; as well as an interactive map (you can select the year you want to visualize data of).</p>
+      <p>Finally, we also based our visualizations on the <b>type of data we wanted to represent</b>: categorical data, quantitative data or mixed data.</p>
+      <p>Generally speaking, we decided which visualization was best suited to represent a dataset based on what we wanted to show. For instance, when we wanted to show <b>comparisons</b> we used bar charts and line charts. To show <b>composition</b>, we used pie charts to represent simple share of total.</p>
+      <br>
+
+      <h3 id="tools">7.1 Visualization tools</h3>
+      <p>In order to visualize the data the following libraries were used:</p>
+      <p><a href="https://leafletjs.com/">Leaflet.js</a>: an open-source JavaScript library for mobile-friendly interactive maps which uses <a href="https://geojson.io/#map=2/20.0/0.0">GEOJSON</a>: Leaflet makes it possible to draw polygons directly from geojson files.
+      <br>Code © BSD <a href="https://github.com/Leaflet/Leaflet/blob/master/LICENSE"> https://github.com/Leaflet/Leaflet/blob/master/LICENSE</a>
+      <br>Data © OpenStreetMap contributors <a href="https://www.openstreetmap.org/copyright">https://www.openstreetmap.org/copyright</a></p>
+      <p><a href="https://www.chartjs.org">Chart.js</a>: simple yet flexible JavaScript charting for designers and developers. License: <a href="https://www.chartjs.org/docs/latest/notes/license.html"> https://www.chartjs.org/docs/latest/notes/license.html</a></p>
+      <p><a href="https://d3js.org/">D3.js</a>: a JavaScript library for manipulating documents based on data, which uses HTML, SVG and CSS; and combines powerful visualization components and a data-driven approach to DOM manipulation. Library released under BSD license.</p>
+
+
+      <h3 id="each">7.2 Visualizations for each dataset</h3>
+      <p>In order to visualize the datasets in a proper and consistent way, we have decided to develop:</p>
+      <p>1) <b>multiple or simple bar charts</b>: often used with bivariate values, especially to combine a categorical value and a numeric value, and highlight differences between categories (their occurrence in the dataset). Indeed, we used it to represent data about age, sex and total number of victims both for datasets regarding 2015-2016 and datasets for 2017-2018, as well as for data from OECD dataset. An animated horizontal bar chart was used for display data from UNODC total detected victim dataset.</p>
+      <p>2) <b>pie charts</b>: circles cut in segments to show parts and their proportion with respect to the whole, and to other parts. Used to show univariate dependant data. Indeed, we used it to represent datasets about 2013-2014 data on human trafficking and citizenship of victims reported in datasets of 2015-2016.</p>
+      <p>3) <b>map</b>: as geographical maps can be more intuitive than other axes systems, we have decided to use this visualization to show the total population of each member state of the European Union in 2000, 2010 and 2018 (from the ODOHTEU dataset: Country profile for each member states of the European Union). This is a sample, as we can visualize in a map also the other indicators included in the dataset: poverty rate, life expectancy, school enrolling, GDP and net migration.</p>
+      <p>4) <b>line plots as area charts</b>: used to show dependent data, usually between a categorical value and a numeric one (when changes occur in one variable, these affect the other variables), it’s a special type of line chart where areas divided show a comparison of variables and their dependency (e.g. inverse proportion) and of the “size” of a phenomenon. Indeed, we used it to represent data on forms of exploitation for the years 2017-2018.</p>
+
+      
+
+
+
+      <h2 id="rdf">8. RDF assertion of metadata</h2>
+      <p>We provided data with its metadata in order to provide <b>effective reusable and interoperable data</b>, adopting the <b>DCAT AP version 2.0.0 specification</b>. We chose to include metadata for the entire catalogue, but also separately for each dataset. The RDF assertion for the metadata in <b>Turtle serialization</b> has been released in the metadata web page of this project website.</p>
+      <p>The need for metadata in rdf derives from the goal of developing a project that was compliant with <b>LOD</b> characteristics. Indeed, in addition to having chosen to release ODOHTEU data sets in different <b>open and machine-readable formats</b>, we have specified the <b>license</b> in use for these datsets which derives from the one used in the original datasets reworked in the context of the ODOHTEU project. We used the RDF metadata to specify licence and attribution for each dataset. And therefore the third characteristic that allows to define "open" the data is the presence of <b>metadata that follows precise and internationally established standards or controlled vocabularies</b>, such as DCAT.</p>
+      <p>Following the <b>5-STAR OPEN DATA MODEL</b>, we have made available our datasets under a specified licence, making it available as <b>structured data (xml, csv, json)</b> not bound to specific software or a specific vendor. Then we used meaningful URIs to denote datasets (e.g. <code>data/id/2015-16EU-citizenship.zip</code>) and triples’ objects (e.g. <code>http://publications.europa.eu/resource/authority/file-type/CSV</code>). By "meaningful" we refer to the obligation of ensuring that <b>URIs are persistent, dereferenceable and unambiguous</b>; they should be supported by a <b>reliable infrastructure</b>; and they should follow the pattern:<code>http: // {domain} / {resource-type} / {concept} / {reference}</code></p>
+
+
+
+      <h2 id="conc">9. Conclusions</h2>
+      <p>The data we have collected, manipulated and visualized on human trafficking help shed light on a global phenomenon, analyzed here for the member states of the European Union, but by crossing and comparing datasets with different original sources: from international organizations to those based overseas, to the data of the European Union itself. One of our goals from the beginning has been to have a look without bias or prejudices on the phenomenon, so also for this reason we have chosen such different sources for the ODOHTEU datasets. <b>Comparing the data on this crime with those relating to the well-being and social and economic growth of a country can allow us to get a more precise idea of the phenomenon and the possible correlations with the well-being of a nation, to overcome prejudices and seek effective strategies to fight a crime against human beings and their fundamental rights.</b></p>
+
+    </section>
 
   </body>
 
