@@ -415,7 +415,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 
 footer{
-	position: fixed;
+position: fixed;
 	bottom: 0;
 }
 
@@ -456,6 +456,10 @@ footer{
 	vertical-align: middle;
 }
 
+a {
+font-family: 'roboto';
+
+}
 
 
 
@@ -472,5 +476,10 @@ footer{
 	.footer-distributed .footer-center i{
 		margin-left: 0;
 	}
+
+}
+footer p {
+color:#ffffff;
+
 
 }

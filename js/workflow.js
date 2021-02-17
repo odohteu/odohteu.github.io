@@ -1,12 +1,12 @@
-$(function(){ 
-	const summaryBox = $('.js-summary');
-	const nrSteps = $('.step').length;
+(function(){ 
+	const summaryBox = ('.js-summary');
+	const nrSteps = ('.step').length;
 	
 	var markupNodes = [],
 		markupEdges = [];
 	
-	$('.step').each( function(index, value) {
-		const self = $(this),
+	('.step').each( function(index, value) {
+		const self = (this),
 			  id = self.attr('id'),
 			  title = self.find('.title').html(),
 			  text = self.find('.description').html();
