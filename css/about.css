@@ -294,6 +294,7 @@ margin:auto;
   position: absolute;
   top: 210px;
   width: 380px;
+  object-fit: cover;
 }
 .img {
   pointer-events: none;
