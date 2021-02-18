@@ -257,6 +257,15 @@ animation-name: fadein;
 	 border-right: 7px solid transparent;
 	 border-top: 7px solid #f5b90f;
 }
+
+
+
+
+.timeline-item.eight, .timeline-item.timeline-item.seven, .timeline-item.nine {
+padding-bottom:20%;
+
+
+}
  #timeline .timeline-item.seven {
 	 animation-delay: 3s;
 }
@@ -417,24 +426,26 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 
 footer{
-position: fixed;
+position: absolute;
 	bottom: 0;
+
 }
 
-@media (max-height:800px){
+@media (max-height:500px){
 	footer { position: static; }
-	header { padding-top:50px; }
+	header { padding-top:30px; }
 }
 
 
 .footer-distributed{
-	background-color: #29292f;
+		background-color: #29292f;
 	box-sizing: border-box;
-	width: 100%;
+	width: 108%;
 	text-align: center;
 	font: bold 16px sans-serif;
 	padding: 10px 10px 30px 20px;
 	margin-top: 130px;
+
 }
 
 
@@ -458,10 +469,7 @@ position: fixed;
 	vertical-align: middle;
 }
 
-a {
-font-family: 'roboto';
 
-}
 
 
 
