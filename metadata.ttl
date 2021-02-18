@@ -534,7 +534,7 @@ a dcat:Dataset;
     dcat:theme <http://publications.europa.eu/resource/authority/data-theme/HEAL>;
     dcat:theme <http://publications.europa.eu/resource/authority/data-theme/SOCI>;
     dct:rightsHolder <https://www.worldbank.org/en/home>;
-    dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG>;
+    dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/QUARTERLY>;
     dct:subject <http://eurovoc.europa.eu/100146>, <http://eurovoc.europa.eu/100149>, <http://eurovoc.europa.eu/100150>, <http://eurovoc.europa.eu/100153>, <http://eurovoc.europa.eu/100155>;
     dcat:contactPoint "sara.coppini@studio.unibo.it", "gemma.centrone@studio.unibo.it";
     dct:publisher "Sara Coppini", "Gemma Centrone";
