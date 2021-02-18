@@ -1,9 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-@font-face {
-	font-family: 'roboto';
-	src: url(/Fonts/Roboto-LightItalic.ttf);
-
-}
 @font-face {
 	font-family: 'oecd';
 	src: url(/Fonts/Kaleko105-BoldOblique.ttf);
@@ -113,11 +109,16 @@ html,body {
 h1 {
  text-align: center;
 font-family: 'oecd';
+font-size: 250%;
 }
 #descrizione {
-padding:10px;
+
 text-align: center;
-font-family: 'roboto';
+
+margin-left:250px;
+margin-right: 250px;
+padding:20px;
+  font-family: 'Open Sans', sans-serif;
 }
 h2 {
 
@@ -143,7 +144,7 @@ margin-left:20px;
   --colorShadeE: rgb(205, 255, 232);
 }
 
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
+
 
 button {
 

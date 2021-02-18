@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 
 @font-face {
 	font-family: 'oecd';
@@ -5,16 +7,8 @@
 
 }
 
-@font-face {
-	font-family: 'arial';
-	src: url(/Fonts/unicode.arialr.ttf);
 
-}
-@font-face {
-	font-family: 'roboto';
-	src: url(/Fonts/Roboto-LightItalic.ttf);
 
-}
 
 #canvas {
 
@@ -32,10 +26,10 @@ html,body {
     height: 100%;
     margin: 0;
     padding: 0;
+   background: #f1f1f1;
 
 
 }
-
 
 
 
@@ -143,14 +137,19 @@ font-size: 250%;
 h2 {
 font-family: 'oecd';
  text-align: center;
-color: #f3c12c;
+
 margin-bottom: 0;
 }
 
 #descrizione {
-padding:10px;
+
 text-align: center;
-font-family: 'roboto';
+
+margin-left:250px;
+margin-right: 250px;
+padding:20px;
+
+  font-family: 'Open Sans', sans-serif;
 }
 
 

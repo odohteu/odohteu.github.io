@@ -29,7 +29,7 @@ const makeGraph = () =>
         .select("div")
         .append("svg")
         .attr("id", "chart")
-        .attr("viewBox", `5 0 1500 1500`);
+        .attr("viewBox", `5 0 1350 1500`);
 
       const smt = d3.rollup(
         results,
@@ -102,7 +102,7 @@ const makeGraph = () =>
       };
 
       const bars = (svg) => {
-        let bar = svg.append("g").attr("fill-opacity", 0.6).selectAll("rect");
+        let bar = svg.append("g").attr("fill-opacity", 0.8).selectAll("rect");
 
         return ([date, results], transition) =>
           (bar = bar
@@ -128,16 +128,17 @@ const makeGraph = () =>
               bar
                 .transition(transition)
                 .attr("y", (d) => y(d.rank))
-                .attr("width", (d) => x(d.value) - x(0) + 150)
+                .attr("width", (d) => x(d.value) - x(0) + 250)
             ));
       };
 
       const labels = (svg) => {
         let label = svg
           .append("g")
-          .style("font", "bold 12px var(--sans-serif)")
+          .style("font", "bold 2px var(--sans-serif)")
             .style("font-variant-numeric", "tabular-nums")
-      .attr("text-anchor", "start-7")
+  
+
     .selectAll("text");
 
         return ([date, results], transition) =>
@@ -148,13 +149,13 @@ const makeGraph = () =>
                 enter.append("text")
                   .attr("transform",(d) =>'translate(${x((prev.get(d) || d).value)},${y((prev.get(d) || d).rank)})')
                   .attr("y", y.bandwidth() / 2)
-                  .attr("x", -6)
+                  .attr("x", 12)
                   .attr("dy", "-0.25em")
                   .text((d) => d.name)
                   .call((text) =>text.append("tspan")
                       .attr("fill-opacity", 0.7)
                       .attr("font-weight", "bold")
-                      .attr("x", -2)
+                      .attr("x", 14)
                       .attr("dy", "1.15em")),
               update => update,
               exit =>exit.transition(transition).remove()
@@ -219,10 +220,11 @@ const makeGraph = () =>
       const ticker = (svg) => {
         const now = svg
           .append("text")
-          .style("font", `bold ${barSize}px var(--sans-serif)`)
+          .style("font-size", "30px")
+          .style("font-weight", "bold")
           .style("font-variant-numeric", "tabular-nums")
           .attr("text-anchor", "start")
-          .attr("x", width - 6)
+          .attr("x", width - 9)
           .attr("y", margin.top + barSize * (n - 0.45))
           .attr("dy", "0.32em")
           .text(frames[0][0]);

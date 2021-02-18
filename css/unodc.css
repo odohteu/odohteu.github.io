@@ -1,14 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-@font-face {
-	font-family: 'roboto';
-	src: url(/Fonts/Roboto-LightItalic.ttf);
-
-}
 @font-face {
 	font-family: 'oecd';
 	src: url(/Fonts/Kaleko105-BoldOblique.ttf);
 
 }
+html,body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+   background: #f1f1f1;
+
+
+}
+
 
 .clear{
   clear: both;
@@ -19,9 +24,13 @@
   display: none;
 }
 #descrizione {
-padding:10px;
 text-align: center;
-font-family: 'roboto';
+text-align: justify;
+margin-left:120px;
+margin-right: 100px;
+padding:20px;
+
+  font-family: 'Open Sans', sans-serif;
 
 }
 .slidemenu{
@@ -104,18 +113,17 @@ position:absolute;
 top:600px;
 width: 75%!important;
 
+
 }
 
 
-text g {
-font-weight: lighter;
-font-size: 35px;
-}
 
 
 h1 {
  text-align: center;
 font-family: 'oecd';
+font-size: 250%;
+color:	#808000;
 }
  
 
@@ -251,7 +259,13 @@ footer{
 	text-align: center;
 	font: bold 16px sans-serif;
 	padding: 30px 30px 30px 20px;
-	margin-top: 70%;
+	margin-top: 150%;
+}
+text {
+
+font-size: 20px;
+
+
 }
 
 
@@ -293,3 +307,4 @@ footer{
 	}
 
 }
+

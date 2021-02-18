@@ -1,8 +1,5 @@
-@font-face {
-	font-family: 'roboto';
-	src: url(/Fonts/Roboto-LightItalic.ttf);
 
-}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @font-face {
 	font-family: 'traffic';
 	src: url(/Fonts/TRAFFICN.TTF);
@@ -70,7 +67,7 @@ text-align: center;
 #descrizione {
 padding:10px;
 text-align: center;
-font-family: 'roboto';
+  font-family: arial, sans-serif;
 }
 
 .clear{
@@ -378,9 +375,9 @@ margin:auto;
     border: 2px solid black;
     border-width: 0px 0 2px 2px;
 }
- p {
+p {
 font-size:100%;
-padding:10px;
+
 text-align: center;
 font-family: 'roboto';
 margin-left: 70px;

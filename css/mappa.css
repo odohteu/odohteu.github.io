@@ -1,20 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @font-face {
 	font-family: 'oecd';
 	src: url(/Fonts/Kaleko105-BoldOblique.ttf);
 
 }
-@font-face {
-	font-family: 'roboto';
-	src: url(/Fonts/Roboto-LightItalic.ttf);
+
+html,body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+ background: #f1f1f1;
+
 
 }
-
 .viz {
 	border-radius: .8rem;
 
 }
 .vizSliderInput{
-  margin-left:700px;
+  margin-left:680px;
+
+
 
 }
 div.tooltip {
@@ -46,7 +52,6 @@ div.tooltip {
 .sliderPopulation, .vizSlider {
 width: 100px;
 }
-
 
 
 .clear{
@@ -143,15 +148,30 @@ width: 100px;
 
 
 
-h1,h2{
+h1{
  text-align: center;
 font-family: 'oecd';
-padding-top:30px;
+font-size: 250%;
+color: 	#68228B;
+
+}
+
+
+h2{
+ text-align: center;
+font-family: 'oecd';
+padding-top:90px;
+
+font-size: 250%;
 }
 #descrizione {
-padding:10px;
 text-align: center;
-font-family: 'roboto';
+
+margin-left:250px;
+margin-right: 250px;
+padding:20px;
+
+  font-family: 'Open Sans', sans-serif;
 
 }
 

@@ -1,24 +1,29 @@
-@font-face {
-	font-family: 'arial';
-	src: url(/Fonts/unicode.arialr.ttf);
 
-}
-@font-face {
-	font-family: 'roboto';
-	src: url(/Fonts/Roboto-LightItalic.ttf);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-}
 @font-face {
 	font-family: 'oecd';
 	src: url(/Fonts/Kaleko105-BoldOblique.ttf);
 
 }
+
 #canvas {
 width: 90%!important;
 margin-top:10px!important;
 margin:auto;
 
 }
+
+html,body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+   background: #f1f1f1;
+
+
+}
+
+
 .clear{
   clear: both;
 }
@@ -115,6 +120,7 @@ h1{
  text-align: center;
 font-family: 'oecd';
 color: #0b4970;
+font-size: 250%;
 }
 
 h2 {
@@ -128,13 +134,18 @@ margin-top:70px;
 
 
 #descrizione {
-padding:10px;
+
 text-align: center;
-font-family: 'roboto';
+
+margin-left:250px;
+margin-right: 250px;
+padding:20px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 #canvas {
 padding:50px;
+padding-top:100px;
 
 
 }
