@@ -5,7 +5,11 @@
 	src: url(/Fonts/Kaleko105-BoldOblique.ttf);
 
 }
+@font-face {
+	font-family: 'traffic';
+	src: url(/Fonts/TRAFFICN.TTF);
 
+}
 html,body {
     height: 100%;
     margin: 0;
