@@ -67,7 +67,8 @@ text-align: center;
 #descrizione {
 padding:10px;
 text-align: center;
-  font-family: arial, sans-serif;
+
+  font-family: 'Open Sans', sans-serif;
 }
 
 .clear{
@@ -273,7 +274,8 @@ position: fixed;
 }
 
 a {
-font-family: 'roboto';
+
+  font-family: 'Open Sans', sans-serif;
 text-decoration: none;
 
 }
@@ -379,7 +381,8 @@ p {
 font-size:100%;
 
 text-align: center;
-font-family: 'roboto';
+
+  font-family: 'Open Sans', sans-serif;
 margin-left: 70px;
 margin-right: 70px;
 text-align: justify;

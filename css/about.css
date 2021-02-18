@@ -1,8 +1,4 @@
-@font-face {
-	font-family: 'roboto';
-	src: url(/Fonts/Roboto-LightItalic.ttf);
-
-}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 @font-face {
 	font-family: 'oecd';
@@ -15,11 +11,7 @@
 	src: url(/Fonts/TRAFFICN.TTF);
 
 }
-@font-face {
-	font-family: 'traffic';
-	src: url(/Fonts/TRAFFICN.TTF);
 
-}
 
 
 
@@ -135,8 +127,8 @@ html,body {
 h1 {
 text-align: center;
 font-family: 'oecd';
-
-font-size: 300%;
+color:	#8B2500;
+font-size: 250%;
 
 }
 
@@ -148,6 +140,7 @@ section {
   
   width: 100%;
   display: table;
+  font-family: 'Open Sans', sans-serif;
   
 }
 
@@ -198,7 +191,7 @@ position: fixed;
 }
 
 a {
-font-family: 'roboto';
+  font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -402,8 +395,7 @@ margin:auto;
 letter-spacing: 8px;
 }
 .title {
-
-  font-family:'roboto';
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
 font-weight: bold;
   margin-top: 4px;

@@ -32,7 +32,7 @@ html, body {
 .slidemenu{
   font-family: arial, sans-serif;
   max-width: 900px;
-  margin: 20px auto;
+  margin: 30px auto;
   overflow: hidden;
 }
 
@@ -119,6 +119,8 @@ h2, h3, h4, h5, h6 {
 h1 { 
   text-align: center;
   font-family: 'oecd';
+font-size: 250%;
+color: #01796f;
  }
 
 p, a, ul, li, table {
@@ -155,7 +157,7 @@ table>tbody>tr>td, table>tbody>tr>th, table>tfoot>tr>td, table>tfoot>tr>th, tabl
   border: 1px solid #6aa389;
 }
 
-#main {margin: 10px 60px 10px 70px;}
+#main {margin: 10px 20% 20% 20%;}
 
 a {
   /* These are technically the same, but use both */
