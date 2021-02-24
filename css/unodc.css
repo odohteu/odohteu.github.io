@@ -151,7 +151,7 @@ margin-left:20px;
   --colorShadeE: rgb(205, 255, 232);
 }
 
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
+
 
 button {
 
@@ -172,7 +172,7 @@ font-weight: bold;
 }
 
 button.big-button {
-   padding: 1em 2em;
+   padding: 1em 1em;
    border: 2px solid var(--colorShadeA);
   border-radius: 1em;
   background: var(--colorShadeE);
@@ -222,9 +222,16 @@ a:link {
 
 
 /* mouse over link */
-a:hover {
-  color:   rgba(75, 192, 192, 0.6);
+
+a {
+
 text-decoration: none;
+color: black;
+ font-family: 'Open Sans', sans-serif;
+font-weight: bold;
+}
+a:hover {
+  color: #96e8c3;
 }
  #imageUNODC img {
 position: relative;

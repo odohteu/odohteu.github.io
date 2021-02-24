@@ -124,14 +124,12 @@ html,body {
 
 
 
-h1 {
-text-align: center;
-font-family: 'oecd';
-color:	#8B2500;
+h1 { 
+  text-align: center;
+  font-family: 'oecd';
 font-size: 250%;
-
-}
-
+color: #01796f;
+ }
 
 
 
@@ -191,9 +189,16 @@ position: fixed;
 }
 
 a {
-  font-family: 'Open Sans', sans-serif;
 
+text-decoration: none;
+color: black;
+ font-family: 'Open Sans', sans-serif;
+font-weight: bold;
 }
+a:hover {
+  color: #96e8c3;
+}
+
 
 
 

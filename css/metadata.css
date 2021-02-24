@@ -127,11 +127,6 @@ p, a, ul, li, table {
   font-family: 'Open Sans', sans-serif;
 }
 
-a, a:after {
-  color: #6aa389;
-  text-decoration: none;
-  font-weight: bold;
-}
 
 a:hover {
   color: #96e8c3;
@@ -158,23 +153,12 @@ table>tbody>tr>td, table>tbody>tr>th, table>tfoot>tr>td, table>tfoot>tr>th, tabl
 }
 
 #main {margin: 10px 20% 20% 20%;}
-
 a {
-  /* These are technically the same, but use both */
-  overflow-wrap: break-word;
-  word-wrap: break-word;
 
-  -ms-word-break: break-all;
-  /* This is the dangerous one in WebKit, as it breaks things wherever */
-  word-break: break-all;
-  /* Instead use this non-standard one: */
-  word-break: break-word;
-
-  /* Adds a hyphen where the word breaks, if supported (No Blink) */
-  -ms-hyphens: auto;
-  -moz-hyphens: auto;
-  -webkit-hyphens: auto;
-  hyphens: auto;
+text-decoration: none;
+color: black;
+ font-family: 'Open Sans', sans-serif;
+font-weight: bold;
 }
 
 footer{

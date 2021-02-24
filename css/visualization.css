@@ -114,7 +114,7 @@ h1 {
  text-align: center;
 font-family: 'oecd';
 font-size: 250%;
-color: rgba(53,98,225,255);
+color: #01796f;
 }
 #descrizione {
 
@@ -170,7 +170,7 @@ font-weight: bold;
 }
 
 button.big-button {
-   padding: 1em 2em;
+   padding: 1em 1em;
    border: 2px solid var(--colorShadeA);
   border-radius: 1em;
   background: var(--colorShadeE);
@@ -271,6 +271,16 @@ footer p {
 color:#ffffff;
 
 
+}
+a {
+
+text-decoration: none;
+color: black;
+ font-family: 'Open Sans', sans-serif;
+font-weight: bold;
+}
+a:hover {
+  color: #96e8c3;
 }
 
 @media (max-width: 880px) {

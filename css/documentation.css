@@ -53,7 +53,7 @@ html, body {
 
 .slidemenu label span{
   display: block;
-  padding: 10px;    
+  padding: 8px;    
 }
 
 .slidemenu label .icon{
@@ -113,12 +113,14 @@ html, body {
 h2, h3, h4, h5, h6 {  
   font-family: 'oecd';
   margin-top: 3em;
+color: #01796f;
 }
 
 h1 { 
   text-align: center;
   font-family: 'oecd';
 font-size: 250%;
+color: #01796f;
  }
 
 p, a, ul, li, table {
@@ -234,10 +236,12 @@ position: fixed;
 	margin: 10px 15px;
 	vertical-align: middle;
 }
-
 a {
-  font-family: 'Open Sans', sans-serif;
 
+text-decoration: none;
+color: black;
+ font-family: 'Open Sans', sans-serif;
+font-weight: bold;
 }
 
 
@@ -261,7 +265,10 @@ footer p {
 color:#ffffff;
 
 
+ }a:hover {
+  color: #96e8c3;
 }
+ 
 
 <<<<<<< Updated upstream
 
