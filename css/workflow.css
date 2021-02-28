@@ -260,6 +260,16 @@ margin-right:15%;
     background: rgba(213,234,211,255);
 
 }
+.column34 {
+ float: right;
+ width: 30%;
+flex-shrink: 0;
+margin-right:15%;
+    border-radius: 15%;
+    padding: 20px;
+    background: rgba(53,152,130,255);
+
+}
 .column19 {
  float: right;
  width: 30%;

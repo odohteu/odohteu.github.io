@@ -1,15 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>    
-    
-    <link rel="stylesheet" href="/css/2015-16.css">
+    <head>
+      <title>Visualizations</title>
+    <script src="https://cdn.anychart.com/releases/8.9.0/js/anychart-data-adapter.min.js"></script>
+      <script src="https://cdn.anychart.com/releases/8.9.0/js/anychart-base.min.js" type="text/javascript"></script>
+<script src="https://cdn.anychart.com/releases/8.9.0/js/anychart-core.min.js"></script>
+<script src="https://cdn.anychart.com/releases/8.9.0/js/anychart-bundle.min.js"></script>
+<script src="https://cdn.anychart.com/releases/8.9.0/js/anychart-base.min.js"></script>
+<link rel="stylesheet" href="/css/detectedvictim.css">
+   <link href="https://playground.anychart.com/gallery/src/General_Features/Chart_Y-Scroller/iframe" rel="canonical">
+  <meta content="AnyChart - JavaScript Charts designed to be embedded and integrated" name="description">
+  <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+  <link href="https://cdn.anychart.com/releases/v8/css/anychart-ui.min.css" rel="stylesheet" type="text/css">
+  <link href="https://cdn.anychart.com/releases/v8/fonts/css/anychart-font.min.css" rel="stylesheet" type="text/css">
+
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
- 
-    
-    <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA0fajVH04rewsgPhs-n4j3qsnmQvMaADQ&callback=initMap"
-      async defer>
-    </script>
+
 
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
     <script  type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
@@ -20,15 +29,15 @@
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 	<!-- Custom JS -->
- 
 
     </head>
     
     <body>
 
+  
 <nav class="slidemenu">
   
-   <!-- Item 1 -->
+  <!-- Item 1 -->
   <input type="radio" name="slideItem" id="slide-item-1" class="slide-toggle"/>
   <label for="slide-item-1"><a href="/index.html"><p class="icon">🏠</p><span>Home</span></a></label>
   
@@ -43,13 +52,14 @@
   
   <!-- Item 4 -->
   <input type="radio" name="slideItem" id="slide-item-4" class="slide-toggle" checked/>
-  <label for="slide-item-4"><a href="/visualization.html"><p class="icon"> 🖥️</p><span>Visualization</span></a></label>
+  <label for="slide-item-4"><a href="visualization.html"><p class="icon"> 🖥️</p><span>Visualization</span></a></label>
   <!-- Item 4 -->
   <input type="radio" name="slideItem" id="slide-item-5" class="slide-toggle"/>
   <label for="slide-item-5"><a href="/metadata.html"><p class="icon">🔍</p><span>Metadata</span></a></label>
   <input type="radio" name="slideItem" id="slide-item-6" class="slide-toggle"/>
   <label for="slide-item-6"><a href="/about.html"><p class="icon">🤷</p><span>About</span></a></label>
   <div class="clear"></div>
+  
   <!-- Bar -->
   <div class="slider">
     <div class="bar"></div>
@@ -60,10 +70,10 @@
 
 <h1>Visualization</h1>
 <div id="descrizione">
-<p>This dataset contains data from Europen Union Commission about <b>victims of human traffic in 2015 and 2016</b> as the result of the Data collection on trafficking in human beings in the EU, report of 2018.</p>
-<p>Specifically, is reported <b>gender of children victims</b>. The spatial coverage of the dataset are the European Union member states.</p>
+<p>In order to explicit the results and to support the communication, we have developed several kinds of visualizations: mainly <b>static</b> but also <b>interactive</b> (<b>animated</b> horizontal bar chart; as well as an interactive map (you can select the year you want to visualize data of). In particular, we have decided to develop: multiple or simple bar charts; pie charts; a map and line plots (area charts). As tools we used the following Javascript libraries: <b>Leaflet.js, Chart.js and D3.js</b>.</p>
+<p>What we were looking for or what we wanted to visualize clearly are <b>trends</b> (overall picture of data over time), <b>features</b> (some sample of overall data, as in the map visualization), <b>outliers</b> (some data points in the dataset), <b>similarity</b> (common features of data points).</p>
+<p>Generally speaking, we decided which visualization was best suited to represent a dataset based on what we wanted to show. For instance, when we wanted to show <b>comparisons</b> we used bar charts and line charts. To show <b>composition</b>, we used pie charts to represent simple share of total.</p>
 </div>
-
 <div id="bottoni">
 <a href="/2013-2014html/select.html"> <button class="big-button">2013-2014</a></button>
 <button class="big-button"><a href="/2015-16html/select15-16.html">2015-2016</button></a>
@@ -71,35 +81,30 @@
 <button class="big-button"><a href="/OECD/OECD.html">OECD</a></button>
 <button class="big-button"><a href="/UNODC/UNODC.html">UNODC</a></button>
 <button class="big-button"><a href="/Mappa/mappa.html">Maps</a></button>
-<button class="big-button"><a href="/Mashup/mashup.html">Mash-UP</a></button>
+<button class="big-button"><a href="mashup.html">Mash-UP</a></button>
 </div> 
+ <div class="container1">
+  
+    <a href="education.html" title="Button border blue/green" class="button btnBorder btnBlueGreen">Education</a>
+    <a href="detectedVictims.html" title="Button border lightblue" class="button btnBorder btnLightBlue">Detected Victim</a>
+    <a href="" title="Button border orange" class="button btnBorder btnOrange">Border</a>
+    <a href="" title="Button border purple" class="button btnBorder btnPurple">Border</a>
+    <div class="clear"></div>
+  </div>
 
 
- <select id="menu" onchange="location.href=document.getElementById('menu').value;">
-    <option value="select15-16.html">Select..</option>
-    <option value="età2015-16.html">Age of Victims</option>
-    <option value="child.html">Number of Children</option>
-    <option value="cittadiniNonUe2015-16.html">Non Europe Citizens</option>
-    <option value="destinazioni15-16.html">Destinations</option>
-    <option value="cittadiniUE.html">Europe Citizens</option>
-    <option value="Gender.html">Gender </option>
-    <option value="GenderandAge.html">Gender and Age</option>
-    <option value="Victims.html">Victims</option>
-</select> 
 
-
-<h2> Gender of Children Victims </h2> 
 <div id="canvas">
-    <canvas id="chart" width="600px" height="250px"></canvas>
+    <canvas id="chart1" width="900px" height="250px"></canvas>
 </div>
-<script src="../js/child15-16.js"></script>
-
+<script src="../js/detectedVictims.js"></script>
 <div id="image">
- <a href="/Download/csv/2015-16/child2015-16.csv"><img src="/images/excel-logo-png-3.png"></a>
-<a href="/Download/zip/2015-2016.zip"><img src="/images/zip.png"></a>
-<a href="/Download/json/2015-2016/child2015-16.json"><img src="/images/json.png"></a>
-<a href="/Download/xml/2015-2016/child2015-16.xml"><img src="/images/xmp.png"></a>
+ <a href="/data/csv/mash-up.csv"><img src="/images/excel-logo-png-3.png"></a>
+<a href="/data/zip/mash-up.zip"><img src="/images/zip.png"></a>
+<a href="/data/json/mash-up.json"><img src="/images/json.png"></a>
+<a href="/data/xml/mash-up.xml"><img src="/images/xmp.png"></a>
 </div>
+
 <footer class="footer-distributed">
 
 
