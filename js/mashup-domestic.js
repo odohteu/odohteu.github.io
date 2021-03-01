@@ -14,11 +14,10 @@ var ctx = document.getElementById("chart").getContext("2d");
 
 function makeChart(countries) {
 var nazioni = countries.map(function (d) {return d["(Destination) Country"]});
-var Women = countries.map(function (d) {return d["2017-18 Removal of organs Women N"]});
-var Boys = countries.map(function (d) {return d["2017-18 Removal of organs Boys N"]});
-var Girls = countries.map(function (d) {return d["2017-18 Removal of organs Girls N"]});
-var Men = countries.map(function (d) {return d["2017-18 Removal of organs Men N"]});
-var Total = countries.map(function (d) {return d["2017-18 Removal of organs Total N"]});
+var Health = countries.map(function (d) {return d["Net migration,SM.POP.NETM,Thousands (0) YR2000"]});
+var Health1 = countries.map(function (d) {return d["Net migration,SM.POP.NETM,Thousands (0) YR2010"]});
+var Health2 = countries.map(function (d) {return d["Net migration,SM.POP.NETM,Thousands (0) YR2018"]});
+
 
 
 var chart = new Chart('chart', {
@@ -31,42 +30,26 @@ var chart = new Chart('chart', {
       labels: nazioni,
       datasets: [
         {
-           label : "Women",
-          data:Women ,
+           label : "2000",
+          data:Health ,
 
-    backgroundColor:  'rgb(106, 90, 205)'
-
-        },
- 
-        {
-          label : "Boys",
-          data: Boys,
-
-    backgroundColor:  'rgba(255,140,0)'
-      
+    backgroundColor:  '#e52b50'
 
         },
- {
-          label : "Girls",
-          data: Girls,
+  {
+           label : "2010",
+          data:Health1 ,
 
- 
+    backgroundColor:  '#1ad4af'
 
-        
-backgroundColor: 
-        'rgba(95,158,160)'
-},
- {
-          label : "Men",
-          data: Men,
+        },
+  {
+           label : "2018",
+          data:Health2 ,
 
- 
+    backgroundColor:  '#ffd1dc'
 
-        
-backgroundColor: 
-        'rgba(95,158,160)'
-}
-    
+        }
       ]
     }
   });

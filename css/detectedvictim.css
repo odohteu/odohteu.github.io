@@ -164,12 +164,24 @@ margin-right:35px;
   box-shadow: 5px 5px 5px 5px #6D184B;
 }
 
-.container1{
-  padding-top: 2em;
-  margin-top: 5em;
-margin-left:30%;
-padding:30px;
+#image img {
+position:relative;
+display: inline-block;
+right:46%;
+top:10px;
+right:0;
+margin: auto;
+margin-left:auto;
+margin-right:auto;
+text-align: center;
+float: none;
+align-items: center;
+padding:10px;
+width: 70px;
+
 }
+
+
 a.button {
   display: block;
   position: relative;
@@ -183,8 +195,8 @@ a.button {
   color: black;
   border-radius: 5px;
   transition: all 0.2s ;
-margin:auto;
 }
+
 h2 {
 
 text-align: center;
@@ -206,7 +218,7 @@ font-weight: bold;
 }
 #image img {
 position: relative;
-left:32%;
+left:39%;
 bottom:20px;
 padding:10px;
 width: 70px;
@@ -229,6 +241,12 @@ padding:20px;
   --colorShadeE: rgb(205, 255, 232);
 }
 
+.container1{
+  padding-top: 2em;
+  margin-top: 5em;
+margin-left:33%;
+padding:30px;
+}
 
 
 button {
