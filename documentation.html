@@ -100,7 +100,7 @@
       <p><b>World Bank Group and World Bank Open Data</b>: provides free and open access to global development data. At the World Bank, the Development Data Group coordinates statistical and data work and maintains a number of macro, financial and sector databases. Working closely with the Bank’s regions and Global Practices, the group is guided by professional standards in the collection, compilation and dissemination of data to ensure that all data users can have confidence in the quality and integrity of the data produced.</p>
       <p><b>OECD – Organisation for Economic Co-operation and Development</b>: international organisation that works to build better policies for better lives, having the goal of shaping policies that foster prosperity, equality, opportunity and well-being for all. Together with governments, policy makers and citizens, OECD works on establishing evidence-based international standards and finding solutions to a range of social, economic and environmental challenges. From improving economic performance and creating jobs to fostering strong education and fighting international tax evasion, OECD provides a unique forum and knowledge hub for data and analysis, exchange of experiences, best-practice sharing, and advice on public policies and international standard-setting. Among all these activities, OECD also collects statistical data on those indicators considered to be the signs of the wellness of a country.</p>
       <br>
-      <p>To have more specific information regarding original dataset, you can either skip to section <a href="#analysis">4. Analysis of original datasets</a> or go to the <a href="odohteu.github.io/metadata.html">Metadata page</a> of ODOHTEU web resource.</p>
+      <p>To have more specific information regarding original dataset, you can either skip to section <a href="#analysis">4. Analysis of original datasets</a> or go to the <a href="odohteu.github.io/metadata.html" target="_blank">Metadata page</a> of ODOHTEU web resource.</p>
       <p>ORIGINAL DATASETS:</p>
 
       <table>
@@ -1149,10 +1149,42 @@
       <p>In this code, are reported examples for the fieldnames and the countries to filter in the dataset, but the fieldnames to insert and the data to filter certainly depend on the csv and the puroposes of the filtering process.</p>
 
       <h3 id="final">5.3 Final single mash-up of all datasets</h3>
-      <p>Finally, all the original datasets were merged into a single final dataset of the ODOHTEU project (mash-up.zip). To achieve this mash-up we followed two fundamental principles: <b>semantic coherence</b> and <b>consistency</b>.</p>
+      <table class="mash-up-table">
+        <tr>
+          <th>Original datasets</th>
+          <th>Format transition</th>
+          <th>Cleaning and extraction of data of interest</th>
+          <th>Data aggregation or separation</th>
+          <th>Final dataset</th>
+        </tr>
+        <tr>
+          <td style="width: 55%;">
+            ODOHTEU - victims by exploitation form, majority status and gender and other CTDC indicators;<br>
+            ODOHTEU - Detected trafficking victims per EU Countries (UNODC);<br>
+            ODOHTEU - trafficking victims by citizenship and years (UNODC);<br>
+            ODOHTEU - 2013-2014 victims by exploitation form, age and gender;<br>
+            ODOHTEU - 2015-2016 citizenship of EU victims;<br>
+            ODOHTEU - 2015-2016 destination country of EU victims;<br>
+            ODOHTEU - 2015-2016 gender and majority status of EU victims;<br>
+            ODOHTEU - 2015-2016 non EU citizenship of EU victims;<br>
+            ODOHTEU - 2015-2016 total number of EU victims, their gender, majority status and children percentage;<br>
+            ODOHTEU - 2017-2018 total number of victims in EU, their exploitation form by gender;<br>
+            ODOHTEU - 2017-2018 victims by citizenship, majority status and gender;<br>
+            ODOHTEU - country profile of European Union member States;<br>
+            ODOHTEU - countries well-being according to OECD indicators
+          </td>
+          <td>/</td>
+          <td>No need for data cleaning since original datasets were already targeted to the European Union member States; to the 2000s; and to the topics ODOHTEU focuses on.</td>
+          <td>Data was collected and merged in a consistent and semantically coherent way, trying to avoid both redundancy for what concern data; and ambiguity with regard to the indicators.</td>
+          <td><a href="https://odohteu.github.io/data/zip/mash-up.zip">ODOHTEU - mash-up dataset</a></td>
+        </tr>
+      </table>
+      <p><a href="https://odohteu.github.io/data/zip/mash-up.zip">Download the final mash-up dataset</a> and <a href="https://odohteu.github.io/data/zip/META-mash-up.zip">its metadata</a>.</p>
+
+      <p>Finally, all the original datasets were merged into a single final dataset of the ODOHTEU project (<a href="https://odohteu.github.io/data/zip/mash-up.zip">https://odohteu.github.io/data/zip/mash-up.zip</a>). To achieve this mash-up we followed two fundamental principles: <b>semantic coherence</b> and <b>consistency</b>.</p>
       <p>These firstly led us to <b>harmonize the variables with each other</b>, following the descriptions provided by the source institutions that provided the data in the first place. This meant changing the names of some fields of the dataset, in order to achieve a consistency that allowed to <b>avoid ambiguity</b>. For example, some datasets from the same source (e.g., the European Commission) had the same indicators, even if the data referred to different years; which is an indicator of consistency and coherence for the institution that updates the data of the original datasets (see section <a href="#quality">4.1 Quality analysis</a>), however in constituting a single dataset it was a question for us to face. For this reason, in the new final mash-up, we have modified these indicators by specifying the year to which the data refers. For example, both in the dataset "ODOHTEU - 2015-2016 total number of EU victims, their gender, majority status and children percentage", and in the dataset "ODOHTEU - 2017-2018 victims by citizenship, majority status and gender" there were indicators regarding the percentage of male victims (gender male %) and female victims (gender female %), therefore in the final dataset we distinguished these indicators according to the years, creating the new fields: 2015-16 gender % male; 2015-16 gender % female; 2017-18 gender male %; 2017-18 gender female %.</p>
-      <p>Secondly, following the principles mentioned, we chose <b>not to fully merge some datasets whose information was redundant or unnecessary</b>. For example, from the dataset "ODOHTEU - victims by exploitation form, majority status and gender and other CTDC indicators" we collected and reported only the data of the indicators most relevant to us for the purposes with which ODOHTEU was born and developed. We refer to the selection of indicators made from the beginning regarding the contents of the datasets: as regards the trafficking of human beings, we focused on the total number of victims, sex, age or majority status, form of exploitation, citizenship and country of destination; while for what concerns the growth or well-being indicators of the European states we have taken into consideration the population growth, poverty rate, life expectancy, schooling / education, GDP, net migration, jobs, income, safety, health, environment, civic engagement, accessibility to services, housing (see section 5.1 Principles and goals).</p>
-      <p>Slso for this dataset, as well as for all the others that have been reworked in the context of the ODOHTEU project, an <b>RDF assertion in Turtle of the metadata</b> has been made.</p>
+      <p>Secondly, following the principles mentioned, we chose <b>not to fully merge some datasets whose information was redundant or unnecessary</b>. For example, from the dataset "ODOHTEU - victims by exploitation form, majority status and gender and other CTDC indicators" we collected and reported only the data of the indicators most relevant to us for the purposes with which ODOHTEU was born and developed. We refer to the selection of indicators made from the beginning regarding the contents of the datasets: as regards the trafficking of human beings, we focused on the total number of victims, sex, age or majority status, form of exploitation, citizenship and country of destination; while for what concerns the growth or well-being indicators of the European states we have taken into consideration the population growth, poverty rate, life expectancy, schooling / education, GDP, net migration, jobs, income, safety, health, environment, civic engagement, accessibility to services, housing (see section <a href="#principles">5.1 Principles and goals)</a>.</p>
+      <p>Slso for this dataset, as well as for all the others that have been reworked in the context of the ODOHTEU project, an <b>RDF assertion in Turtle of the metadata</b> has been made. Go to <a href="metadata.html" target="_blank">metadata section</a>.</p>
 
 
       <h2 id="sost">6. Sostenibility over time</h2>
@@ -1174,6 +1206,7 @@
       <br>Data © OpenStreetMap contributors <a href="https://www.openstreetmap.org/copyright">https://www.openstreetmap.org/copyright</a></p>
       <p><a href="https://www.chartjs.org">Chart.js</a>: simple yet flexible JavaScript charting for designers and developers. License: <a href="https://www.chartjs.org/docs/latest/notes/license.html"> https://www.chartjs.org/docs/latest/notes/license.html</a></p>
       <p><a href="https://d3js.org/">D3.js</a>: a JavaScript library for manipulating documents based on data, which uses HTML, SVG and CSS; and combines powerful visualization components and a data-driven approach to DOM manipulation. Library released under BSD license.</p>
+      <p><a href="https://www.anychart.com/">AnyChart - JS charts</a>: a flexible JavaScript (HTML5) based solution that allows developers to embed interactive and great looking charts into web, desktop, and mobile apps.</p>
 
 
       <h3 id="each">7.2 Visualizations for each dataset</h3>

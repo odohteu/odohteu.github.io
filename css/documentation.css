@@ -172,6 +172,17 @@ table.legal {
   font-size: 13px;
 }
 
+table.mash-up-table {
+    margin-right: -60px;
+    margin-left: -60px;
+}
+
+table.mash-up-table td {
+    font-size: 14px;
+}
+
+
+
 #main {margin: 10px 20% 20% 20%;}
 
 a {
@@ -196,7 +207,7 @@ a {
 
 
 footer{
-position: fixed;
+    position: fixed;
 	bottom: 0;
 }
 
@@ -206,23 +217,9 @@ position: fixed;
 }
 
 
-.footer-distributed{
-	background-color: #29292f;
-	box-sizing: border-box;
-	width: 100%;
-	text-align: center;
-	font: bold 16px sans-serif;
-	padding: 10px 10px 30px 20px;
-	margin-top: 130px;
-}
-
-
-
-
 .footer-distributed .footer-center{
 	width: 35%;
 }
-
 
 .footer-distributed .footer-center i{
 	background-color:  #33333bb7;
@@ -236,19 +233,17 @@ position: fixed;
 	margin: 10px 15px;
 	vertical-align: middle;
 }
-a {
 
-text-decoration: none;
-color: black;
- font-family: 'Open Sans', sans-serif;
-font-weight: bold;
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
 }
 
 
 
 @media (max-width: 880px) {
-
-	
 	.footer-distributed .footer-center{
 		display: block;
 		width: 100%;
@@ -261,29 +256,13 @@ font-weight: bold;
 	}
 
 }
+
 footer p {
 color:#ffffff;
-
-
- }a:hover {
-  color: #96e8c3;
-}
- 
-
-<<<<<<< Updated upstream
-
+ }
 
 ul, ul > li > ul {
     list-style: none;
-=======
-footer{
-	position: fixed;
-	bottom: 0;
-}
-
-@media (max-height:800px){
-	footer { position: static; }
-	header { padding-top:50px; }
 }
 
 
@@ -296,13 +275,6 @@ footer{
 	font: bold 16px sans-serif;
 	padding: 10px 10px 30px 20px;
 	margin-top: 130px;
-}
-
-
-
-
-.footer-distributed .footer-center{
-	width: 35%;
 }
 
 
@@ -323,8 +295,6 @@ footer{
 
 
 @media (max-width: 880px) {
-
-	
 	.footer-distributed .footer-center{
 		display: block;
 		width: 100%;
@@ -335,6 +305,4 @@ footer{
 	.footer-distributed .footer-center i{
 		margin-left: 0;
 	}
-
->>>>>>> Stashed changes
 }
