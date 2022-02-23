@@ -247,9 +247,8 @@ footer{
 
 .footer-distributed{
 	background-color: #29292f;
-	box-sizing: border-box;
+	position: inherit;
 	color: #ffffff;
-	width: 100%;
 	text-align: center;
 	font: bold 16px sans-serif;
 	padding: 10px 10px 30px 20px;
