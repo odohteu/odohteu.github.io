@@ -315,8 +315,7 @@ footer{
 
 .footer-distributed{
 	background-color: #29292f;
-	box-sizing: border-box;
-	width: 100%;
+	position: inherit;
 	text-align: center;
 	font: bold 16px sans-serif;
 	padding: 10px 10px 30px 20px;
