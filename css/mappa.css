@@ -357,6 +357,13 @@ footer{
   padding-top: 30px;
 }
 
+/* bottone del menu a tendina: visibile solo su mobile */
+.menu-toggle,
+.slidemenu .menu-button {
+  display: none;
+}
+
+
 /* ==================== Responsive ==================== */
 
 /* tablet */
@@ -384,27 +391,62 @@ footer{
 /* mobile */
 @media (max-width: 768px) {
 
-  /* menu: icone più piccole, il testo resta solo sulla voce attiva */
+  /* menu a tendina: si apre e si chiude con il bottone ☰ */
   .slidemenu {
-    margin: 20px 10px 0 10px;
+    margin: 0;
+    border-bottom: 1px solid #cccccc;
+  }
+
+  .slidemenu .menu-button {
+    display: block;
+    float: none;
+    width: auto;
+    padding: 15px 20px;
+    opacity: 1;
+    color: #333333;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+  }
+
+  /* voci nascoste finché il menu è chiuso */
+  .slidemenu label {
+    display: none;
+    float: none;
+    width: auto;
+    opacity: 0.6;
+  }
+
+  .slidemenu .menu-toggle:checked ~ label {
+    display: block;
+  }
+
+  /* ogni voce: icona e testo affiancati */
+  .slidemenu label a {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 8px 20px;
+    border-top: 1px solid #dddddd;
   }
 
   .slidemenu label .icon {
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    font-size: 18px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 16px;
+    margin: 0 15px 0 0;
   }
 
   .slidemenu label span {
-    display: none;
+    padding: 0;
+    font-size: 16px;
   }
 
-  .slidemenu .slide-toggle:checked + label span {
-    display: block;
-    padding: 6px 0;
-    font-size: 12px;
-    white-space: nowrap;
+  /* la barra scorrevole serve solo al menu orizzontale */
+  .slider {
+    display: none;
   }
 
   h1 {
