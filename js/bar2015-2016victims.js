@@ -1,3 +1,8 @@
+// su mobile il grafico non mantiene le proporzioni 900x250 ma prende l'altezza di #canvas
+if (window.matchMedia("(max-width: 768px)").matches) {
+  Chart.defaults.global.maintainAspectRatio = false;
+}
+
 const cic = document.getElementById("chart").getContext("2d");
 
 d3.csv("../csv/2015-16/Victim2015-16.csv").then(makeChart);

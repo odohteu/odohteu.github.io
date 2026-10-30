@@ -37,7 +37,7 @@ html, body {
 }
 
 .slidemenu label{
-  width: 15%;
+  width: calc(100% / 6);
   text-align: center;
   display: block;
   float: left;
@@ -70,7 +70,7 @@ html, body {
 /*Bar Style*/
 
 .slider{
-  width: 90%;
+  width: 100%;
   height: 5px;
 
   background: #ccc;
@@ -79,7 +79,7 @@ html, body {
 }
 
 .slider .bar{
-  width: 25%;
+  width: calc(100% / 6);
   height: 5px;
   background: #333;
   border-radius: 5px;
@@ -100,12 +100,12 @@ html, body {
 
 
 
-.slidemenu #slide-item-1:checked ~ .slider .bar{ margin-left: 0; }
-.slidemenu #slide-item-2:checked ~ .slider .bar{ margin-left:15%; }
-.slidemenu #slide-item-3:checked ~ .slider .bar{ margin-left: 30%; }
-.slidemenu #slide-item-4:checked ~ .slider .bar{ margin-left: 45%; }
-.slidemenu #slide-item-5:checked ~ .slider .bar{ margin-left: 60%; }
-.slidemenu #slide-item-6:checked ~ .slider .bar{ margin-left: 75%; }
+.slidemenu #slide-item-1:checked ~ .slider .bar{ transform: translateX(0%); }
+.slidemenu #slide-item-2:checked ~ .slider .bar{ transform: translateX(100%); }
+.slidemenu #slide-item-3:checked ~ .slider .bar{ transform: translateX(200%); }
+.slidemenu #slide-item-4:checked ~ .slider .bar{ transform: translateX(300%); }
+.slidemenu #slide-item-5:checked ~ .slider .bar{ transform: translateX(400%); }
+.slidemenu #slide-item-6:checked ~ .slider .bar{ transform: translateX(500%); }
 
 
 
@@ -304,4 +304,83 @@ ul, ul > li > ul {
 	.footer-distributed .footer-center i{
 		margin-left: 0;
 	}
+}
+
+
+/* ==================== Responsive ==================== */
+
+/* tablet */
+@media (max-width: 1024px) {
+
+  #main {
+    margin: 10px 8% 10% 8%;
+  }
+}
+
+/* mobile */
+@media (max-width: 768px) {
+
+  /* menu: icone più piccole, il testo resta solo sulla voce attiva */
+  .slidemenu {
+    margin: 20px 10px 0 10px;
+  }
+
+  .slidemenu label .icon {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+  }
+
+  .slidemenu label span {
+    display: none;
+  }
+
+  .slidemenu .slide-toggle:checked + label span {
+    display: block;
+    padding: 6px 0;
+    font-size: 12px;
+    white-space: nowrap;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  #main {
+    margin: 10px 15px 40px 15px;
+  }
+
+  /* le tabelle larghe scorrono in orizzontale */
+  table {
+    display: block;
+    overflow-x: auto;
+  }
+
+  table.legal,
+  table.mash-up-table {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  /* blocco di codice python: scorre in orizzontale */
+  pre {
+    overflow-x: auto;
+  }
+
+  /* URI lunghi nel testo vanno a capo */
+  p code {
+    word-break: break-word;
+  }
+
+  /* footer */
+  footer {
+    position: static;
+  }
+
+  .footer-distributed {
+    margin-top: 60px;
+    padding: 20px;
+    font-size: 14px;
+  }
 }

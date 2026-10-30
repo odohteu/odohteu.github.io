@@ -26,10 +26,10 @@ const makeGraph = () =>
       }
 
       const svg = d3
-        .select("div")
+        .select("#container")
         .append("svg")
         .attr("id", "chart")
-        .attr("viewBox", `5 0 1350 1500`);
+        .attr("viewBox", `0 0 900 ${height}`);
 
       const smt = d3.rollup(
         results,

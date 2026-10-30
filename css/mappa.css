@@ -71,7 +71,7 @@ width: 100px;
 }
 
 .slidemenu label{
-  width: 15%;
+  width: calc(100% / 6);
   text-align: center;
   display: block;
   float: left;
@@ -105,7 +105,7 @@ width: 100px;
 /*Bar Style*/
 
 .slider{
-  width: 90%;
+  width: 100%;
   height: 5px;
 
   background: #ccc;
@@ -114,7 +114,7 @@ width: 100px;
 }
 
 .slider .bar{
-  width: 25%;
+  width: calc(100% / 6);
   height: 5px;
   background: #333;
   border-radius: 5px;
@@ -135,12 +135,12 @@ width: 100px;
 
 
 
-.slidemenu #slide-item-1:checked ~ .slider .bar{ margin-left: 0; }
-.slidemenu #slide-item-2:checked ~ .slider .bar{ margin-left:15%; }
-.slidemenu #slide-item-3:checked ~ .slider .bar{ margin-left: 30%; }
-.slidemenu #slide-item-4:checked ~ .slider .bar{ margin-left: 45%; }
-.slidemenu #slide-item-5:checked ~ .slider .bar{ margin-left: 60%; }
-.slidemenu #slide-item-6:checked ~ .slider .bar{ margin-left: 75%; }
+.slidemenu #slide-item-1:checked ~ .slider .bar{ transform: translateX(0%); }
+.slidemenu #slide-item-2:checked ~ .slider .bar{ transform: translateX(100%); }
+.slidemenu #slide-item-3:checked ~ .slider .bar{ transform: translateX(200%); }
+.slidemenu #slide-item-4:checked ~ .slider .bar{ transform: translateX(300%); }
+.slidemenu #slide-item-5:checked ~ .slider .bar{ transform: translateX(400%); }
+.slidemenu #slide-item-6:checked ~ .slider .bar{ transform: translateX(500%); }
 
 
 
@@ -346,4 +346,113 @@ footer{
 		margin-left: 0;
 	}
 
+}
+
+
+/* prima era uno style inline in mappa.html */
+#populationMap {
+  width: 50%;
+  height: 40rem;
+  margin: auto;
+  padding-top: 30px;
+}
+
+/* ==================== Responsive ==================== */
+
+/* tablet */
+@media (max-width: 1024px) {
+
+  #descrizione {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+
+  /* slider dell'anno centrato */
+  .sliderPopulation {
+    margin: 0 auto;
+  }
+
+  .vizSliderInput {
+    margin-left: 0;
+  }
+
+  #populationMap {
+    width: 80%;
+  }
+}
+
+/* mobile */
+@media (max-width: 768px) {
+
+  /* menu: icone più piccole, il testo resta solo sulla voce attiva */
+  .slidemenu {
+    margin: 20px 10px 0 10px;
+  }
+
+  .slidemenu label .icon {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+  }
+
+  .slidemenu label span {
+    display: none;
+  }
+
+  .slidemenu .slide-toggle:checked + label span {
+    display: block;
+    padding: 6px 0;
+    font-size: 12px;
+    white-space: nowrap;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  #descrizione {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 10px 20px;
+  }
+
+  /* bottoni dei dataset */
+  #bottoni {
+    margin-left: 0;
+    padding: 10px;
+  }
+
+  button {
+    font-size: 1rem;
+    margin: 0 4px 24px 4px;
+  }
+
+  #populationMap {
+    width: auto;
+    height: 400px;
+    margin: 0 10px;
+  }
+
+  #imageMappa {
+    text-align: center;
+  }
+
+  #imageMappa img {
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    width: 50px;
+  }
+
+  /* footer */
+  footer {
+    position: static;
+  }
+
+  .footer-distributed {
+    margin-top: 60px;
+    padding: 20px;
+    font-size: 14px;
+  }
 }

@@ -41,7 +41,7 @@ padding:20px;
 }
 
 .slidemenu label{
-  width: 15%;
+  width: calc(100% / 6);
   text-align: center;
   display: block;
   float: left;
@@ -75,7 +75,7 @@ padding:20px;
 /*Bar Style*/
 
 .slider{
-  width: 90%;
+  width: 100%;
   height: 5px;
   display: block;
   background: #ccc;
@@ -84,7 +84,7 @@ padding:20px;
 }
 
 .slider .bar{
-  width: 25%;
+  width: calc(100% / 6);
   height: 5px;
   background: #333;
   border-radius: 5px;
@@ -100,20 +100,23 @@ padding:20px;
 
 
 
-.slidemenu #slide-item-1:checked > .slider .bar{ margin-left: 0; }
-.slidemenu #slide-item-2:checked ~ .slider .bar{ margin-left:15%; }
-.slidemenu #slide-item-3:checked ~ .slider .bar{ margin-left: 30%; }
-.slidemenu #slide-item-4:checked ~ .slider .bar{ margin-left: 45%; }
-.slidemenu #slide-item-5:checked ~ .slider .bar{ margin-left: 60%; }
-.slidemenu #slide-item-6:checked ~ .slider .bar{ margin-left: 70%; }
+.slidemenu #slide-item-1:checked ~ .slider .bar{ transform: translateX(0%); }
+.slidemenu #slide-item-2:checked ~ .slider .bar{ transform: translateX(100%); }
+.slidemenu #slide-item-3:checked ~ .slider .bar{ transform: translateX(200%); }
+.slidemenu #slide-item-4:checked ~ .slider .bar{ transform: translateX(300%); }
+.slidemenu #slide-item-5:checked ~ .slider .bar{ transform: translateX(400%); }
+.slidemenu #slide-item-6:checked ~ .slider .bar{ transform: translateX(500%); }
 
+
+/* grafico animato centrato sotto i bottoni */
+#container {
+font-family: 'Open Sans', sans-serif;
+}
 
 svg#chart {
-position:absolute;
-top:600px;
-width: 75%!important;
-
-
+display: block;
+width: 75%;
+margin: 20px auto 0 auto;
 }
 
 
@@ -136,7 +139,7 @@ font-family: 'oecd';
 }
 #bottoni {
 text-align: center;
-
+padding-bottom: 30px;
 padding-top:10px;
 margin-left:20px;
 
@@ -233,11 +236,12 @@ font-weight: bold;
 a:hover {
   color: #96e8c3;
 }
- #imageUNODC img {
-position: relative;
-left:65%;
-top:250px;
-padding:20px;
+#imageUNODC {
+text-align: center;
+}
+
+#imageUNODC img {
+padding: 20px;
 width: 70px;
 }
  #imageLogo img {
@@ -265,7 +269,7 @@ footer{
 	text-align: center;
 	font: bold 16px sans-serif;
 	padding: 30px 30px 30px 20px;
-	margin-top: 150%;
+	margin-top: 60px;
 }
 text {
 
@@ -314,3 +318,82 @@ font-size: 20px;
 
 }
 
+
+/* ==================== Responsive ==================== */
+
+/* tablet */
+@media (max-width: 1024px) {
+
+  #descrizione {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+}
+
+/* mobile */
+@media (max-width: 768px) {
+
+  /* menu: icone più piccole, il testo resta solo sulla voce attiva */
+  .slidemenu {
+    margin: 20px 10px 0 10px;
+  }
+
+  .slidemenu label .icon {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+  }
+
+  .slidemenu label span {
+    display: none;
+  }
+
+  .slidemenu .slide-toggle:checked + label span {
+    display: block;
+    padding: 6px 0;
+    font-size: 12px;
+    white-space: nowrap;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  #descrizione {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 10px 20px;
+  }
+
+  /* bottoni dei dataset */
+  #bottoni {
+    margin-left: 0;
+    padding: 10px;
+  }
+
+  button {
+    font-size: 1rem;
+    margin: 0 4px 24px 4px;
+  }
+
+  /* il grafico prende tutta la larghezza */
+  #container {
+    padding: 0 10px;
+  }
+
+  svg#chart {
+    width: 100%;
+  }
+
+  #imageUNODC img {
+    padding: 10px;
+    width: 50px;
+  }
+
+  /* footer */
+  .footer-distributed {
+    padding: 20px;
+    font-size: 14px;
+  }
+}

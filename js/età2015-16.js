@@ -1,3 +1,8 @@
+// su mobile il grafico non mantiene le proporzioni 900x250 ma prende l'altezza di #canvas
+if (window.matchMedia("(max-width: 768px)").matches) {
+  Chart.defaults.global.maintainAspectRatio = false;
+}
+
 
 Chart.defaults.global.defaultFontFamily = 'Roboto';
 Chart.defaults.global.defaultFontColor = '#333';

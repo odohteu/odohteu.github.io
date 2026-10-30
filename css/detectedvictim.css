@@ -36,7 +36,7 @@ html,body {
 }
 
 .slidemenu label{
-  width: 15%;
+  width: calc(100% / 6);
   text-align: center;
   display: block;
   float: left;
@@ -70,7 +70,7 @@ html,body {
 /*Bar Style*/
 
 .slider{
-  width: 90%;
+  width: 100%;
   height: 5px;
 
   background: #ccc;
@@ -79,7 +79,7 @@ html,body {
 }
 
 .slider .bar{
-  width: 25%;
+  width: calc(100% / 6);
   height: 5px;
   background: #333;
   border-radius: 5px;
@@ -100,12 +100,12 @@ html,body {
 
 
 
-.slidemenu #slide-item-1:checked ~ .slider .bar{ margin-left: 0; }
-.slidemenu #slide-item-2:checked ~ .slider .bar{ margin-left:15%; }
-.slidemenu #slide-item-3:checked ~ .slider .bar{ margin-left: 30%; }
-.slidemenu #slide-item-4:checked ~ .slider .bar{ margin-left: 45%; }
-.slidemenu #slide-item-5:checked ~ .slider .bar{ margin-left: 60%; }
-.slidemenu #slide-item-6:checked ~ .slider .bar{ margin-left: 75%; }
+.slidemenu #slide-item-1:checked ~ .slider .bar{ transform: translateX(0%); }
+.slidemenu #slide-item-2:checked ~ .slider .bar{ transform: translateX(100%); }
+.slidemenu #slide-item-3:checked ~ .slider .bar{ transform: translateX(200%); }
+.slidemenu #slide-item-4:checked ~ .slider .bar{ transform: translateX(300%); }
+.slidemenu #slide-item-5:checked ~ .slider .bar{ transform: translateX(400%); }
+.slidemenu #slide-item-6:checked ~ .slider .bar{ transform: translateX(500%); }
 
 
 
@@ -394,4 +394,114 @@ a:hover {
 		margin-left: 0;
 	}
 
+}
+
+
+/* ==================== Responsive ==================== */
+
+/* tablet */
+@media (max-width: 1024px) {
+
+  #descrizione {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+}
+
+/* mobile */
+@media (max-width: 768px) {
+
+  /* menu: icone più piccole, il testo resta solo sulla voce attiva */
+  .slidemenu {
+    margin: 20px 10px 0 10px;
+  }
+
+  .slidemenu label .icon {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+  }
+
+  .slidemenu label span {
+    display: none;
+  }
+
+  .slidemenu .slide-toggle:checked + label span {
+    display: block;
+    padding: 6px 0;
+    font-size: 12px;
+    white-space: nowrap;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  #descrizione {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 10px 20px;
+  }
+
+  /* bottoni dei dataset */
+  #bottoni {
+    margin-left: 0;
+    padding: 10px;
+  }
+
+  button {
+    font-size: 1rem;
+    margin: 0 4px 24px 4px;
+  }
+
+  /* bottoni Education / Detected Victim / Migration */
+  .container1 {
+    margin-top: 20px;
+    margin-left: 0;
+    padding: 10px;
+    text-align: center;
+  }
+
+  a.button {
+    display: inline-block;
+    float: none;
+    margin: 10px;
+  }
+
+  #chart1 {
+    padding-top: 10px;
+  }
+
+  /* il grafico prende l'altezza del contenitore (vedi Chart.defaults nel js) */
+  #canvas {
+    position: relative;
+    height: 400px;
+    padding: 10px;
+  }
+
+  /* icone di download */
+  #image {
+    text-align: center;
+  }
+
+  #image img {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 10px;
+    width: 50px;
+  }
+
+  /* footer */
+  footer {
+    position: static;
+  }
+
+  .footer-distributed {
+    margin-top: 60px;
+    padding: 20px;
+    font-size: 14px;
+  }
 }
